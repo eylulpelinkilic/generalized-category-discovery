@@ -1,0 +1,26 @@
+source,training,backbone,model,dataset,closed,open,all
+"XOV-Action arXiv:2403.01560v3 Table III",none (original CLIP),ViT-B/16,CLIP,ucf101,66.71,59.53,63.15
+"XOV-Action arXiv:2403.01560v3 Table III",none (original CLIP),ViT-B/16,CLIP,hmdb51,49.19,35.26,44.27
+"XOV-Action arXiv:2403.01560v3 Table III",none (original CLIP),ViT-B/16,CLIP,arid,37.76,12.65,27.69
+"XOV-Action arXiv:2403.01560v3 Table III",none (original CLIP),ViT-B/16,CLIP,necdrone,10.42,22.44,16.59
+"XOV-Action arXiv:2403.01560v3 Table III",none (original CLIP),ViT-B/16,CLIP,AVG,41.04,32.47,37.92
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,OpenVCLIP,ucf101,91.06,75.03,83.00
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,OpenVCLIP,hmdb51,60.63,42.54,54.24
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,OpenVCLIP,arid,52.25,28.35,42.67
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,OpenVCLIP,necdrone,22.92,14.91,18.81
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,OpenVCLIP,AVG,56.71,40.21,49.68
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,TC-CLIP,ucf101,90.91,67.23,79.01
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,TC-CLIP,hmdb51,60.20,32.22,50.33
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,TC-CLIP,arid,52.74,23.64,41.07
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,TC-CLIP,necdrone,24.19,8.75,16.27
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,TC-CLIP,AVG,57.01,32.96,46.67
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,XOV-Action,ucf101,91.97,80.08,86.00
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,XOV-Action,hmdb51,65.28,43.83,57.72
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,XOV-Action,arid,54.29,32.32,45.48
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,XOV-Action,necdrone,24.31,16.67,20.39
+"XOV-Action arXiv:2403.01560v3 Table III",Kinetics400,ViT-B/16,XOV-Action,AVG,58.96,43.23,52.39
+"XOV-Action arXiv:2403.01560v3 Table II",none (original CLIP),ViT-B/32,CLIP,ucf101,61.51,57.85,59.67
+"XOV-Action arXiv:2403.01560v3 Table II",none (original CLIP),ViT-B/32,CLIP,hmdb51,42.92,38.62,41.40
+"XOV-Action arXiv:2403.01560v3 Table II",none (original CLIP),ViT-B/32,CLIP,arid,32.04,12.04,24.02
+"XOV-Action arXiv:2403.01560v3 Table II",none (original CLIP),ViT-B/32,CLIP,necdrone,18.52,6.44,12.33
+"XOV-Action arXiv:2403.01560v3 Table II",none (original CLIP),ViT-B/32,CLIP,AVG,38.75,28.74,34.35

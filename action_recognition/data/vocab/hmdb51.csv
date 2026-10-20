@@ -1,0 +1,52 @@
+action_id,official_name,text_name,text_name_source,category_status,n_videos
+0,brush hair,brush hair,xov_label_file,familiar,30
+1,cartwheel,cartwheel,xov_label_file,familiar,30
+2,catch,catch,xov_label_file,familiar,30
+3,chew,chew,xov_label_file,unfamiliar,30
+4,clap,clap,xov_label_file,familiar,30
+5,climb stairs,climb stairs,xov_label_file,unfamiliar,30
+6,climb,climb,xov_label_file,familiar,30
+7,dive,dive,xov_label_file,familiar,30
+8,draw sword,draw sword,xov_label_file,unfamiliar,30
+9,dribble,dribble,xov_label_file,familiar,30
+10,drink,drink,xov_label_file,familiar,30
+11,eat,eat,xov_label_file,familiar,30
+12,fall floor,fall floor,xov_label_file,unfamiliar,30
+13,fencing,fencing,xov_label_file,unfamiliar,30
+14,flic flac,flic flac,xov_label_file,unfamiliar,30
+15,golf,golf,xov_label_file,familiar,30
+16,handstand,handstand,xov_label_file,unfamiliar,30
+17,hit,hit,xov_label_file,familiar,30
+18,hug,hug,xov_label_file,familiar,30
+19,jump,jump,xov_label_file,familiar,30
+20,kick ball,kick ball,xov_label_file,familiar,30
+21,kick,kick,xov_label_file,familiar,30
+22,kiss,kiss,xov_label_file,familiar,30
+23,laugh,laugh,xov_label_file,familiar,30
+24,pick,pick,xov_label_file,familiar,30
+25,pour,pour,xov_label_file,unfamiliar,30
+26,pullup,pullup,xov_label_file,familiar,30
+27,punch,punch,xov_label_file,familiar,30
+28,pushup,pushup,xov_label_file,familiar,30
+29,push,push,xov_label_file,familiar,30
+30,ride bike,ride bike,xov_label_file,familiar,30
+31,ride horse,ride horse,xov_label_file,familiar,30
+32,run,run,xov_label_file,familiar,30
+33,shake hands,shake hands,xov_label_file,familiar,30
+34,shoot ball,shoot ball,xov_label_file,familiar,30
+35,shoot bow,shoot bow,xov_label_file,unfamiliar,30
+36,shoot gun,shoot gun,xov_label_file,unfamiliar,30
+37,situp,situp,xov_label_file,familiar,30
+38,sit,sit,xov_label_file,unfamiliar,30
+39,smile,smile,xov_label_file,unfamiliar,30
+40,smoke,smoke,xov_label_file,familiar,30
+41,somersault,somersault,xov_label_file,familiar,30
+42,stand,stand,xov_label_file,unfamiliar,30
+43,swing baseball,swing baseball,xov_label_file,unfamiliar,30
+44,sword exercise,sword exercise,xov_label_file,unfamiliar,30
+45,sword,sword,xov_label_file,familiar,30
+46,talk,talk,xov_label_file,unfamiliar,30
+47,throw,throw,xov_label_file,familiar,30
+48,turn,turn,xov_label_file,unfamiliar,30
+49,walk,walk,xov_label_file,familiar,30
+50,wave,wave,xov_label_file,unfamiliar,30

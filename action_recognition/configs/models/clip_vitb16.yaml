@@ -1,0 +1,5 @@
+# Baseline A: frozen OpenAI CLIP ViT-B/16 (QuickGELU). Same backbone size as XOV Table III.
+backbone: clip_frozen
+arch: ViT-B-16
+pretrained: openai
+force_quick_gelu: true

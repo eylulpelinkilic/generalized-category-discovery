@@ -1,0 +1,9 @@
+# Common comparison protocol (applied identically to every backbone).
+# Follows XOV-Action Sec. V-A where documented: T=16, one temporal clip, centre-cropped frames,
+# prompt "a video of a person {}.". Frame positions follow ViFi-CLIP/TC-CLIP test sampling
+# (segment midpoints); the spatial transform is CLIP's own test transform. XOV's exact
+# preprocessing is not published (code unreleased).
+comparison: common
+sampling: {method: tsn_midpoint, num_frames: 16, num_views: 1}
+spatial: {preset: clip_center, size: 224}
+prompts: {template_set: video_person}

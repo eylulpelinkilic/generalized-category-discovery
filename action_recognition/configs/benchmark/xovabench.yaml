@@ -1,0 +1,58 @@
+# XOVABench (XOV-Action, arXiv:2403.01560v3) as published in the official
+# repository. Paths are relative to `xov_repo`. Expected class counts are the
+# paper's Table I (closed/open identified against the Kinetics400 categories).
+xov_repo: third_party/XOV-Action
+xov_commit: f90e6f7ab2f06beb19d09450f59811bcdfbef131
+source_categories:
+  name: Kinetics400
+  label_file: labels/Kinetics400_labels.csv
+
+datasets:
+  ucf101:
+    display_name: UCF101
+    label_file: labels/ucf_101_labels.csv
+    split: test
+    lists:
+      all: datasets_splits/ucf_splits/video_testlist01.txt
+      closed: datasets_splits/ucf_splits/video_testlist01_closed.txt
+      open: datasets_splits/ucf_splits/video_testlist01_open.txt
+    # Open-VCLIP's natural-language names; ids verified to align with XOV's.
+    text_names: third_party/Open-VCLIP/zs_label_db/ucf101-index2cls.json
+    expected: {classes: 101, familiar_classes: 50, unfamiliar_classes: 51}
+  hmdb51:
+    display_name: HMDB51
+    label_file: labels/hmdb51_labels_corrected.csv
+    split: test
+    lists:
+      all: datasets_splits/hmdb_splits/video_testlist01.txt
+      closed: datasets_splits/hmdb_splits/video_testlist01_closed.txt
+      open: datasets_splits/hmdb_splits/video_testlist01_open.txt
+    expected: {classes: 51, familiar_classes: 33, unfamiliar_classes: 18}
+  arid:
+    display_name: ARID
+    label_file: labels/arid_v1_labels.csv
+    split: test
+    lists:
+      all: datasets_splits/aridv1_splits/video_testlist01.txt
+      closed: datasets_splits/aridv1_splits/video_testlist01_closed.txt
+      open: datasets_splits/aridv1_splits/video_testlist01_open.txt
+    expected: {classes: 11, familiar_classes: 6, unfamiliar_classes: 5}
+  necdrone:
+    display_name: NEC-Drone
+    label_file: labels/necdrone16_labels.csv
+    split: valtest
+    lists:
+      all: datasets_splits/necdrone16_splits/NEC_Drone_16_video_valtestlist.txt
+      closed: datasets_splits/necdrone16_splits/NEC_Drone_16_video_valtestlist_closed.txt
+      open: datasets_splits/necdrone16_splits/NEC_Drone_16_video_valtestlist_open.txt
+    expected: {classes: 16, familiar_classes: 7, unfamiliar_classes: 9}
+
+# Development pools for diagnostics: official training splits, disjoint from
+# the evaluation lists. Only UCF101's list ships with the cloned repositories
+# (Open-VCLIP keeps a copy of the official trainlist01.txt).
+dev_pools:
+  ucf101:
+    list: third_party/Open-VCLIP/zs_label_db/ucf101_split1/trainlist01.txt
+    format: ucf_trainlist   # "<Class>/<clip>.avi <1-based label>"
+    split: dev_train1
+    expected_videos: 9537

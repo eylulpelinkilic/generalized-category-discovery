@@ -1,0 +1,102 @@
+action_id,official_name,text_name,text_name_source,category_status,n_videos
+0,ApplyEyeMakeup,Apply Eye Makeup,ucf101-index2cls.json,unfamiliar,44
+1,ApplyLipstick,Apply Lipstick,ucf101-index2cls.json,unfamiliar,32
+2,Archery,Archery,ucf101-index2cls.json,familiar,41
+3,BabyCrawling,Baby Crawling,ucf101-index2cls.json,familiar,35
+4,BalanceBeam,Balance Beam,ucf101-index2cls.json,unfamiliar,31
+5,BandMarching,Band Marching,ucf101-index2cls.json,unfamiliar,43
+6,BaseballPitch,Baseball Pitch,ucf101-index2cls.json,unfamiliar,43
+7,Basketball,Basketball,ucf101-index2cls.json,familiar,35
+8,BasketballDunk,Basketball Dunk,ucf101-index2cls.json,familiar,37
+9,BenchPress,Bench Press,ucf101-index2cls.json,familiar,48
+10,Biking,Biking,ucf101-index2cls.json,familiar,38
+11,Billiards,Billiards,ucf101-index2cls.json,unfamiliar,40
+12,BlowDryHair,Blow Dry Hair,ucf101-index2cls.json,unfamiliar,38
+13,BlowingCandles,Blowing Candles,ucf101-index2cls.json,familiar,33
+14,BodyWeightSquats,Body Weight Squats,ucf101-index2cls.json,unfamiliar,30
+15,Bowling,Bowling,ucf101-index2cls.json,familiar,43
+16,BoxingPunchingBag,Boxing Punching Bag,ucf101-index2cls.json,familiar,49
+17,BoxingSpeedBag,Boxing Speed Bag,ucf101-index2cls.json,unfamiliar,37
+18,BreastStroke,Breast Stroke,ucf101-index2cls.json,familiar,28
+19,BrushingTeeth,Brushing Teeth,ucf101-index2cls.json,familiar,36
+20,CleanAndJerk,Clean And Jerk,ucf101-index2cls.json,familiar,33
+21,CliffDiving,Cliff Diving,ucf101-index2cls.json,familiar,39
+22,CricketBowling,Cricket Bowling,ucf101-index2cls.json,unfamiliar,36
+23,CricketShot,Cricket Shot,ucf101-index2cls.json,unfamiliar,49
+24,CuttingInKitchen,Cutting In Kitchen,ucf101-index2cls.json,unfamiliar,33
+25,Diving,Diving,ucf101-index2cls.json,familiar,45
+26,Drumming,Drumming,ucf101-index2cls.json,familiar,45
+27,Fencing,Fencing,ucf101-index2cls.json,unfamiliar,34
+28,FieldHockeyPenalty,Field Hockey Penalty,ucf101-index2cls.json,unfamiliar,40
+29,FloorGymnastics,Floor Gymnastics,ucf101-index2cls.json,unfamiliar,36
+30,FrisbeeCatch,Frisbee Catch,ucf101-index2cls.json,familiar,37
+31,FrontCrawl,Front Crawl,ucf101-index2cls.json,unfamiliar,37
+32,GolfSwing,Golf Swing,ucf101-index2cls.json,unfamiliar,39
+33,Haircut,Haircut,ucf101-index2cls.json,familiar,33
+34,Hammering,Hammering,ucf101-index2cls.json,unfamiliar,33
+35,HammerThrow,Hammer Throw,ucf101-index2cls.json,familiar,45
+36,HandstandPushups,Handstand Pushups,ucf101-index2cls.json,unfamiliar,28
+37,HandstandWalking,Handstand Walking,ucf101-index2cls.json,unfamiliar,34
+38,HeadMassage,Head Massage,ucf101-index2cls.json,familiar,41
+39,HighJump,High Jump,ucf101-index2cls.json,familiar,37
+40,HorseRace,Horse Race,ucf101-index2cls.json,unfamiliar,35
+41,HorseRiding,Horse Riding,ucf101-index2cls.json,familiar,49
+42,HulaHoop,Hula Hoop,ucf101-index2cls.json,familiar,34
+43,IceDancing,Ice Dancing,ucf101-index2cls.json,unfamiliar,46
+44,JavelinThrow,Javelin Throw,ucf101-index2cls.json,familiar,31
+45,JugglingBalls,Juggling Balls,ucf101-index2cls.json,familiar,40
+46,JumpingJack,Jumping Jack,ucf101-index2cls.json,unfamiliar,37
+47,JumpRope,Jump Rope,ucf101-index2cls.json,unfamiliar,38
+48,Kayaking,Kayaking,ucf101-index2cls.json,familiar,36
+49,Knitting,Knitting,ucf101-index2cls.json,familiar,34
+50,LongJump,Long Jump,ucf101-index2cls.json,familiar,39
+51,Lunges,Lunges,ucf101-index2cls.json,familiar,37
+52,MilitaryParade,Military Parade,ucf101-index2cls.json,unfamiliar,33
+53,Mixing,Mixing,ucf101-index2cls.json,unfamiliar,45
+54,MoppingFloor,Mopping Floor,ucf101-index2cls.json,familiar,34
+55,Nunchucks,Nunchucks,ucf101-index2cls.json,unfamiliar,35
+56,ParallelBars,Parallel Bars,ucf101-index2cls.json,unfamiliar,37
+57,PizzaTossing,Pizza Tossing,ucf101-index2cls.json,unfamiliar,33
+58,PlayingCello,Playing Cello,ucf101-index2cls.json,familiar,44
+59,PlayingDaf,Playing Daf,ucf101-index2cls.json,unfamiliar,41
+60,PlayingDhol,Playing Dhol,ucf101-index2cls.json,unfamiliar,49
+61,PlayingFlute,Playing Flute,ucf101-index2cls.json,familiar,48
+62,PlayingGuitar,Playing Guitar,ucf101-index2cls.json,familiar,43
+63,PlayingPiano,Playing Piano,ucf101-index2cls.json,familiar,28
+64,PlayingSitar,Playing Sitar,ucf101-index2cls.json,unfamiliar,44
+65,PlayingTabla,Playing Tabla,ucf101-index2cls.json,unfamiliar,31
+66,PlayingViolin,Playing Violin,ucf101-index2cls.json,familiar,28
+67,PoleVault,Pole Vault,ucf101-index2cls.json,familiar,40
+68,PommelHorse,Pommel Horse,ucf101-index2cls.json,unfamiliar,35
+69,PullUps,Pull Ups,ucf101-index2cls.json,familiar,28
+70,Punch,Punch,ucf101-index2cls.json,familiar,39
+71,PushUps,Push Ups,ucf101-index2cls.json,familiar,30
+72,Rafting,Rafting,ucf101-index2cls.json,unfamiliar,28
+73,RockClimbingIndoor,Rock Climbing Indoor,ucf101-index2cls.json,unfamiliar,41
+74,RopeClimbing,Rope Climbing,ucf101-index2cls.json,familiar,34
+75,Rowing,Rowing,ucf101-index2cls.json,unfamiliar,36
+76,SalsaSpin,Salsa Spin,ucf101-index2cls.json,unfamiliar,43
+77,ShavingBeard,Shaving Beard,ucf101-index2cls.json,familiar,43
+78,Shotput,Shotput,ucf101-index2cls.json,familiar,46
+79,SkateBoarding,Skate Boarding,ucf101-index2cls.json,familiar,32
+80,Skiing,Skiing,ucf101-index2cls.json,familiar,40
+81,Skijet,Skijet,ucf101-index2cls.json,unfamiliar,28
+82,SkyDiving,Sky Diving,ucf101-index2cls.json,familiar,31
+83,SoccerJuggling,Soccer Juggling,ucf101-index2cls.json,familiar,39
+84,SoccerPenalty,Soccer Penalty,ucf101-index2cls.json,unfamiliar,41
+85,StillRings,Still Rings,ucf101-index2cls.json,unfamiliar,32
+86,SumoWrestling,Sumo Wrestling,ucf101-index2cls.json,unfamiliar,34
+87,Surfing,Surfing,ucf101-index2cls.json,familiar,33
+88,Swing,Swing,ucf101-index2cls.json,familiar,42
+89,TableTennisShot,Table Tennis Shot,ucf101-index2cls.json,unfamiliar,39
+90,TaiChi,Tai Chi,ucf101-index2cls.json,familiar,28
+91,TennisSwing,Tennis Swing,ucf101-index2cls.json,unfamiliar,49
+92,ThrowDiscus,Throw Discus,ucf101-index2cls.json,familiar,38
+93,TrampolineJumping,Trampoline Jumping,ucf101-index2cls.json,unfamiliar,32
+94,Typing,Typing,ucf101-index2cls.json,unfamiliar,43
+95,UnevenBars,Uneven Bars,ucf101-index2cls.json,unfamiliar,28
+96,VolleyballSpiking,Volleyball Spiking,ucf101-index2cls.json,unfamiliar,35
+97,WalkingWithDog,Walking With Dog,ucf101-index2cls.json,familiar,36
+98,WallPushups,Wall Pushups,ucf101-index2cls.json,unfamiliar,35
+99,WritingOnBoard,Writing On Board,ucf101-index2cls.json,unfamiliar,45
+100,YoYo,Yoyo,ucf101-index2cls.json,unfamiliar,36

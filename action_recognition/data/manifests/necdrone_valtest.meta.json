@@ -1,0 +1,13 @@
+{
+  "dataset_name": "necdrone",
+  "source": "XOV-Action official benchmark files",
+  "sources": {
+    "labels/necdrone16_labels.csv": "7f3ca5e38b4bc9bfc9b1bb496969e27a7b12d8a92a8cb1c2c3615b4e1cbad7e2",
+    "datasets_splits/necdrone16_splits/NEC_Drone_16_video_valtestlist.txt": "2b6ec1b5250aa2f458a74889196266c03193b9088c85519c70b278f90fe9db99",
+    "datasets_splits/necdrone16_splits/NEC_Drone_16_video_valtestlist_closed.txt": "9d38449f83bcbb30baad639dc74c01fa45a40df7a54ccab9ea391b84df1b60c7",
+    "datasets_splits/necdrone16_splits/NEC_Drone_16_video_valtestlist_open.txt": "5f43273e00b3b9377e305e1861253ebc0d4d0debbfa8c00f42352a9685d0ec04"
+  },
+  "n_videos": 891,
+  "category_status_definition": "familiar = XOV closed-set (shares meaning with a Kinetics400 training category); unfamiliar = XOV open-set",
+  "xov_commit": "f90e6f7ab2f06beb19d09450f59811bcdfbef131"
+}

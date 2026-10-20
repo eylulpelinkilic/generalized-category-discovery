@@ -1,0 +1,13 @@
+{
+  "dataset_name": "arid",
+  "source": "XOV-Action official benchmark files",
+  "sources": {
+    "labels/arid_v1_labels.csv": "68196f314f3d3d23e1093ca435816bcd47f059443f913fc3ec411f8ffdbfbb9b",
+    "datasets_splits/aridv1_splits/video_testlist01.txt": "8badd59de7b0179f6650708087e7183c015beb146d6fe6d3ae25e2fdf5a0df2a",
+    "datasets_splits/aridv1_splits/video_testlist01_closed.txt": "c80de39b4492b1561907344a78afe6abd3de187aac2d1c56ad5c7cf880f41b7f",
+    "datasets_splits/aridv1_splits/video_testlist01_open.txt": "e056a418d6b6eebdf3f2eb8a374f4a0f14080581e38dfed0fae6d5543eb55ff1"
+  },
+  "n_videos": 823,
+  "category_status_definition": "familiar = XOV closed-set (shares meaning with a Kinetics400 training category); unfamiliar = XOV open-set",
+  "xov_commit": "f90e6f7ab2f06beb19d09450f59811bcdfbef131"
+}

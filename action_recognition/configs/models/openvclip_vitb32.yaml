@@ -1,0 +1,9 @@
+# Baseline B: official Open-VCLIP ViT-B/32 checkpoint (matches the cached CLIP ViT-B/32 size).
+backbone: openvclip
+arch: vitb32
+repo: third_party/Open-VCLIP
+checkpoint: ${paths.checkpoints.openvclip_vitb32}
+clip_original: ${paths.checkpoints.clip_vitb32_openai_pt}
+patching_ratio: 0.5
+temporal_modeling_type: expand_temporal_view
+trust_pickle: false

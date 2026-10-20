@@ -1,0 +1,6 @@
+run_name: openvclip_vitb32__common_16x1x1
+model: openvclip_vitb32
+protocol: common_16x1x1
+datasets: [ucf101, hmdb51, arid, necdrone]
+device: auto
+seed: 0

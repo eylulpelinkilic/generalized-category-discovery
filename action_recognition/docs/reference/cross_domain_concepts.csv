@@ -1,0 +1,24 @@
+concept,ucf101,hmdb51,arid,necdrone,match_quality,note
+walk,,walk,Walk,walk,same,
+run,,run,Run,run,same,
+jump,,jump,Jump,jump,same,UCF has only specific jumps (LongJump/HighJump)
+drink,,drink,Drink,drink water from a bottle,narrower in NEC-Drone,
+pick,,pick,Pick,pick up a small object,narrower in NEC-Drone,
+push,,push,Push,push a person,narrower in NEC-Drone,HMDB/ARID push objects or people
+sit,,sit,Sit,sit on a chair,narrower in NEC-Drone,
+stand,,stand,Stand,,same,
+turn,,turn,Turn,,same,
+wave,,wave,Wave,,same,
+pour,,pour,Pour,,same,
+hug,,hug,,hug,same,
+shake hands,,shake hands,,shake hands,same,
+throw,,throw,,throw something,same,
+pullup,PullUps,pullup,,,same,
+pushup,PushUps,pushup,,,same,
+ride bike,Biking,ride bike,,,same,
+ride horse,HorseRiding,ride horse,,,same,
+golf,GolfSwing,golf,,,same,
+fencing,Fencing,fencing,,,same,
+dive,Diving,dive,,,approximate,UCF Diving is platform diving; HMDB dive is broader
+shoot bow,Archery,shoot bow,,,same,
+punch,Punch,punch,,,approximate,UCF Punch is boxing footage

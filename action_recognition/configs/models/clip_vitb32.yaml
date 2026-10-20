@@ -1,0 +1,5 @@
+# Baseline A: frozen OpenAI CLIP ViT-B/32 (QuickGELU), per-frame encoding.
+backbone: clip_frozen
+arch: ViT-B-32
+pretrained: openai
+force_quick_gelu: true

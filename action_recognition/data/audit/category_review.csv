@@ -1,0 +1,20 @@
+dataset,action_name,official_status,kinetics400_candidate,reviewer_note,sensitivity_tag,reviewer
+ucf101,JumpRope,unfamiliar,skipping rope,same activity under a synonym (no shared word),near_familiar,claude-unverified
+ucf101,TrampolineJumping,unfamiliar,bouncing on trampoline,same activity under a synonym,near_familiar,claude-unverified
+ucf101,BodyWeightSquats,unfamiliar,squat,same exercise,near_familiar,claude-unverified
+ucf101,BandMarching,unfamiliar,marching,Kinetics marching includes marching bands,near_familiar,claude-unverified
+ucf101,RockClimbingIndoor,unfamiliar,rock climbing,indoor wall climbing is common in Kinetics rock climbing,near_familiar,claude-unverified
+ucf101,SoccerPenalty,unfamiliar,shooting goal (soccer),a penalty kick is a shot on goal,near_familiar,claude-unverified
+ucf101,BoxingSpeedBag,unfamiliar,punching bag,speed bag is a punching bag; UCF BoxingPunchingBag is familiar,near_familiar,claude-unverified
+ucf101,GolfSwing,unfamiliar,golf driving / golf chipping,inconsistent with HMDB51 golf (familiar),near_familiar,claude-unverified
+ucf101,SumoWrestling,unfamiliar,wrestling,narrower style of a Kinetics class,near_familiar,claude-unverified
+ucf101,IceDancing,unfamiliar,ice skating,ice dancing is a figure-skating discipline,near_familiar,claude-unverified
+ucf101,TennisSwing,unfamiliar,playing tennis,narrower than a Kinetics class,near_familiar,claude-unverified
+ucf101,SalsaSpin,unfamiliar,salsa dancing,a move within a Kinetics class,near_familiar,claude-unverified
+ucf101,CricketShot,unfamiliar,playing cricket,narrower than a Kinetics class,near_familiar,claude-unverified
+ucf101,CricketBowling,unfamiliar,playing cricket,narrower than a Kinetics class,near_familiar,claude-unverified
+ucf101,FloorGymnastics,unfamiliar,gymnastics tumbling,overlapping activity,near_familiar,claude-unverified
+hmdb51,walk,familiar,walking the dog (narrower),plain walking has no direct Kinetics400 class,weak_familiar,claude-unverified
+arid,Walk,familiar,walking the dog (narrower),plain walking has no direct Kinetics400 class,weak_familiar,claude-unverified
+necdrone,walk,familiar,walking the dog (narrower),plain walking has no direct Kinetics400 class,weak_familiar,claude-unverified
+hmdb51,hit,familiar,punching person (boxing) / slapping,broad verb matched to narrower classes,weak_familiar,claude-unverified

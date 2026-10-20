@@ -1,0 +1,13 @@
+{
+  "dataset_name": "hmdb51",
+  "source": "XOV-Action official benchmark files",
+  "sources": {
+    "labels/hmdb51_labels_corrected.csv": "ac49b2c9b3f4f8d0813b78d725283c63bb2d47edebe6900ae03034a6996d5d05",
+    "datasets_splits/hmdb_splits/video_testlist01.txt": "7a8eff23be27681376b5eb96a5dee9366f69612f4e0dd7f28d5106b7e132fc27",
+    "datasets_splits/hmdb_splits/video_testlist01_closed.txt": "c873121e6a6223b20ee417b06b3b26e312c4cd2de300d96437268fdeb0837f5e",
+    "datasets_splits/hmdb_splits/video_testlist01_open.txt": "2d5cf34594e806a01cad8a37d2aa3799be9333375e411f189f2c5e2688618965"
+  },
+  "n_videos": 1530,
+  "category_status_definition": "familiar = XOV closed-set (shares meaning with a Kinetics400 training category); unfamiliar = XOV open-set",
+  "xov_commit": "f90e6f7ab2f06beb19d09450f59811bcdfbef131"
+}

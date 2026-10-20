@@ -1,0 +1,12 @@
+# Large or machine-specific artefacts stay out of Git.
+third_party/
+cache/
+runs/
+configs/paths.yaml
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.safetensors
+*.npz
+*.npy

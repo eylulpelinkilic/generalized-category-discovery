@@ -1,0 +1,5 @@
+# Baseline C (optional): TC-CLIP zero-shot (Kinetics-400 only). Evaluated with the official code;
+# see docs/backbones.md. Selecting this model in-process raises an explanatory error.
+backbone: tcclip
+arch: ViT-B/16
+checkpoint: ${paths.checkpoints.tcclip_zero_shot}

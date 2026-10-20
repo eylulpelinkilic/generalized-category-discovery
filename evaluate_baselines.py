@@ -21,7 +21,12 @@ from sklearn.metrics import roc_auc_score, roc_curve
 # 1. Load matrices and scenarios
 # ----------------------------------------
 
-OUT = Path(f"experiments/baseline_{DIFFICULTY}")
+# Must match the folders risk_coverage.py reads
+OUT = Path(
+    "experiments/baseline_hard"
+    if DIFFICULTY == "hard"
+    else "experiments/baseline"
+)
 OUT.mkdir(parents=True, exist_ok=True)
 
 matrix_path = (

@@ -1,0 +1,6 @@
+run_name: clip_vitb32__common_16x1x1_ens28
+model: clip_vitb32
+protocol: common_16x1x1_ens28
+datasets: [ucf101, hmdb51, arid, necdrone]
+device: auto
+seed: 0

@@ -1,0 +1,17 @@
+action_id,official_name,text_name,text_name_source,category_status,n_videos
+0,walk,walk,xov_label_file,familiar,126
+1,run,run,xov_label_file,familiar,50
+2,jump,jump,xov_label_file,familiar,50
+3,pick up a backpack and go,pick up a backpack and go,xov_label_file,unfamiliar,48
+4,leave a backpack and go,leave a backpack and go,xov_label_file,unfamiliar,50
+5,sit on a chair,sit on a chair,xov_label_file,unfamiliar,48
+6,talk on a mobile phone,talk on a mobile phone,xov_label_file,unfamiliar,48
+7,drink water from a bottle,drink water from a bottle,xov_label_file,familiar,46
+8,throw something,throw something,xov_label_file,familiar,60
+9,pick up a small object,pick up a small object,xov_label_file,unfamiliar,48
+10,shake hands,shake hands,xov_label_file,familiar,51
+11,push a person,push a person,xov_label_file,unfamiliar,46
+12,hug,hug,xov_label_file,familiar,51
+13,exchange a backpack,exchange a backpack,xov_label_file,unfamiliar,46
+14,walk toward each other and stay,walk toward each other and stay,xov_label_file,unfamiliar,62
+15,stand together leave,stand together leave,xov_label_file,unfamiliar,61

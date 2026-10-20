@@ -1,0 +1,5 @@
+# Separate configuration: common protocol with Open-VCLIP's 28-template prompt ensemble.
+comparison: common
+sampling: {method: tsn_midpoint, num_frames: 16, num_views: 1}
+spatial: {preset: clip_center, size: 224}
+prompts: {template_set: openvclip28}

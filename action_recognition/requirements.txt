@@ -1,0 +1,15 @@
+# Pipeline + frozen-CLIP baseline (verified with Python 3.14, torch 2.14.1, open_clip 3.3.0).
+# System dependency: ffmpeg and ffprobe on PATH (video decoding).
+numpy>=1.24
+pandas>=2.0
+pyyaml>=6.0
+pillow>=10.0
+torch>=2.1
+torchvision>=0.16
+open_clip_torch>=2.24
+huggingface_hub>=0.20
+safetensors>=0.4
+matplotlib>=3.7
+# Needed by the vendored Open-VCLIP tokenizer (already pulled in by open_clip_torch).
+ftfy
+regex

@@ -1,0 +1,9 @@
+{
+  "dataset_name": "ucf101",
+  "source": "official UCF101 trainlist01.txt (copy in Open-VCLIP repo)",
+  "sources": {
+    "third_party/Open-VCLIP/zs_label_db/ucf101_split1/trainlist01.txt": "f7a4d7abc05147b921c17fc227d731197c3583f29945d1f1d46bce830d1b9f12"
+  },
+  "n_videos": 9537,
+  "note": "Development pool for diagnostics; disjoint from the XOV evaluation list."
+}

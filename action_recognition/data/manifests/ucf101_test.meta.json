@@ -1,0 +1,13 @@
+{
+  "dataset_name": "ucf101",
+  "source": "XOV-Action official benchmark files",
+  "sources": {
+    "labels/ucf_101_labels.csv": "f77fcc9e89d7a178078436b780acd887b6e486b747725170bcf28caf59134a6e",
+    "datasets_splits/ucf_splits/video_testlist01.txt": "511c046de26f46818ad8ea45953261b0221500b1f35b08ac8359dda120776dba",
+    "datasets_splits/ucf_splits/video_testlist01_closed.txt": "ad84426f380318a61862321494702d591e683104c33f9e2dc0541235e4b7c62a",
+    "datasets_splits/ucf_splits/video_testlist01_open.txt": "1a8a22627c47e5505521baf2bbcde495da8a41a49dc116effc6a53fb4102c733"
+  },
+  "n_videos": 3783,
+  "category_status_definition": "familiar = XOV closed-set (shares meaning with a Kinetics400 training category); unfamiliar = XOV open-set",
+  "xov_commit": "f90e6f7ab2f06beb19d09450f59811bcdfbef131"
+}

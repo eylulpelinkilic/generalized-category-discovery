@@ -1,0 +1,27 @@
+# Copy to configs/paths.yaml (git-ignored) and edit. Relative paths resolve
+# against the action_recognition/ directory. Large files must live outside Git.
+
+dataset_roots:
+  # Directory that contains the paths listed in the XOV-Action split files.
+  ucf101: /data/UCF-101            # ApplyEyeMakeup/v_ApplyEyeMakeup_g01_c01.avi
+  hmdb51: /data/hmdb51             # brush_hair/brush_hair/<clip>.avi (XOV layout, see below)
+  arid: /data/ARID/clips_v1        # Drink/Drink_10_1.mp4
+  necdrone: /data/NEC-Drone/videos # NEC-Phantom-001_A0001_P0014_V0001.mp4
+
+# XOV lists HMDB51 clips as <class>/<class>/<clip>.avi (the layout produced by
+# extracting the per-class RAR archives into per-class folders). Set to true if
+# your copy is <class>/<clip>.avi instead.
+hmdb51_single_class_folder: false
+
+checkpoints:
+  # Open-VCLIP (official Google Drive folder, see docs/backbones.md).
+  openvclip_vitb16: /checkpoints/openvclip-b16/swa_2_22.pth
+  openvclip_vitb32: /checkpoints/openvclip-b32/swa_2_22.pth
+  # Original OpenAI CLIP JIT archives, needed for Open-VCLIP weight patching.
+  clip_vitb16_openai_pt: ~/.cache/clip/ViT-B-16.pt
+  clip_vitb32_openai_pt: ~/.cache/clip/ViT-B-32.pt
+  # TC-CLIP zero-shot (Kinetics-400 only) checkpoint.
+  tcclip_zero_shot: /checkpoints/tc-clip/zero_shot_k400/best.pth
+
+cache_dir: cache
+runs_dir: runs

@@ -1,0 +1,21 @@
+# Diagnostics on the UCF101 development pool (official trainlist01, disjoint from the
+# XOV evaluation list): 2 videos per class, chosen by a seeded hash.
+name: openvclip_vitb16__openvclip_native_8x3x1__ucf_dev
+experiment: openvclip_vitb16__openvclip_native_8x3x1
+datasets: [ucf101]
+manifest_split: {ucf101: dev_train1}
+per_class: 2
+temporal: [shuffled, single_frame]
+degradations:
+  - {name: dark_0.5, kind: brightness, factor: 0.5}
+  - {name: dark_0.25, kind: brightness, factor: 0.25}
+  - {name: down_0.5, kind: downsample, factor: 0.5}
+  - {name: down_0.25, kind: downsample, factor: 0.25}
+  - {name: blur_1, kind: blur, sigma: 1.0}
+  - {name: blur_2, kind: blur, sigma: 2.0}
+# CSV with dataset_name, video_id, frame_index, x1, y1, x2, y2 from a documented person
+# detector (see docs/diagnostics.md). Spatial variants are skipped until it exists.
+actor_boxes: null
+spatial:
+  - {name: actor_crop, context: 1.0}
+  - {name: actor_context, context: 2.0}

@@ -1,0 +1,12 @@
+action_id,official_name,text_name,text_name_source,category_status,n_videos
+0,Drink,Drink,xov_label_file,familiar,79
+1,Jump,Jump,xov_label_file,familiar,78
+2,Pick,Pick,xov_label_file,familiar,50
+3,Pour,Pour,xov_label_file,unfamiliar,77
+4,Push,Push,xov_label_file,familiar,106
+5,Run,Run,xov_label_file,familiar,70
+6,Sit,Sit,xov_label_file,unfamiliar,51
+7,Stand,Stand,xov_label_file,unfamiliar,44
+8,Turn,Turn,xov_label_file,unfamiliar,82
+9,Walk,Walk,xov_label_file,familiar,110
+10,Wave,Wave,xov_label_file,unfamiliar,76
