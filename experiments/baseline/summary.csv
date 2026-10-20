@@ -1,0 +1,5 @@
+method,test_auroc,validation_threshold,test_mapped_acceptance,test_false_acceptance,accepted_mapped_accuracy
+max_similarity,0.938125,0.2568297415971756,0.925,0.15,1.0
+margin,0.9325,0.03140679299831391,0.825,0.1,1.0
+msp,0.9450000000000001,0.9439298868179321,0.825,0.1,1.0
+voting,0.9212499999999999,0.895,0.825,0.1,1.0

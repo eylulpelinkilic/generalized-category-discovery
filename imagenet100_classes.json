@@ -1,0 +1,502 @@
+[
+  {
+    "gcd_id": 0,
+    "imagenet_id": 1,
+    "name": "goldfish, Carassius auratus"
+  },
+  {
+    "gcd_id": 1,
+    "imagenet_id": 14,
+    "name": "indigo bunting, indigo finch, indigo bird, Passerina cyanea"
+  },
+  {
+    "gcd_id": 2,
+    "imagenet_id": 27,
+    "name": "eft"
+  },
+  {
+    "gcd_id": 3,
+    "imagenet_id": 31,
+    "name": "tree frog, tree-frog"
+  },
+  {
+    "gcd_id": 4,
+    "imagenet_id": 45,
+    "name": "Gila monster, Heloderma suspectum"
+  },
+  {
+    "gcd_id": 5,
+    "imagenet_id": 55,
+    "name": "green snake, grass snake"
+  },
+  {
+    "gcd_id": 6,
+    "imagenet_id": 77,
+    "name": "wolf spider, hunting spider"
+  },
+  {
+    "gcd_id": 7,
+    "imagenet_id": 103,
+    "name": "platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus"
+  },
+  {
+    "gcd_id": 8,
+    "imagenet_id": 108,
+    "name": "sea anemone, anemone"
+  },
+  {
+    "gcd_id": 9,
+    "imagenet_id": 141,
+    "name": "redshank, Tringa totanus"
+  },
+  {
+    "gcd_id": 10,
+    "imagenet_id": 142,
+    "name": "dowitcher"
+  },
+  {
+    "gcd_id": 11,
+    "imagenet_id": 175,
+    "name": "otterhound, otter hound"
+  },
+  {
+    "gcd_id": 12,
+    "imagenet_id": 196,
+    "name": "miniature schnauzer"
+  },
+  {
+    "gcd_id": 13,
+    "imagenet_id": 202,
+    "name": "soft-coated wheaten terrier"
+  },
+  {
+    "gcd_id": 14,
+    "imagenet_id": 230,
+    "name": "Shetland sheepdog, Shetland sheep dog, Shetland"
+  },
+  {
+    "gcd_id": 15,
+    "imagenet_id": 231,
+    "name": "collie"
+  },
+  {
+    "gcd_id": 16,
+    "imagenet_id": 236,
+    "name": "Doberman, Doberman pinscher"
+  },
+  {
+    "gcd_id": 17,
+    "imagenet_id": 239,
+    "name": "Bernese mountain dog"
+  },
+  {
+    "gcd_id": 18,
+    "imagenet_id": 247,
+    "name": "Saint Bernard, St Bernard"
+  },
+  {
+    "gcd_id": 19,
+    "imagenet_id": 251,
+    "name": "dalmatian, coach dog, carriage dog"
+  },
+  {
+    "gcd_id": 20,
+    "imagenet_id": 252,
+    "name": "affenpinscher, monkey pinscher, monkey dog"
+  },
+  {
+    "gcd_id": 21,
+    "imagenet_id": 261,
+    "name": "keeshond"
+  },
+  {
+    "gcd_id": 22,
+    "imagenet_id": 262,
+    "name": "Brabancon griffon"
+  },
+  {
+    "gcd_id": 23,
+    "imagenet_id": 264,
+    "name": "Cardigan, Cardigan Welsh corgi"
+  },
+  {
+    "gcd_id": 24,
+    "imagenet_id": 267,
+    "name": "standard poodle"
+  },
+  {
+    "gcd_id": 25,
+    "imagenet_id": 270,
+    "name": "white wolf, Arctic wolf, Canis lupus tundrarum"
+  },
+  {
+    "gcd_id": 26,
+    "imagenet_id": 272,
+    "name": "coyote, prairie wolf, brush wolf, Canis latrans"
+  },
+  {
+    "gcd_id": 27,
+    "imagenet_id": 279,
+    "name": "Arctic fox, white fox, Alopex lagopus"
+  },
+  {
+    "gcd_id": 28,
+    "imagenet_id": 295,
+    "name": "American black bear, black bear, Ursus americanus, Euarctos americanus"
+  },
+  {
+    "gcd_id": 29,
+    "imagenet_id": 298,
+    "name": "mongoose"
+  },
+  {
+    "gcd_id": 30,
+    "imagenet_id": 299,
+    "name": "meerkat, mierkat"
+  },
+  {
+    "gcd_id": 31,
+    "imagenet_id": 306,
+    "name": "rhinoceros beetle"
+  },
+  {
+    "gcd_id": 32,
+    "imagenet_id": 310,
+    "name": "ant, emmet, pismire"
+  },
+  {
+    "gcd_id": 33,
+    "imagenet_id": 311,
+    "name": "grasshopper, hopper"
+  },
+  {
+    "gcd_id": 34,
+    "imagenet_id": 316,
+    "name": "cicada, cicala"
+  },
+  {
+    "gcd_id": 35,
+    "imagenet_id": 319,
+    "name": "dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk"
+  },
+  {
+    "gcd_id": 36,
+    "imagenet_id": 331,
+    "name": "hare"
+  },
+  {
+    "gcd_id": 37,
+    "imagenet_id": 366,
+    "name": "gorilla, Gorilla gorilla"
+  },
+  {
+    "gcd_id": 38,
+    "imagenet_id": 367,
+    "name": "chimpanzee, chimp, Pan troglodytes"
+  },
+  {
+    "gcd_id": 39,
+    "imagenet_id": 386,
+    "name": "African elephant, Loxodonta africana"
+  },
+  {
+    "gcd_id": 40,
+    "imagenet_id": 389,
+    "name": "barracouta, snoek"
+  },
+  {
+    "gcd_id": 41,
+    "imagenet_id": 408,
+    "name": "amphibian, amphibious vehicle"
+  },
+  {
+    "gcd_id": 42,
+    "imagenet_id": 412,
+    "name": "ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin"
+  },
+  {
+    "gcd_id": 43,
+    "imagenet_id": 413,
+    "name": "assault rifle, assault gun"
+  },
+  {
+    "gcd_id": 44,
+    "imagenet_id": 432,
+    "name": "bassoon"
+  },
+  {
+    "gcd_id": 45,
+    "imagenet_id": 452,
+    "name": "bonnet, poke bonnet"
+  },
+  {
+    "gcd_id": 46,
+    "imagenet_id": 456,
+    "name": "bow"
+  },
+  {
+    "gcd_id": 47,
+    "imagenet_id": 481,
+    "name": "cassette"
+  },
+  {
+    "gcd_id": 48,
+    "imagenet_id": 485,
+    "name": "CD player"
+  },
+  {
+    "gcd_id": 49,
+    "imagenet_id": 494,
+    "name": "chime, bell, gong"
+  },
+  {
+    "gcd_id": 50,
+    "imagenet_id": 496,
+    "name": "Christmas stocking"
+  },
+  {
+    "gcd_id": 51,
+    "imagenet_id": 497,
+    "name": "church, church building"
+  },
+  {
+    "gcd_id": 52,
+    "imagenet_id": 501,
+    "name": "cloak"
+  },
+  {
+    "gcd_id": 53,
+    "imagenet_id": 531,
+    "name": "digital watch"
+  },
+  {
+    "gcd_id": 54,
+    "imagenet_id": 553,
+    "name": "file, file cabinet, filing cabinet"
+  },
+  {
+    "gcd_id": 55,
+    "imagenet_id": 558,
+    "name": "flute, transverse flute"
+  },
+  {
+    "gcd_id": 56,
+    "imagenet_id": 568,
+    "name": "fur coat"
+  },
+  {
+    "gcd_id": 57,
+    "imagenet_id": 569,
+    "name": "garbage truck, dustcart"
+  },
+  {
+    "gcd_id": 58,
+    "imagenet_id": 576,
+    "name": "gondola"
+  },
+  {
+    "gcd_id": 59,
+    "imagenet_id": 578,
+    "name": "gown"
+  },
+  {
+    "gcd_id": 60,
+    "imagenet_id": 582,
+    "name": "grocery store, grocery, food market, market"
+  },
+  {
+    "gcd_id": 61,
+    "imagenet_id": 587,
+    "name": "hammer"
+  },
+  {
+    "gcd_id": 62,
+    "imagenet_id": 601,
+    "name": "hoopskirt, crinoline"
+  },
+  {
+    "gcd_id": 63,
+    "imagenet_id": 614,
+    "name": "kimono"
+  },
+  {
+    "gcd_id": 64,
+    "imagenet_id": 635,
+    "name": "magnetic compass"
+  },
+  {
+    "gcd_id": 65,
+    "imagenet_id": 638,
+    "name": "maillot"
+  },
+  {
+    "gcd_id": 66,
+    "imagenet_id": 643,
+    "name": "mask"
+  },
+  {
+    "gcd_id": 67,
+    "imagenet_id": 644,
+    "name": "matchstick"
+  },
+  {
+    "gcd_id": 68,
+    "imagenet_id": 654,
+    "name": "minibus"
+  },
+  {
+    "gcd_id": 69,
+    "imagenet_id": 672,
+    "name": "mountain tent"
+  },
+  {
+    "gcd_id": 70,
+    "imagenet_id": 693,
+    "name": "paddle, boat paddle"
+  },
+  {
+    "gcd_id": 71,
+    "imagenet_id": 698,
+    "name": "palace"
+  },
+  {
+    "gcd_id": 72,
+    "imagenet_id": 706,
+    "name": "patio, terrace"
+  },
+  {
+    "gcd_id": 73,
+    "imagenet_id": 710,
+    "name": "pencil sharpener"
+  },
+  {
+    "gcd_id": 74,
+    "imagenet_id": 736,
+    "name": "pool table, billiard table, snooker table"
+  },
+  {
+    "gcd_id": 75,
+    "imagenet_id": 738,
+    "name": "pot, flowerpot"
+  },
+  {
+    "gcd_id": 76,
+    "imagenet_id": 740,
+    "name": "power drill"
+  },
+  {
+    "gcd_id": 77,
+    "imagenet_id": 760,
+    "name": "refrigerator, icebox"
+  },
+  {
+    "gcd_id": 78,
+    "imagenet_id": 783,
+    "name": "screw"
+  },
+  {
+    "gcd_id": 79,
+    "imagenet_id": 784,
+    "name": "screwdriver"
+  },
+  {
+    "gcd_id": 80,
+    "imagenet_id": 788,
+    "name": "shoe shop, shoe-shop, shoe store"
+  },
+  {
+    "gcd_id": 81,
+    "imagenet_id": 790,
+    "name": "shopping basket"
+  },
+  {
+    "gcd_id": 82,
+    "imagenet_id": 796,
+    "name": "ski mask"
+  },
+  {
+    "gcd_id": 83,
+    "imagenet_id": 819,
+    "name": "stage"
+  },
+  {
+    "gcd_id": 84,
+    "imagenet_id": 823,
+    "name": "stethoscope"
+  },
+  {
+    "gcd_id": 85,
+    "imagenet_id": 859,
+    "name": "toaster"
+  },
+  {
+    "gcd_id": 86,
+    "imagenet_id": 862,
+    "name": "torch"
+  },
+  {
+    "gcd_id": 87,
+    "imagenet_id": 874,
+    "name": "trolleybus, trolley coach, trackless trolley"
+  },
+  {
+    "gcd_id": 88,
+    "imagenet_id": 883,
+    "name": "vase"
+  },
+  {
+    "gcd_id": 89,
+    "imagenet_id": 906,
+    "name": "Windsor tie"
+  },
+  {
+    "gcd_id": 90,
+    "imagenet_id": 909,
+    "name": "wok"
+  },
+  {
+    "gcd_id": 91,
+    "imagenet_id": 918,
+    "name": "crossword puzzle, crossword"
+  },
+  {
+    "gcd_id": 92,
+    "imagenet_id": 923,
+    "name": "plate"
+  },
+  {
+    "gcd_id": 93,
+    "imagenet_id": 926,
+    "name": "hot pot, hotpot"
+  },
+  {
+    "gcd_id": 94,
+    "imagenet_id": 957,
+    "name": "pomegranate"
+  },
+  {
+    "gcd_id": 95,
+    "imagenet_id": 971,
+    "name": "bubble"
+  },
+  {
+    "gcd_id": 96,
+    "imagenet_id": 982,
+    "name": "groom, bridegroom"
+  },
+  {
+    "gcd_id": 97,
+    "imagenet_id": 987,
+    "name": "corn"
+  },
+  {
+    "gcd_id": 98,
+    "imagenet_id": 993,
+    "name": "gyromitra"
+  },
+  {
+    "gcd_id": 99,
+    "imagenet_id": 996,
+    "name": "hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa"
+  }
+]

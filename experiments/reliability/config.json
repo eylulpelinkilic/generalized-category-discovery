@@ -1,0 +1,10 @@
+{
+  "number_of_pairs_per_cluster": 20,
+  "vocabulary_size": 10,
+  "bootstrap_iterations": 1000,
+  "random_seed": 42,
+  "temperature": 0.01,
+  "bootstrap_unit": "semantic_category",
+  "candidate_selection": "random_within_split",
+  "model": "CLIP ViT-B/32"
+}

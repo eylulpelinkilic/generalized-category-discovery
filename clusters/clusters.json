@@ -1,0 +1,5802 @@
+[
+  {
+    "cluster_id": 0,
+    "class_id": 1,
+    "split": "development",
+    "image_indices": [
+      15,
+      9,
+      14,
+      7,
+      12,
+      10,
+      6,
+      19,
+      3,
+      0
+    ],
+    "image_paths": [
+      "imagenet100_images/1/015.jpg",
+      "imagenet100_images/1/009.jpg",
+      "imagenet100_images/1/014.jpg",
+      "imagenet100_images/1/007.jpg",
+      "imagenet100_images/1/012.jpg",
+      "imagenet100_images/1/010.jpg",
+      "imagenet100_images/1/006.jpg",
+      "imagenet100_images/1/019.jpg",
+      "imagenet100_images/1/003.jpg",
+      "imagenet100_images/1/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "class_id": 1,
+    "split": "development",
+    "image_indices": [
+      16,
+      5,
+      11,
+      18,
+      2,
+      4,
+      17,
+      1,
+      13,
+      8
+    ],
+    "image_paths": [
+      "imagenet100_images/1/016.jpg",
+      "imagenet100_images/1/005.jpg",
+      "imagenet100_images/1/011.jpg",
+      "imagenet100_images/1/018.jpg",
+      "imagenet100_images/1/002.jpg",
+      "imagenet100_images/1/004.jpg",
+      "imagenet100_images/1/017.jpg",
+      "imagenet100_images/1/001.jpg",
+      "imagenet100_images/1/013.jpg",
+      "imagenet100_images/1/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "class_id": 14,
+    "split": "development",
+    "image_indices": [
+      38,
+      28,
+      29,
+      27,
+      24,
+      21,
+      26,
+      31,
+      25,
+      35
+    ],
+    "image_paths": [
+      "imagenet100_images/14/018.jpg",
+      "imagenet100_images/14/008.jpg",
+      "imagenet100_images/14/009.jpg",
+      "imagenet100_images/14/007.jpg",
+      "imagenet100_images/14/004.jpg",
+      "imagenet100_images/14/001.jpg",
+      "imagenet100_images/14/006.jpg",
+      "imagenet100_images/14/011.jpg",
+      "imagenet100_images/14/005.jpg",
+      "imagenet100_images/14/015.jpg"
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "class_id": 14,
+    "split": "development",
+    "image_indices": [
+      20,
+      32,
+      39,
+      22,
+      34,
+      36,
+      30,
+      23,
+      33,
+      37
+    ],
+    "image_paths": [
+      "imagenet100_images/14/000.jpg",
+      "imagenet100_images/14/012.jpg",
+      "imagenet100_images/14/019.jpg",
+      "imagenet100_images/14/002.jpg",
+      "imagenet100_images/14/014.jpg",
+      "imagenet100_images/14/016.jpg",
+      "imagenet100_images/14/010.jpg",
+      "imagenet100_images/14/003.jpg",
+      "imagenet100_images/14/013.jpg",
+      "imagenet100_images/14/017.jpg"
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "class_id": 27,
+    "split": "development",
+    "image_indices": [
+      52,
+      47,
+      46,
+      53,
+      48,
+      57,
+      45,
+      41,
+      50,
+      49
+    ],
+    "image_paths": [
+      "imagenet100_images/27/012.jpg",
+      "imagenet100_images/27/007.jpg",
+      "imagenet100_images/27/006.jpg",
+      "imagenet100_images/27/013.jpg",
+      "imagenet100_images/27/008.jpg",
+      "imagenet100_images/27/017.jpg",
+      "imagenet100_images/27/005.jpg",
+      "imagenet100_images/27/001.jpg",
+      "imagenet100_images/27/010.jpg",
+      "imagenet100_images/27/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "class_id": 27,
+    "split": "development",
+    "image_indices": [
+      59,
+      54,
+      55,
+      58,
+      43,
+      51,
+      42,
+      40,
+      44,
+      56
+    ],
+    "image_paths": [
+      "imagenet100_images/27/019.jpg",
+      "imagenet100_images/27/014.jpg",
+      "imagenet100_images/27/015.jpg",
+      "imagenet100_images/27/018.jpg",
+      "imagenet100_images/27/003.jpg",
+      "imagenet100_images/27/011.jpg",
+      "imagenet100_images/27/002.jpg",
+      "imagenet100_images/27/000.jpg",
+      "imagenet100_images/27/004.jpg",
+      "imagenet100_images/27/016.jpg"
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "class_id": 31,
+    "split": "development",
+    "image_indices": [
+      73,
+      63,
+      78,
+      62,
+      68,
+      75,
+      60,
+      66,
+      79,
+      71
+    ],
+    "image_paths": [
+      "imagenet100_images/31/013.jpg",
+      "imagenet100_images/31/003.jpg",
+      "imagenet100_images/31/018.jpg",
+      "imagenet100_images/31/002.jpg",
+      "imagenet100_images/31/008.jpg",
+      "imagenet100_images/31/015.jpg",
+      "imagenet100_images/31/000.jpg",
+      "imagenet100_images/31/006.jpg",
+      "imagenet100_images/31/019.jpg",
+      "imagenet100_images/31/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "class_id": 31,
+    "split": "development",
+    "image_indices": [
+      76,
+      74,
+      65,
+      77,
+      64,
+      61,
+      70,
+      67,
+      69,
+      72
+    ],
+    "image_paths": [
+      "imagenet100_images/31/016.jpg",
+      "imagenet100_images/31/014.jpg",
+      "imagenet100_images/31/005.jpg",
+      "imagenet100_images/31/017.jpg",
+      "imagenet100_images/31/004.jpg",
+      "imagenet100_images/31/001.jpg",
+      "imagenet100_images/31/010.jpg",
+      "imagenet100_images/31/007.jpg",
+      "imagenet100_images/31/009.jpg",
+      "imagenet100_images/31/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "class_id": 45,
+    "split": "development",
+    "image_indices": [
+      95,
+      96,
+      82,
+      90,
+      88,
+      80,
+      86,
+      98,
+      84,
+      89
+    ],
+    "image_paths": [
+      "imagenet100_images/45/015.jpg",
+      "imagenet100_images/45/016.jpg",
+      "imagenet100_images/45/002.jpg",
+      "imagenet100_images/45/010.jpg",
+      "imagenet100_images/45/008.jpg",
+      "imagenet100_images/45/000.jpg",
+      "imagenet100_images/45/006.jpg",
+      "imagenet100_images/45/018.jpg",
+      "imagenet100_images/45/004.jpg",
+      "imagenet100_images/45/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "class_id": 45,
+    "split": "development",
+    "image_indices": [
+      92,
+      85,
+      94,
+      99,
+      93,
+      91,
+      81,
+      97,
+      83,
+      87
+    ],
+    "image_paths": [
+      "imagenet100_images/45/012.jpg",
+      "imagenet100_images/45/005.jpg",
+      "imagenet100_images/45/014.jpg",
+      "imagenet100_images/45/019.jpg",
+      "imagenet100_images/45/013.jpg",
+      "imagenet100_images/45/011.jpg",
+      "imagenet100_images/45/001.jpg",
+      "imagenet100_images/45/017.jpg",
+      "imagenet100_images/45/003.jpg",
+      "imagenet100_images/45/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 10,
+    "class_id": 55,
+    "split": "development",
+    "image_indices": [
+      102,
+      109,
+      104,
+      118,
+      116,
+      111,
+      105,
+      103,
+      100,
+      117
+    ],
+    "image_paths": [
+      "imagenet100_images/55/002.jpg",
+      "imagenet100_images/55/009.jpg",
+      "imagenet100_images/55/004.jpg",
+      "imagenet100_images/55/018.jpg",
+      "imagenet100_images/55/016.jpg",
+      "imagenet100_images/55/011.jpg",
+      "imagenet100_images/55/005.jpg",
+      "imagenet100_images/55/003.jpg",
+      "imagenet100_images/55/000.jpg",
+      "imagenet100_images/55/017.jpg"
+    ]
+  },
+  {
+    "cluster_id": 11,
+    "class_id": 55,
+    "split": "development",
+    "image_indices": [
+      101,
+      106,
+      115,
+      108,
+      112,
+      119,
+      114,
+      110,
+      113,
+      107
+    ],
+    "image_paths": [
+      "imagenet100_images/55/001.jpg",
+      "imagenet100_images/55/006.jpg",
+      "imagenet100_images/55/015.jpg",
+      "imagenet100_images/55/008.jpg",
+      "imagenet100_images/55/012.jpg",
+      "imagenet100_images/55/019.jpg",
+      "imagenet100_images/55/014.jpg",
+      "imagenet100_images/55/010.jpg",
+      "imagenet100_images/55/013.jpg",
+      "imagenet100_images/55/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 12,
+    "class_id": 77,
+    "split": "test",
+    "image_indices": [
+      128,
+      123,
+      138,
+      136,
+      135,
+      132,
+      124,
+      126,
+      125,
+      120
+    ],
+    "image_paths": [
+      "imagenet100_images/77/008.jpg",
+      "imagenet100_images/77/003.jpg",
+      "imagenet100_images/77/018.jpg",
+      "imagenet100_images/77/016.jpg",
+      "imagenet100_images/77/015.jpg",
+      "imagenet100_images/77/012.jpg",
+      "imagenet100_images/77/004.jpg",
+      "imagenet100_images/77/006.jpg",
+      "imagenet100_images/77/005.jpg",
+      "imagenet100_images/77/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 13,
+    "class_id": 77,
+    "split": "test",
+    "image_indices": [
+      129,
+      134,
+      131,
+      139,
+      130,
+      122,
+      137,
+      127,
+      121,
+      133
+    ],
+    "image_paths": [
+      "imagenet100_images/77/009.jpg",
+      "imagenet100_images/77/014.jpg",
+      "imagenet100_images/77/011.jpg",
+      "imagenet100_images/77/019.jpg",
+      "imagenet100_images/77/010.jpg",
+      "imagenet100_images/77/002.jpg",
+      "imagenet100_images/77/017.jpg",
+      "imagenet100_images/77/007.jpg",
+      "imagenet100_images/77/001.jpg",
+      "imagenet100_images/77/013.jpg"
+    ]
+  },
+  {
+    "cluster_id": 14,
+    "class_id": 103,
+    "split": "development",
+    "image_indices": [
+      148,
+      159,
+      147,
+      152,
+      146,
+      145,
+      151,
+      157,
+      143,
+      153
+    ],
+    "image_paths": [
+      "imagenet100_images/103/008.jpg",
+      "imagenet100_images/103/019.jpg",
+      "imagenet100_images/103/007.jpg",
+      "imagenet100_images/103/012.jpg",
+      "imagenet100_images/103/006.jpg",
+      "imagenet100_images/103/005.jpg",
+      "imagenet100_images/103/011.jpg",
+      "imagenet100_images/103/017.jpg",
+      "imagenet100_images/103/003.jpg",
+      "imagenet100_images/103/013.jpg"
+    ]
+  },
+  {
+    "cluster_id": 15,
+    "class_id": 103,
+    "split": "development",
+    "image_indices": [
+      158,
+      154,
+      155,
+      141,
+      140,
+      144,
+      156,
+      149,
+      142,
+      150
+    ],
+    "image_paths": [
+      "imagenet100_images/103/018.jpg",
+      "imagenet100_images/103/014.jpg",
+      "imagenet100_images/103/015.jpg",
+      "imagenet100_images/103/001.jpg",
+      "imagenet100_images/103/000.jpg",
+      "imagenet100_images/103/004.jpg",
+      "imagenet100_images/103/016.jpg",
+      "imagenet100_images/103/009.jpg",
+      "imagenet100_images/103/002.jpg",
+      "imagenet100_images/103/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 16,
+    "class_id": 108,
+    "split": "test",
+    "image_indices": [
+      166,
+      178,
+      176,
+      175,
+      167,
+      164,
+      170,
+      161,
+      169,
+      174
+    ],
+    "image_paths": [
+      "imagenet100_images/108/006.jpg",
+      "imagenet100_images/108/018.jpg",
+      "imagenet100_images/108/016.jpg",
+      "imagenet100_images/108/015.jpg",
+      "imagenet100_images/108/007.jpg",
+      "imagenet100_images/108/004.jpg",
+      "imagenet100_images/108/010.jpg",
+      "imagenet100_images/108/001.jpg",
+      "imagenet100_images/108/009.jpg",
+      "imagenet100_images/108/014.jpg"
+    ]
+  },
+  {
+    "cluster_id": 17,
+    "class_id": 108,
+    "split": "test",
+    "image_indices": [
+      177,
+      163,
+      179,
+      168,
+      171,
+      165,
+      173,
+      160,
+      162,
+      172
+    ],
+    "image_paths": [
+      "imagenet100_images/108/017.jpg",
+      "imagenet100_images/108/003.jpg",
+      "imagenet100_images/108/019.jpg",
+      "imagenet100_images/108/008.jpg",
+      "imagenet100_images/108/011.jpg",
+      "imagenet100_images/108/005.jpg",
+      "imagenet100_images/108/013.jpg",
+      "imagenet100_images/108/000.jpg",
+      "imagenet100_images/108/002.jpg",
+      "imagenet100_images/108/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 18,
+    "class_id": 141,
+    "split": "validation",
+    "image_indices": [
+      186,
+      194,
+      187,
+      185,
+      183,
+      184,
+      181,
+      196,
+      188,
+      180
+    ],
+    "image_paths": [
+      "imagenet100_images/141/006.jpg",
+      "imagenet100_images/141/014.jpg",
+      "imagenet100_images/141/007.jpg",
+      "imagenet100_images/141/005.jpg",
+      "imagenet100_images/141/003.jpg",
+      "imagenet100_images/141/004.jpg",
+      "imagenet100_images/141/001.jpg",
+      "imagenet100_images/141/016.jpg",
+      "imagenet100_images/141/008.jpg",
+      "imagenet100_images/141/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 19,
+    "class_id": 141,
+    "split": "validation",
+    "image_indices": [
+      197,
+      198,
+      195,
+      193,
+      199,
+      191,
+      192,
+      182,
+      189,
+      190
+    ],
+    "image_paths": [
+      "imagenet100_images/141/017.jpg",
+      "imagenet100_images/141/018.jpg",
+      "imagenet100_images/141/015.jpg",
+      "imagenet100_images/141/013.jpg",
+      "imagenet100_images/141/019.jpg",
+      "imagenet100_images/141/011.jpg",
+      "imagenet100_images/141/012.jpg",
+      "imagenet100_images/141/002.jpg",
+      "imagenet100_images/141/009.jpg",
+      "imagenet100_images/141/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 20,
+    "class_id": 142,
+    "split": "development",
+    "image_indices": [
+      215,
+      216,
+      211,
+      209,
+      218,
+      203,
+      207,
+      204,
+      210,
+      200
+    ],
+    "image_paths": [
+      "imagenet100_images/142/015.jpg",
+      "imagenet100_images/142/016.jpg",
+      "imagenet100_images/142/011.jpg",
+      "imagenet100_images/142/009.jpg",
+      "imagenet100_images/142/018.jpg",
+      "imagenet100_images/142/003.jpg",
+      "imagenet100_images/142/007.jpg",
+      "imagenet100_images/142/004.jpg",
+      "imagenet100_images/142/010.jpg",
+      "imagenet100_images/142/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 21,
+    "class_id": 142,
+    "split": "development",
+    "image_indices": [
+      212,
+      219,
+      208,
+      201,
+      206,
+      205,
+      217,
+      202,
+      214,
+      213
+    ],
+    "image_paths": [
+      "imagenet100_images/142/012.jpg",
+      "imagenet100_images/142/019.jpg",
+      "imagenet100_images/142/008.jpg",
+      "imagenet100_images/142/001.jpg",
+      "imagenet100_images/142/006.jpg",
+      "imagenet100_images/142/005.jpg",
+      "imagenet100_images/142/017.jpg",
+      "imagenet100_images/142/002.jpg",
+      "imagenet100_images/142/014.jpg",
+      "imagenet100_images/142/013.jpg"
+    ]
+  },
+  {
+    "cluster_id": 22,
+    "class_id": 175,
+    "split": "test",
+    "image_indices": [
+      224,
+      233,
+      226,
+      229,
+      223,
+      221,
+      230,
+      225,
+      220,
+      222
+    ],
+    "image_paths": [
+      "imagenet100_images/175/004.jpg",
+      "imagenet100_images/175/013.jpg",
+      "imagenet100_images/175/006.jpg",
+      "imagenet100_images/175/009.jpg",
+      "imagenet100_images/175/003.jpg",
+      "imagenet100_images/175/001.jpg",
+      "imagenet100_images/175/010.jpg",
+      "imagenet100_images/175/005.jpg",
+      "imagenet100_images/175/000.jpg",
+      "imagenet100_images/175/002.jpg"
+    ]
+  },
+  {
+    "cluster_id": 23,
+    "class_id": 175,
+    "split": "test",
+    "image_indices": [
+      237,
+      231,
+      238,
+      228,
+      234,
+      232,
+      239,
+      235,
+      236,
+      227
+    ],
+    "image_paths": [
+      "imagenet100_images/175/017.jpg",
+      "imagenet100_images/175/011.jpg",
+      "imagenet100_images/175/018.jpg",
+      "imagenet100_images/175/008.jpg",
+      "imagenet100_images/175/014.jpg",
+      "imagenet100_images/175/012.jpg",
+      "imagenet100_images/175/019.jpg",
+      "imagenet100_images/175/015.jpg",
+      "imagenet100_images/175/016.jpg",
+      "imagenet100_images/175/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 24,
+    "class_id": 196,
+    "split": "test",
+    "image_indices": [
+      240,
+      248,
+      247,
+      242,
+      244,
+      253,
+      251,
+      243,
+      256,
+      250
+    ],
+    "image_paths": [
+      "imagenet100_images/196/000.jpg",
+      "imagenet100_images/196/008.jpg",
+      "imagenet100_images/196/007.jpg",
+      "imagenet100_images/196/002.jpg",
+      "imagenet100_images/196/004.jpg",
+      "imagenet100_images/196/013.jpg",
+      "imagenet100_images/196/011.jpg",
+      "imagenet100_images/196/003.jpg",
+      "imagenet100_images/196/016.jpg",
+      "imagenet100_images/196/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 25,
+    "class_id": 196,
+    "split": "test",
+    "image_indices": [
+      241,
+      258,
+      249,
+      257,
+      259,
+      255,
+      246,
+      245,
+      252,
+      254
+    ],
+    "image_paths": [
+      "imagenet100_images/196/001.jpg",
+      "imagenet100_images/196/018.jpg",
+      "imagenet100_images/196/009.jpg",
+      "imagenet100_images/196/017.jpg",
+      "imagenet100_images/196/019.jpg",
+      "imagenet100_images/196/015.jpg",
+      "imagenet100_images/196/006.jpg",
+      "imagenet100_images/196/005.jpg",
+      "imagenet100_images/196/012.jpg",
+      "imagenet100_images/196/014.jpg"
+    ]
+  },
+  {
+    "cluster_id": 26,
+    "class_id": 202,
+    "split": "test",
+    "image_indices": [
+      267,
+      265,
+      277,
+      264,
+      275,
+      262,
+      270,
+      271,
+      261,
+      260
+    ],
+    "image_paths": [
+      "imagenet100_images/202/007.jpg",
+      "imagenet100_images/202/005.jpg",
+      "imagenet100_images/202/017.jpg",
+      "imagenet100_images/202/004.jpg",
+      "imagenet100_images/202/015.jpg",
+      "imagenet100_images/202/002.jpg",
+      "imagenet100_images/202/010.jpg",
+      "imagenet100_images/202/011.jpg",
+      "imagenet100_images/202/001.jpg",
+      "imagenet100_images/202/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 27,
+    "class_id": 202,
+    "split": "test",
+    "image_indices": [
+      266,
+      272,
+      274,
+      276,
+      269,
+      273,
+      279,
+      278,
+      263,
+      268
+    ],
+    "image_paths": [
+      "imagenet100_images/202/006.jpg",
+      "imagenet100_images/202/012.jpg",
+      "imagenet100_images/202/014.jpg",
+      "imagenet100_images/202/016.jpg",
+      "imagenet100_images/202/009.jpg",
+      "imagenet100_images/202/013.jpg",
+      "imagenet100_images/202/019.jpg",
+      "imagenet100_images/202/018.jpg",
+      "imagenet100_images/202/003.jpg",
+      "imagenet100_images/202/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 28,
+    "class_id": 230,
+    "split": "test",
+    "image_indices": [
+      297,
+      280,
+      289,
+      296,
+      288,
+      298,
+      295,
+      282,
+      287,
+      291
+    ],
+    "image_paths": [
+      "imagenet100_images/230/017.jpg",
+      "imagenet100_images/230/000.jpg",
+      "imagenet100_images/230/009.jpg",
+      "imagenet100_images/230/016.jpg",
+      "imagenet100_images/230/008.jpg",
+      "imagenet100_images/230/018.jpg",
+      "imagenet100_images/230/015.jpg",
+      "imagenet100_images/230/002.jpg",
+      "imagenet100_images/230/007.jpg",
+      "imagenet100_images/230/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 29,
+    "class_id": 230,
+    "split": "test",
+    "image_indices": [
+      285,
+      284,
+      290,
+      286,
+      281,
+      299,
+      293,
+      283,
+      294,
+      292
+    ],
+    "image_paths": [
+      "imagenet100_images/230/005.jpg",
+      "imagenet100_images/230/004.jpg",
+      "imagenet100_images/230/010.jpg",
+      "imagenet100_images/230/006.jpg",
+      "imagenet100_images/230/001.jpg",
+      "imagenet100_images/230/019.jpg",
+      "imagenet100_images/230/013.jpg",
+      "imagenet100_images/230/003.jpg",
+      "imagenet100_images/230/014.jpg",
+      "imagenet100_images/230/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 30,
+    "class_id": 231,
+    "split": "validation",
+    "image_indices": [
+      311,
+      319,
+      308,
+      305,
+      313,
+      309,
+      306,
+      316,
+      314,
+      317
+    ],
+    "image_paths": [
+      "imagenet100_images/231/011.jpg",
+      "imagenet100_images/231/019.jpg",
+      "imagenet100_images/231/008.jpg",
+      "imagenet100_images/231/005.jpg",
+      "imagenet100_images/231/013.jpg",
+      "imagenet100_images/231/009.jpg",
+      "imagenet100_images/231/006.jpg",
+      "imagenet100_images/231/016.jpg",
+      "imagenet100_images/231/014.jpg",
+      "imagenet100_images/231/017.jpg"
+    ]
+  },
+  {
+    "cluster_id": 31,
+    "class_id": 231,
+    "split": "validation",
+    "image_indices": [
+      307,
+      318,
+      312,
+      301,
+      304,
+      303,
+      302,
+      315,
+      310,
+      300
+    ],
+    "image_paths": [
+      "imagenet100_images/231/007.jpg",
+      "imagenet100_images/231/018.jpg",
+      "imagenet100_images/231/012.jpg",
+      "imagenet100_images/231/001.jpg",
+      "imagenet100_images/231/004.jpg",
+      "imagenet100_images/231/003.jpg",
+      "imagenet100_images/231/002.jpg",
+      "imagenet100_images/231/015.jpg",
+      "imagenet100_images/231/010.jpg",
+      "imagenet100_images/231/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 32,
+    "class_id": 236,
+    "split": "validation",
+    "image_indices": [
+      332,
+      331,
+      333,
+      325,
+      323,
+      330,
+      320,
+      329,
+      324,
+      335
+    ],
+    "image_paths": [
+      "imagenet100_images/236/012.jpg",
+      "imagenet100_images/236/011.jpg",
+      "imagenet100_images/236/013.jpg",
+      "imagenet100_images/236/005.jpg",
+      "imagenet100_images/236/003.jpg",
+      "imagenet100_images/236/010.jpg",
+      "imagenet100_images/236/000.jpg",
+      "imagenet100_images/236/009.jpg",
+      "imagenet100_images/236/004.jpg",
+      "imagenet100_images/236/015.jpg"
+    ]
+  },
+  {
+    "cluster_id": 33,
+    "class_id": 236,
+    "split": "validation",
+    "image_indices": [
+      336,
+      322,
+      326,
+      327,
+      321,
+      334,
+      328,
+      337,
+      339,
+      338
+    ],
+    "image_paths": [
+      "imagenet100_images/236/016.jpg",
+      "imagenet100_images/236/002.jpg",
+      "imagenet100_images/236/006.jpg",
+      "imagenet100_images/236/007.jpg",
+      "imagenet100_images/236/001.jpg",
+      "imagenet100_images/236/014.jpg",
+      "imagenet100_images/236/008.jpg",
+      "imagenet100_images/236/017.jpg",
+      "imagenet100_images/236/019.jpg",
+      "imagenet100_images/236/018.jpg"
+    ]
+  },
+  {
+    "cluster_id": 34,
+    "class_id": 239,
+    "split": "development",
+    "image_indices": [
+      353,
+      351,
+      358,
+      347,
+      340,
+      354,
+      357,
+      359,
+      349,
+      344
+    ],
+    "image_paths": [
+      "imagenet100_images/239/013.jpg",
+      "imagenet100_images/239/011.jpg",
+      "imagenet100_images/239/018.jpg",
+      "imagenet100_images/239/007.jpg",
+      "imagenet100_images/239/000.jpg",
+      "imagenet100_images/239/014.jpg",
+      "imagenet100_images/239/017.jpg",
+      "imagenet100_images/239/019.jpg",
+      "imagenet100_images/239/009.jpg",
+      "imagenet100_images/239/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 35,
+    "class_id": 239,
+    "split": "development",
+    "image_indices": [
+      346,
+      348,
+      350,
+      352,
+      345,
+      343,
+      342,
+      356,
+      341,
+      355
+    ],
+    "image_paths": [
+      "imagenet100_images/239/006.jpg",
+      "imagenet100_images/239/008.jpg",
+      "imagenet100_images/239/010.jpg",
+      "imagenet100_images/239/012.jpg",
+      "imagenet100_images/239/005.jpg",
+      "imagenet100_images/239/003.jpg",
+      "imagenet100_images/239/002.jpg",
+      "imagenet100_images/239/016.jpg",
+      "imagenet100_images/239/001.jpg",
+      "imagenet100_images/239/015.jpg"
+    ]
+  },
+  {
+    "cluster_id": 36,
+    "class_id": 247,
+    "split": "development",
+    "image_indices": [
+      360,
+      364,
+      373,
+      375,
+      361,
+      371,
+      374,
+      366,
+      372,
+      376
+    ],
+    "image_paths": [
+      "imagenet100_images/247/000.jpg",
+      "imagenet100_images/247/004.jpg",
+      "imagenet100_images/247/013.jpg",
+      "imagenet100_images/247/015.jpg",
+      "imagenet100_images/247/001.jpg",
+      "imagenet100_images/247/011.jpg",
+      "imagenet100_images/247/014.jpg",
+      "imagenet100_images/247/006.jpg",
+      "imagenet100_images/247/012.jpg",
+      "imagenet100_images/247/016.jpg"
+    ]
+  },
+  {
+    "cluster_id": 37,
+    "class_id": 247,
+    "split": "development",
+    "image_indices": [
+      367,
+      368,
+      378,
+      379,
+      362,
+      365,
+      377,
+      370,
+      369,
+      363
+    ],
+    "image_paths": [
+      "imagenet100_images/247/007.jpg",
+      "imagenet100_images/247/008.jpg",
+      "imagenet100_images/247/018.jpg",
+      "imagenet100_images/247/019.jpg",
+      "imagenet100_images/247/002.jpg",
+      "imagenet100_images/247/005.jpg",
+      "imagenet100_images/247/017.jpg",
+      "imagenet100_images/247/010.jpg",
+      "imagenet100_images/247/009.jpg",
+      "imagenet100_images/247/003.jpg"
+    ]
+  },
+  {
+    "cluster_id": 38,
+    "class_id": 251,
+    "split": "test",
+    "image_indices": [
+      387,
+      383,
+      393,
+      390,
+      389,
+      398,
+      399,
+      391,
+      381,
+      388
+    ],
+    "image_paths": [
+      "imagenet100_images/251/007.jpg",
+      "imagenet100_images/251/003.jpg",
+      "imagenet100_images/251/013.jpg",
+      "imagenet100_images/251/010.jpg",
+      "imagenet100_images/251/009.jpg",
+      "imagenet100_images/251/018.jpg",
+      "imagenet100_images/251/019.jpg",
+      "imagenet100_images/251/011.jpg",
+      "imagenet100_images/251/001.jpg",
+      "imagenet100_images/251/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 39,
+    "class_id": 251,
+    "split": "test",
+    "image_indices": [
+      384,
+      394,
+      396,
+      397,
+      382,
+      385,
+      386,
+      380,
+      392,
+      395
+    ],
+    "image_paths": [
+      "imagenet100_images/251/004.jpg",
+      "imagenet100_images/251/014.jpg",
+      "imagenet100_images/251/016.jpg",
+      "imagenet100_images/251/017.jpg",
+      "imagenet100_images/251/002.jpg",
+      "imagenet100_images/251/005.jpg",
+      "imagenet100_images/251/006.jpg",
+      "imagenet100_images/251/000.jpg",
+      "imagenet100_images/251/012.jpg",
+      "imagenet100_images/251/015.jpg"
+    ]
+  },
+  {
+    "cluster_id": 40,
+    "class_id": 252,
+    "split": "development",
+    "image_indices": [
+      404,
+      419,
+      414,
+      408,
+      415,
+      417,
+      412,
+      401,
+      410,
+      406
+    ],
+    "image_paths": [
+      "imagenet100_images/252/004.jpg",
+      "imagenet100_images/252/019.jpg",
+      "imagenet100_images/252/014.jpg",
+      "imagenet100_images/252/008.jpg",
+      "imagenet100_images/252/015.jpg",
+      "imagenet100_images/252/017.jpg",
+      "imagenet100_images/252/012.jpg",
+      "imagenet100_images/252/001.jpg",
+      "imagenet100_images/252/010.jpg",
+      "imagenet100_images/252/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 41,
+    "class_id": 252,
+    "split": "development",
+    "image_indices": [
+      416,
+      418,
+      405,
+      407,
+      403,
+      411,
+      409,
+      413,
+      402,
+      400
+    ],
+    "image_paths": [
+      "imagenet100_images/252/016.jpg",
+      "imagenet100_images/252/018.jpg",
+      "imagenet100_images/252/005.jpg",
+      "imagenet100_images/252/007.jpg",
+      "imagenet100_images/252/003.jpg",
+      "imagenet100_images/252/011.jpg",
+      "imagenet100_images/252/009.jpg",
+      "imagenet100_images/252/013.jpg",
+      "imagenet100_images/252/002.jpg",
+      "imagenet100_images/252/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 42,
+    "class_id": 261,
+    "split": "development",
+    "image_indices": [
+      432,
+      436,
+      423,
+      424,
+      437,
+      420,
+      434,
+      438,
+      422,
+      428
+    ],
+    "image_paths": [
+      "imagenet100_images/261/012.jpg",
+      "imagenet100_images/261/016.jpg",
+      "imagenet100_images/261/003.jpg",
+      "imagenet100_images/261/004.jpg",
+      "imagenet100_images/261/017.jpg",
+      "imagenet100_images/261/000.jpg",
+      "imagenet100_images/261/014.jpg",
+      "imagenet100_images/261/018.jpg",
+      "imagenet100_images/261/002.jpg",
+      "imagenet100_images/261/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 43,
+    "class_id": 261,
+    "split": "development",
+    "image_indices": [
+      426,
+      435,
+      433,
+      421,
+      429,
+      425,
+      439,
+      430,
+      431,
+      427
+    ],
+    "image_paths": [
+      "imagenet100_images/261/006.jpg",
+      "imagenet100_images/261/015.jpg",
+      "imagenet100_images/261/013.jpg",
+      "imagenet100_images/261/001.jpg",
+      "imagenet100_images/261/009.jpg",
+      "imagenet100_images/261/005.jpg",
+      "imagenet100_images/261/019.jpg",
+      "imagenet100_images/261/010.jpg",
+      "imagenet100_images/261/011.jpg",
+      "imagenet100_images/261/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 44,
+    "class_id": 262,
+    "split": "test",
+    "image_indices": [
+      446,
+      449,
+      442,
+      440,
+      448,
+      450,
+      459,
+      452,
+      454,
+      451
+    ],
+    "image_paths": [
+      "imagenet100_images/262/006.jpg",
+      "imagenet100_images/262/009.jpg",
+      "imagenet100_images/262/002.jpg",
+      "imagenet100_images/262/000.jpg",
+      "imagenet100_images/262/008.jpg",
+      "imagenet100_images/262/010.jpg",
+      "imagenet100_images/262/019.jpg",
+      "imagenet100_images/262/012.jpg",
+      "imagenet100_images/262/014.jpg",
+      "imagenet100_images/262/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 45,
+    "class_id": 262,
+    "split": "test",
+    "image_indices": [
+      458,
+      444,
+      457,
+      441,
+      453,
+      445,
+      456,
+      455,
+      443,
+      447
+    ],
+    "image_paths": [
+      "imagenet100_images/262/018.jpg",
+      "imagenet100_images/262/004.jpg",
+      "imagenet100_images/262/017.jpg",
+      "imagenet100_images/262/001.jpg",
+      "imagenet100_images/262/013.jpg",
+      "imagenet100_images/262/005.jpg",
+      "imagenet100_images/262/016.jpg",
+      "imagenet100_images/262/015.jpg",
+      "imagenet100_images/262/003.jpg",
+      "imagenet100_images/262/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 46,
+    "class_id": 264,
+    "split": "development",
+    "image_indices": [
+      464,
+      475,
+      466,
+      460,
+      461,
+      473,
+      474,
+      477,
+      462,
+      476
+    ],
+    "image_paths": [
+      "imagenet100_images/264/004.jpg",
+      "imagenet100_images/264/015.jpg",
+      "imagenet100_images/264/006.jpg",
+      "imagenet100_images/264/000.jpg",
+      "imagenet100_images/264/001.jpg",
+      "imagenet100_images/264/013.jpg",
+      "imagenet100_images/264/014.jpg",
+      "imagenet100_images/264/017.jpg",
+      "imagenet100_images/264/002.jpg",
+      "imagenet100_images/264/016.jpg"
+    ]
+  },
+  {
+    "cluster_id": 47,
+    "class_id": 264,
+    "split": "development",
+    "image_indices": [
+      478,
+      472,
+      467,
+      471,
+      468,
+      469,
+      470,
+      463,
+      479,
+      465
+    ],
+    "image_paths": [
+      "imagenet100_images/264/018.jpg",
+      "imagenet100_images/264/012.jpg",
+      "imagenet100_images/264/007.jpg",
+      "imagenet100_images/264/011.jpg",
+      "imagenet100_images/264/008.jpg",
+      "imagenet100_images/264/009.jpg",
+      "imagenet100_images/264/010.jpg",
+      "imagenet100_images/264/003.jpg",
+      "imagenet100_images/264/019.jpg",
+      "imagenet100_images/264/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 48,
+    "class_id": 267,
+    "split": "development",
+    "image_indices": [
+      497,
+      496,
+      488,
+      486,
+      492,
+      489,
+      499,
+      480,
+      483,
+      481
+    ],
+    "image_paths": [
+      "imagenet100_images/267/017.jpg",
+      "imagenet100_images/267/016.jpg",
+      "imagenet100_images/267/008.jpg",
+      "imagenet100_images/267/006.jpg",
+      "imagenet100_images/267/012.jpg",
+      "imagenet100_images/267/009.jpg",
+      "imagenet100_images/267/019.jpg",
+      "imagenet100_images/267/000.jpg",
+      "imagenet100_images/267/003.jpg",
+      "imagenet100_images/267/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 49,
+    "class_id": 267,
+    "split": "development",
+    "image_indices": [
+      487,
+      493,
+      484,
+      495,
+      482,
+      490,
+      498,
+      491,
+      485,
+      494
+    ],
+    "image_paths": [
+      "imagenet100_images/267/007.jpg",
+      "imagenet100_images/267/013.jpg",
+      "imagenet100_images/267/004.jpg",
+      "imagenet100_images/267/015.jpg",
+      "imagenet100_images/267/002.jpg",
+      "imagenet100_images/267/010.jpg",
+      "imagenet100_images/267/018.jpg",
+      "imagenet100_images/267/011.jpg",
+      "imagenet100_images/267/005.jpg",
+      "imagenet100_images/267/014.jpg"
+    ]
+  },
+  {
+    "cluster_id": 50,
+    "class_id": 270,
+    "split": "development",
+    "image_indices": [
+      507,
+      503,
+      516,
+      500,
+      514,
+      517,
+      510,
+      509,
+      501,
+      515
+    ],
+    "image_paths": [
+      "imagenet100_images/270/007.jpg",
+      "imagenet100_images/270/003.jpg",
+      "imagenet100_images/270/016.jpg",
+      "imagenet100_images/270/000.jpg",
+      "imagenet100_images/270/014.jpg",
+      "imagenet100_images/270/017.jpg",
+      "imagenet100_images/270/010.jpg",
+      "imagenet100_images/270/009.jpg",
+      "imagenet100_images/270/001.jpg",
+      "imagenet100_images/270/015.jpg"
+    ]
+  },
+  {
+    "cluster_id": 51,
+    "class_id": 270,
+    "split": "development",
+    "image_indices": [
+      513,
+      512,
+      502,
+      504,
+      511,
+      508,
+      506,
+      519,
+      518,
+      505
+    ],
+    "image_paths": [
+      "imagenet100_images/270/013.jpg",
+      "imagenet100_images/270/012.jpg",
+      "imagenet100_images/270/002.jpg",
+      "imagenet100_images/270/004.jpg",
+      "imagenet100_images/270/011.jpg",
+      "imagenet100_images/270/008.jpg",
+      "imagenet100_images/270/006.jpg",
+      "imagenet100_images/270/019.jpg",
+      "imagenet100_images/270/018.jpg",
+      "imagenet100_images/270/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 52,
+    "class_id": 272,
+    "split": "development",
+    "image_indices": [
+      521,
+      530,
+      527,
+      524,
+      534,
+      528,
+      531,
+      522,
+      539,
+      533
+    ],
+    "image_paths": [
+      "imagenet100_images/272/001.jpg",
+      "imagenet100_images/272/010.jpg",
+      "imagenet100_images/272/007.jpg",
+      "imagenet100_images/272/004.jpg",
+      "imagenet100_images/272/014.jpg",
+      "imagenet100_images/272/008.jpg",
+      "imagenet100_images/272/011.jpg",
+      "imagenet100_images/272/002.jpg",
+      "imagenet100_images/272/019.jpg",
+      "imagenet100_images/272/013.jpg"
+    ]
+  },
+  {
+    "cluster_id": 53,
+    "class_id": 272,
+    "split": "development",
+    "image_indices": [
+      538,
+      532,
+      526,
+      523,
+      529,
+      535,
+      536,
+      520,
+      525,
+      537
+    ],
+    "image_paths": [
+      "imagenet100_images/272/018.jpg",
+      "imagenet100_images/272/012.jpg",
+      "imagenet100_images/272/006.jpg",
+      "imagenet100_images/272/003.jpg",
+      "imagenet100_images/272/009.jpg",
+      "imagenet100_images/272/015.jpg",
+      "imagenet100_images/272/016.jpg",
+      "imagenet100_images/272/000.jpg",
+      "imagenet100_images/272/005.jpg",
+      "imagenet100_images/272/017.jpg"
+    ]
+  },
+  {
+    "cluster_id": 54,
+    "class_id": 279,
+    "split": "development",
+    "image_indices": [
+      553,
+      555,
+      543,
+      542,
+      544,
+      547,
+      540,
+      554,
+      552,
+      546
+    ],
+    "image_paths": [
+      "imagenet100_images/279/013.jpg",
+      "imagenet100_images/279/015.jpg",
+      "imagenet100_images/279/003.jpg",
+      "imagenet100_images/279/002.jpg",
+      "imagenet100_images/279/004.jpg",
+      "imagenet100_images/279/007.jpg",
+      "imagenet100_images/279/000.jpg",
+      "imagenet100_images/279/014.jpg",
+      "imagenet100_images/279/012.jpg",
+      "imagenet100_images/279/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 55,
+    "class_id": 279,
+    "split": "development",
+    "image_indices": [
+      549,
+      551,
+      550,
+      548,
+      557,
+      545,
+      558,
+      541,
+      556,
+      559
+    ],
+    "image_paths": [
+      "imagenet100_images/279/009.jpg",
+      "imagenet100_images/279/011.jpg",
+      "imagenet100_images/279/010.jpg",
+      "imagenet100_images/279/008.jpg",
+      "imagenet100_images/279/017.jpg",
+      "imagenet100_images/279/005.jpg",
+      "imagenet100_images/279/018.jpg",
+      "imagenet100_images/279/001.jpg",
+      "imagenet100_images/279/016.jpg",
+      "imagenet100_images/279/019.jpg"
+    ]
+  },
+  {
+    "cluster_id": 56,
+    "class_id": 295,
+    "split": "development",
+    "image_indices": [
+      561,
+      579,
+      567,
+      571,
+      570,
+      564,
+      578,
+      562,
+      574,
+      563
+    ],
+    "image_paths": [
+      "imagenet100_images/295/001.jpg",
+      "imagenet100_images/295/019.jpg",
+      "imagenet100_images/295/007.jpg",
+      "imagenet100_images/295/011.jpg",
+      "imagenet100_images/295/010.jpg",
+      "imagenet100_images/295/004.jpg",
+      "imagenet100_images/295/018.jpg",
+      "imagenet100_images/295/002.jpg",
+      "imagenet100_images/295/014.jpg",
+      "imagenet100_images/295/003.jpg"
+    ]
+  },
+  {
+    "cluster_id": 57,
+    "class_id": 295,
+    "split": "development",
+    "image_indices": [
+      560,
+      576,
+      573,
+      575,
+      565,
+      572,
+      569,
+      568,
+      577,
+      566
+    ],
+    "image_paths": [
+      "imagenet100_images/295/000.jpg",
+      "imagenet100_images/295/016.jpg",
+      "imagenet100_images/295/013.jpg",
+      "imagenet100_images/295/015.jpg",
+      "imagenet100_images/295/005.jpg",
+      "imagenet100_images/295/012.jpg",
+      "imagenet100_images/295/009.jpg",
+      "imagenet100_images/295/008.jpg",
+      "imagenet100_images/295/017.jpg",
+      "imagenet100_images/295/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 58,
+    "class_id": 298,
+    "split": "development",
+    "image_indices": [
+      596,
+      587,
+      586,
+      582,
+      580,
+      593,
+      591,
+      598,
+      584,
+      592
+    ],
+    "image_paths": [
+      "imagenet100_images/298/016.jpg",
+      "imagenet100_images/298/007.jpg",
+      "imagenet100_images/298/006.jpg",
+      "imagenet100_images/298/002.jpg",
+      "imagenet100_images/298/000.jpg",
+      "imagenet100_images/298/013.jpg",
+      "imagenet100_images/298/011.jpg",
+      "imagenet100_images/298/018.jpg",
+      "imagenet100_images/298/004.jpg",
+      "imagenet100_images/298/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 59,
+    "class_id": 298,
+    "split": "development",
+    "image_indices": [
+      589,
+      590,
+      599,
+      594,
+      585,
+      597,
+      583,
+      581,
+      595,
+      588
+    ],
+    "image_paths": [
+      "imagenet100_images/298/009.jpg",
+      "imagenet100_images/298/010.jpg",
+      "imagenet100_images/298/019.jpg",
+      "imagenet100_images/298/014.jpg",
+      "imagenet100_images/298/005.jpg",
+      "imagenet100_images/298/017.jpg",
+      "imagenet100_images/298/003.jpg",
+      "imagenet100_images/298/001.jpg",
+      "imagenet100_images/298/015.jpg",
+      "imagenet100_images/298/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 60,
+    "class_id": 299,
+    "split": "validation",
+    "image_indices": [
+      618,
+      608,
+      615,
+      605,
+      613,
+      611,
+      603,
+      609,
+      619,
+      606
+    ],
+    "image_paths": [
+      "imagenet100_images/299/018.jpg",
+      "imagenet100_images/299/008.jpg",
+      "imagenet100_images/299/015.jpg",
+      "imagenet100_images/299/005.jpg",
+      "imagenet100_images/299/013.jpg",
+      "imagenet100_images/299/011.jpg",
+      "imagenet100_images/299/003.jpg",
+      "imagenet100_images/299/009.jpg",
+      "imagenet100_images/299/019.jpg",
+      "imagenet100_images/299/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 61,
+    "class_id": 299,
+    "split": "validation",
+    "image_indices": [
+      616,
+      617,
+      602,
+      614,
+      604,
+      601,
+      600,
+      610,
+      612,
+      607
+    ],
+    "image_paths": [
+      "imagenet100_images/299/016.jpg",
+      "imagenet100_images/299/017.jpg",
+      "imagenet100_images/299/002.jpg",
+      "imagenet100_images/299/014.jpg",
+      "imagenet100_images/299/004.jpg",
+      "imagenet100_images/299/001.jpg",
+      "imagenet100_images/299/000.jpg",
+      "imagenet100_images/299/010.jpg",
+      "imagenet100_images/299/012.jpg",
+      "imagenet100_images/299/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 62,
+    "class_id": 306,
+    "split": "validation",
+    "image_indices": [
+      626,
+      623,
+      635,
+      630,
+      638,
+      625,
+      631,
+      634,
+      637,
+      624
+    ],
+    "image_paths": [
+      "imagenet100_images/306/006.jpg",
+      "imagenet100_images/306/003.jpg",
+      "imagenet100_images/306/015.jpg",
+      "imagenet100_images/306/010.jpg",
+      "imagenet100_images/306/018.jpg",
+      "imagenet100_images/306/005.jpg",
+      "imagenet100_images/306/011.jpg",
+      "imagenet100_images/306/014.jpg",
+      "imagenet100_images/306/017.jpg",
+      "imagenet100_images/306/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 63,
+    "class_id": 306,
+    "split": "validation",
+    "image_indices": [
+      621,
+      639,
+      620,
+      622,
+      633,
+      627,
+      632,
+      636,
+      628,
+      629
+    ],
+    "image_paths": [
+      "imagenet100_images/306/001.jpg",
+      "imagenet100_images/306/019.jpg",
+      "imagenet100_images/306/000.jpg",
+      "imagenet100_images/306/002.jpg",
+      "imagenet100_images/306/013.jpg",
+      "imagenet100_images/306/007.jpg",
+      "imagenet100_images/306/012.jpg",
+      "imagenet100_images/306/016.jpg",
+      "imagenet100_images/306/008.jpg",
+      "imagenet100_images/306/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 64,
+    "class_id": 310,
+    "split": "development",
+    "image_indices": [
+      659,
+      647,
+      642,
+      655,
+      643,
+      657,
+      648,
+      653,
+      654,
+      640
+    ],
+    "image_paths": [
+      "imagenet100_images/310/019.jpg",
+      "imagenet100_images/310/007.jpg",
+      "imagenet100_images/310/002.jpg",
+      "imagenet100_images/310/015.jpg",
+      "imagenet100_images/310/003.jpg",
+      "imagenet100_images/310/017.jpg",
+      "imagenet100_images/310/008.jpg",
+      "imagenet100_images/310/013.jpg",
+      "imagenet100_images/310/014.jpg",
+      "imagenet100_images/310/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 65,
+    "class_id": 310,
+    "split": "development",
+    "image_indices": [
+      651,
+      658,
+      646,
+      656,
+      649,
+      641,
+      652,
+      645,
+      650,
+      644
+    ],
+    "image_paths": [
+      "imagenet100_images/310/011.jpg",
+      "imagenet100_images/310/018.jpg",
+      "imagenet100_images/310/006.jpg",
+      "imagenet100_images/310/016.jpg",
+      "imagenet100_images/310/009.jpg",
+      "imagenet100_images/310/001.jpg",
+      "imagenet100_images/310/012.jpg",
+      "imagenet100_images/310/005.jpg",
+      "imagenet100_images/310/010.jpg",
+      "imagenet100_images/310/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 66,
+    "class_id": 311,
+    "split": "development",
+    "image_indices": [
+      667,
+      676,
+      662,
+      668,
+      664,
+      672,
+      669,
+      665,
+      678,
+      674
+    ],
+    "image_paths": [
+      "imagenet100_images/311/007.jpg",
+      "imagenet100_images/311/016.jpg",
+      "imagenet100_images/311/002.jpg",
+      "imagenet100_images/311/008.jpg",
+      "imagenet100_images/311/004.jpg",
+      "imagenet100_images/311/012.jpg",
+      "imagenet100_images/311/009.jpg",
+      "imagenet100_images/311/005.jpg",
+      "imagenet100_images/311/018.jpg",
+      "imagenet100_images/311/014.jpg"
+    ]
+  },
+  {
+    "cluster_id": 67,
+    "class_id": 311,
+    "split": "development",
+    "image_indices": [
+      671,
+      666,
+      675,
+      679,
+      660,
+      673,
+      677,
+      663,
+      670,
+      661
+    ],
+    "image_paths": [
+      "imagenet100_images/311/011.jpg",
+      "imagenet100_images/311/006.jpg",
+      "imagenet100_images/311/015.jpg",
+      "imagenet100_images/311/019.jpg",
+      "imagenet100_images/311/000.jpg",
+      "imagenet100_images/311/013.jpg",
+      "imagenet100_images/311/017.jpg",
+      "imagenet100_images/311/003.jpg",
+      "imagenet100_images/311/010.jpg",
+      "imagenet100_images/311/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 68,
+    "class_id": 316,
+    "split": "validation",
+    "image_indices": [
+      681,
+      685,
+      680,
+      689,
+      687,
+      697,
+      684,
+      691,
+      683,
+      688
+    ],
+    "image_paths": [
+      "imagenet100_images/316/001.jpg",
+      "imagenet100_images/316/005.jpg",
+      "imagenet100_images/316/000.jpg",
+      "imagenet100_images/316/009.jpg",
+      "imagenet100_images/316/007.jpg",
+      "imagenet100_images/316/017.jpg",
+      "imagenet100_images/316/004.jpg",
+      "imagenet100_images/316/011.jpg",
+      "imagenet100_images/316/003.jpg",
+      "imagenet100_images/316/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 69,
+    "class_id": 316,
+    "split": "validation",
+    "image_indices": [
+      695,
+      699,
+      696,
+      682,
+      692,
+      698,
+      693,
+      690,
+      694,
+      686
+    ],
+    "image_paths": [
+      "imagenet100_images/316/015.jpg",
+      "imagenet100_images/316/019.jpg",
+      "imagenet100_images/316/016.jpg",
+      "imagenet100_images/316/002.jpg",
+      "imagenet100_images/316/012.jpg",
+      "imagenet100_images/316/018.jpg",
+      "imagenet100_images/316/013.jpg",
+      "imagenet100_images/316/010.jpg",
+      "imagenet100_images/316/014.jpg",
+      "imagenet100_images/316/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 70,
+    "class_id": 319,
+    "split": "test",
+    "image_indices": [
+      716,
+      711,
+      707,
+      703,
+      712,
+      714,
+      715,
+      704,
+      708,
+      710
+    ],
+    "image_paths": [
+      "imagenet100_images/319/016.jpg",
+      "imagenet100_images/319/011.jpg",
+      "imagenet100_images/319/007.jpg",
+      "imagenet100_images/319/003.jpg",
+      "imagenet100_images/319/012.jpg",
+      "imagenet100_images/319/014.jpg",
+      "imagenet100_images/319/015.jpg",
+      "imagenet100_images/319/004.jpg",
+      "imagenet100_images/319/008.jpg",
+      "imagenet100_images/319/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 71,
+    "class_id": 319,
+    "split": "test",
+    "image_indices": [
+      705,
+      702,
+      719,
+      713,
+      709,
+      718,
+      717,
+      700,
+      706,
+      701
+    ],
+    "image_paths": [
+      "imagenet100_images/319/005.jpg",
+      "imagenet100_images/319/002.jpg",
+      "imagenet100_images/319/019.jpg",
+      "imagenet100_images/319/013.jpg",
+      "imagenet100_images/319/009.jpg",
+      "imagenet100_images/319/018.jpg",
+      "imagenet100_images/319/017.jpg",
+      "imagenet100_images/319/000.jpg",
+      "imagenet100_images/319/006.jpg",
+      "imagenet100_images/319/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 72,
+    "class_id": 331,
+    "split": "test",
+    "image_indices": [
+      733,
+      725,
+      727,
+      726,
+      728,
+      737,
+      720,
+      738,
+      736,
+      731
+    ],
+    "image_paths": [
+      "imagenet100_images/331/013.jpg",
+      "imagenet100_images/331/005.jpg",
+      "imagenet100_images/331/007.jpg",
+      "imagenet100_images/331/006.jpg",
+      "imagenet100_images/331/008.jpg",
+      "imagenet100_images/331/017.jpg",
+      "imagenet100_images/331/000.jpg",
+      "imagenet100_images/331/018.jpg",
+      "imagenet100_images/331/016.jpg",
+      "imagenet100_images/331/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 73,
+    "class_id": 331,
+    "split": "test",
+    "image_indices": [
+      739,
+      722,
+      724,
+      730,
+      721,
+      729,
+      732,
+      723,
+      734,
+      735
+    ],
+    "image_paths": [
+      "imagenet100_images/331/019.jpg",
+      "imagenet100_images/331/002.jpg",
+      "imagenet100_images/331/004.jpg",
+      "imagenet100_images/331/010.jpg",
+      "imagenet100_images/331/001.jpg",
+      "imagenet100_images/331/009.jpg",
+      "imagenet100_images/331/012.jpg",
+      "imagenet100_images/331/003.jpg",
+      "imagenet100_images/331/014.jpg",
+      "imagenet100_images/331/015.jpg"
+    ]
+  },
+  {
+    "cluster_id": 74,
+    "class_id": 366,
+    "split": "development",
+    "image_indices": [
+      745,
+      759,
+      751,
+      741,
+      757,
+      749,
+      742,
+      753,
+      756,
+      754
+    ],
+    "image_paths": [
+      "imagenet100_images/366/005.jpg",
+      "imagenet100_images/366/019.jpg",
+      "imagenet100_images/366/011.jpg",
+      "imagenet100_images/366/001.jpg",
+      "imagenet100_images/366/017.jpg",
+      "imagenet100_images/366/009.jpg",
+      "imagenet100_images/366/002.jpg",
+      "imagenet100_images/366/013.jpg",
+      "imagenet100_images/366/016.jpg",
+      "imagenet100_images/366/014.jpg"
+    ]
+  },
+  {
+    "cluster_id": 75,
+    "class_id": 366,
+    "split": "development",
+    "image_indices": [
+      740,
+      747,
+      746,
+      750,
+      755,
+      758,
+      748,
+      743,
+      752,
+      744
+    ],
+    "image_paths": [
+      "imagenet100_images/366/000.jpg",
+      "imagenet100_images/366/007.jpg",
+      "imagenet100_images/366/006.jpg",
+      "imagenet100_images/366/010.jpg",
+      "imagenet100_images/366/015.jpg",
+      "imagenet100_images/366/018.jpg",
+      "imagenet100_images/366/008.jpg",
+      "imagenet100_images/366/003.jpg",
+      "imagenet100_images/366/012.jpg",
+      "imagenet100_images/366/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 76,
+    "class_id": 367,
+    "split": "development",
+    "image_indices": [
+      777,
+      774,
+      766,
+      763,
+      772,
+      775,
+      767,
+      768,
+      771,
+      769
+    ],
+    "image_paths": [
+      "imagenet100_images/367/017.jpg",
+      "imagenet100_images/367/014.jpg",
+      "imagenet100_images/367/006.jpg",
+      "imagenet100_images/367/003.jpg",
+      "imagenet100_images/367/012.jpg",
+      "imagenet100_images/367/015.jpg",
+      "imagenet100_images/367/007.jpg",
+      "imagenet100_images/367/008.jpg",
+      "imagenet100_images/367/011.jpg",
+      "imagenet100_images/367/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 77,
+    "class_id": 367,
+    "split": "development",
+    "image_indices": [
+      779,
+      773,
+      770,
+      760,
+      776,
+      764,
+      762,
+      761,
+      765,
+      778
+    ],
+    "image_paths": [
+      "imagenet100_images/367/019.jpg",
+      "imagenet100_images/367/013.jpg",
+      "imagenet100_images/367/010.jpg",
+      "imagenet100_images/367/000.jpg",
+      "imagenet100_images/367/016.jpg",
+      "imagenet100_images/367/004.jpg",
+      "imagenet100_images/367/002.jpg",
+      "imagenet100_images/367/001.jpg",
+      "imagenet100_images/367/005.jpg",
+      "imagenet100_images/367/018.jpg"
+    ]
+  },
+  {
+    "cluster_id": 78,
+    "class_id": 386,
+    "split": "development",
+    "image_indices": [
+      796,
+      785,
+      780,
+      795,
+      782,
+      783,
+      791,
+      784,
+      789,
+      781
+    ],
+    "image_paths": [
+      "imagenet100_images/386/016.jpg",
+      "imagenet100_images/386/005.jpg",
+      "imagenet100_images/386/000.jpg",
+      "imagenet100_images/386/015.jpg",
+      "imagenet100_images/386/002.jpg",
+      "imagenet100_images/386/003.jpg",
+      "imagenet100_images/386/011.jpg",
+      "imagenet100_images/386/004.jpg",
+      "imagenet100_images/386/009.jpg",
+      "imagenet100_images/386/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 79,
+    "class_id": 386,
+    "split": "development",
+    "image_indices": [
+      787,
+      799,
+      793,
+      798,
+      788,
+      792,
+      786,
+      797,
+      790,
+      794
+    ],
+    "image_paths": [
+      "imagenet100_images/386/007.jpg",
+      "imagenet100_images/386/019.jpg",
+      "imagenet100_images/386/013.jpg",
+      "imagenet100_images/386/018.jpg",
+      "imagenet100_images/386/008.jpg",
+      "imagenet100_images/386/012.jpg",
+      "imagenet100_images/386/006.jpg",
+      "imagenet100_images/386/017.jpg",
+      "imagenet100_images/386/010.jpg",
+      "imagenet100_images/386/014.jpg"
+    ]
+  },
+  {
+    "cluster_id": 80,
+    "class_id": 389,
+    "split": "development",
+    "image_indices": [
+      818,
+      808,
+      816,
+      811,
+      801,
+      819,
+      802,
+      815,
+      804,
+      806
+    ],
+    "image_paths": [
+      "imagenet100_images/389/018.jpg",
+      "imagenet100_images/389/008.jpg",
+      "imagenet100_images/389/016.jpg",
+      "imagenet100_images/389/011.jpg",
+      "imagenet100_images/389/001.jpg",
+      "imagenet100_images/389/019.jpg",
+      "imagenet100_images/389/002.jpg",
+      "imagenet100_images/389/015.jpg",
+      "imagenet100_images/389/004.jpg",
+      "imagenet100_images/389/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 81,
+    "class_id": 389,
+    "split": "development",
+    "image_indices": [
+      805,
+      807,
+      809,
+      814,
+      812,
+      803,
+      813,
+      810,
+      817,
+      800
+    ],
+    "image_paths": [
+      "imagenet100_images/389/005.jpg",
+      "imagenet100_images/389/007.jpg",
+      "imagenet100_images/389/009.jpg",
+      "imagenet100_images/389/014.jpg",
+      "imagenet100_images/389/012.jpg",
+      "imagenet100_images/389/003.jpg",
+      "imagenet100_images/389/013.jpg",
+      "imagenet100_images/389/010.jpg",
+      "imagenet100_images/389/017.jpg",
+      "imagenet100_images/389/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 82,
+    "class_id": 408,
+    "split": "test",
+    "image_indices": [
+      821,
+      838,
+      833,
+      835,
+      825,
+      832,
+      834,
+      828,
+      826,
+      822
+    ],
+    "image_paths": [
+      "imagenet100_images/408/001.jpg",
+      "imagenet100_images/408/018.jpg",
+      "imagenet100_images/408/013.jpg",
+      "imagenet100_images/408/015.jpg",
+      "imagenet100_images/408/005.jpg",
+      "imagenet100_images/408/012.jpg",
+      "imagenet100_images/408/014.jpg",
+      "imagenet100_images/408/008.jpg",
+      "imagenet100_images/408/006.jpg",
+      "imagenet100_images/408/002.jpg"
+    ]
+  },
+  {
+    "cluster_id": 83,
+    "class_id": 408,
+    "split": "test",
+    "image_indices": [
+      820,
+      831,
+      836,
+      829,
+      824,
+      830,
+      827,
+      823,
+      839,
+      837
+    ],
+    "image_paths": [
+      "imagenet100_images/408/000.jpg",
+      "imagenet100_images/408/011.jpg",
+      "imagenet100_images/408/016.jpg",
+      "imagenet100_images/408/009.jpg",
+      "imagenet100_images/408/004.jpg",
+      "imagenet100_images/408/010.jpg",
+      "imagenet100_images/408/007.jpg",
+      "imagenet100_images/408/003.jpg",
+      "imagenet100_images/408/019.jpg",
+      "imagenet100_images/408/017.jpg"
+    ]
+  },
+  {
+    "cluster_id": 84,
+    "class_id": 412,
+    "split": "development",
+    "image_indices": [
+      850,
+      844,
+      847,
+      855,
+      841,
+      857,
+      846,
+      842,
+      856,
+      852
+    ],
+    "image_paths": [
+      "imagenet100_images/412/010.jpg",
+      "imagenet100_images/412/004.jpg",
+      "imagenet100_images/412/007.jpg",
+      "imagenet100_images/412/015.jpg",
+      "imagenet100_images/412/001.jpg",
+      "imagenet100_images/412/017.jpg",
+      "imagenet100_images/412/006.jpg",
+      "imagenet100_images/412/002.jpg",
+      "imagenet100_images/412/016.jpg",
+      "imagenet100_images/412/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 85,
+    "class_id": 412,
+    "split": "development",
+    "image_indices": [
+      845,
+      854,
+      843,
+      849,
+      858,
+      851,
+      848,
+      859,
+      853,
+      840
+    ],
+    "image_paths": [
+      "imagenet100_images/412/005.jpg",
+      "imagenet100_images/412/014.jpg",
+      "imagenet100_images/412/003.jpg",
+      "imagenet100_images/412/009.jpg",
+      "imagenet100_images/412/018.jpg",
+      "imagenet100_images/412/011.jpg",
+      "imagenet100_images/412/008.jpg",
+      "imagenet100_images/412/019.jpg",
+      "imagenet100_images/412/013.jpg",
+      "imagenet100_images/412/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 86,
+    "class_id": 413,
+    "split": "development",
+    "image_indices": [
+      863,
+      869,
+      873,
+      870,
+      862,
+      877,
+      878,
+      861,
+      864,
+      872
+    ],
+    "image_paths": [
+      "imagenet100_images/413/003.jpg",
+      "imagenet100_images/413/009.jpg",
+      "imagenet100_images/413/013.jpg",
+      "imagenet100_images/413/010.jpg",
+      "imagenet100_images/413/002.jpg",
+      "imagenet100_images/413/017.jpg",
+      "imagenet100_images/413/018.jpg",
+      "imagenet100_images/413/001.jpg",
+      "imagenet100_images/413/004.jpg",
+      "imagenet100_images/413/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 87,
+    "class_id": 413,
+    "split": "development",
+    "image_indices": [
+      879,
+      874,
+      867,
+      875,
+      868,
+      866,
+      860,
+      865,
+      876,
+      871
+    ],
+    "image_paths": [
+      "imagenet100_images/413/019.jpg",
+      "imagenet100_images/413/014.jpg",
+      "imagenet100_images/413/007.jpg",
+      "imagenet100_images/413/015.jpg",
+      "imagenet100_images/413/008.jpg",
+      "imagenet100_images/413/006.jpg",
+      "imagenet100_images/413/000.jpg",
+      "imagenet100_images/413/005.jpg",
+      "imagenet100_images/413/016.jpg",
+      "imagenet100_images/413/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 88,
+    "class_id": 432,
+    "split": "validation",
+    "image_indices": [
+      898,
+      896,
+      880,
+      892,
+      889,
+      886,
+      899,
+      895,
+      887,
+      885
+    ],
+    "image_paths": [
+      "imagenet100_images/432/018.jpg",
+      "imagenet100_images/432/016.jpg",
+      "imagenet100_images/432/000.jpg",
+      "imagenet100_images/432/012.jpg",
+      "imagenet100_images/432/009.jpg",
+      "imagenet100_images/432/006.jpg",
+      "imagenet100_images/432/019.jpg",
+      "imagenet100_images/432/015.jpg",
+      "imagenet100_images/432/007.jpg",
+      "imagenet100_images/432/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 89,
+    "class_id": 432,
+    "split": "validation",
+    "image_indices": [
+      893,
+      894,
+      888,
+      884,
+      891,
+      881,
+      897,
+      882,
+      883,
+      890
+    ],
+    "image_paths": [
+      "imagenet100_images/432/013.jpg",
+      "imagenet100_images/432/014.jpg",
+      "imagenet100_images/432/008.jpg",
+      "imagenet100_images/432/004.jpg",
+      "imagenet100_images/432/011.jpg",
+      "imagenet100_images/432/001.jpg",
+      "imagenet100_images/432/017.jpg",
+      "imagenet100_images/432/002.jpg",
+      "imagenet100_images/432/003.jpg",
+      "imagenet100_images/432/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 90,
+    "class_id": 452,
+    "split": "development",
+    "image_indices": [
+      918,
+      907,
+      900,
+      915,
+      919,
+      904,
+      903,
+      901,
+      912,
+      908
+    ],
+    "image_paths": [
+      "imagenet100_images/452/018.jpg",
+      "imagenet100_images/452/007.jpg",
+      "imagenet100_images/452/000.jpg",
+      "imagenet100_images/452/015.jpg",
+      "imagenet100_images/452/019.jpg",
+      "imagenet100_images/452/004.jpg",
+      "imagenet100_images/452/003.jpg",
+      "imagenet100_images/452/001.jpg",
+      "imagenet100_images/452/012.jpg",
+      "imagenet100_images/452/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 91,
+    "class_id": 452,
+    "split": "development",
+    "image_indices": [
+      910,
+      916,
+      913,
+      911,
+      914,
+      905,
+      902,
+      906,
+      917,
+      909
+    ],
+    "image_paths": [
+      "imagenet100_images/452/010.jpg",
+      "imagenet100_images/452/016.jpg",
+      "imagenet100_images/452/013.jpg",
+      "imagenet100_images/452/011.jpg",
+      "imagenet100_images/452/014.jpg",
+      "imagenet100_images/452/005.jpg",
+      "imagenet100_images/452/002.jpg",
+      "imagenet100_images/452/006.jpg",
+      "imagenet100_images/452/017.jpg",
+      "imagenet100_images/452/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 92,
+    "class_id": 456,
+    "split": "development",
+    "image_indices": [
+      920,
+      936,
+      935,
+      932,
+      927,
+      933,
+      929,
+      922,
+      938,
+      925
+    ],
+    "image_paths": [
+      "imagenet100_images/456/000.jpg",
+      "imagenet100_images/456/016.jpg",
+      "imagenet100_images/456/015.jpg",
+      "imagenet100_images/456/012.jpg",
+      "imagenet100_images/456/007.jpg",
+      "imagenet100_images/456/013.jpg",
+      "imagenet100_images/456/009.jpg",
+      "imagenet100_images/456/002.jpg",
+      "imagenet100_images/456/018.jpg",
+      "imagenet100_images/456/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 93,
+    "class_id": 456,
+    "split": "development",
+    "image_indices": [
+      939,
+      921,
+      923,
+      931,
+      934,
+      924,
+      930,
+      937,
+      926,
+      928
+    ],
+    "image_paths": [
+      "imagenet100_images/456/019.jpg",
+      "imagenet100_images/456/001.jpg",
+      "imagenet100_images/456/003.jpg",
+      "imagenet100_images/456/011.jpg",
+      "imagenet100_images/456/014.jpg",
+      "imagenet100_images/456/004.jpg",
+      "imagenet100_images/456/010.jpg",
+      "imagenet100_images/456/017.jpg",
+      "imagenet100_images/456/006.jpg",
+      "imagenet100_images/456/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 94,
+    "class_id": 481,
+    "split": "test",
+    "image_indices": [
+      946,
+      948,
+      951,
+      953,
+      952,
+      945,
+      949,
+      947,
+      958,
+      941
+    ],
+    "image_paths": [
+      "imagenet100_images/481/006.jpg",
+      "imagenet100_images/481/008.jpg",
+      "imagenet100_images/481/011.jpg",
+      "imagenet100_images/481/013.jpg",
+      "imagenet100_images/481/012.jpg",
+      "imagenet100_images/481/005.jpg",
+      "imagenet100_images/481/009.jpg",
+      "imagenet100_images/481/007.jpg",
+      "imagenet100_images/481/018.jpg",
+      "imagenet100_images/481/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 95,
+    "class_id": 481,
+    "split": "test",
+    "image_indices": [
+      943,
+      959,
+      944,
+      942,
+      955,
+      954,
+      957,
+      950,
+      940,
+      956
+    ],
+    "image_paths": [
+      "imagenet100_images/481/003.jpg",
+      "imagenet100_images/481/019.jpg",
+      "imagenet100_images/481/004.jpg",
+      "imagenet100_images/481/002.jpg",
+      "imagenet100_images/481/015.jpg",
+      "imagenet100_images/481/014.jpg",
+      "imagenet100_images/481/017.jpg",
+      "imagenet100_images/481/010.jpg",
+      "imagenet100_images/481/000.jpg",
+      "imagenet100_images/481/016.jpg"
+    ]
+  },
+  {
+    "cluster_id": 96,
+    "class_id": 485,
+    "split": "validation",
+    "image_indices": [
+      969,
+      965,
+      976,
+      973,
+      962,
+      975,
+      966,
+      960,
+      974,
+      972
+    ],
+    "image_paths": [
+      "imagenet100_images/485/009.jpg",
+      "imagenet100_images/485/005.jpg",
+      "imagenet100_images/485/016.jpg",
+      "imagenet100_images/485/013.jpg",
+      "imagenet100_images/485/002.jpg",
+      "imagenet100_images/485/015.jpg",
+      "imagenet100_images/485/006.jpg",
+      "imagenet100_images/485/000.jpg",
+      "imagenet100_images/485/014.jpg",
+      "imagenet100_images/485/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 97,
+    "class_id": 485,
+    "split": "validation",
+    "image_indices": [
+      963,
+      961,
+      977,
+      967,
+      978,
+      964,
+      979,
+      970,
+      968,
+      971
+    ],
+    "image_paths": [
+      "imagenet100_images/485/003.jpg",
+      "imagenet100_images/485/001.jpg",
+      "imagenet100_images/485/017.jpg",
+      "imagenet100_images/485/007.jpg",
+      "imagenet100_images/485/018.jpg",
+      "imagenet100_images/485/004.jpg",
+      "imagenet100_images/485/019.jpg",
+      "imagenet100_images/485/010.jpg",
+      "imagenet100_images/485/008.jpg",
+      "imagenet100_images/485/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 98,
+    "class_id": 494,
+    "split": "test",
+    "image_indices": [
+      983,
+      989,
+      991,
+      981,
+      984,
+      988,
+      982,
+      993,
+      985,
+      992
+    ],
+    "image_paths": [
+      "imagenet100_images/494/003.jpg",
+      "imagenet100_images/494/009.jpg",
+      "imagenet100_images/494/011.jpg",
+      "imagenet100_images/494/001.jpg",
+      "imagenet100_images/494/004.jpg",
+      "imagenet100_images/494/008.jpg",
+      "imagenet100_images/494/002.jpg",
+      "imagenet100_images/494/013.jpg",
+      "imagenet100_images/494/005.jpg",
+      "imagenet100_images/494/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 99,
+    "class_id": 494,
+    "split": "test",
+    "image_indices": [
+      996,
+      986,
+      990,
+      987,
+      994,
+      998,
+      995,
+      999,
+      997,
+      980
+    ],
+    "image_paths": [
+      "imagenet100_images/494/016.jpg",
+      "imagenet100_images/494/006.jpg",
+      "imagenet100_images/494/010.jpg",
+      "imagenet100_images/494/007.jpg",
+      "imagenet100_images/494/014.jpg",
+      "imagenet100_images/494/018.jpg",
+      "imagenet100_images/494/015.jpg",
+      "imagenet100_images/494/019.jpg",
+      "imagenet100_images/494/017.jpg",
+      "imagenet100_images/494/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 100,
+    "class_id": 496,
+    "split": "development",
+    "image_indices": [
+      1003,
+      1005,
+      1011,
+      1013,
+      1019,
+      1004,
+      1010,
+      1017,
+      1002,
+      1008
+    ],
+    "image_paths": [
+      "imagenet100_images/496/003.jpg",
+      "imagenet100_images/496/005.jpg",
+      "imagenet100_images/496/011.jpg",
+      "imagenet100_images/496/013.jpg",
+      "imagenet100_images/496/019.jpg",
+      "imagenet100_images/496/004.jpg",
+      "imagenet100_images/496/010.jpg",
+      "imagenet100_images/496/017.jpg",
+      "imagenet100_images/496/002.jpg",
+      "imagenet100_images/496/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 101,
+    "class_id": 496,
+    "split": "development",
+    "image_indices": [
+      1012,
+      1018,
+      1001,
+      1014,
+      1007,
+      1009,
+      1006,
+      1000,
+      1015,
+      1016
+    ],
+    "image_paths": [
+      "imagenet100_images/496/012.jpg",
+      "imagenet100_images/496/018.jpg",
+      "imagenet100_images/496/001.jpg",
+      "imagenet100_images/496/014.jpg",
+      "imagenet100_images/496/007.jpg",
+      "imagenet100_images/496/009.jpg",
+      "imagenet100_images/496/006.jpg",
+      "imagenet100_images/496/000.jpg",
+      "imagenet100_images/496/015.jpg",
+      "imagenet100_images/496/016.jpg"
+    ]
+  },
+  {
+    "cluster_id": 102,
+    "class_id": 497,
+    "split": "development",
+    "image_indices": [
+      1020,
+      1036,
+      1029,
+      1024,
+      1032,
+      1025,
+      1030,
+      1026,
+      1038,
+      1031
+    ],
+    "image_paths": [
+      "imagenet100_images/497/000.jpg",
+      "imagenet100_images/497/016.jpg",
+      "imagenet100_images/497/009.jpg",
+      "imagenet100_images/497/004.jpg",
+      "imagenet100_images/497/012.jpg",
+      "imagenet100_images/497/005.jpg",
+      "imagenet100_images/497/010.jpg",
+      "imagenet100_images/497/006.jpg",
+      "imagenet100_images/497/018.jpg",
+      "imagenet100_images/497/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 103,
+    "class_id": 497,
+    "split": "development",
+    "image_indices": [
+      1028,
+      1034,
+      1027,
+      1039,
+      1033,
+      1022,
+      1037,
+      1021,
+      1035,
+      1023
+    ],
+    "image_paths": [
+      "imagenet100_images/497/008.jpg",
+      "imagenet100_images/497/014.jpg",
+      "imagenet100_images/497/007.jpg",
+      "imagenet100_images/497/019.jpg",
+      "imagenet100_images/497/013.jpg",
+      "imagenet100_images/497/002.jpg",
+      "imagenet100_images/497/017.jpg",
+      "imagenet100_images/497/001.jpg",
+      "imagenet100_images/497/015.jpg",
+      "imagenet100_images/497/003.jpg"
+    ]
+  },
+  {
+    "cluster_id": 104,
+    "class_id": 501,
+    "split": "development",
+    "image_indices": [
+      1050,
+      1054,
+      1044,
+      1045,
+      1051,
+      1042,
+      1053,
+      1055,
+      1059,
+      1041
+    ],
+    "image_paths": [
+      "imagenet100_images/501/010.jpg",
+      "imagenet100_images/501/014.jpg",
+      "imagenet100_images/501/004.jpg",
+      "imagenet100_images/501/005.jpg",
+      "imagenet100_images/501/011.jpg",
+      "imagenet100_images/501/002.jpg",
+      "imagenet100_images/501/013.jpg",
+      "imagenet100_images/501/015.jpg",
+      "imagenet100_images/501/019.jpg",
+      "imagenet100_images/501/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 105,
+    "class_id": 501,
+    "split": "development",
+    "image_indices": [
+      1040,
+      1046,
+      1058,
+      1057,
+      1056,
+      1048,
+      1047,
+      1043,
+      1052,
+      1049
+    ],
+    "image_paths": [
+      "imagenet100_images/501/000.jpg",
+      "imagenet100_images/501/006.jpg",
+      "imagenet100_images/501/018.jpg",
+      "imagenet100_images/501/017.jpg",
+      "imagenet100_images/501/016.jpg",
+      "imagenet100_images/501/008.jpg",
+      "imagenet100_images/501/007.jpg",
+      "imagenet100_images/501/003.jpg",
+      "imagenet100_images/501/012.jpg",
+      "imagenet100_images/501/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 106,
+    "class_id": 531,
+    "split": "test",
+    "image_indices": [
+      1078,
+      1065,
+      1069,
+      1061,
+      1076,
+      1072,
+      1071,
+      1060,
+      1064,
+      1062
+    ],
+    "image_paths": [
+      "imagenet100_images/531/018.jpg",
+      "imagenet100_images/531/005.jpg",
+      "imagenet100_images/531/009.jpg",
+      "imagenet100_images/531/001.jpg",
+      "imagenet100_images/531/016.jpg",
+      "imagenet100_images/531/012.jpg",
+      "imagenet100_images/531/011.jpg",
+      "imagenet100_images/531/000.jpg",
+      "imagenet100_images/531/004.jpg",
+      "imagenet100_images/531/002.jpg"
+    ]
+  },
+  {
+    "cluster_id": 107,
+    "class_id": 531,
+    "split": "test",
+    "image_indices": [
+      1066,
+      1063,
+      1074,
+      1075,
+      1068,
+      1067,
+      1079,
+      1073,
+      1077,
+      1070
+    ],
+    "image_paths": [
+      "imagenet100_images/531/006.jpg",
+      "imagenet100_images/531/003.jpg",
+      "imagenet100_images/531/014.jpg",
+      "imagenet100_images/531/015.jpg",
+      "imagenet100_images/531/008.jpg",
+      "imagenet100_images/531/007.jpg",
+      "imagenet100_images/531/019.jpg",
+      "imagenet100_images/531/013.jpg",
+      "imagenet100_images/531/017.jpg",
+      "imagenet100_images/531/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 108,
+    "class_id": 553,
+    "split": "validation",
+    "image_indices": [
+      1091,
+      1090,
+      1088,
+      1089,
+      1087,
+      1093,
+      1098,
+      1085,
+      1096,
+      1092
+    ],
+    "image_paths": [
+      "imagenet100_images/553/011.jpg",
+      "imagenet100_images/553/010.jpg",
+      "imagenet100_images/553/008.jpg",
+      "imagenet100_images/553/009.jpg",
+      "imagenet100_images/553/007.jpg",
+      "imagenet100_images/553/013.jpg",
+      "imagenet100_images/553/018.jpg",
+      "imagenet100_images/553/005.jpg",
+      "imagenet100_images/553/016.jpg",
+      "imagenet100_images/553/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 109,
+    "class_id": 553,
+    "split": "validation",
+    "image_indices": [
+      1081,
+      1084,
+      1082,
+      1099,
+      1095,
+      1086,
+      1080,
+      1094,
+      1083,
+      1097
+    ],
+    "image_paths": [
+      "imagenet100_images/553/001.jpg",
+      "imagenet100_images/553/004.jpg",
+      "imagenet100_images/553/002.jpg",
+      "imagenet100_images/553/019.jpg",
+      "imagenet100_images/553/015.jpg",
+      "imagenet100_images/553/006.jpg",
+      "imagenet100_images/553/000.jpg",
+      "imagenet100_images/553/014.jpg",
+      "imagenet100_images/553/003.jpg",
+      "imagenet100_images/553/017.jpg"
+    ]
+  },
+  {
+    "cluster_id": 110,
+    "class_id": 558,
+    "split": "validation",
+    "image_indices": [
+      1110,
+      1114,
+      1116,
+      1100,
+      1105,
+      1106,
+      1102,
+      1109,
+      1117,
+      1113
+    ],
+    "image_paths": [
+      "imagenet100_images/558/010.jpg",
+      "imagenet100_images/558/014.jpg",
+      "imagenet100_images/558/016.jpg",
+      "imagenet100_images/558/000.jpg",
+      "imagenet100_images/558/005.jpg",
+      "imagenet100_images/558/006.jpg",
+      "imagenet100_images/558/002.jpg",
+      "imagenet100_images/558/009.jpg",
+      "imagenet100_images/558/017.jpg",
+      "imagenet100_images/558/013.jpg"
+    ]
+  },
+  {
+    "cluster_id": 111,
+    "class_id": 558,
+    "split": "validation",
+    "image_indices": [
+      1108,
+      1112,
+      1118,
+      1104,
+      1107,
+      1119,
+      1101,
+      1111,
+      1103,
+      1115
+    ],
+    "image_paths": [
+      "imagenet100_images/558/008.jpg",
+      "imagenet100_images/558/012.jpg",
+      "imagenet100_images/558/018.jpg",
+      "imagenet100_images/558/004.jpg",
+      "imagenet100_images/558/007.jpg",
+      "imagenet100_images/558/019.jpg",
+      "imagenet100_images/558/001.jpg",
+      "imagenet100_images/558/011.jpg",
+      "imagenet100_images/558/003.jpg",
+      "imagenet100_images/558/015.jpg"
+    ]
+  },
+  {
+    "cluster_id": 112,
+    "class_id": 568,
+    "split": "development",
+    "image_indices": [
+      1122,
+      1125,
+      1129,
+      1139,
+      1131,
+      1135,
+      1121,
+      1136,
+      1133,
+      1126
+    ],
+    "image_paths": [
+      "imagenet100_images/568/002.jpg",
+      "imagenet100_images/568/005.jpg",
+      "imagenet100_images/568/009.jpg",
+      "imagenet100_images/568/019.jpg",
+      "imagenet100_images/568/011.jpg",
+      "imagenet100_images/568/015.jpg",
+      "imagenet100_images/568/001.jpg",
+      "imagenet100_images/568/016.jpg",
+      "imagenet100_images/568/013.jpg",
+      "imagenet100_images/568/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 113,
+    "class_id": 568,
+    "split": "development",
+    "image_indices": [
+      1123,
+      1132,
+      1124,
+      1128,
+      1137,
+      1134,
+      1130,
+      1120,
+      1138,
+      1127
+    ],
+    "image_paths": [
+      "imagenet100_images/568/003.jpg",
+      "imagenet100_images/568/012.jpg",
+      "imagenet100_images/568/004.jpg",
+      "imagenet100_images/568/008.jpg",
+      "imagenet100_images/568/017.jpg",
+      "imagenet100_images/568/014.jpg",
+      "imagenet100_images/568/010.jpg",
+      "imagenet100_images/568/000.jpg",
+      "imagenet100_images/568/018.jpg",
+      "imagenet100_images/568/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 114,
+    "class_id": 569,
+    "split": "development",
+    "image_indices": [
+      1159,
+      1158,
+      1144,
+      1148,
+      1156,
+      1150,
+      1149,
+      1146,
+      1140,
+      1145
+    ],
+    "image_paths": [
+      "imagenet100_images/569/019.jpg",
+      "imagenet100_images/569/018.jpg",
+      "imagenet100_images/569/004.jpg",
+      "imagenet100_images/569/008.jpg",
+      "imagenet100_images/569/016.jpg",
+      "imagenet100_images/569/010.jpg",
+      "imagenet100_images/569/009.jpg",
+      "imagenet100_images/569/006.jpg",
+      "imagenet100_images/569/000.jpg",
+      "imagenet100_images/569/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 115,
+    "class_id": 569,
+    "split": "development",
+    "image_indices": [
+      1155,
+      1154,
+      1141,
+      1147,
+      1142,
+      1152,
+      1157,
+      1153,
+      1151,
+      1143
+    ],
+    "image_paths": [
+      "imagenet100_images/569/015.jpg",
+      "imagenet100_images/569/014.jpg",
+      "imagenet100_images/569/001.jpg",
+      "imagenet100_images/569/007.jpg",
+      "imagenet100_images/569/002.jpg",
+      "imagenet100_images/569/012.jpg",
+      "imagenet100_images/569/017.jpg",
+      "imagenet100_images/569/013.jpg",
+      "imagenet100_images/569/011.jpg",
+      "imagenet100_images/569/003.jpg"
+    ]
+  },
+  {
+    "cluster_id": 116,
+    "class_id": 576,
+    "split": "validation",
+    "image_indices": [
+      1165,
+      1160,
+      1164,
+      1177,
+      1178,
+      1168,
+      1170,
+      1174,
+      1179,
+      1167
+    ],
+    "image_paths": [
+      "imagenet100_images/576/005.jpg",
+      "imagenet100_images/576/000.jpg",
+      "imagenet100_images/576/004.jpg",
+      "imagenet100_images/576/017.jpg",
+      "imagenet100_images/576/018.jpg",
+      "imagenet100_images/576/008.jpg",
+      "imagenet100_images/576/010.jpg",
+      "imagenet100_images/576/014.jpg",
+      "imagenet100_images/576/019.jpg",
+      "imagenet100_images/576/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 117,
+    "class_id": 576,
+    "split": "validation",
+    "image_indices": [
+      1173,
+      1166,
+      1175,
+      1161,
+      1172,
+      1176,
+      1171,
+      1163,
+      1162,
+      1169
+    ],
+    "image_paths": [
+      "imagenet100_images/576/013.jpg",
+      "imagenet100_images/576/006.jpg",
+      "imagenet100_images/576/015.jpg",
+      "imagenet100_images/576/001.jpg",
+      "imagenet100_images/576/012.jpg",
+      "imagenet100_images/576/016.jpg",
+      "imagenet100_images/576/011.jpg",
+      "imagenet100_images/576/003.jpg",
+      "imagenet100_images/576/002.jpg",
+      "imagenet100_images/576/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 118,
+    "class_id": 578,
+    "split": "development",
+    "image_indices": [
+      1198,
+      1182,
+      1186,
+      1187,
+      1183,
+      1193,
+      1181,
+      1194,
+      1196,
+      1184
+    ],
+    "image_paths": [
+      "imagenet100_images/578/018.jpg",
+      "imagenet100_images/578/002.jpg",
+      "imagenet100_images/578/006.jpg",
+      "imagenet100_images/578/007.jpg",
+      "imagenet100_images/578/003.jpg",
+      "imagenet100_images/578/013.jpg",
+      "imagenet100_images/578/001.jpg",
+      "imagenet100_images/578/014.jpg",
+      "imagenet100_images/578/016.jpg",
+      "imagenet100_images/578/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 119,
+    "class_id": 578,
+    "split": "development",
+    "image_indices": [
+      1185,
+      1190,
+      1188,
+      1192,
+      1199,
+      1189,
+      1197,
+      1180,
+      1191,
+      1195
+    ],
+    "image_paths": [
+      "imagenet100_images/578/005.jpg",
+      "imagenet100_images/578/010.jpg",
+      "imagenet100_images/578/008.jpg",
+      "imagenet100_images/578/012.jpg",
+      "imagenet100_images/578/019.jpg",
+      "imagenet100_images/578/009.jpg",
+      "imagenet100_images/578/017.jpg",
+      "imagenet100_images/578/000.jpg",
+      "imagenet100_images/578/011.jpg",
+      "imagenet100_images/578/015.jpg"
+    ]
+  },
+  {
+    "cluster_id": 120,
+    "class_id": 582,
+    "split": "validation",
+    "image_indices": [
+      1200,
+      1210,
+      1212,
+      1218,
+      1206,
+      1214,
+      1207,
+      1204,
+      1217,
+      1202
+    ],
+    "image_paths": [
+      "imagenet100_images/582/000.jpg",
+      "imagenet100_images/582/010.jpg",
+      "imagenet100_images/582/012.jpg",
+      "imagenet100_images/582/018.jpg",
+      "imagenet100_images/582/006.jpg",
+      "imagenet100_images/582/014.jpg",
+      "imagenet100_images/582/007.jpg",
+      "imagenet100_images/582/004.jpg",
+      "imagenet100_images/582/017.jpg",
+      "imagenet100_images/582/002.jpg"
+    ]
+  },
+  {
+    "cluster_id": 121,
+    "class_id": 582,
+    "split": "validation",
+    "image_indices": [
+      1216,
+      1213,
+      1201,
+      1215,
+      1205,
+      1208,
+      1209,
+      1211,
+      1219,
+      1203
+    ],
+    "image_paths": [
+      "imagenet100_images/582/016.jpg",
+      "imagenet100_images/582/013.jpg",
+      "imagenet100_images/582/001.jpg",
+      "imagenet100_images/582/015.jpg",
+      "imagenet100_images/582/005.jpg",
+      "imagenet100_images/582/008.jpg",
+      "imagenet100_images/582/009.jpg",
+      "imagenet100_images/582/011.jpg",
+      "imagenet100_images/582/019.jpg",
+      "imagenet100_images/582/003.jpg"
+    ]
+  },
+  {
+    "cluster_id": 122,
+    "class_id": 587,
+    "split": "development",
+    "image_indices": [
+      1224,
+      1228,
+      1237,
+      1234,
+      1238,
+      1232,
+      1223,
+      1235,
+      1226,
+      1229
+    ],
+    "image_paths": [
+      "imagenet100_images/587/004.jpg",
+      "imagenet100_images/587/008.jpg",
+      "imagenet100_images/587/017.jpg",
+      "imagenet100_images/587/014.jpg",
+      "imagenet100_images/587/018.jpg",
+      "imagenet100_images/587/012.jpg",
+      "imagenet100_images/587/003.jpg",
+      "imagenet100_images/587/015.jpg",
+      "imagenet100_images/587/006.jpg",
+      "imagenet100_images/587/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 123,
+    "class_id": 587,
+    "split": "development",
+    "image_indices": [
+      1233,
+      1222,
+      1231,
+      1230,
+      1236,
+      1220,
+      1239,
+      1225,
+      1227,
+      1221
+    ],
+    "image_paths": [
+      "imagenet100_images/587/013.jpg",
+      "imagenet100_images/587/002.jpg",
+      "imagenet100_images/587/011.jpg",
+      "imagenet100_images/587/010.jpg",
+      "imagenet100_images/587/016.jpg",
+      "imagenet100_images/587/000.jpg",
+      "imagenet100_images/587/019.jpg",
+      "imagenet100_images/587/005.jpg",
+      "imagenet100_images/587/007.jpg",
+      "imagenet100_images/587/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 124,
+    "class_id": 601,
+    "split": "validation",
+    "image_indices": [
+      1257,
+      1244,
+      1251,
+      1252,
+      1253,
+      1256,
+      1240,
+      1241,
+      1242,
+      1243
+    ],
+    "image_paths": [
+      "imagenet100_images/601/017.jpg",
+      "imagenet100_images/601/004.jpg",
+      "imagenet100_images/601/011.jpg",
+      "imagenet100_images/601/012.jpg",
+      "imagenet100_images/601/013.jpg",
+      "imagenet100_images/601/016.jpg",
+      "imagenet100_images/601/000.jpg",
+      "imagenet100_images/601/001.jpg",
+      "imagenet100_images/601/002.jpg",
+      "imagenet100_images/601/003.jpg"
+    ]
+  },
+  {
+    "cluster_id": 125,
+    "class_id": 601,
+    "split": "validation",
+    "image_indices": [
+      1249,
+      1250,
+      1255,
+      1247,
+      1258,
+      1254,
+      1246,
+      1259,
+      1248,
+      1245
+    ],
+    "image_paths": [
+      "imagenet100_images/601/009.jpg",
+      "imagenet100_images/601/010.jpg",
+      "imagenet100_images/601/015.jpg",
+      "imagenet100_images/601/007.jpg",
+      "imagenet100_images/601/018.jpg",
+      "imagenet100_images/601/014.jpg",
+      "imagenet100_images/601/006.jpg",
+      "imagenet100_images/601/019.jpg",
+      "imagenet100_images/601/008.jpg",
+      "imagenet100_images/601/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 126,
+    "class_id": 614,
+    "split": "development",
+    "image_indices": [
+      1272,
+      1274,
+      1267,
+      1273,
+      1269,
+      1270,
+      1279,
+      1278,
+      1276,
+      1264
+    ],
+    "image_paths": [
+      "imagenet100_images/614/012.jpg",
+      "imagenet100_images/614/014.jpg",
+      "imagenet100_images/614/007.jpg",
+      "imagenet100_images/614/013.jpg",
+      "imagenet100_images/614/009.jpg",
+      "imagenet100_images/614/010.jpg",
+      "imagenet100_images/614/019.jpg",
+      "imagenet100_images/614/018.jpg",
+      "imagenet100_images/614/016.jpg",
+      "imagenet100_images/614/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 127,
+    "class_id": 614,
+    "split": "development",
+    "image_indices": [
+      1268,
+      1260,
+      1263,
+      1261,
+      1275,
+      1271,
+      1265,
+      1277,
+      1262,
+      1266
+    ],
+    "image_paths": [
+      "imagenet100_images/614/008.jpg",
+      "imagenet100_images/614/000.jpg",
+      "imagenet100_images/614/003.jpg",
+      "imagenet100_images/614/001.jpg",
+      "imagenet100_images/614/015.jpg",
+      "imagenet100_images/614/011.jpg",
+      "imagenet100_images/614/005.jpg",
+      "imagenet100_images/614/017.jpg",
+      "imagenet100_images/614/002.jpg",
+      "imagenet100_images/614/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 128,
+    "class_id": 635,
+    "split": "test",
+    "image_indices": [
+      1286,
+      1285,
+      1284,
+      1287,
+      1282,
+      1280,
+      1291,
+      1298,
+      1295,
+      1293
+    ],
+    "image_paths": [
+      "imagenet100_images/635/006.jpg",
+      "imagenet100_images/635/005.jpg",
+      "imagenet100_images/635/004.jpg",
+      "imagenet100_images/635/007.jpg",
+      "imagenet100_images/635/002.jpg",
+      "imagenet100_images/635/000.jpg",
+      "imagenet100_images/635/011.jpg",
+      "imagenet100_images/635/018.jpg",
+      "imagenet100_images/635/015.jpg",
+      "imagenet100_images/635/013.jpg"
+    ]
+  },
+  {
+    "cluster_id": 129,
+    "class_id": 635,
+    "split": "test",
+    "image_indices": [
+      1292,
+      1283,
+      1289,
+      1290,
+      1297,
+      1296,
+      1299,
+      1288,
+      1294,
+      1281
+    ],
+    "image_paths": [
+      "imagenet100_images/635/012.jpg",
+      "imagenet100_images/635/003.jpg",
+      "imagenet100_images/635/009.jpg",
+      "imagenet100_images/635/010.jpg",
+      "imagenet100_images/635/017.jpg",
+      "imagenet100_images/635/016.jpg",
+      "imagenet100_images/635/019.jpg",
+      "imagenet100_images/635/008.jpg",
+      "imagenet100_images/635/014.jpg",
+      "imagenet100_images/635/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 130,
+    "class_id": 638,
+    "split": "test",
+    "image_indices": [
+      1318,
+      1319,
+      1302,
+      1306,
+      1315,
+      1313,
+      1312,
+      1314,
+      1300,
+      1311
+    ],
+    "image_paths": [
+      "imagenet100_images/638/018.jpg",
+      "imagenet100_images/638/019.jpg",
+      "imagenet100_images/638/002.jpg",
+      "imagenet100_images/638/006.jpg",
+      "imagenet100_images/638/015.jpg",
+      "imagenet100_images/638/013.jpg",
+      "imagenet100_images/638/012.jpg",
+      "imagenet100_images/638/014.jpg",
+      "imagenet100_images/638/000.jpg",
+      "imagenet100_images/638/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 131,
+    "class_id": 638,
+    "split": "test",
+    "image_indices": [
+      1310,
+      1316,
+      1307,
+      1303,
+      1317,
+      1301,
+      1309,
+      1304,
+      1308,
+      1305
+    ],
+    "image_paths": [
+      "imagenet100_images/638/010.jpg",
+      "imagenet100_images/638/016.jpg",
+      "imagenet100_images/638/007.jpg",
+      "imagenet100_images/638/003.jpg",
+      "imagenet100_images/638/017.jpg",
+      "imagenet100_images/638/001.jpg",
+      "imagenet100_images/638/009.jpg",
+      "imagenet100_images/638/004.jpg",
+      "imagenet100_images/638/008.jpg",
+      "imagenet100_images/638/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 132,
+    "class_id": 643,
+    "split": "test",
+    "image_indices": [
+      1322,
+      1338,
+      1326,
+      1325,
+      1335,
+      1329,
+      1330,
+      1327,
+      1323,
+      1328
+    ],
+    "image_paths": [
+      "imagenet100_images/643/002.jpg",
+      "imagenet100_images/643/018.jpg",
+      "imagenet100_images/643/006.jpg",
+      "imagenet100_images/643/005.jpg",
+      "imagenet100_images/643/015.jpg",
+      "imagenet100_images/643/009.jpg",
+      "imagenet100_images/643/010.jpg",
+      "imagenet100_images/643/007.jpg",
+      "imagenet100_images/643/003.jpg",
+      "imagenet100_images/643/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 133,
+    "class_id": 643,
+    "split": "test",
+    "image_indices": [
+      1333,
+      1337,
+      1331,
+      1339,
+      1320,
+      1334,
+      1324,
+      1332,
+      1321,
+      1336
+    ],
+    "image_paths": [
+      "imagenet100_images/643/013.jpg",
+      "imagenet100_images/643/017.jpg",
+      "imagenet100_images/643/011.jpg",
+      "imagenet100_images/643/019.jpg",
+      "imagenet100_images/643/000.jpg",
+      "imagenet100_images/643/014.jpg",
+      "imagenet100_images/643/004.jpg",
+      "imagenet100_images/643/012.jpg",
+      "imagenet100_images/643/001.jpg",
+      "imagenet100_images/643/016.jpg"
+    ]
+  },
+  {
+    "cluster_id": 134,
+    "class_id": 644,
+    "split": "validation",
+    "image_indices": [
+      1352,
+      1344,
+      1349,
+      1354,
+      1346,
+      1351,
+      1340,
+      1356,
+      1350,
+      1342
+    ],
+    "image_paths": [
+      "imagenet100_images/644/012.jpg",
+      "imagenet100_images/644/004.jpg",
+      "imagenet100_images/644/009.jpg",
+      "imagenet100_images/644/014.jpg",
+      "imagenet100_images/644/006.jpg",
+      "imagenet100_images/644/011.jpg",
+      "imagenet100_images/644/000.jpg",
+      "imagenet100_images/644/016.jpg",
+      "imagenet100_images/644/010.jpg",
+      "imagenet100_images/644/002.jpg"
+    ]
+  },
+  {
+    "cluster_id": 135,
+    "class_id": 644,
+    "split": "validation",
+    "image_indices": [
+      1355,
+      1343,
+      1358,
+      1341,
+      1348,
+      1353,
+      1359,
+      1347,
+      1345,
+      1357
+    ],
+    "image_paths": [
+      "imagenet100_images/644/015.jpg",
+      "imagenet100_images/644/003.jpg",
+      "imagenet100_images/644/018.jpg",
+      "imagenet100_images/644/001.jpg",
+      "imagenet100_images/644/008.jpg",
+      "imagenet100_images/644/013.jpg",
+      "imagenet100_images/644/019.jpg",
+      "imagenet100_images/644/007.jpg",
+      "imagenet100_images/644/005.jpg",
+      "imagenet100_images/644/017.jpg"
+    ]
+  },
+  {
+    "cluster_id": 136,
+    "class_id": 654,
+    "split": "development",
+    "image_indices": [
+      1370,
+      1363,
+      1371,
+      1374,
+      1366,
+      1361,
+      1364,
+      1378,
+      1365,
+      1379
+    ],
+    "image_paths": [
+      "imagenet100_images/654/010.jpg",
+      "imagenet100_images/654/003.jpg",
+      "imagenet100_images/654/011.jpg",
+      "imagenet100_images/654/014.jpg",
+      "imagenet100_images/654/006.jpg",
+      "imagenet100_images/654/001.jpg",
+      "imagenet100_images/654/004.jpg",
+      "imagenet100_images/654/018.jpg",
+      "imagenet100_images/654/005.jpg",
+      "imagenet100_images/654/019.jpg"
+    ]
+  },
+  {
+    "cluster_id": 137,
+    "class_id": 654,
+    "split": "development",
+    "image_indices": [
+      1375,
+      1373,
+      1372,
+      1362,
+      1369,
+      1368,
+      1377,
+      1360,
+      1376,
+      1367
+    ],
+    "image_paths": [
+      "imagenet100_images/654/015.jpg",
+      "imagenet100_images/654/013.jpg",
+      "imagenet100_images/654/012.jpg",
+      "imagenet100_images/654/002.jpg",
+      "imagenet100_images/654/009.jpg",
+      "imagenet100_images/654/008.jpg",
+      "imagenet100_images/654/017.jpg",
+      "imagenet100_images/654/000.jpg",
+      "imagenet100_images/654/016.jpg",
+      "imagenet100_images/654/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 138,
+    "class_id": 672,
+    "split": "validation",
+    "image_indices": [
+      1398,
+      1387,
+      1397,
+      1389,
+      1383,
+      1396,
+      1380,
+      1388,
+      1393,
+      1394
+    ],
+    "image_paths": [
+      "imagenet100_images/672/018.jpg",
+      "imagenet100_images/672/007.jpg",
+      "imagenet100_images/672/017.jpg",
+      "imagenet100_images/672/009.jpg",
+      "imagenet100_images/672/003.jpg",
+      "imagenet100_images/672/016.jpg",
+      "imagenet100_images/672/000.jpg",
+      "imagenet100_images/672/008.jpg",
+      "imagenet100_images/672/013.jpg",
+      "imagenet100_images/672/014.jpg"
+    ]
+  },
+  {
+    "cluster_id": 139,
+    "class_id": 672,
+    "split": "validation",
+    "image_indices": [
+      1381,
+      1382,
+      1391,
+      1384,
+      1392,
+      1399,
+      1385,
+      1395,
+      1386,
+      1390
+    ],
+    "image_paths": [
+      "imagenet100_images/672/001.jpg",
+      "imagenet100_images/672/002.jpg",
+      "imagenet100_images/672/011.jpg",
+      "imagenet100_images/672/004.jpg",
+      "imagenet100_images/672/012.jpg",
+      "imagenet100_images/672/019.jpg",
+      "imagenet100_images/672/005.jpg",
+      "imagenet100_images/672/015.jpg",
+      "imagenet100_images/672/006.jpg",
+      "imagenet100_images/672/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 140,
+    "class_id": 693,
+    "split": "development",
+    "image_indices": [
+      1403,
+      1411,
+      1419,
+      1413,
+      1400,
+      1417,
+      1404,
+      1407,
+      1408,
+      1414
+    ],
+    "image_paths": [
+      "imagenet100_images/693/003.jpg",
+      "imagenet100_images/693/011.jpg",
+      "imagenet100_images/693/019.jpg",
+      "imagenet100_images/693/013.jpg",
+      "imagenet100_images/693/000.jpg",
+      "imagenet100_images/693/017.jpg",
+      "imagenet100_images/693/004.jpg",
+      "imagenet100_images/693/007.jpg",
+      "imagenet100_images/693/008.jpg",
+      "imagenet100_images/693/014.jpg"
+    ]
+  },
+  {
+    "cluster_id": 141,
+    "class_id": 693,
+    "split": "development",
+    "image_indices": [
+      1401,
+      1410,
+      1402,
+      1406,
+      1405,
+      1409,
+      1415,
+      1412,
+      1416,
+      1418
+    ],
+    "image_paths": [
+      "imagenet100_images/693/001.jpg",
+      "imagenet100_images/693/010.jpg",
+      "imagenet100_images/693/002.jpg",
+      "imagenet100_images/693/006.jpg",
+      "imagenet100_images/693/005.jpg",
+      "imagenet100_images/693/009.jpg",
+      "imagenet100_images/693/015.jpg",
+      "imagenet100_images/693/012.jpg",
+      "imagenet100_images/693/016.jpg",
+      "imagenet100_images/693/018.jpg"
+    ]
+  },
+  {
+    "cluster_id": 142,
+    "class_id": 698,
+    "split": "development",
+    "image_indices": [
+      1425,
+      1438,
+      1426,
+      1429,
+      1434,
+      1424,
+      1431,
+      1423,
+      1439,
+      1421
+    ],
+    "image_paths": [
+      "imagenet100_images/698/005.jpg",
+      "imagenet100_images/698/018.jpg",
+      "imagenet100_images/698/006.jpg",
+      "imagenet100_images/698/009.jpg",
+      "imagenet100_images/698/014.jpg",
+      "imagenet100_images/698/004.jpg",
+      "imagenet100_images/698/011.jpg",
+      "imagenet100_images/698/003.jpg",
+      "imagenet100_images/698/019.jpg",
+      "imagenet100_images/698/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 143,
+    "class_id": 698,
+    "split": "development",
+    "image_indices": [
+      1432,
+      1436,
+      1428,
+      1430,
+      1437,
+      1422,
+      1427,
+      1420,
+      1435,
+      1433
+    ],
+    "image_paths": [
+      "imagenet100_images/698/012.jpg",
+      "imagenet100_images/698/016.jpg",
+      "imagenet100_images/698/008.jpg",
+      "imagenet100_images/698/010.jpg",
+      "imagenet100_images/698/017.jpg",
+      "imagenet100_images/698/002.jpg",
+      "imagenet100_images/698/007.jpg",
+      "imagenet100_images/698/000.jpg",
+      "imagenet100_images/698/015.jpg",
+      "imagenet100_images/698/013.jpg"
+    ]
+  },
+  {
+    "cluster_id": 144,
+    "class_id": 706,
+    "split": "validation",
+    "image_indices": [
+      1444,
+      1441,
+      1451,
+      1453,
+      1446,
+      1456,
+      1452,
+      1443,
+      1445,
+      1449
+    ],
+    "image_paths": [
+      "imagenet100_images/706/004.jpg",
+      "imagenet100_images/706/001.jpg",
+      "imagenet100_images/706/011.jpg",
+      "imagenet100_images/706/013.jpg",
+      "imagenet100_images/706/006.jpg",
+      "imagenet100_images/706/016.jpg",
+      "imagenet100_images/706/012.jpg",
+      "imagenet100_images/706/003.jpg",
+      "imagenet100_images/706/005.jpg",
+      "imagenet100_images/706/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 145,
+    "class_id": 706,
+    "split": "validation",
+    "image_indices": [
+      1442,
+      1458,
+      1440,
+      1459,
+      1450,
+      1455,
+      1457,
+      1454,
+      1447,
+      1448
+    ],
+    "image_paths": [
+      "imagenet100_images/706/002.jpg",
+      "imagenet100_images/706/018.jpg",
+      "imagenet100_images/706/000.jpg",
+      "imagenet100_images/706/019.jpg",
+      "imagenet100_images/706/010.jpg",
+      "imagenet100_images/706/015.jpg",
+      "imagenet100_images/706/017.jpg",
+      "imagenet100_images/706/014.jpg",
+      "imagenet100_images/706/007.jpg",
+      "imagenet100_images/706/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 146,
+    "class_id": 710,
+    "split": "development",
+    "image_indices": [
+      1475,
+      1472,
+      1470,
+      1474,
+      1469,
+      1468,
+      1466,
+      1473,
+      1476,
+      1462
+    ],
+    "image_paths": [
+      "imagenet100_images/710/015.jpg",
+      "imagenet100_images/710/012.jpg",
+      "imagenet100_images/710/010.jpg",
+      "imagenet100_images/710/014.jpg",
+      "imagenet100_images/710/009.jpg",
+      "imagenet100_images/710/008.jpg",
+      "imagenet100_images/710/006.jpg",
+      "imagenet100_images/710/013.jpg",
+      "imagenet100_images/710/016.jpg",
+      "imagenet100_images/710/002.jpg"
+    ]
+  },
+  {
+    "cluster_id": 147,
+    "class_id": 710,
+    "split": "development",
+    "image_indices": [
+      1460,
+      1467,
+      1477,
+      1478,
+      1461,
+      1465,
+      1479,
+      1463,
+      1464,
+      1471
+    ],
+    "image_paths": [
+      "imagenet100_images/710/000.jpg",
+      "imagenet100_images/710/007.jpg",
+      "imagenet100_images/710/017.jpg",
+      "imagenet100_images/710/018.jpg",
+      "imagenet100_images/710/001.jpg",
+      "imagenet100_images/710/005.jpg",
+      "imagenet100_images/710/019.jpg",
+      "imagenet100_images/710/003.jpg",
+      "imagenet100_images/710/004.jpg",
+      "imagenet100_images/710/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 148,
+    "class_id": 736,
+    "split": "validation",
+    "image_indices": [
+      1483,
+      1493,
+      1496,
+      1485,
+      1484,
+      1498,
+      1490,
+      1489,
+      1497,
+      1486
+    ],
+    "image_paths": [
+      "imagenet100_images/736/003.jpg",
+      "imagenet100_images/736/013.jpg",
+      "imagenet100_images/736/016.jpg",
+      "imagenet100_images/736/005.jpg",
+      "imagenet100_images/736/004.jpg",
+      "imagenet100_images/736/018.jpg",
+      "imagenet100_images/736/010.jpg",
+      "imagenet100_images/736/009.jpg",
+      "imagenet100_images/736/017.jpg",
+      "imagenet100_images/736/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 149,
+    "class_id": 736,
+    "split": "validation",
+    "image_indices": [
+      1495,
+      1481,
+      1499,
+      1494,
+      1491,
+      1492,
+      1482,
+      1487,
+      1480,
+      1488
+    ],
+    "image_paths": [
+      "imagenet100_images/736/015.jpg",
+      "imagenet100_images/736/001.jpg",
+      "imagenet100_images/736/019.jpg",
+      "imagenet100_images/736/014.jpg",
+      "imagenet100_images/736/011.jpg",
+      "imagenet100_images/736/012.jpg",
+      "imagenet100_images/736/002.jpg",
+      "imagenet100_images/736/007.jpg",
+      "imagenet100_images/736/000.jpg",
+      "imagenet100_images/736/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 150,
+    "class_id": 738,
+    "split": "development",
+    "image_indices": [
+      1507,
+      1514,
+      1516,
+      1518,
+      1502,
+      1515,
+      1510,
+      1501,
+      1508,
+      1500
+    ],
+    "image_paths": [
+      "imagenet100_images/738/007.jpg",
+      "imagenet100_images/738/014.jpg",
+      "imagenet100_images/738/016.jpg",
+      "imagenet100_images/738/018.jpg",
+      "imagenet100_images/738/002.jpg",
+      "imagenet100_images/738/015.jpg",
+      "imagenet100_images/738/010.jpg",
+      "imagenet100_images/738/001.jpg",
+      "imagenet100_images/738/008.jpg",
+      "imagenet100_images/738/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 151,
+    "class_id": 738,
+    "split": "development",
+    "image_indices": [
+      1503,
+      1509,
+      1505,
+      1517,
+      1504,
+      1519,
+      1513,
+      1512,
+      1506,
+      1511
+    ],
+    "image_paths": [
+      "imagenet100_images/738/003.jpg",
+      "imagenet100_images/738/009.jpg",
+      "imagenet100_images/738/005.jpg",
+      "imagenet100_images/738/017.jpg",
+      "imagenet100_images/738/004.jpg",
+      "imagenet100_images/738/019.jpg",
+      "imagenet100_images/738/013.jpg",
+      "imagenet100_images/738/012.jpg",
+      "imagenet100_images/738/006.jpg",
+      "imagenet100_images/738/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 152,
+    "class_id": 740,
+    "split": "development",
+    "image_indices": [
+      1537,
+      1533,
+      1526,
+      1532,
+      1530,
+      1536,
+      1522,
+      1528,
+      1521,
+      1520
+    ],
+    "image_paths": [
+      "imagenet100_images/740/017.jpg",
+      "imagenet100_images/740/013.jpg",
+      "imagenet100_images/740/006.jpg",
+      "imagenet100_images/740/012.jpg",
+      "imagenet100_images/740/010.jpg",
+      "imagenet100_images/740/016.jpg",
+      "imagenet100_images/740/002.jpg",
+      "imagenet100_images/740/008.jpg",
+      "imagenet100_images/740/001.jpg",
+      "imagenet100_images/740/000.jpg"
+    ]
+  },
+  {
+    "cluster_id": 153,
+    "class_id": 740,
+    "split": "development",
+    "image_indices": [
+      1525,
+      1524,
+      1534,
+      1523,
+      1527,
+      1531,
+      1538,
+      1535,
+      1529,
+      1539
+    ],
+    "image_paths": [
+      "imagenet100_images/740/005.jpg",
+      "imagenet100_images/740/004.jpg",
+      "imagenet100_images/740/014.jpg",
+      "imagenet100_images/740/003.jpg",
+      "imagenet100_images/740/007.jpg",
+      "imagenet100_images/740/011.jpg",
+      "imagenet100_images/740/018.jpg",
+      "imagenet100_images/740/015.jpg",
+      "imagenet100_images/740/009.jpg",
+      "imagenet100_images/740/019.jpg"
+    ]
+  },
+  {
+    "cluster_id": 154,
+    "class_id": 760,
+    "split": "test",
+    "image_indices": [
+      1549,
+      1544,
+      1547,
+      1559,
+      1540,
+      1553,
+      1558,
+      1548,
+      1545,
+      1541
+    ],
+    "image_paths": [
+      "imagenet100_images/760/009.jpg",
+      "imagenet100_images/760/004.jpg",
+      "imagenet100_images/760/007.jpg",
+      "imagenet100_images/760/019.jpg",
+      "imagenet100_images/760/000.jpg",
+      "imagenet100_images/760/013.jpg",
+      "imagenet100_images/760/018.jpg",
+      "imagenet100_images/760/008.jpg",
+      "imagenet100_images/760/005.jpg",
+      "imagenet100_images/760/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 155,
+    "class_id": 760,
+    "split": "test",
+    "image_indices": [
+      1543,
+      1555,
+      1551,
+      1556,
+      1550,
+      1554,
+      1542,
+      1546,
+      1557,
+      1552
+    ],
+    "image_paths": [
+      "imagenet100_images/760/003.jpg",
+      "imagenet100_images/760/015.jpg",
+      "imagenet100_images/760/011.jpg",
+      "imagenet100_images/760/016.jpg",
+      "imagenet100_images/760/010.jpg",
+      "imagenet100_images/760/014.jpg",
+      "imagenet100_images/760/002.jpg",
+      "imagenet100_images/760/006.jpg",
+      "imagenet100_images/760/017.jpg",
+      "imagenet100_images/760/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 156,
+    "class_id": 783,
+    "split": "development",
+    "image_indices": [
+      1565,
+      1578,
+      1571,
+      1573,
+      1574,
+      1564,
+      1572,
+      1579,
+      1569,
+      1567
+    ],
+    "image_paths": [
+      "imagenet100_images/783/005.jpg",
+      "imagenet100_images/783/018.jpg",
+      "imagenet100_images/783/011.jpg",
+      "imagenet100_images/783/013.jpg",
+      "imagenet100_images/783/014.jpg",
+      "imagenet100_images/783/004.jpg",
+      "imagenet100_images/783/012.jpg",
+      "imagenet100_images/783/019.jpg",
+      "imagenet100_images/783/009.jpg",
+      "imagenet100_images/783/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 157,
+    "class_id": 783,
+    "split": "development",
+    "image_indices": [
+      1562,
+      1566,
+      1560,
+      1576,
+      1575,
+      1577,
+      1568,
+      1563,
+      1561,
+      1570
+    ],
+    "image_paths": [
+      "imagenet100_images/783/002.jpg",
+      "imagenet100_images/783/006.jpg",
+      "imagenet100_images/783/000.jpg",
+      "imagenet100_images/783/016.jpg",
+      "imagenet100_images/783/015.jpg",
+      "imagenet100_images/783/017.jpg",
+      "imagenet100_images/783/008.jpg",
+      "imagenet100_images/783/003.jpg",
+      "imagenet100_images/783/001.jpg",
+      "imagenet100_images/783/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 158,
+    "class_id": 784,
+    "split": "development",
+    "image_indices": [
+      1595,
+      1586,
+      1593,
+      1582,
+      1592,
+      1594,
+      1584,
+      1590,
+      1583,
+      1585
+    ],
+    "image_paths": [
+      "imagenet100_images/784/015.jpg",
+      "imagenet100_images/784/006.jpg",
+      "imagenet100_images/784/013.jpg",
+      "imagenet100_images/784/002.jpg",
+      "imagenet100_images/784/012.jpg",
+      "imagenet100_images/784/014.jpg",
+      "imagenet100_images/784/004.jpg",
+      "imagenet100_images/784/010.jpg",
+      "imagenet100_images/784/003.jpg",
+      "imagenet100_images/784/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 159,
+    "class_id": 784,
+    "split": "development",
+    "image_indices": [
+      1581,
+      1596,
+      1599,
+      1580,
+      1598,
+      1597,
+      1588,
+      1587,
+      1589,
+      1591
+    ],
+    "image_paths": [
+      "imagenet100_images/784/001.jpg",
+      "imagenet100_images/784/016.jpg",
+      "imagenet100_images/784/019.jpg",
+      "imagenet100_images/784/000.jpg",
+      "imagenet100_images/784/018.jpg",
+      "imagenet100_images/784/017.jpg",
+      "imagenet100_images/784/008.jpg",
+      "imagenet100_images/784/007.jpg",
+      "imagenet100_images/784/009.jpg",
+      "imagenet100_images/784/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 160,
+    "class_id": 788,
+    "split": "development",
+    "image_indices": [
+      1606,
+      1615,
+      1600,
+      1619,
+      1614,
+      1608,
+      1618,
+      1607,
+      1601,
+      1605
+    ],
+    "image_paths": [
+      "imagenet100_images/788/006.jpg",
+      "imagenet100_images/788/015.jpg",
+      "imagenet100_images/788/000.jpg",
+      "imagenet100_images/788/019.jpg",
+      "imagenet100_images/788/014.jpg",
+      "imagenet100_images/788/008.jpg",
+      "imagenet100_images/788/018.jpg",
+      "imagenet100_images/788/007.jpg",
+      "imagenet100_images/788/001.jpg",
+      "imagenet100_images/788/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 161,
+    "class_id": 788,
+    "split": "development",
+    "image_indices": [
+      1604,
+      1602,
+      1613,
+      1603,
+      1611,
+      1612,
+      1609,
+      1617,
+      1616,
+      1610
+    ],
+    "image_paths": [
+      "imagenet100_images/788/004.jpg",
+      "imagenet100_images/788/002.jpg",
+      "imagenet100_images/788/013.jpg",
+      "imagenet100_images/788/003.jpg",
+      "imagenet100_images/788/011.jpg",
+      "imagenet100_images/788/012.jpg",
+      "imagenet100_images/788/009.jpg",
+      "imagenet100_images/788/017.jpg",
+      "imagenet100_images/788/016.jpg",
+      "imagenet100_images/788/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 162,
+    "class_id": 790,
+    "split": "development",
+    "image_indices": [
+      1624,
+      1621,
+      1637,
+      1638,
+      1635,
+      1636,
+      1630,
+      1639,
+      1622,
+      1627
+    ],
+    "image_paths": [
+      "imagenet100_images/790/004.jpg",
+      "imagenet100_images/790/001.jpg",
+      "imagenet100_images/790/017.jpg",
+      "imagenet100_images/790/018.jpg",
+      "imagenet100_images/790/015.jpg",
+      "imagenet100_images/790/016.jpg",
+      "imagenet100_images/790/010.jpg",
+      "imagenet100_images/790/019.jpg",
+      "imagenet100_images/790/002.jpg",
+      "imagenet100_images/790/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 163,
+    "class_id": 790,
+    "split": "development",
+    "image_indices": [
+      1631,
+      1634,
+      1633,
+      1623,
+      1628,
+      1625,
+      1629,
+      1632,
+      1620,
+      1626
+    ],
+    "image_paths": [
+      "imagenet100_images/790/011.jpg",
+      "imagenet100_images/790/014.jpg",
+      "imagenet100_images/790/013.jpg",
+      "imagenet100_images/790/003.jpg",
+      "imagenet100_images/790/008.jpg",
+      "imagenet100_images/790/005.jpg",
+      "imagenet100_images/790/009.jpg",
+      "imagenet100_images/790/012.jpg",
+      "imagenet100_images/790/000.jpg",
+      "imagenet100_images/790/006.jpg"
+    ]
+  },
+  {
+    "cluster_id": 164,
+    "class_id": 796,
+    "split": "validation",
+    "image_indices": [
+      1650,
+      1648,
+      1653,
+      1643,
+      1656,
+      1642,
+      1647,
+      1644,
+      1640,
+      1651
+    ],
+    "image_paths": [
+      "imagenet100_images/796/010.jpg",
+      "imagenet100_images/796/008.jpg",
+      "imagenet100_images/796/013.jpg",
+      "imagenet100_images/796/003.jpg",
+      "imagenet100_images/796/016.jpg",
+      "imagenet100_images/796/002.jpg",
+      "imagenet100_images/796/007.jpg",
+      "imagenet100_images/796/004.jpg",
+      "imagenet100_images/796/000.jpg",
+      "imagenet100_images/796/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 165,
+    "class_id": 796,
+    "split": "validation",
+    "image_indices": [
+      1646,
+      1652,
+      1645,
+      1641,
+      1655,
+      1657,
+      1649,
+      1654,
+      1658,
+      1659
+    ],
+    "image_paths": [
+      "imagenet100_images/796/006.jpg",
+      "imagenet100_images/796/012.jpg",
+      "imagenet100_images/796/005.jpg",
+      "imagenet100_images/796/001.jpg",
+      "imagenet100_images/796/015.jpg",
+      "imagenet100_images/796/017.jpg",
+      "imagenet100_images/796/009.jpg",
+      "imagenet100_images/796/014.jpg",
+      "imagenet100_images/796/018.jpg",
+      "imagenet100_images/796/019.jpg"
+    ]
+  },
+  {
+    "cluster_id": 166,
+    "class_id": 819,
+    "split": "development",
+    "image_indices": [
+      1674,
+      1660,
+      1669,
+      1675,
+      1677,
+      1668,
+      1666,
+      1667,
+      1661,
+      1662
+    ],
+    "image_paths": [
+      "imagenet100_images/819/014.jpg",
+      "imagenet100_images/819/000.jpg",
+      "imagenet100_images/819/009.jpg",
+      "imagenet100_images/819/015.jpg",
+      "imagenet100_images/819/017.jpg",
+      "imagenet100_images/819/008.jpg",
+      "imagenet100_images/819/006.jpg",
+      "imagenet100_images/819/007.jpg",
+      "imagenet100_images/819/001.jpg",
+      "imagenet100_images/819/002.jpg"
+    ]
+  },
+  {
+    "cluster_id": 167,
+    "class_id": 819,
+    "split": "development",
+    "image_indices": [
+      1665,
+      1664,
+      1676,
+      1663,
+      1678,
+      1671,
+      1673,
+      1670,
+      1679,
+      1672
+    ],
+    "image_paths": [
+      "imagenet100_images/819/005.jpg",
+      "imagenet100_images/819/004.jpg",
+      "imagenet100_images/819/016.jpg",
+      "imagenet100_images/819/003.jpg",
+      "imagenet100_images/819/018.jpg",
+      "imagenet100_images/819/011.jpg",
+      "imagenet100_images/819/013.jpg",
+      "imagenet100_images/819/010.jpg",
+      "imagenet100_images/819/019.jpg",
+      "imagenet100_images/819/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 168,
+    "class_id": 823,
+    "split": "development",
+    "image_indices": [
+      1680,
+      1693,
+      1687,
+      1694,
+      1699,
+      1682,
+      1697,
+      1692,
+      1689,
+      1698
+    ],
+    "image_paths": [
+      "imagenet100_images/823/000.jpg",
+      "imagenet100_images/823/013.jpg",
+      "imagenet100_images/823/007.jpg",
+      "imagenet100_images/823/014.jpg",
+      "imagenet100_images/823/019.jpg",
+      "imagenet100_images/823/002.jpg",
+      "imagenet100_images/823/017.jpg",
+      "imagenet100_images/823/012.jpg",
+      "imagenet100_images/823/009.jpg",
+      "imagenet100_images/823/018.jpg"
+    ]
+  },
+  {
+    "cluster_id": 169,
+    "class_id": 823,
+    "split": "development",
+    "image_indices": [
+      1695,
+      1690,
+      1696,
+      1683,
+      1691,
+      1688,
+      1684,
+      1685,
+      1686,
+      1681
+    ],
+    "image_paths": [
+      "imagenet100_images/823/015.jpg",
+      "imagenet100_images/823/010.jpg",
+      "imagenet100_images/823/016.jpg",
+      "imagenet100_images/823/003.jpg",
+      "imagenet100_images/823/011.jpg",
+      "imagenet100_images/823/008.jpg",
+      "imagenet100_images/823/004.jpg",
+      "imagenet100_images/823/005.jpg",
+      "imagenet100_images/823/006.jpg",
+      "imagenet100_images/823/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 170,
+    "class_id": 859,
+    "split": "test",
+    "image_indices": [
+      1716,
+      1718,
+      1708,
+      1712,
+      1703,
+      1702,
+      1704,
+      1711,
+      1706,
+      1705
+    ],
+    "image_paths": [
+      "imagenet100_images/859/016.jpg",
+      "imagenet100_images/859/018.jpg",
+      "imagenet100_images/859/008.jpg",
+      "imagenet100_images/859/012.jpg",
+      "imagenet100_images/859/003.jpg",
+      "imagenet100_images/859/002.jpg",
+      "imagenet100_images/859/004.jpg",
+      "imagenet100_images/859/011.jpg",
+      "imagenet100_images/859/006.jpg",
+      "imagenet100_images/859/005.jpg"
+    ]
+  },
+  {
+    "cluster_id": 171,
+    "class_id": 859,
+    "split": "test",
+    "image_indices": [
+      1719,
+      1717,
+      1700,
+      1701,
+      1710,
+      1714,
+      1707,
+      1713,
+      1709,
+      1715
+    ],
+    "image_paths": [
+      "imagenet100_images/859/019.jpg",
+      "imagenet100_images/859/017.jpg",
+      "imagenet100_images/859/000.jpg",
+      "imagenet100_images/859/001.jpg",
+      "imagenet100_images/859/010.jpg",
+      "imagenet100_images/859/014.jpg",
+      "imagenet100_images/859/007.jpg",
+      "imagenet100_images/859/013.jpg",
+      "imagenet100_images/859/009.jpg",
+      "imagenet100_images/859/015.jpg"
+    ]
+  },
+  {
+    "cluster_id": 172,
+    "class_id": 862,
+    "split": "development",
+    "image_indices": [
+      1732,
+      1729,
+      1739,
+      1730,
+      1737,
+      1738,
+      1721,
+      1726,
+      1728,
+      1724
+    ],
+    "image_paths": [
+      "imagenet100_images/862/012.jpg",
+      "imagenet100_images/862/009.jpg",
+      "imagenet100_images/862/019.jpg",
+      "imagenet100_images/862/010.jpg",
+      "imagenet100_images/862/017.jpg",
+      "imagenet100_images/862/018.jpg",
+      "imagenet100_images/862/001.jpg",
+      "imagenet100_images/862/006.jpg",
+      "imagenet100_images/862/008.jpg",
+      "imagenet100_images/862/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 173,
+    "class_id": 862,
+    "split": "development",
+    "image_indices": [
+      1722,
+      1731,
+      1725,
+      1736,
+      1735,
+      1727,
+      1720,
+      1733,
+      1734,
+      1723
+    ],
+    "image_paths": [
+      "imagenet100_images/862/002.jpg",
+      "imagenet100_images/862/011.jpg",
+      "imagenet100_images/862/005.jpg",
+      "imagenet100_images/862/016.jpg",
+      "imagenet100_images/862/015.jpg",
+      "imagenet100_images/862/007.jpg",
+      "imagenet100_images/862/000.jpg",
+      "imagenet100_images/862/013.jpg",
+      "imagenet100_images/862/014.jpg",
+      "imagenet100_images/862/003.jpg"
+    ]
+  },
+  {
+    "cluster_id": 174,
+    "class_id": 874,
+    "split": "development",
+    "image_indices": [
+      1745,
+      1757,
+      1746,
+      1742,
+      1753,
+      1759,
+      1751,
+      1740,
+      1755,
+      1748
+    ],
+    "image_paths": [
+      "imagenet100_images/874/005.jpg",
+      "imagenet100_images/874/017.jpg",
+      "imagenet100_images/874/006.jpg",
+      "imagenet100_images/874/002.jpg",
+      "imagenet100_images/874/013.jpg",
+      "imagenet100_images/874/019.jpg",
+      "imagenet100_images/874/011.jpg",
+      "imagenet100_images/874/000.jpg",
+      "imagenet100_images/874/015.jpg",
+      "imagenet100_images/874/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 175,
+    "class_id": 874,
+    "split": "development",
+    "image_indices": [
+      1756,
+      1750,
+      1758,
+      1754,
+      1752,
+      1743,
+      1744,
+      1749,
+      1741,
+      1747
+    ],
+    "image_paths": [
+      "imagenet100_images/874/016.jpg",
+      "imagenet100_images/874/010.jpg",
+      "imagenet100_images/874/018.jpg",
+      "imagenet100_images/874/014.jpg",
+      "imagenet100_images/874/012.jpg",
+      "imagenet100_images/874/003.jpg",
+      "imagenet100_images/874/004.jpg",
+      "imagenet100_images/874/009.jpg",
+      "imagenet100_images/874/001.jpg",
+      "imagenet100_images/874/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 176,
+    "class_id": 883,
+    "split": "validation",
+    "image_indices": [
+      1775,
+      1766,
+      1768,
+      1779,
+      1771,
+      1772,
+      1764,
+      1770,
+      1761,
+      1777
+    ],
+    "image_paths": [
+      "imagenet100_images/883/015.jpg",
+      "imagenet100_images/883/006.jpg",
+      "imagenet100_images/883/008.jpg",
+      "imagenet100_images/883/019.jpg",
+      "imagenet100_images/883/011.jpg",
+      "imagenet100_images/883/012.jpg",
+      "imagenet100_images/883/004.jpg",
+      "imagenet100_images/883/010.jpg",
+      "imagenet100_images/883/001.jpg",
+      "imagenet100_images/883/017.jpg"
+    ]
+  },
+  {
+    "cluster_id": 177,
+    "class_id": 883,
+    "split": "validation",
+    "image_indices": [
+      1760,
+      1767,
+      1763,
+      1773,
+      1774,
+      1776,
+      1765,
+      1769,
+      1762,
+      1778
+    ],
+    "image_paths": [
+      "imagenet100_images/883/000.jpg",
+      "imagenet100_images/883/007.jpg",
+      "imagenet100_images/883/003.jpg",
+      "imagenet100_images/883/013.jpg",
+      "imagenet100_images/883/014.jpg",
+      "imagenet100_images/883/016.jpg",
+      "imagenet100_images/883/005.jpg",
+      "imagenet100_images/883/009.jpg",
+      "imagenet100_images/883/002.jpg",
+      "imagenet100_images/883/018.jpg"
+    ]
+  },
+  {
+    "cluster_id": 178,
+    "class_id": 906,
+    "split": "development",
+    "image_indices": [
+      1795,
+      1789,
+      1788,
+      1785,
+      1792,
+      1793,
+      1783,
+      1796,
+      1798,
+      1781
+    ],
+    "image_paths": [
+      "imagenet100_images/906/015.jpg",
+      "imagenet100_images/906/009.jpg",
+      "imagenet100_images/906/008.jpg",
+      "imagenet100_images/906/005.jpg",
+      "imagenet100_images/906/012.jpg",
+      "imagenet100_images/906/013.jpg",
+      "imagenet100_images/906/003.jpg",
+      "imagenet100_images/906/016.jpg",
+      "imagenet100_images/906/018.jpg",
+      "imagenet100_images/906/001.jpg"
+    ]
+  },
+  {
+    "cluster_id": 179,
+    "class_id": 906,
+    "split": "development",
+    "image_indices": [
+      1794,
+      1787,
+      1797,
+      1786,
+      1782,
+      1780,
+      1790,
+      1791,
+      1799,
+      1784
+    ],
+    "image_paths": [
+      "imagenet100_images/906/014.jpg",
+      "imagenet100_images/906/007.jpg",
+      "imagenet100_images/906/017.jpg",
+      "imagenet100_images/906/006.jpg",
+      "imagenet100_images/906/002.jpg",
+      "imagenet100_images/906/000.jpg",
+      "imagenet100_images/906/010.jpg",
+      "imagenet100_images/906/011.jpg",
+      "imagenet100_images/906/019.jpg",
+      "imagenet100_images/906/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 180,
+    "class_id": 909,
+    "split": "test",
+    "image_indices": [
+      1801,
+      1815,
+      1813,
+      1817,
+      1808,
+      1811,
+      1810,
+      1803,
+      1806,
+      1816
+    ],
+    "image_paths": [
+      "imagenet100_images/909/001.jpg",
+      "imagenet100_images/909/015.jpg",
+      "imagenet100_images/909/013.jpg",
+      "imagenet100_images/909/017.jpg",
+      "imagenet100_images/909/008.jpg",
+      "imagenet100_images/909/011.jpg",
+      "imagenet100_images/909/010.jpg",
+      "imagenet100_images/909/003.jpg",
+      "imagenet100_images/909/006.jpg",
+      "imagenet100_images/909/016.jpg"
+    ]
+  },
+  {
+    "cluster_id": 181,
+    "class_id": 909,
+    "split": "test",
+    "image_indices": [
+      1819,
+      1818,
+      1804,
+      1807,
+      1802,
+      1812,
+      1814,
+      1805,
+      1800,
+      1809
+    ],
+    "image_paths": [
+      "imagenet100_images/909/019.jpg",
+      "imagenet100_images/909/018.jpg",
+      "imagenet100_images/909/004.jpg",
+      "imagenet100_images/909/007.jpg",
+      "imagenet100_images/909/002.jpg",
+      "imagenet100_images/909/012.jpg",
+      "imagenet100_images/909/014.jpg",
+      "imagenet100_images/909/005.jpg",
+      "imagenet100_images/909/000.jpg",
+      "imagenet100_images/909/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 182,
+    "class_id": 918,
+    "split": "development",
+    "image_indices": [
+      1831,
+      1832,
+      1838,
+      1837,
+      1830,
+      1828,
+      1826,
+      1825,
+      1824,
+      1827
+    ],
+    "image_paths": [
+      "imagenet100_images/918/011.jpg",
+      "imagenet100_images/918/012.jpg",
+      "imagenet100_images/918/018.jpg",
+      "imagenet100_images/918/017.jpg",
+      "imagenet100_images/918/010.jpg",
+      "imagenet100_images/918/008.jpg",
+      "imagenet100_images/918/006.jpg",
+      "imagenet100_images/918/005.jpg",
+      "imagenet100_images/918/004.jpg",
+      "imagenet100_images/918/007.jpg"
+    ]
+  },
+  {
+    "cluster_id": 183,
+    "class_id": 918,
+    "split": "development",
+    "image_indices": [
+      1820,
+      1835,
+      1834,
+      1829,
+      1823,
+      1839,
+      1821,
+      1836,
+      1822,
+      1833
+    ],
+    "image_paths": [
+      "imagenet100_images/918/000.jpg",
+      "imagenet100_images/918/015.jpg",
+      "imagenet100_images/918/014.jpg",
+      "imagenet100_images/918/009.jpg",
+      "imagenet100_images/918/003.jpg",
+      "imagenet100_images/918/019.jpg",
+      "imagenet100_images/918/001.jpg",
+      "imagenet100_images/918/016.jpg",
+      "imagenet100_images/918/002.jpg",
+      "imagenet100_images/918/013.jpg"
+    ]
+  },
+  {
+    "cluster_id": 184,
+    "class_id": 923,
+    "split": "development",
+    "image_indices": [
+      1846,
+      1845,
+      1858,
+      1850,
+      1851,
+      1847,
+      1853,
+      1844,
+      1857,
+      1856
+    ],
+    "image_paths": [
+      "imagenet100_images/923/006.jpg",
+      "imagenet100_images/923/005.jpg",
+      "imagenet100_images/923/018.jpg",
+      "imagenet100_images/923/010.jpg",
+      "imagenet100_images/923/011.jpg",
+      "imagenet100_images/923/007.jpg",
+      "imagenet100_images/923/013.jpg",
+      "imagenet100_images/923/004.jpg",
+      "imagenet100_images/923/017.jpg",
+      "imagenet100_images/923/016.jpg"
+    ]
+  },
+  {
+    "cluster_id": 185,
+    "class_id": 923,
+    "split": "development",
+    "image_indices": [
+      1842,
+      1849,
+      1843,
+      1854,
+      1841,
+      1840,
+      1859,
+      1848,
+      1855,
+      1852
+    ],
+    "image_paths": [
+      "imagenet100_images/923/002.jpg",
+      "imagenet100_images/923/009.jpg",
+      "imagenet100_images/923/003.jpg",
+      "imagenet100_images/923/014.jpg",
+      "imagenet100_images/923/001.jpg",
+      "imagenet100_images/923/000.jpg",
+      "imagenet100_images/923/019.jpg",
+      "imagenet100_images/923/008.jpg",
+      "imagenet100_images/923/015.jpg",
+      "imagenet100_images/923/012.jpg"
+    ]
+  },
+  {
+    "cluster_id": 186,
+    "class_id": 926,
+    "split": "development",
+    "image_indices": [
+      1864,
+      1876,
+      1863,
+      1875,
+      1877,
+      1871,
+      1861,
+      1872,
+      1874,
+      1868
+    ],
+    "image_paths": [
+      "imagenet100_images/926/004.jpg",
+      "imagenet100_images/926/016.jpg",
+      "imagenet100_images/926/003.jpg",
+      "imagenet100_images/926/015.jpg",
+      "imagenet100_images/926/017.jpg",
+      "imagenet100_images/926/011.jpg",
+      "imagenet100_images/926/001.jpg",
+      "imagenet100_images/926/012.jpg",
+      "imagenet100_images/926/014.jpg",
+      "imagenet100_images/926/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 187,
+    "class_id": 926,
+    "split": "development",
+    "image_indices": [
+      1878,
+      1865,
+      1870,
+      1862,
+      1867,
+      1873,
+      1879,
+      1866,
+      1860,
+      1869
+    ],
+    "image_paths": [
+      "imagenet100_images/926/018.jpg",
+      "imagenet100_images/926/005.jpg",
+      "imagenet100_images/926/010.jpg",
+      "imagenet100_images/926/002.jpg",
+      "imagenet100_images/926/007.jpg",
+      "imagenet100_images/926/013.jpg",
+      "imagenet100_images/926/019.jpg",
+      "imagenet100_images/926/006.jpg",
+      "imagenet100_images/926/000.jpg",
+      "imagenet100_images/926/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 188,
+    "class_id": 957,
+    "split": "development",
+    "image_indices": [
+      1888,
+      1898,
+      1896,
+      1887,
+      1886,
+      1899,
+      1881,
+      1890,
+      1895,
+      1884
+    ],
+    "image_paths": [
+      "imagenet100_images/957/008.jpg",
+      "imagenet100_images/957/018.jpg",
+      "imagenet100_images/957/016.jpg",
+      "imagenet100_images/957/007.jpg",
+      "imagenet100_images/957/006.jpg",
+      "imagenet100_images/957/019.jpg",
+      "imagenet100_images/957/001.jpg",
+      "imagenet100_images/957/010.jpg",
+      "imagenet100_images/957/015.jpg",
+      "imagenet100_images/957/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 189,
+    "class_id": 957,
+    "split": "development",
+    "image_indices": [
+      1882,
+      1893,
+      1880,
+      1883,
+      1891,
+      1885,
+      1889,
+      1897,
+      1892,
+      1894
+    ],
+    "image_paths": [
+      "imagenet100_images/957/002.jpg",
+      "imagenet100_images/957/013.jpg",
+      "imagenet100_images/957/000.jpg",
+      "imagenet100_images/957/003.jpg",
+      "imagenet100_images/957/011.jpg",
+      "imagenet100_images/957/005.jpg",
+      "imagenet100_images/957/009.jpg",
+      "imagenet100_images/957/017.jpg",
+      "imagenet100_images/957/012.jpg",
+      "imagenet100_images/957/014.jpg"
+    ]
+  },
+  {
+    "cluster_id": 190,
+    "class_id": 971,
+    "split": "development",
+    "image_indices": [
+      1915,
+      1903,
+      1901,
+      1919,
+      1906,
+      1916,
+      1904,
+      1905,
+      1902,
+      1910
+    ],
+    "image_paths": [
+      "imagenet100_images/971/015.jpg",
+      "imagenet100_images/971/003.jpg",
+      "imagenet100_images/971/001.jpg",
+      "imagenet100_images/971/019.jpg",
+      "imagenet100_images/971/006.jpg",
+      "imagenet100_images/971/016.jpg",
+      "imagenet100_images/971/004.jpg",
+      "imagenet100_images/971/005.jpg",
+      "imagenet100_images/971/002.jpg",
+      "imagenet100_images/971/010.jpg"
+    ]
+  },
+  {
+    "cluster_id": 191,
+    "class_id": 971,
+    "split": "development",
+    "image_indices": [
+      1908,
+      1907,
+      1911,
+      1918,
+      1912,
+      1900,
+      1909,
+      1917,
+      1914,
+      1913
+    ],
+    "image_paths": [
+      "imagenet100_images/971/008.jpg",
+      "imagenet100_images/971/007.jpg",
+      "imagenet100_images/971/011.jpg",
+      "imagenet100_images/971/018.jpg",
+      "imagenet100_images/971/012.jpg",
+      "imagenet100_images/971/000.jpg",
+      "imagenet100_images/971/009.jpg",
+      "imagenet100_images/971/017.jpg",
+      "imagenet100_images/971/014.jpg",
+      "imagenet100_images/971/013.jpg"
+    ]
+  },
+  {
+    "cluster_id": 192,
+    "class_id": 982,
+    "split": "development",
+    "image_indices": [
+      1921,
+      1923,
+      1928,
+      1938,
+      1933,
+      1920,
+      1931,
+      1927,
+      1939,
+      1937
+    ],
+    "image_paths": [
+      "imagenet100_images/982/001.jpg",
+      "imagenet100_images/982/003.jpg",
+      "imagenet100_images/982/008.jpg",
+      "imagenet100_images/982/018.jpg",
+      "imagenet100_images/982/013.jpg",
+      "imagenet100_images/982/000.jpg",
+      "imagenet100_images/982/011.jpg",
+      "imagenet100_images/982/007.jpg",
+      "imagenet100_images/982/019.jpg",
+      "imagenet100_images/982/017.jpg"
+    ]
+  },
+  {
+    "cluster_id": 193,
+    "class_id": 982,
+    "split": "development",
+    "image_indices": [
+      1934,
+      1922,
+      1936,
+      1926,
+      1929,
+      1930,
+      1925,
+      1935,
+      1932,
+      1924
+    ],
+    "image_paths": [
+      "imagenet100_images/982/014.jpg",
+      "imagenet100_images/982/002.jpg",
+      "imagenet100_images/982/016.jpg",
+      "imagenet100_images/982/006.jpg",
+      "imagenet100_images/982/009.jpg",
+      "imagenet100_images/982/010.jpg",
+      "imagenet100_images/982/005.jpg",
+      "imagenet100_images/982/015.jpg",
+      "imagenet100_images/982/012.jpg",
+      "imagenet100_images/982/004.jpg"
+    ]
+  },
+  {
+    "cluster_id": 194,
+    "class_id": 987,
+    "split": "development",
+    "image_indices": [
+      1946,
+      1956,
+      1941,
+      1944,
+      1951,
+      1942,
+      1958,
+      1952,
+      1940,
+      1949
+    ],
+    "image_paths": [
+      "imagenet100_images/987/006.jpg",
+      "imagenet100_images/987/016.jpg",
+      "imagenet100_images/987/001.jpg",
+      "imagenet100_images/987/004.jpg",
+      "imagenet100_images/987/011.jpg",
+      "imagenet100_images/987/002.jpg",
+      "imagenet100_images/987/018.jpg",
+      "imagenet100_images/987/012.jpg",
+      "imagenet100_images/987/000.jpg",
+      "imagenet100_images/987/009.jpg"
+    ]
+  },
+  {
+    "cluster_id": 195,
+    "class_id": 987,
+    "split": "development",
+    "image_indices": [
+      1959,
+      1950,
+      1955,
+      1945,
+      1957,
+      1953,
+      1943,
+      1947,
+      1954,
+      1948
+    ],
+    "image_paths": [
+      "imagenet100_images/987/019.jpg",
+      "imagenet100_images/987/010.jpg",
+      "imagenet100_images/987/015.jpg",
+      "imagenet100_images/987/005.jpg",
+      "imagenet100_images/987/017.jpg",
+      "imagenet100_images/987/013.jpg",
+      "imagenet100_images/987/003.jpg",
+      "imagenet100_images/987/007.jpg",
+      "imagenet100_images/987/014.jpg",
+      "imagenet100_images/987/008.jpg"
+    ]
+  },
+  {
+    "cluster_id": 196,
+    "class_id": 993,
+    "split": "validation",
+    "image_indices": [
+      1961,
+      1968,
+      1975,
+      1963,
+      1973,
+      1979,
+      1960,
+      1972,
+      1964,
+      1962
+    ],
+    "image_paths": [
+      "imagenet100_images/993/001.jpg",
+      "imagenet100_images/993/008.jpg",
+      "imagenet100_images/993/015.jpg",
+      "imagenet100_images/993/003.jpg",
+      "imagenet100_images/993/013.jpg",
+      "imagenet100_images/993/019.jpg",
+      "imagenet100_images/993/000.jpg",
+      "imagenet100_images/993/012.jpg",
+      "imagenet100_images/993/004.jpg",
+      "imagenet100_images/993/002.jpg"
+    ]
+  },
+  {
+    "cluster_id": 197,
+    "class_id": 993,
+    "split": "validation",
+    "image_indices": [
+      1970,
+      1965,
+      1977,
+      1974,
+      1967,
+      1978,
+      1976,
+      1966,
+      1969,
+      1971
+    ],
+    "image_paths": [
+      "imagenet100_images/993/010.jpg",
+      "imagenet100_images/993/005.jpg",
+      "imagenet100_images/993/017.jpg",
+      "imagenet100_images/993/014.jpg",
+      "imagenet100_images/993/007.jpg",
+      "imagenet100_images/993/018.jpg",
+      "imagenet100_images/993/016.jpg",
+      "imagenet100_images/993/006.jpg",
+      "imagenet100_images/993/009.jpg",
+      "imagenet100_images/993/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 198,
+    "class_id": 996,
+    "split": "development",
+    "image_indices": [
+      1996,
+      1987,
+      1984,
+      1980,
+      1989,
+      1983,
+      1990,
+      1981,
+      1993,
+      1991
+    ],
+    "image_paths": [
+      "imagenet100_images/996/016.jpg",
+      "imagenet100_images/996/007.jpg",
+      "imagenet100_images/996/004.jpg",
+      "imagenet100_images/996/000.jpg",
+      "imagenet100_images/996/009.jpg",
+      "imagenet100_images/996/003.jpg",
+      "imagenet100_images/996/010.jpg",
+      "imagenet100_images/996/001.jpg",
+      "imagenet100_images/996/013.jpg",
+      "imagenet100_images/996/011.jpg"
+    ]
+  },
+  {
+    "cluster_id": 199,
+    "class_id": 996,
+    "split": "development",
+    "image_indices": [
+      1986,
+      1999,
+      1997,
+      1998,
+      1992,
+      1995,
+      1982,
+      1985,
+      1988,
+      1994
+    ],
+    "image_paths": [
+      "imagenet100_images/996/006.jpg",
+      "imagenet100_images/996/019.jpg",
+      "imagenet100_images/996/017.jpg",
+      "imagenet100_images/996/018.jpg",
+      "imagenet100_images/996/012.jpg",
+      "imagenet100_images/996/015.jpg",
+      "imagenet100_images/996/002.jpg",
+      "imagenet100_images/996/005.jpg",
+      "imagenet100_images/996/008.jpg",
+      "imagenet100_images/996/014.jpg"
+    ]
+  }
+]
