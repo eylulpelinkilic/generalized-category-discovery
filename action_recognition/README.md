@@ -39,6 +39,12 @@ runs/, cache/ outputs and embedding cache (git-ignored)
 
 All commands run from this directory with the Python environment that has the requirements.
 
+### 0. Kaggle (GPU, no local downloads)
+
+`kaggle/ovar_ucf101_clip.ipynb` runs steps 1–6 for frozen CLIP on UCF101: import it into a Kaggle
+notebook, enable GPU and Internet, add the dataset `lifailifai/ucf101` (full UCF101, all XOV
+test and development-pool videos present), run all cells, download `ovar_outputs.zip`.
+
 ### 1. Environment
 
 ```bash

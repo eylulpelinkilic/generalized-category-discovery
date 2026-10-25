@@ -111,7 +111,8 @@ def cmd_diagnose(args):
 def cmd_report(args):
     from ovar.report import results_report
 
-    print(f"wrote {results_report(args.runs, args.out)}")
+    runs = args.runs or project_path(load_paths(args.paths).get("runs_dir", "runs"))
+    print(f"wrote {results_report(runs, args.out)}")
 
 
 def cmd_error_analysis(args):
