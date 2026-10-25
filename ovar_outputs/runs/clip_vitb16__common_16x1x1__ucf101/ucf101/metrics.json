@@ -1,0 +1,134 @@
+{
+  "n_videos": 3783,
+  "n_failed": 0,
+  "n_classes": 101,
+  "accuracy": {
+    "overall": {
+      "n": 3783,
+      "n_correct": 2692,
+      "acc": 0.7116045466560931,
+      "ci95": [
+        0.6815744432280518,
+        0.7425593173397007
+      ]
+    },
+    "familiar": {
+      "n": 1882,
+      "n_correct": 1397,
+      "acc": 0.7422954303931987,
+      "ci95": [
+        0.7015979235294776,
+        0.7813166999051171
+      ]
+    },
+    "unfamiliar": {
+      "n": 1901,
+      "n_correct": 1295,
+      "acc": 0.681220410310363,
+      "ci95": [
+        0.634974690663667,
+        0.7304032356824033
+      ]
+    }
+  },
+  "top5_overall": 0.9333862014274386,
+  "mean_class_accuracy": 0.7069661823370468,
+  "ci_method": {
+    "type": "cluster percentile bootstrap",
+    "unit": "source_group_id",
+    "n_groups": 707,
+    "n_boot": 1000,
+    "seed": 0,
+    "group_bases": [
+      "ucf101_class_group"
+    ]
+  },
+  "confused_pairs": [
+    {
+      "true": "CricketShot",
+      "predicted": "CricketBowling",
+      "count": 47,
+      "rate_of_true_class": 0.9592
+    },
+    {
+      "true": "Mixing",
+      "predicted": "CuttingInKitchen",
+      "count": 41,
+      "rate_of_true_class": 0.9111
+    },
+    {
+      "true": "Shotput",
+      "predicted": "ThrowDiscus",
+      "count": 35,
+      "rate_of_true_class": 0.7609
+    },
+    {
+      "true": "StillRings",
+      "predicted": "UnevenBars",
+      "count": 29,
+      "rate_of_true_class": 0.9062
+    },
+    {
+      "true": "BasketballDunk",
+      "predicted": "Basketball",
+      "count": 29,
+      "rate_of_true_class": 0.7838
+    },
+    {
+      "true": "Kayaking",
+      "predicted": "Rafting",
+      "count": 28,
+      "rate_of_true_class": 0.7778
+    },
+    {
+      "true": "ParallelBars",
+      "predicted": "UnevenBars",
+      "count": 28,
+      "rate_of_true_class": 0.7568
+    },
+    {
+      "true": "Punch",
+      "predicted": "BoxingPunchingBag",
+      "count": 28,
+      "rate_of_true_class": 0.7179
+    },
+    {
+      "true": "PushUps",
+      "predicted": "WallPushups",
+      "count": 27,
+      "rate_of_true_class": 0.9
+    },
+    {
+      "true": "PlayingDaf",
+      "predicted": "PlayingTabla",
+      "count": 26,
+      "rate_of_true_class": 0.6341
+    }
+  ],
+  "secondary_unfamiliar_excluding_near_familiar": {
+    "n": 1307,
+    "acc": 0.7016067329762815,
+    "ci95": [
+      0.6451298190401259,
+      0.7547109328377571
+    ],
+    "excluded_classes": [
+      "BandMarching",
+      "BodyWeightSquats",
+      "BoxingSpeedBag",
+      "CricketBowling",
+      "CricketShot",
+      "FloorGymnastics",
+      "GolfSwing",
+      "IceDancing",
+      "JumpRope",
+      "RockClimbingIndoor",
+      "SalsaSpin",
+      "SoccerPenalty",
+      "SumoWrestling",
+      "TennisSwing",
+      "TrampolineJumping"
+    ],
+    "note": "sensitivity analysis only; official XOV status is the primary definition; exclusions come from an unverified review (data/audit/category_review.csv)"
+  }
+}

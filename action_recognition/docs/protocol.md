@@ -38,6 +38,11 @@ Candidate labels are the full label files: `ucf_101_labels.csv`, `hmdb51_labels_
 replaced by Open-VCLIP's natural-language names (`zs_label_db/ucf101-index2cls.json`,
 id-aligned and checked automatically).
 
+Side analysis `common_16x1x1_xovnames` (`prompts.class_names: official_name`) uses XOV's raw
+label names instead; only UCF101 changes (77 of 101 classes). It tests whether name formatting
+explains the gap to XOV's reported CLIP numbers (XOV's evaluation code is unpublished). Its
+results appear under "Side analyses" in the report and never replace the primary setting.
+
 ## Closed-set (familiar) and open-set (unfamiliar) categories
 
 Paper, Sec. IV-B: closed-set categories "share similar meanings and have a common lexicon with

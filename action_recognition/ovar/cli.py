@@ -135,7 +135,11 @@ def cmd_export_native(args):
 def cmd_compare_native(args):
     from ovar.native import compare_openvclip
 
-    _print(compare_openvclip(args.official, args.run_dir, args.dataset, trust_pickle=args.trust_pickle))
+    result = compare_openvclip(args.official, args.run_dir, args.dataset, trust_pickle=args.trust_pickle)
+    if args.out:
+        Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+        Path(args.out).write_text(json.dumps(result, indent=2) + "\n")
+    _print(result)
 
 
 def cmd_fetch_clip(args):
@@ -301,6 +305,7 @@ def main(argv=None):
     p.add_argument("--run-dir", required=True)
     p.add_argument("--dataset", required=True)
     p.add_argument("--trust-pickle", action="store_true")
+    p.add_argument("--out", help="also write the comparison as JSON")
     p.set_defaults(fn=cmd_compare_native)
 
     p = sub.add_parser("fetch-clip", help="download OpenAI CLIP weights (explicit, large)")

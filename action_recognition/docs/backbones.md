@@ -29,8 +29,8 @@ which rules out channel-order and normalisation errors. Measured cost on the App
 | Field | Value |
 |---|---|
 | Code | `github.com/wengzejia1/Open-VCLIP` @ `047a817e94b88c02c56fde2f1dd0fbf03f3be638`; no licence file (all rights reserved by default; research use as published), built on PySlowFast (Apache-2.0) and CLIP (MIT) |
-| Checkpoints | official Google Drive folder `drive.google.com/drive/folders/1VhwPFESkrr9Ed40yU5NEPIkrGIf6WQ9N`; ViT-B/16 file `openvclip-b16/swa_2_22.pth` (also B/32 and L/14); size and SHA-256 *pending* (fp32 ViT-B/16 weights alone are about 0.6 GB) |
-| Also needed | original OpenAI JIT archive `ViT-B-16.pt` (weight patching; about 0.35 GB) |
+| Checkpoints | official Google Drive folder `drive.google.com/drive/folders/1VhwPFESkrr9Ed40yU5NEPIkrGIf6WQ9N`; ViT-B/16 file `openvclip-b16/swa_2_22.pth` (Drive file id `1QLdkVYPP_AjFJgB9mGNLhppqvHFWkT4x`, 598,587,149 bytes; also B/32 and L/14); no checksum is published, SHA-256 *pending* (recorded in `runs/DOWNLOADS.json` by the Kaggle notebook) |
+| Also needed | original OpenAI JIT archive `ViT-B-16.pt` (weight patching; 350,837,078 bytes; SHA-256 `5806e77c…416f`, the hash in its official URL) |
 | Training data | Kinetics-400, all 400 classes, from CLIP initialisation (interpolated weight optimisation + SWA) |
 | Architecture | CLIP ViT-B/16 whose self-attention also attends to the previous and next frame's tokens (`expand_temporal_view`, zero-padded at clip ends); no extra parameters |
 | Native test configuration | `configs/Kinetics/TemporalCLIP_vitb16_8x16_STAdapter.yaml` + `script/testing/temporal_test_b16/*.sh`: 8 frames, sampling rate 16 at 30 fps target, 3 temporal views (offset sampling) × 1 centre crop, shorter side 224 (bilinear), 28 prompt templates averaged (`TemporalClipVideo.text_prompt`), weight patching `0.5 · CLIP + 0.5 · checkpoint`, views summed (raw logits) |

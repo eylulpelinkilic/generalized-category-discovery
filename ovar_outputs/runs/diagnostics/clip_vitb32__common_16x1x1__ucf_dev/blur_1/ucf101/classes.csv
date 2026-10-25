@@ -1,0 +1,102 @@
+action_id,official_name,text_name,category_status
+0,ApplyEyeMakeup,Apply Eye Makeup,unfamiliar
+1,ApplyLipstick,Apply Lipstick,unfamiliar
+2,Archery,Archery,familiar
+3,BabyCrawling,Baby Crawling,familiar
+4,BalanceBeam,Balance Beam,unfamiliar
+5,BandMarching,Band Marching,unfamiliar
+6,BaseballPitch,Baseball Pitch,unfamiliar
+7,Basketball,Basketball,familiar
+8,BasketballDunk,Basketball Dunk,familiar
+9,BenchPress,Bench Press,familiar
+10,Biking,Biking,familiar
+11,Billiards,Billiards,unfamiliar
+12,BlowDryHair,Blow Dry Hair,unfamiliar
+13,BlowingCandles,Blowing Candles,familiar
+14,BodyWeightSquats,Body Weight Squats,unfamiliar
+15,Bowling,Bowling,familiar
+16,BoxingPunchingBag,Boxing Punching Bag,familiar
+17,BoxingSpeedBag,Boxing Speed Bag,unfamiliar
+18,BreastStroke,Breast Stroke,familiar
+19,BrushingTeeth,Brushing Teeth,familiar
+20,CleanAndJerk,Clean And Jerk,familiar
+21,CliffDiving,Cliff Diving,familiar
+22,CricketBowling,Cricket Bowling,unfamiliar
+23,CricketShot,Cricket Shot,unfamiliar
+24,CuttingInKitchen,Cutting In Kitchen,unfamiliar
+25,Diving,Diving,familiar
+26,Drumming,Drumming,familiar
+27,Fencing,Fencing,unfamiliar
+28,FieldHockeyPenalty,Field Hockey Penalty,unfamiliar
+29,FloorGymnastics,Floor Gymnastics,unfamiliar
+30,FrisbeeCatch,Frisbee Catch,familiar
+31,FrontCrawl,Front Crawl,unfamiliar
+32,GolfSwing,Golf Swing,unfamiliar
+33,Haircut,Haircut,familiar
+34,Hammering,Hammering,unfamiliar
+35,HammerThrow,Hammer Throw,familiar
+36,HandstandPushups,Handstand Pushups,unfamiliar
+37,HandstandWalking,Handstand Walking,unfamiliar
+38,HeadMassage,Head Massage,familiar
+39,HighJump,High Jump,familiar
+40,HorseRace,Horse Race,unfamiliar
+41,HorseRiding,Horse Riding,familiar
+42,HulaHoop,Hula Hoop,familiar
+43,IceDancing,Ice Dancing,unfamiliar
+44,JavelinThrow,Javelin Throw,familiar
+45,JugglingBalls,Juggling Balls,familiar
+46,JumpingJack,Jumping Jack,unfamiliar
+47,JumpRope,Jump Rope,unfamiliar
+48,Kayaking,Kayaking,familiar
+49,Knitting,Knitting,familiar
+50,LongJump,Long Jump,familiar
+51,Lunges,Lunges,familiar
+52,MilitaryParade,Military Parade,unfamiliar
+53,Mixing,Mixing,unfamiliar
+54,MoppingFloor,Mopping Floor,familiar
+55,Nunchucks,Nunchucks,unfamiliar
+56,ParallelBars,Parallel Bars,unfamiliar
+57,PizzaTossing,Pizza Tossing,unfamiliar
+58,PlayingCello,Playing Cello,familiar
+59,PlayingDaf,Playing Daf,unfamiliar
+60,PlayingDhol,Playing Dhol,unfamiliar
+61,PlayingFlute,Playing Flute,familiar
+62,PlayingGuitar,Playing Guitar,familiar
+63,PlayingPiano,Playing Piano,familiar
+64,PlayingSitar,Playing Sitar,unfamiliar
+65,PlayingTabla,Playing Tabla,unfamiliar
+66,PlayingViolin,Playing Violin,familiar
+67,PoleVault,Pole Vault,familiar
+68,PommelHorse,Pommel Horse,unfamiliar
+69,PullUps,Pull Ups,familiar
+70,Punch,Punch,familiar
+71,PushUps,Push Ups,familiar
+72,Rafting,Rafting,unfamiliar
+73,RockClimbingIndoor,Rock Climbing Indoor,unfamiliar
+74,RopeClimbing,Rope Climbing,familiar
+75,Rowing,Rowing,unfamiliar
+76,SalsaSpin,Salsa Spin,unfamiliar
+77,ShavingBeard,Shaving Beard,familiar
+78,Shotput,Shotput,familiar
+79,SkateBoarding,Skate Boarding,familiar
+80,Skiing,Skiing,familiar
+81,Skijet,Skijet,unfamiliar
+82,SkyDiving,Sky Diving,familiar
+83,SoccerJuggling,Soccer Juggling,familiar
+84,SoccerPenalty,Soccer Penalty,unfamiliar
+85,StillRings,Still Rings,unfamiliar
+86,SumoWrestling,Sumo Wrestling,unfamiliar
+87,Surfing,Surfing,familiar
+88,Swing,Swing,familiar
+89,TableTennisShot,Table Tennis Shot,unfamiliar
+90,TaiChi,Tai Chi,familiar
+91,TennisSwing,Tennis Swing,unfamiliar
+92,ThrowDiscus,Throw Discus,familiar
+93,TrampolineJumping,Trampoline Jumping,unfamiliar
+94,Typing,Typing,unfamiliar
+95,UnevenBars,Uneven Bars,unfamiliar
+96,VolleyballSpiking,Volleyball Spiking,unfamiliar
+97,WalkingWithDog,Walking With Dog,familiar
+98,WallPushups,Wall Pushups,unfamiliar
+99,WritingOnBoard,Writing On Board,unfamiliar
+100,YoYo,Yoyo,unfamiliar

@@ -1,0 +1,75 @@
+{
+  "config": {
+    "name": "clip_vitb32__common_16x1x1__ucf_dev",
+    "experiment": "clip_vitb32__common_16x1x1",
+    "datasets": [
+      "ucf101"
+    ],
+    "manifest_split": {
+      "ucf101": "dev_train1"
+    },
+    "per_class": 2,
+    "temporal": [
+      "shuffled",
+      "single_frame"
+    ],
+    "degradations": [
+      {
+        "name": "dark_0.5",
+        "kind": "brightness",
+        "factor": 0.5
+      },
+      {
+        "name": "dark_0.25",
+        "kind": "brightness",
+        "factor": 0.25
+      },
+      {
+        "name": "down_0.5",
+        "kind": "downsample",
+        "factor": 0.5
+      },
+      {
+        "name": "down_0.25",
+        "kind": "downsample",
+        "factor": 0.25
+      },
+      {
+        "name": "blur_1",
+        "kind": "blur",
+        "sigma": 1.0
+      },
+      {
+        "name": "blur_2",
+        "kind": "blur",
+        "sigma": 2.0
+      }
+    ],
+    "actor_boxes": null,
+    "spatial": [
+      {
+        "name": "actor_crop",
+        "context": 1.0
+      },
+      {
+        "name": "actor_context",
+        "context": 2.0
+      }
+    ]
+  },
+  "backbone": {
+    "backbone": "clip_frozen",
+    "arch": "ViT-B-32",
+    "pretrained": "openai",
+    "weights_sha256": "e6d1bd7789aa45192b3bf90570a789b478bae1b74ebcce7eddd908e83a2b7c31",
+    "activation": "QuickGELU",
+    "implementation": "open_clip 3.3.0 (verified-compatible re-implementation of OpenAI CLIP)",
+    "weights_file": "/root/.cache/huggingface/hub/models--timm--vit_base_patch32_clip_224.openai/snapshots/a6f597a30f7b82c51704746581f9a4e41421e878/open_clip_model.safetensors",
+    "weights_source": "https://huggingface.co/timm/vit_base_patch32_clip_224.openai (OpenAI weights converted by timm/open_clip)",
+    "original_release": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "training_data": "OpenAI WIT-400M image-text pairs (not publicly documented in detail); no task-specific action training",
+    "licence": "OpenAI CLIP code and weights: MIT; open_clip code: MIT"
+  },
+  "frame_independent": true,
+  "synthetic": false
+}

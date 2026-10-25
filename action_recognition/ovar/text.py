@@ -1,4 +1,5 @@
-"""Prompt templates. Class texts come from data/vocab/<dataset>.csv (`text_name`)."""
+"""Prompt templates. Class texts come from data/vocab/<dataset>.csv (`text_name`, or
+`official_name` when a protocol sets `prompts.class_names`)."""
 from __future__ import annotations
 
 TEMPLATE_SETS = {

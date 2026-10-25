@@ -43,7 +43,13 @@ All commands run from this directory with the Python environment that has the re
 
 `kaggle/ovar_ucf101_clip.ipynb` runs steps 1–6 for frozen CLIP on UCF101: import it into a Kaggle
 notebook, enable GPU and Internet, add the dataset `lifailifai/ucf101` (full UCF101, all XOV
-test and development-pool videos present), run all cells, download `ovar_outputs.zip`.
+test and development-pool videos present), run all cells, download `ovar_outputs.zip`. If the
+dataset fails to mount, remove it: the notebook then downloads the official `UCF101.rar` from
+crcv.ucf.edu and records its SHA-256 in `runs/DATA_SOURCE.json`.
+
+`kaggle/ovar_ucf101_openvclip_check.ipynb` (second session): the Open-VCLIP native check on the
+2-videos-per-class subset (official test script vs adapter, see envs/openvclip.md), and the
+frozen-CLIP ViT-B/16 side analysis with XOV's raw class names. Download `ovar_outputs_2.zip`.
 
 ### 1. Environment
 
@@ -52,7 +58,7 @@ python3 -m venv .venv && . .venv/bin/activate        # or reuse an existing envi
 pip install -r requirements.txt                      # ffmpeg/ffprobe must also be installed
 python -m ovar fetch-repos                           # official repos at pinned commits -> third_party/
 cp configs/paths.example.yaml configs/paths.yaml     # then edit dataset roots and checkpoint paths
-python -m unittest discover -s tests -t .            # 38 tests; OVAR_HEAVY_TESTS=1 adds 2 that load CLIP
+python -m unittest discover -s tests -t .            # 40 tests; 2 that load CLIP run only with OVAR_HEAVY_TESTS=1
 python -m ovar smoke-test                            # end to end on synthetic fixtures (needs CLIP ViT-B/32)
 python -m ovar smoke-test --fake                     # same, without any model weights
 ```

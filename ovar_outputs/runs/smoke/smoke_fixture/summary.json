@@ -1,0 +1,39 @@
+{
+  "run_name": "smoke_fixture",
+  "synthetic": true,
+  "comparison": "synthetic",
+  "datasets": [
+    "fixture_colors"
+  ],
+  "per_dataset": {
+    "fixture_colors": {
+      "overall": {
+        "n": 8,
+        "n_correct": 7,
+        "acc": 0.875,
+        "ci95": [
+          0.6666666666666666,
+          1.0
+        ]
+      },
+      "familiar": {
+        "n": 6,
+        "n_correct": 5,
+        "acc": 0.8333333333333334,
+        "ci95": [
+          0.5,
+          1.0
+        ]
+      },
+      "unfamiliar": {
+        "n": 2,
+        "n_correct": 2,
+        "acc": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  }
+}

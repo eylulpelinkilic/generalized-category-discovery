@@ -69,9 +69,13 @@ def compare_openvclip(official_results, run_dir, dataset: str, trust_pickle: boo
         raise ValueError("official results and adapter run cover different videos or label order")
     official_top1 = preds.argmax(1)
     ok = ours["status"] == "ok"
+    differ = (ok & (official_top1 != ours["pred_id"].to_numpy())).to_numpy()
     return {
         "videos": int(len(ours)), "adapter_failed": int((~ok).sum()),
         "top1_agreement": float(np.mean(official_top1[ok] == ours.loc[ok, "pred_id"].to_numpy())),
         "official_accuracy": float(np.mean(official_top1 == labels)),
         "adapter_accuracy_failures_as_errors": float(ours["correct"].mean()),
+        "disagreements": [{"video_id": v, "action_id": int(a), "official_pred": int(o), "adapter_pred": int(p)}
+                          for v, a, o, p in zip(ours.loc[differ, "video_id"], labels[differ],
+                                                official_top1[differ], ours.loc[differ, "pred_id"])],
     }

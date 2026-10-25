@@ -1,0 +1,3 @@
+video_id,error
+broken,"VideoDecodeError: [mov,mp4,m4a,3gp,3g2,mj2 @ 0x5afd477c44c0] moov atom not found
+/kaggle/working/generalized-category-discovery/action_recognition/runs/smoke/fixtures/videos/broken.mp4: Invalid data found when processing input"

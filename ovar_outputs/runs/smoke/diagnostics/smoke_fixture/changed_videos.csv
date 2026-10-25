@@ -1,0 +1,4 @@
+video_id,action_name,category_status,pred_name_ref,pred_name_var,correct_ref,correct_var,variant,dataset
+red_then_blue,red,familiar,red,blue,1,0,temporal_single_frame,fixture_colors
+blue_tiny,blue,unfamiliar,blue,,1,0,actor_crop,fixture_colors
+blue_tiny,blue,unfamiliar,blue,,1,0,actor_context,fixture_colors

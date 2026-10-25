@@ -1,0 +1,4 @@
+action_id,action_name,category_status,n,n_correct,acc,n_failed,most_confused_with,most_confused_count
+0,red,familiar,3,3,1.0,0,,0
+1,green,familiar,3,2,0.6666666666666666,1,,0
+2,blue,unfamiliar,2,2,1.0,0,,0

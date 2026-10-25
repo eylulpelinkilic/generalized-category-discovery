@@ -1,0 +1,25 @@
+{
+  "dataset": "ucf101",
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "videos": 3783,
+    "classes_in_vocabulary": 101,
+    "classes_with_videos": 101,
+    "familiar_classes": 50,
+    "unfamiliar_classes": 51,
+    "familiar_videos": 1882,
+    "unfamiliar_videos": 1901,
+    "source_groups": 707,
+    "source_group_bases": [
+      "ucf101_class_group"
+    ]
+  },
+  "files": {
+    "checked": 3783,
+    "missing": 0,
+    "decode_checked": 300,
+    "decode_failed": 0
+  },
+  "n_failures_logged": 0
+}

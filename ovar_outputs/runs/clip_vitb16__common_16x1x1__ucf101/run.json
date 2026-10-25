@@ -1,0 +1,78 @@
+{
+  "run_name": "clip_vitb16__common_16x1x1",
+  "created_utc": "2026-10-25T16:10:56+00:00",
+  "synthetic": false,
+  "config_id": "855d3dcecf5e",
+  "comparison": "common",
+  "variant_name": "ucf101",
+  "model": {
+    "backbone": "clip_frozen",
+    "arch": "ViT-B-16",
+    "pretrained": "openai",
+    "force_quick_gelu": true,
+    "name": "clip_vitb16"
+  },
+  "protocol": {
+    "comparison": "common",
+    "sampling": {
+      "method": "tsn_midpoint",
+      "num_frames": 16,
+      "num_views": 1
+    },
+    "spatial": {
+      "preset": "clip_center",
+      "size": 224
+    },
+    "prompts": {
+      "template_set": "video_person"
+    },
+    "name": "common_16x1x1"
+  },
+  "temporal_transform": "ordered",
+  "pixel_transform": null,
+  "backbone": {
+    "backbone": "clip_frozen",
+    "arch": "ViT-B-16",
+    "pretrained": "openai",
+    "weights_sha256": "4b8699299b1e8997753c64b052ba32031449d5d853f55a039148560ee02b820f",
+    "activation": "QuickGELU",
+    "implementation": "open_clip 3.3.0 (verified-compatible re-implementation of OpenAI CLIP)",
+    "weights_file": "/root/.cache/huggingface/hub/models--timm--vit_base_patch16_clip_224.openai/snapshots/977e3dd0ec55ab8da155f2fbeb6b5f54948b6e3d/open_clip_model.safetensors",
+    "weights_source": "https://huggingface.co/timm/vit_base_patch16_clip_224.openai (OpenAI weights converted by timm/open_clip)",
+    "original_release": "https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt",
+    "training_data": "OpenAI WIT-400M image-text pairs (not publicly documented in detail); no task-specific action training",
+    "licence": "OpenAI CLIP code and weights: MIT; open_clip code: MIT"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "torch": "2.11.0+cu128",
+    "open_clip": "3.3.0",
+    "numpy": "2.1.3",
+    "device": "cuda",
+    "processor": "x86_64"
+  },
+  "timing": {
+    "model_load_s": 8.81,
+    "total_s": 2137.52
+  },
+  "memory": {
+    "process_peak_rss_mb": 2033.6,
+    "peak_gpu_memory_allocated_mb": 828.4
+  },
+  "datasets": {
+    "ucf101": {
+      "manifest": "/kaggle/working/generalized-category-discovery/action_recognition/data/manifests/ucf101_test.csv",
+      "videos": 3783,
+      "failed": 0,
+      "cached": 0,
+      "subset": {
+        "per_class": null,
+        "limit": null
+      },
+      "decode_s": 1425.63,
+      "encode_s": 693.56
+    }
+  },
+  "experiment_file": "/kaggle/working/generalized-category-discovery/action_recognition/configs/experiments/clip_vitb16__common_16x1x1.yaml"
+}

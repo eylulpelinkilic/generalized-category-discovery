@@ -1,13 +1,19 @@
 import ast
 import json
+import pickle
+import tempfile
 import unittest
+from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 from ovar.benchmark import (load_benchmark, nec_action_id, read_labels, source_group,
                             build_dataset, label_matches_path)
 from ovar.config import project_path
+from ovar.inference import class_texts
 from ovar.manifest import load_manifest, load_vocab, validate
+from ovar.native import compare_openvclip
 from ovar.text import TEMPLATE_SETS
 from tests.official_source import THIRD_PARTY, require
 
@@ -112,6 +118,40 @@ class TestTemplates(unittest.TestCase):
                  and any(getattr(t, "id", "") == "text_aug" for t in n.targets) and isinstance(n.value, ast.List)]
         official = ["".join(v.value for v in e.values) for e in lists[0].elts]
         self.assertEqual(official, TEMPLATE_SETS["openvclip28"])
+
+
+class TestClassTexts(unittest.TestCase):
+    def test_default_is_text_name_and_raw_names_are_opt_in(self):
+        vocab = load_vocab("ucf101")
+        self.assertEqual(class_texts(vocab, {"prompts": {"template_set": "video_person"}})[0], "Apply Eye Makeup")
+        raw = class_texts(vocab, {"prompts": {"template_set": "video_person", "class_names": "official_name"}})
+        self.assertEqual(raw[0], "ApplyEyeMakeup")
+        xov = read_labels(require(THIRD_PARTY / "XOV-Action" / "labels" / "ucf_101_labels.csv"))
+        self.assertEqual(raw, [xov[i] for i in sorted(xov)])
+        with self.assertRaises(ValueError):
+            class_texts(vocab, {"prompts": {"class_names": "label"}})
+
+
+class TestCompareNative(unittest.TestCase):
+    def test_agreement_and_disagreements(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            run = Path(tmp) / "run"
+            (run / "ucf101").mkdir(parents=True)
+            pd.DataFrame({"video_id": ["a", "b", "c"], "action_id": [0, 1, 2], "pred_id": [1, 2, 0],
+                          "status": ["ok", "ok", "failed"], "correct": [0, 0, 0]}).to_csv(
+                run / "ucf101" / "predictions.csv", index=False)
+            official = np.array([[9, 0, 0], [0, 0, 9], [0, 0, 9]], dtype=np.float32)
+            with open(Path(tmp) / "preds.pkl", "wb") as f:
+                pickle.dump([official, np.array([0, 1, 2])], f)
+            with self.assertRaises(PermissionError):
+                compare_openvclip(Path(tmp) / "preds.pkl", run, "ucf101")
+            out = compare_openvclip(Path(tmp) / "preds.pkl", run, "ucf101", trust_pickle=True)
+        self.assertEqual(out["top1_agreement"], 0.5)        # failed videos excluded from agreement
+        self.assertEqual(out["adapter_failed"], 1)
+        self.assertAlmostEqual(out["official_accuracy"], 2 / 3)
+        self.assertEqual(out["adapter_accuracy_failures_as_errors"], 0.0)
+        self.assertEqual(out["disagreements"],
+                         [{"video_id": "a", "action_id": 0, "official_pred": 0, "adapter_pred": 1}])
 
 
 if __name__ == "__main__":

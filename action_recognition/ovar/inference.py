@@ -74,6 +74,17 @@ def subset_per_class(manifest: pd.DataFrame, per_class: int, seed: int) -> pd.Da
     return ranked.groupby("action_id").head(per_class).drop(columns="_key").sort_index()
 
 
+CLASS_NAME_COLUMNS = ("text_name", "official_name")
+
+
+def class_texts(vocab: pd.DataFrame, protocol: dict) -> list[str]:
+    """Class texts for the prompts: `text_name` (default) or the raw XOV label `official_name`."""
+    column = protocol["prompts"].get("class_names", "text_name")
+    if column not in CLASS_NAME_COLUMNS:
+        raise ValueError(f"prompts.class_names must be one of {CLASS_NAME_COLUMNS}, got {column!r}")
+    return vocab[column].tolist()
+
+
 def dataset_entries(cfg: dict) -> list[dict]:
     """Normalise `datasets` (names or dicts) into dicts with manifest/vocab/root."""
     bench = load_benchmark()
@@ -172,7 +183,7 @@ def run(cfg: dict, *, run_dir=None, per_class: int | None = None, limit: int | N
             manifest = manifest.head(limit)
         manifest = manifest.reset_index(drop=True)
 
-        prompts = build_prompts(vocab["text_name"].tolist(), protocol["prompts"]["template_set"])
+        prompts = build_prompts(class_texts(vocab, protocol), protocol["prompts"]["template_set"])
         text_key = stable_hash({"model": identity, "prompts": prompts})
         class_emb = embeddings.get(text_key)
         if class_emb is None:

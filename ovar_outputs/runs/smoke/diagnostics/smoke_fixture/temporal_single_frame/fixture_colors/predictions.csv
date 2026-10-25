@@ -1,0 +1,10 @@
+dataset_name,video_id,source_group_id,source_group_basis,action_id,action_name,category_status,status,error,cached,decode_s,encode_s,pred_id,pred_name,correct,gt_score,pred_score,top1_minus_top2,top5_ids,model_name,protocol_name,temporal_transform,pixel_transform,config_id
+fixture_colors,red_a,fixture_colors:g0,synthetic,0,red,familiar,ok,,True,0.0,0.0,0,red,1,0.3162859,0.3162859,0.06830874,0 2 1,clip_vitb32,fixture_16x1x1,single_frame,,740de2eadf2f
+fixture_colors,red_b,fixture_colors:g1,synthetic,0,red,familiar,ok,,True,0.0,0.0,0,red,1,0.3162859,0.3162859,0.06830874,0 2 1,clip_vitb32,fixture_16x1x1,single_frame,,740de2eadf2f
+fixture_colors,green_a,fixture_colors:g2,synthetic,1,green,familiar,ok,,True,0.0,0.0,1,green,1,0.3181248,0.3181248,0.05501452,1 0 2,clip_vitb32,fixture_16x1x1,single_frame,,740de2eadf2f
+fixture_colors,green_short,fixture_colors:g0,synthetic,1,green,familiar,ok,,True,0.0,0.0,1,green,1,0.3181248,0.3181248,0.05501452,1 0 2,clip_vitb32,fixture_16x1x1,single_frame,,740de2eadf2f
+fixture_colors,blue_a,fixture_colors:g1,synthetic,2,blue,unfamiliar,ok,,True,0.0,0.0,2,blue,1,0.3077492,0.3077492,0.04879293,2 0 1,clip_vitb32,fixture_16x1x1,single_frame,,740de2eadf2f
+fixture_colors,blue_tiny,fixture_colors:g2,synthetic,2,blue,unfamiliar,ok,,True,0.0,0.0,2,blue,1,0.3077492,0.3077492,0.04879293,2 0 1,clip_vitb32,fixture_16x1x1,single_frame,,740de2eadf2f
+fixture_colors,red_then_blue,fixture_colors:g0,synthetic,0,red,familiar,ok,,True,0.0,0.0,2,blue,0,0.25895628,0.3077492,0.04879293,2 0 1,clip_vitb32,fixture_16x1x1,single_frame,,740de2eadf2f
+fixture_colors,broken,fixture_colors:g1,synthetic,1,green,familiar,failed,"VideoDecodeError: [mov,mp4,m4a,3gp,3g2,mj2 @ 0x58895714d4c0] moov atom not found
+/kaggle/working/generalized-category-discovery/action_recognition/runs/smoke/fixtures/videos/broken.mp4: Invalid data found when processing input",False,0.0,0.0,-1,,0,,,,,clip_vitb32,fixture_16x1x1,single_frame,,740de2eadf2f

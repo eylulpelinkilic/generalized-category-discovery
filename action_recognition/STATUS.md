@@ -1,4 +1,22 @@
-# Status (2026-10-20)
+# Status (2026-10-25)
+
+## Real-data results so far (Kaggle session 1, code `7281db8`)
+
+Frozen CLIP on the full XOV UCF101 test list (3,783 videos, 0 failures; data: Kaggle copy
+`lifailifai/ucf101`, every listed file present, 300 decoded in validation). Top-1 % over all 101
+classes with 95% cluster-bootstrap CIs; recomputed independently from `predictions.csv`.
+
+| Model | Prompts | Overall | Familiar | Unfamiliar |
+|---|---|---|---|---|
+| ViT-B/32 | 1 template | 68.17 [65.2, 71.1] | 66.21 | 70.12 |
+| ViT-B/32 | 28 templates | 69.89 [66.8, 72.9] | 71.84 | 67.96 |
+| ViT-B/16 | 1 template | 71.16 [68.2, 74.3] | 74.23 | 68.12 |
+| ViT-B/16 | 28 templates | 74.86 [72.0, 77.8] | 77.21 | 72.54 |
+
+Diagnostics ran on 202 development videos (2 per class). The outputs are kept outside Git
+(`ovar_outputs/`). XOV reports 63.15 (ViT-B/16) and 59.67 (ViT-B/32) for CLIP on UCF101; the
+suspected cause (raw vs spaced class names) is tested by the side analysis in the next step.
+
 
 ## Implemented and verified on this machine
 
@@ -40,7 +58,7 @@
   - **Analysis:** diagnostics (temporal, actor crop, degradation), error analysis, results report
     (synthetic runs excluded), exports to the official Open-VCLIP and TC-CLIP formats
     (subset-aligned with `infer`), CLI with explicit errors.
-* **Tests:** 38 pass (`python -m unittest discover -s tests -t .`). The 2 opt-in heavy tests
+* **Tests:** 38 pass and 2 are skipped (`python -m unittest discover -s tests -t .`). The 2 opt-in heavy tests
   (`OVAR_HEAVY_TESTS=1`) were not run as tests; their checks were run manually once.
 * **Category audit.** Lexical screen run; 50 unfamiliar classes listed for review; 15 tagged
   near-familiar in an unverified review, with a secondary metric.
@@ -49,7 +67,6 @@
 
 * Open-VCLIP with the released checkpoint, and agreement with the official test script
   (`compare-native`).
-* CLIP ViT-B/16 (same code path as B/32; weights not cached).
 * Actor-crop diagnostics on real videos (code tested on fixtures with synthetic boxes).
 * `audit-categories --method clip`.
 * The MPS device path (every run so far used the CPU).
@@ -58,17 +75,15 @@
 
 | Blocker | Effect | Resolution |
 |---|---|---|
-| Disk: about 0.2 GB free of 460 GB (swap is also near its limit) | no dataset, checkpoint or ViT-B/16 download possible; heavy runs risk filling the disk | free at least 15 GB (UCF101 + HMDB51 archives and extraction, CLIP ViT-B/16, Open-VCLIP checkpoint, caches) |
-| No benchmark videos on this machine | no real-data result exists | docs/data_preparation.md |
-| No NVIDIA GPU | the official Open-VCLIP/TC-CLIP test scripts cannot run here (they call `.cuda()`) | run envs/openvclip.md on a Linux GPU machine |
+| Local disk: about 2 GB free of 460 GB | no local dataset or checkpoint downloads | runs happen on Kaggle (kaggle/*.ipynb) |
+| No NVIDIA GPU locally | the official Open-VCLIP/TC-CLIP test scripts need CUDA | Kaggle GPU (envs/openvclip.md, "On Kaggle") |
 | NEC-Drone access is by request; ARID v1 must be confirmed | two of the four domains cannot be prepared from public links alone | request access; validate file names |
 | No person detector | spatial diagnostics skip with "not run: no actor boxes" | docs/diagnostics.md |
 
 ## Not run
 
-Every experiment on real videos: Baselines A, B and C on all four domains (native and common
-protocol), diagnostics on development pools, error analysis, results tables. reports/results.md
-states this explicitly.
+Everything except frozen CLIP on UCF101: Baselines B and C; HMDB51, ARID and NEC-Drone; actor-crop
+diagnostics.
 
 ## Open items needing a human decision
 
@@ -78,9 +93,7 @@ states this explicitly.
 
 ## Next step
 
-Free at least 15 GB of disk, then download and extract UCF101, set `dataset_roots.ucf101` in
-`configs/paths.yaml` (copied from `paths.example.yaml`), and run:
-
-```bash
-python -m ovar validate --datasets ucf101 --check-files --check-decode
-```
+Push the current commit, then run `kaggle/ovar_ucf101_openvclip_check.ipynb` on a Kaggle T4
+session: the Open-VCLIP native check on the 202-video subset (official `tools/run_net.py` vs the
+adapter, `compare-native`) and the CLIP ViT-B/16 raw-class-name side analysis. Bring back
+`ovar_outputs_2.zip`.

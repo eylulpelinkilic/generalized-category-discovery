@@ -74,7 +74,8 @@ def results_report(runs_root=None, out_path=None) -> Path:
         lines += ["**No experiment on real benchmark videos has been run in this workspace yet.** "
                   "See STATUS.md for the blockers and the commands that produce these results.", ""]
     for kind, title in (("native", "Native inference configurations"),
-                        ("common", "Common comparison protocol")):
+                        ("common", "Common comparison protocol"),
+                        ("side", "Side analyses (not primary results; see each protocol file)")):
         group = [r for r in real if r[1].get("comparison") == kind]
         if group:
             lines += [f"## {title}", ""] + _run_table(group) + [""]
@@ -87,7 +88,7 @@ def results_report(runs_root=None, out_path=None) -> Path:
                              f"{record['timing']['model_load_s']} | {record['timing']['total_s']} | "
                              f"{enc:.1f} | {dec:.1f} | {json.dumps(record['memory'])} |")
             lines.append("")
-    other = [r for r in real if r[1].get("comparison") not in ("native", "common")]
+    other = [r for r in real if r[1].get("comparison") not in ("native", "common", "side")]
     if other:
         lines += ["## Other configurations", ""] + _run_table(other) + [""]
 

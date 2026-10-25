@@ -1,0 +1,9 @@
+# Side analysis, not a primary result: the common protocol with XOV's raw label names as class
+# texts (XOV-Action/labels/*.csv, e.g. "ApplyEyeMakeup") instead of the primary runs' text names.
+# Only UCF101 differs (77 of 101 classes; HMDB51, ARID and NEC-Drone already use XOV's names).
+# Tests whether class-name formatting explains the gap between our frozen-CLIP UCF101 accuracy
+# and XOV's reported CLIP numbers; it is not used to choose any setting.
+comparison: side
+sampling: {method: tsn_midpoint, num_frames: 16, num_views: 1}
+spatial: {preset: clip_center, size: 224}
+prompts: {template_set: video_person, class_names: official_name}

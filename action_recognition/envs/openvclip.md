@@ -23,6 +23,17 @@ original `ViT-B-16.pt` (`python -c "import clip; clip.load('ViT-B/16')"` with th
 `openai/CLIP` package, or the URL in docs/backbones.md). Record `sha256sum` of both in
 docs/backbones.md.
 
+## On Kaggle
+
+`kaggle/ovar_ucf101_openvclip_check.ipynb` runs the check below end to end. It builds the same
+environment with `uv` (Python 3.8, PyTorch 1.11 + CUDA 11.3, pytorchvideo pinned to
+`2ac6ed36`) and deviates from INSTALL.md in two import-only ways: detectron2 is replaced by a stub
+(the official code imports it at module level for detection heads, the demo and visualisation;
+the classification test path never calls it, and any use of the stub raises), and the repository
+is put on `PYTHONPATH` instead of `setup.py build develop` (pure Python; its `install_requires`
+names `detectron2`, `PIL` and `sklearn`, which pip cannot install). `pip freeze` of that
+environment is saved with the outputs.
+
 ## Native check on a small subset (UCF101, 2 videos per class)
 
 ```bash
@@ -43,7 +54,8 @@ python -W ignore -u tools/run_net.py --cfg configs/Kinetics/TemporalCLIP_vitb16_
 python -m ovar infer openvclip_vitb16__openvclip_native_8x3x1 --per-class 2 \
   --set 'datasets=[ucf101]' --set model.trust_pickle=true
 python -m ovar compare-native --official runs/official_ovc/preds.pkl \
-  --run-dir runs/openvclip_vitb16__openvclip_native_8x3x1 --dataset ucf101 --trust-pickle
+  --run-dir runs/openvclip_vitb16__openvclip_native_8x3x1 --dataset ucf101 --trust-pickle \
+  --out runs/native_check/compare_ucf101_subset2.json   # optional: also lists disagreeing videos
 ```
 
 Expect top-1 agreement close to 1.0. Remaining disagreements come from decoding (PyAV

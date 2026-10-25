@@ -1,0 +1,11 @@
+name: smoke_fixture
+experiment: unused
+temporal: [shuffled, single_frame]
+degradations:
+  - {name: dark_0.25, kind: brightness, factor: 0.25}
+  - {name: blur_2, kind: blur, sigma: 2.0}
+  - {name: down_0.25, kind: downsample, factor: 0.25}
+actor_boxes: /kaggle/working/generalized-category-discovery/action_recognition/runs/smoke/fixtures/boxes.csv
+spatial:
+  - {name: actor_crop, context: 1.0}
+  - {name: actor_context, context: 2.0}

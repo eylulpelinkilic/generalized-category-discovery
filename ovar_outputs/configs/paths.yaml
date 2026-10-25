@@ -1,0 +1,6 @@
+dataset_roots:
+  ucf101: /kaggle/input/datasets/lifailifai/ucf101/UCF-101
+hmdb51_single_class_folder: false
+checkpoints: {}
+cache_dir: cache
+runs_dir: runs

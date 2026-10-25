@@ -1,0 +1,81 @@
+{
+  "run_name": "diag_clip_vitb32__common_16x1x1__ucf_dev",
+  "created_utc": "2026-10-25T16:19:25+00:00",
+  "synthetic": false,
+  "config_id": "c27c5f909caf",
+  "comparison": "common",
+  "variant_name": "down_0.5",
+  "model": {
+    "backbone": "clip_frozen",
+    "arch": "ViT-B-32",
+    "pretrained": "openai",
+    "force_quick_gelu": true,
+    "name": "clip_vitb32"
+  },
+  "protocol": {
+    "comparison": "common",
+    "sampling": {
+      "method": "tsn_midpoint",
+      "num_frames": 16,
+      "num_views": 1
+    },
+    "spatial": {
+      "preset": "clip_center",
+      "size": 224
+    },
+    "prompts": {
+      "template_set": "video_person"
+    },
+    "name": "common_16x1x1"
+  },
+  "temporal_transform": "ordered",
+  "pixel_transform": {
+    "kind": "downsample",
+    "factor": 0.5
+  },
+  "backbone": {
+    "backbone": "clip_frozen",
+    "arch": "ViT-B-32",
+    "pretrained": "openai",
+    "weights_sha256": "e6d1bd7789aa45192b3bf90570a789b478bae1b74ebcce7eddd908e83a2b7c31",
+    "activation": "QuickGELU",
+    "implementation": "open_clip 3.3.0 (verified-compatible re-implementation of OpenAI CLIP)",
+    "weights_file": "/root/.cache/huggingface/hub/models--timm--vit_base_patch32_clip_224.openai/snapshots/a6f597a30f7b82c51704746581f9a4e41421e878/open_clip_model.safetensors",
+    "weights_source": "https://huggingface.co/timm/vit_base_patch32_clip_224.openai (OpenAI weights converted by timm/open_clip)",
+    "original_release": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "training_data": "OpenAI WIT-400M image-text pairs (not publicly documented in detail); no task-specific action training",
+    "licence": "OpenAI CLIP code and weights: MIT; open_clip code: MIT"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "torch": "2.11.0+cu128",
+    "open_clip": "3.3.0",
+    "numpy": "2.1.3",
+    "device": "cuda",
+    "processor": "x86_64"
+  },
+  "timing": {
+    "model_load_s": 0.0,
+    "total_s": 98.79
+  },
+  "memory": {
+    "process_peak_rss_mb": 2046.7,
+    "peak_gpu_memory_allocated_mb": 635.8
+  },
+  "datasets": {
+    "ucf101": {
+      "manifest": "/kaggle/working/generalized-category-discovery/action_recognition/data/manifests/ucf101_dev_train1.csv",
+      "videos": 202,
+      "failed": 0,
+      "cached": 0,
+      "subset": {
+        "per_class": 2,
+        "limit": null
+      },
+      "decode_s": 84.56,
+      "encode_s": 13.65
+    }
+  },
+  "experiment_file": "/kaggle/working/generalized-category-discovery/action_recognition/configs/experiments/clip_vitb32__common_16x1x1.yaml"
+}

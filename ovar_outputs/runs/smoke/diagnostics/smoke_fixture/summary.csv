@@ -1,0 +1,8 @@
+variant,family,dataset,status,note,n_videos,n_both_decoded,acc_reference,acc_variant,delta_acc,delta_acc_ci95,prediction_change_rate,variant_failed,reference_failed,correct_to_wrong,wrong_to_correct
+temporal_shuffled,temporal,fixture_colors,run,invariant by construction: frame-independent encoder with mean pooling,8,7,0.875,0.875,0.0,"[0.0, 0.0]",0.0,1,1,0,0
+temporal_single_frame,temporal,fixture_colors,run,,8,7,0.875,0.75,-0.125,"[-0.25, 0.0]",0.14285714285714285,1,1,1,0
+dark_0.25,degradation,fixture_colors,run,,8,7,0.875,0.875,0.0,"[0.0, 0.0]",0.0,1,1,0,0
+blur_2,degradation,fixture_colors,run,,8,7,0.875,0.875,0.0,"[0.0, 0.0]",0.0,1,1,0,0
+down_0.25,degradation,fixture_colors,run,,8,7,0.875,0.875,0.0,"[0.0, 0.0]",0.0,1,1,0,0
+actor_crop,spatial,fixture_colors,run,,8,6,0.875,0.75,-0.125,"[-0.2910714285714277, 0.0]",0.0,2,1,1,0
+actor_context,spatial,fixture_colors,run,,8,6,0.875,0.75,-0.125,"[-0.5, 0.0]",0.0,2,1,1,0
