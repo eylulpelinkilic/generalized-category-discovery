@@ -26,8 +26,12 @@ docs/backbones.md.
 ## On Kaggle
 
 `kaggle/ovar_ucf101_openvclip_check.ipynb` runs the check below end to end. It builds the same
-environment with `uv` (Python 3.8, PyTorch 1.11 + CUDA 11.3, pytorchvideo pinned to
-`2ac6ed36`) and deviates from INSTALL.md in two import-only ways: detectron2 is replaced by a stub
+environment with `uv`: Python 3.8, PyTorch 1.11 + CUDA 11.3, numpy 1.23.5, setuptools 59.5.0,
+pytorchvideo at `eb04d1b` (its main branch on the date of the pinned Open-VCLIP commit,
+2024-02-19), PyAV 12.3.0 (the last release with Python 3.8 wheels; PyAV 10.0.0 is source-only on
+PyPI and fails to build without FFmpeg headers) and protobuf 3.20.3 for TensorBoard. These
+versions resolve to wheels for Python 3.8 on Linux (checked with a pip dry run). It deviates
+from INSTALL.md in two import-only ways: detectron2 is replaced by a stub
 (the official code imports it at module level for detection heads, the demo and visualisation;
 the classification test path never calls it, and any use of the stub raises), and the repository
 is put on `PYTHONPATH` instead of `setup.py build develop` (pure Python; its `install_requires`

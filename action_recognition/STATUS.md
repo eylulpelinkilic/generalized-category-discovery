@@ -13,10 +13,27 @@ classes with 95% cluster-bootstrap CIs; recomputed independently from `predictio
 | ViT-B/16 | 1 template | 71.16 [68.2, 74.3] | 74.23 | 68.12 |
 | ViT-B/16 | 28 templates | 74.86 [72.0, 77.8] | 77.21 | 72.54 |
 
-Diagnostics ran on 202 development videos (2 per class). The outputs are kept outside Git
-(`ovar_outputs/`). XOV reports 63.15 (ViT-B/16) and 59.67 (ViT-B/32) for CLIP on UCF101; the
+Diagnostics ran on 202 development videos (2 per class). The outputs are committed at the repository root
+(`../ovar_outputs/`). XOV reports 63.15 (ViT-B/16) and 59.67 (ViT-B/32) for CLIP on UCF101; the
 suspected cause (raw vs spaced class names) is tested by the side analysis in the next step.
 
+
+## Kaggle session 2 (code `2c25661`, outputs in `../ovar_outputs_2/`)
+
+* **Reproducibility.** The ViT-B/16 primary run repeated in a new session gives identical scores
+  for all 3,783 videos (max |Δ| = 0), so the accuracy is again 71.16.
+* **Side analysis, XOV raw class names** (`common_16x1x1_xovnames`): 64.10 [60.8, 67.5]; familiar
+  68.12, unfamiliar 60.13. XOV reports 63.15 (closed 66.71, open 59.53), inside our intervals. The
+  gap to XOV is therefore consistent with class-name formatting alone. XOV's code is unpublished,
+  so this remains an explanation, not a confirmation. The name change alters 922 of 3,783
+  predictions (428 correct→wrong, 161 wrong→correct). Per-class effects reach ±80 pp (UnevenBars
+  89→0, FloorGymnastics 6→86). Classes whose own name is unchanged also move (−4.6 pp mean),
+  because their competitors' texts changed. The primary setting is unchanged.
+* **Open-VCLIP adapter, native 8×3×1, 202-video subset:** 86.14 [80.4, 90.2]; familiar 92.0,
+  unfamiliar 80.4. On the same videos frozen CLIP ViT-B/16 (common protocol) gets 74.3. **Not yet
+  a Baseline B result:** the official-script comparison did not run, because PyAV 10.0.0 has no
+  Python 3.8 wheel (fixed in the notebook: PyAV 12.3.0, pytorchvideo `eb04d1b`, protobuf 3.20.3).
+* Checkpoint SHA-256 recorded in docs/backbones.md.
 
 ## Implemented and verified on this machine
 
@@ -93,7 +110,6 @@ diagnostics.
 
 ## Next step
 
-Push the current commit, then run `kaggle/ovar_ucf101_openvclip_check.ipynb` on a Kaggle T4
-session: the Open-VCLIP native check on the 202-video subset (official `tools/run_net.py` vs the
-adapter, `compare-native`) and the CLIP ViT-B/16 raw-class-name side analysis. Bring back
-`ovar_outputs_2.zip`.
+Push the current commit, then re-run `kaggle/ovar_ucf101_openvclip_check.ipynb` with
+`RUN_PART_B = False` (T4, Internet on): the official Open-VCLIP test script against the adapter on
+the 202-video subset. Bring back `ovar_outputs_2.zip`.

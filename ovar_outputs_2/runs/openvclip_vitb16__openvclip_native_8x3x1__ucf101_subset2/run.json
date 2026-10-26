@@ -1,0 +1,89 @@
+{
+  "run_name": "openvclip_vitb16__openvclip_native_8x3x1",
+  "created_utc": "2026-10-25T23:40:34+00:00",
+  "synthetic": false,
+  "config_id": "b29a7d178827",
+  "comparison": "native",
+  "variant_name": "ucf101_subset2",
+  "model": {
+    "backbone": "openvclip",
+    "arch": "vitb16",
+    "repo": "third_party/Open-VCLIP",
+    "checkpoint": "/tmp/checkpoints/openvclip-b16/swa_2_22.pth",
+    "clip_original": "/root/.cache/clip/ViT-B-16.pt",
+    "patching_ratio": 0.5,
+    "temporal_modeling_type": "expand_temporal_view",
+    "trust_pickle": true,
+    "name": "openvclip_vitb16"
+  },
+  "protocol": {
+    "comparison": "native",
+    "native_for": "openvclip",
+    "sampling": {
+      "method": "slowfast_dense",
+      "num_frames": 8,
+      "sampling_rate": 16,
+      "num_views": 3,
+      "target_fps": 30,
+      "use_offset": true
+    },
+    "spatial": {
+      "preset": "slowfast_center",
+      "size": 224
+    },
+    "prompts": {
+      "template_set": "openvclip28"
+    },
+    "name": "openvclip_native_8x3x1"
+  },
+  "temporal_transform": "ordered",
+  "pixel_transform": null,
+  "backbone": {
+    "backbone": "openvclip",
+    "arch": "vitb16",
+    "temporal_modeling_type": "expand_temporal_view",
+    "num_frames_T": 8,
+    "patching_ratio": 0.5,
+    "checkpoint_sha256": "49a5bf452d044f18e8a3c2dff63d46986aeb082be22efe74b70df28cfe08e570",
+    "clip_original_sha256": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f",
+    "clip_original_format": "openai_jit_archive",
+    "code": "github.com/wengzejia1/Open-VCLIP @ 047a817e94b88c02c56fde2f1dd0fbf03f3be638 (official model code imported unchanged)",
+    "checkpoint_file": "/tmp/checkpoints/openvclip-b16/swa_2_22.pth",
+    "extra_checkpoint_keys": [],
+    "training_data": "Kinetics-400 (all 400 classes), initialised from OpenAI CLIP",
+    "trained_num_frames": 8,
+    "licence": "Open-VCLIP repository: no licence file (all rights reserved by default); PySlowFast: Apache-2.0; CLIP: MIT"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "torch": "2.11.0+cu128",
+    "open_clip": "3.3.0",
+    "numpy": "2.1.3",
+    "device": "cuda",
+    "processor": "x86_64"
+  },
+  "timing": {
+    "model_load_s": 8.37,
+    "total_s": 262.34
+  },
+  "memory": {
+    "process_peak_rss_mb": 3085.1,
+    "peak_gpu_memory_allocated_mb": 1116.1
+  },
+  "datasets": {
+    "ucf101": {
+      "manifest": "/kaggle/working/generalized-category-discovery/action_recognition/data/manifests/ucf101_test.csv",
+      "videos": 202,
+      "failed": 0,
+      "cached": 0,
+      "subset": {
+        "per_class": 2,
+        "limit": null
+      },
+      "decode_s": 166.87,
+      "encode_s": 71.35
+    }
+  },
+  "experiment_file": "/kaggle/working/generalized-category-discovery/action_recognition/configs/experiments/openvclip_vitb16__openvclip_native_8x3x1.yaml"
+}

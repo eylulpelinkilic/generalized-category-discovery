@@ -1,0 +1,98 @@
+{
+  "n_videos": 202,
+  "n_failed": 0,
+  "n_classes": 101,
+  "accuracy": {
+    "overall": {
+      "n": 202,
+      "n_correct": 174,
+      "acc": 0.8613861386138614,
+      "ci95": [
+        0.8039691029404449,
+        0.901513702233488
+      ]
+    },
+    "familiar": {
+      "n": 100,
+      "n_correct": 92,
+      "acc": 0.92,
+      "ci95": [
+        0.8585874841705361,
+        0.9691100667070952
+      ]
+    },
+    "unfamiliar": {
+      "n": 102,
+      "n_correct": 82,
+      "acc": 0.803921568627451,
+      "ci95": [
+        0.7187160326086957,
+        0.8727536427415004
+      ]
+    }
+  },
+  "top5_overall": 0.9554455445544554,
+  "mean_class_accuracy": 0.8613861386138614,
+  "ci_method": {
+    "type": "cluster percentile bootstrap",
+    "unit": "source_group_id",
+    "n_groups": 192,
+    "n_boot": 200,
+    "seed": 0,
+    "group_bases": [
+      "ucf101_class_group"
+    ]
+  },
+  "confused_pairs": [
+    {
+      "true": "Basketball",
+      "predicted": "BasketballDunk",
+      "count": 2,
+      "rate_of_true_class": 1.0
+    },
+    {
+      "true": "ParallelBars",
+      "predicted": "UnevenBars",
+      "count": 2,
+      "rate_of_true_class": 1.0
+    },
+    {
+      "true": "PlayingDaf",
+      "predicted": "PlayingTabla",
+      "count": 2,
+      "rate_of_true_class": 1.0
+    },
+    {
+      "true": "Punch",
+      "predicted": "BoxingPunchingBag",
+      "count": 2,
+      "rate_of_true_class": 1.0
+    }
+  ],
+  "secondary_unfamiliar_excluding_near_familiar": {
+    "n": 72,
+    "acc": 0.7638888888888888,
+    "ci95": [
+      0.6469079939668175,
+      0.8518670309653916
+    ],
+    "excluded_classes": [
+      "BandMarching",
+      "BodyWeightSquats",
+      "BoxingSpeedBag",
+      "CricketBowling",
+      "CricketShot",
+      "FloorGymnastics",
+      "GolfSwing",
+      "IceDancing",
+      "JumpRope",
+      "RockClimbingIndoor",
+      "SalsaSpin",
+      "SoccerPenalty",
+      "SumoWrestling",
+      "TennisSwing",
+      "TrampolineJumping"
+    ],
+    "note": "sensitivity analysis only; official XOV status is the primary definition; exclusions come from an unverified review (data/audit/category_review.csv)"
+  }
+}

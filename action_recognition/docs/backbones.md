@@ -29,7 +29,7 @@ which rules out channel-order and normalisation errors. Measured cost on the App
 | Field | Value |
 |---|---|
 | Code | `github.com/wengzejia1/Open-VCLIP` @ `047a817e94b88c02c56fde2f1dd0fbf03f3be638`; no licence file (all rights reserved by default; research use as published), built on PySlowFast (Apache-2.0) and CLIP (MIT) |
-| Checkpoints | official Google Drive folder `drive.google.com/drive/folders/1VhwPFESkrr9Ed40yU5NEPIkrGIf6WQ9N`; ViT-B/16 file `openvclip-b16/swa_2_22.pth` (Drive file id `1QLdkVYPP_AjFJgB9mGNLhppqvHFWkT4x`, 598,587,149 bytes; also B/32 and L/14); no checksum is published, SHA-256 *pending* (recorded in `runs/DOWNLOADS.json` by the Kaggle notebook) |
+| Checkpoints | official Google Drive folder `drive.google.com/drive/folders/1VhwPFESkrr9Ed40yU5NEPIkrGIf6WQ9N`; ViT-B/16 file `openvclip-b16/swa_2_22.pth` (Drive file id `1QLdkVYPP_AjFJgB9mGNLhppqvHFWkT4x`, 598,587,149 bytes; also B/32 and L/14); no checksum is published; SHA-256 of the file downloaded on 2026-10-26: `49a5bf452d044f18e8a3c2dff63d46986aeb082be22efe74b70df28cfe08e570` |
 | Also needed | original OpenAI JIT archive `ViT-B-16.pt` (weight patching; 350,837,078 bytes; SHA-256 `5806e77c…416f`, the hash in its official URL) |
 | Training data | Kinetics-400, all 400 classes, from CLIP initialisation (interpolated weight optimisation + SWA) |
 | Architecture | CLIP ViT-B/16 whose self-attention also attends to the previous and next frame's tokens (`expand_temporal_view`, zero-padded at clip ends); no extra parameters |

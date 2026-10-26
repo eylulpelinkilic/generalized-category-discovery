@@ -1,0 +1,10 @@
+{
+  "weights": "ok",
+  "official_env": "failed: command failed with exit code 1: /tmp/ovc-env/bin/python -m pip install -q -c /tmp/ovc-constraints.txt --extra-index-url https://download.pytorch.org/whl/cu113 scipy pandas scikit-learn ftfy regex simplejson psutil opencv-python-headless tensorboard iopath fvcore av matplotlib tqdm termcolor yacs pyyaml 'pytorchvideo @ git+https://github.com/facebookresearch/pytorchvideo.git@2ac6ed361309cb25144636ad82dd8bd6a4970e0c'",
+  "official_test": "skipped: needs official_env",
+  "adapter_subset": "ok",
+  "compare": "skipped: needs official_test",
+  "clip_primary_rerun": "ok",
+  "clip_xov_names": "ok",
+  "report": "ok"
+}
