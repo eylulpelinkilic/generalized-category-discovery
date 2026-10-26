@@ -1,4 +1,4 @@
-# Status (2026-10-25)
+# Status (2026-10-26)
 
 ## Real-data results so far (Kaggle session 1, code `7281db8`)
 
@@ -34,6 +34,44 @@ suspected cause (raw vs spaced class names) is tested by the side analysis in th
   a Baseline B result:** the official-script comparison did not run, because PyAV 10.0.0 has no
   Python 3.8 wheel (fixed in the notebook: PyAV 12.3.0, pytorchvideo `eb04d1b`, protobuf 3.20.3).
 * Checkpoint SHA-256 recorded in docs/backbones.md.
+
+## Kaggle session 3 (code `812a278`, outputs in `../ovar_outputs_3/`)
+
+**Native Open-VCLIP check: the official test script and the adapter agree.** The setting was the
+official UCF101 configuration (`script/testing/temporal_test_b16/ucf.sh`: PyAV decoding, 8×16 at
+30 fps, 3 views × 1 crop, patching 0.5, fp32), run on the same 202 videos and class texts. The
+official environment (torch 1.11.0+cu113, Python 3.8) is frozen in `runs/official_env_freeze.txt`.
+The official run loaded all checkpoint keys and scored 606 clips (202 × 3).
+
+| | Top-1 | Top-5 |
+|---|---|---|
+| Official `tools/run_net.py` | 85.64 | 96.04 |
+| Adapter (`ovar infer`) | 86.14 | 95.54 |
+
+* **Top-1 agreement:** 200 of 202 videos (99.0%), with 0 adapter failures. The two
+  disagreements are near-ties in the official scores, where the official top-1 and top-2 classes
+  differ by 0.39 and 0.12 logits on a scale of about 70–80. These are the 4th-smallest and the
+  smallest official margins of the 202 videos.
+
+  | Video | True class | Official | Adapter |
+  |---|---|---|---|
+  | `Hammering/v_Hammering_g01_c01` | Hammering | ShavingBeard | Hammering |
+  | `PommelHorse/v_PommelHorse_g04_c04` | PommelHorse | BoxingSpeedBag | Drumming |
+* **Score level.** Official scores are the sum over views of 100 × the mean per-frame cosine.
+  Adapter scores are the cosine of the renormalised mean, which gives the same ranking when the
+  inputs are identical.
+  - Per-video Spearman correlation: median 0.996, minimum 0.968.
+  - Top-5 sets identical for 76% of videos.
+  - After a per-video scale fit, the median max residual is 0.007 cosine units, against a median
+    top-1/top-2 gap of 0.041.
+  - Some fitted scale factors exceed 1, so the inputs differ slightly, not only the numerics.
+    The cause anticipated in envs/openvclip.md is PyAV selective decoding versus our full
+    decoding (frame windows can shift by a frame). It has not been checked frame by frame.
+* **Adapter reproducibility.** The adapter matches its session-2 run exactly (max |Δscore| = 0).
+* **What this licenses.** The adapter is accepted as Open-VCLIP's native inference for UCF101
+  (PyAV). The 202-video accuracies are subset numbers, not Baseline B results; those need the
+  full 3,783-video list. HMDB51's official script decodes with torchvision, so HMDB51 needs its
+  own check.
 
 ## Implemented and verified on this machine
 
@@ -82,8 +120,8 @@ suspected cause (raw vs spaced class names) is tested by the side analysis in th
 
 ## Implemented, not yet verified
 
-* Open-VCLIP with the released checkpoint, and agreement with the official test script
-  (`compare-native`).
+* Open-VCLIP agreement with the official test script on HMDB51 (torchvision decoding); verified
+  for UCF101 with PyAV decoding (session 3).
 * Actor-crop diagnostics on real videos (code tested on fixtures with synthetic boxes).
 * `audit-categories --method clip`.
 * The MPS device path (every run so far used the CPU).
@@ -99,8 +137,8 @@ suspected cause (raw vs spaced class names) is tested by the side analysis in th
 
 ## Not run
 
-Everything except frozen CLIP on UCF101: Baselines B and C; HMDB51, ARID and NEC-Drone; actor-crop
-diagnostics.
+Everything except frozen CLIP on UCF101 and the 202-video Open-VCLIP check: Baseline B on the full
+lists, Baseline C, HMDB51, ARID and NEC-Drone, and actor-crop diagnostics.
 
 ## Open items needing a human decision
 
@@ -110,6 +148,7 @@ diagnostics.
 
 ## Next step
 
-Push the current commit, then re-run `kaggle/ovar_ucf101_openvclip_check.ipynb` with
-`RUN_PART_B = False` (T4, Internet on): the official Open-VCLIP test script against the adapter on
-the 202-video subset. Bring back `ovar_outputs_2.zip`.
+Baseline B on the full UCF101 test list (3,783 videos), about 2.5 GPU hours on a T4:
+1. Adapter, native `openvclip_native_8x3x1`.
+2. Official script on the same list, with `compare-native` for full-list agreement.
+3. Adapter, common protocol `common_16x1x1`, reported in its own section.

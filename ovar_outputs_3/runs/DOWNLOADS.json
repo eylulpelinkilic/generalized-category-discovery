@@ -1,0 +1,12 @@
+{
+  "openvclip_vitb16": {
+    "url": "https://drive.usercontent.google.com/download?id=1QLdkVYPP_AjFJgB9mGNLhppqvHFWkT4x&export=download&confirm=t",
+    "bytes": 598587149,
+    "sha256": "49a5bf452d044f18e8a3c2dff63d46986aeb082be22efe74b70df28cfe08e570"
+  },
+  "clip_vitb16_openai_pt": {
+    "url": "https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt",
+    "bytes": 350837078,
+    "sha256": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f"
+  }
+}

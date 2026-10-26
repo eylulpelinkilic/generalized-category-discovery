@@ -1,0 +1,10 @@
+{
+  "weights": "ok",
+  "official_env": "ok",
+  "official_test": "ok",
+  "adapter_subset": "ok",
+  "compare": "ok",
+  "clip_primary_rerun": "not requested",
+  "clip_xov_names": "not requested",
+  "report": "ok"
+}

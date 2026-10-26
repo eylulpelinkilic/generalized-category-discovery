@@ -1,0 +1,39 @@
+{
+  "run_name": "openvclip_vitb16__openvclip_native_8x3x1",
+  "synthetic": false,
+  "comparison": "native",
+  "datasets": [
+    "ucf101"
+  ],
+  "per_dataset": {
+    "ucf101": {
+      "overall": {
+        "n": 202,
+        "n_correct": 174,
+        "acc": 0.8613861386138614,
+        "ci95": [
+          0.8039691029404449,
+          0.901513702233488
+        ]
+      },
+      "familiar": {
+        "n": 100,
+        "n_correct": 92,
+        "acc": 0.92,
+        "ci95": [
+          0.8585874841705361,
+          0.9691100667070952
+        ]
+      },
+      "unfamiliar": {
+        "n": 102,
+        "n_correct": 82,
+        "acc": 0.803921568627451,
+        "ci95": [
+          0.7187160326086957,
+          0.8727536427415004
+        ]
+      }
+    }
+  }
+}

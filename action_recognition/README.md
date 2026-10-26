@@ -14,8 +14,8 @@ No novel method is implemented here.
 
 | Baseline | Status on this machine |
 |---|---|
-| A. Frozen CLIP (OpenAI weights via open_clip, QuickGELU) | runs; ViT-B/32 verified end to end on synthetic fixtures |
-| B. Open-VCLIP (official checkpoint, official model code) | adapter implemented; official code verified to import and reproduce CLIP; checkpoint not downloaded |
+| A. Frozen CLIP (OpenAI weights via open_clip, QuickGELU) | full UCF101 test list run on Kaggle (ViT-B/32, ViT-B/16) |
+| B. Open-VCLIP (official checkpoint, official model code) | adapter agrees with the official test script on 200/202 UCF101 videos (Kaggle); full lists not run |
 | C. TC-CLIP (optional) | official code + exported manifests on a compatible machine |
 
 See **STATUS.md** for what is verified, blocked and not yet run, and

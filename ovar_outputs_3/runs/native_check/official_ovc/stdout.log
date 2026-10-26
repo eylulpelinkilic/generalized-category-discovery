@@ -1,0 +1,1190 @@
+[10/26 13:21:47][INFO] test_net.py:  281: Test with config:
+[10/26 13:21:47][INFO] test_net.py:  282: AUG:
+  AA_TYPE: rand-m7-n4-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  ENABLE: False
+  GEN_MASK_LOADER: False
+  INTERPOLATION: bicubic
+  MASK_FRAMES: False
+  MASK_RATIO: 0.0
+  MASK_TUBE: False
+  MASK_WINDOW_SIZE: [8, 7, 7]
+  MAX_MASK_PATCHES_PER_BLOCK: None
+  NUM_SAMPLE: 2
+  RE_COUNT: 1
+  RE_MODE: pixel
+  RE_PROB: 0.25
+  RE_SPLIT: False
+AVA:
+  ANNOTATION_DIR: /mnt/vol/gfsai-flash3-east/ai-group/users/haoqifan/ava/frame_list/
+  BGR: False
+  DETECTION_SCORE_THRESH: 0.9
+  EXCLUSION_FILE: ava_val_excluded_timestamps_v2.2.csv
+  FRAME_DIR: /mnt/fair-flash3-east/ava_trainval_frames.img/
+  FRAME_LIST_DIR: /mnt/vol/gfsai-flash3-east/ai-group/users/haoqifan/ava/frame_list/
+  FULL_TEST_ON_VAL: False
+  GROUNDTRUTH_FILE: ava_val_v2.2.csv
+  IMG_PROC_BACKEND: cv2
+  LABEL_MAP_FILE: ava_action_list_v2.2_for_activitynet_2019.pbtxt
+  TEST_FORCE_FLIP: False
+  TEST_LISTS: ['val.csv']
+  TEST_PREDICT_BOX_LISTS: ['ava_val_predicted_boxes.csv']
+  TRAIN_GT_BOX_LISTS: ['ava_train_v2.2.csv']
+  TRAIN_LISTS: ['train.csv']
+  TRAIN_PCA_JITTER_ONLY: True
+  TRAIN_PREDICT_BOX_LISTS: []
+  TRAIN_USE_COLOR_AUGMENTATION: False
+BENCHMARK:
+  LOG_PERIOD: 100
+  NUM_EPOCHS: 5
+  SHUFFLE: True
+BN:
+  GLOBAL_SYNC: False
+  NORM_TYPE: batchnorm
+  NUM_BATCHES_PRECISE: 200
+  NUM_SPLITS: 1
+  NUM_SYNC_DEVICES: 1
+  USE_PRECISE_STATS: False
+  WEIGHT_DECAY: 0.0
+CONTRASTIVE:
+  BN_MLP: False
+  BN_SYNC_MLP: False
+  DELTA_CLIPS_MAX: inf
+  DELTA_CLIPS_MIN: -inf
+  DIM: 128
+  INTERP_MEMORY: False
+  KNN_ON: True
+  LENGTH: 239975
+  LOCAL_SHUFFLE_BN: True
+  MEM_TYPE: 1d
+  MLP_DIM: 2048
+  MOCO_MULTI_VIEW_QUEUE: False
+  MOMENTUM: 0.5
+  MOMENTUM_ANNEALING: False
+  NUM_CLASSES_DOWNSTREAM: 400
+  NUM_MLP_LAYERS: 1
+  PREDICTOR_DEPTHS: []
+  QUEUE_LEN: 65536
+  SEQUENTIAL: False
+  SIMCLR_DIST_ON: True
+  SWAV_QEUE_LEN: 0
+  T: 0.07
+  TYPE: mem
+DATA:
+  COLOR_RND_GRAYSCALE: 0.0
+  DECODING_BACKEND: pyav
+  DECODING_SHORT_SIZE: 256
+  DUMMY_LOAD: False
+  ENSEMBLE_METHOD: sum
+  IN22K_TRAINVAL: False
+  IN22k_VAL_IN1K: 
+  INDEX_LABEL_MAPPING_FILE: /kaggle/working/generalized-category-discovery/action_recognition/runs/native_check/export_ovc/ucf101/ucf101-index2cls.json
+  INPUT_CHANNEL_NUM: [3]
+  INV_UNIFORM_SAMPLE: False
+  IN_VAL_CROP_RATIO: 0.875
+  LOADER_CHUNK_OVERALL_SIZE: 0
+  LOADER_CHUNK_SIZE: 0
+  MEAN: [0.48145466, 0.4578275, 0.40821073]
+  MULTI_LABEL: False
+  NUM_FRAMES: 8
+  PATH_LABEL_SEPARATOR: ,
+  PATH_PREFIX: /kaggle/input/datasets/lifailifai/ucf101/UCF-101
+  PATH_TO_DATA_DIR: /kaggle/working/generalized-category-discovery/action_recognition/runs/native_check/export_ovc/ucf101
+  PATH_TO_PRELOAD_IMDB: 
+  RANDOM_FLIP: True
+  REVERSE_INPUT_CHANNEL: False
+  SAMPLING_RATE: 16
+  SKIP_ROWS: 0
+  SSL_BLUR_SIGMA_MAX: [0.0, 2.0]
+  SSL_BLUR_SIGMA_MIN: [0.0, 0.1]
+  SSL_COLOR_BRI_CON_SAT: [0.4, 0.4, 0.4]
+  SSL_COLOR_HUE: 0.1
+  SSL_COLOR_JITTER: False
+  SSL_MOCOV2_AUG: False
+  STD: [0.26862954, 0.26130258, 0.27577711]
+  TARGET_FPS: 30
+  TEST_CROP_SIZE: 224
+  TIME_DIFF_PROB: 0.0
+  TRAIN_CROP_NUM_SPATIAL: 1
+  TRAIN_CROP_NUM_TEMPORAL: 1
+  TRAIN_CROP_SIZE: 224
+  TRAIN_JITTER_ASPECT_RELATIVE: []
+  TRAIN_JITTER_FPS: 0.0
+  TRAIN_JITTER_MOTION_SHIFT: False
+  TRAIN_JITTER_SCALES: [224, 256]
+  TRAIN_JITTER_SCALES_RELATIVE: []
+  TRAIN_PCA_EIGVAL: [0.225, 0.224, 0.229]
+  TRAIN_PCA_EIGVEC: [[-0.5675, 0.7192, 0.4009], [-0.5808, -0.0045, -0.814], [-0.5836, -0.6948, 0.4203]]
+  USE_OFFSET_SAMPLING: True
+DATA_LOADER:
+  ENABLE_MULTI_THREAD_DECODE: False
+  NUM_WORKERS: 4
+  PIN_MEMORY: True
+DEMO:
+  BUFFER_SIZE: 0
+  CLIP_VIS_SIZE: 10
+  COMMON_CLASS_NAMES: ['watch (a person)', 'talk to (e.g., self, a person, a group)', 'listen to (a person)', 'touch (an object)', 'carry/hold (an object)', 'walk', 'sit', 'lie/sleep', 'bend/bow (at the waist)']
+  COMMON_CLASS_THRES: 0.7
+  DETECTRON2_CFG: COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml
+  DETECTRON2_THRESH: 0.9
+  DETECTRON2_WEIGHTS: detectron2://COCO-Detection/faster_rcnn_R_50_FPN_3x/137849458/model_final_280758.pkl
+  DISPLAY_HEIGHT: 0
+  DISPLAY_WIDTH: 0
+  ENABLE: False
+  FPS: 30
+  GT_BOXES: 
+  INPUT_FORMAT: BGR
+  INPUT_VIDEO: 
+  LABEL_FILE_PATH: 
+  NUM_CLIPS_SKIP: 0
+  NUM_VIS_INSTANCES: 2
+  OUTPUT_FILE: 
+  OUTPUT_FPS: -1
+  PREDS_BOXES: 
+  SLOWMO: 1
+  STARTING_SECOND: 900
+  THREAD_ENABLE: False
+  UNCOMMON_CLASS_THRES: 0.3
+  VIS_MODE: thres
+  WEBCAM: -1
+DETECTION:
+  ALIGNED: True
+  ENABLE: False
+  ROI_XFORM_RESOLUTION: 7
+  SPATIAL_SCALE_FACTOR: 16
+DIST_BACKEND: nccl
+IMAGENET_SIMPLELABEL_PATH: None
+LOG_MODEL_INFO: True
+LOG_PERIOD: 10
+MASK:
+  DECODER_DEPTH: 0
+  DECODER_EMBED_DIM: 512
+  DECODER_SEP_POS_EMBED: False
+  DEC_KV_KERNEL: []
+  DEC_KV_STRIDE: []
+  ENABLE: False
+  HEAD_TYPE: separate
+  MAE_ON: False
+  MAE_RND_MASK: False
+  NORM_PRED_PIXEL: True
+  PER_FRAME_MASKING: False
+  PRED_HOG: False
+  PRETRAIN_DEPTH: [15]
+  SCALE_INIT_BY_DEPTH: False
+  TIME_STRIDE_LOSS: True
+MIXUP:
+  ALPHA: 0.8
+  CUTMIX_ALPHA: 1.0
+  ENABLE: False
+  LABEL_SMOOTH_VALUE: 0.1
+  PROB: 1.0
+  SWITCH_PROB: 0.5
+MODEL:
+  ACT_CHECKPOINT: False
+  ADAPT_FINETUNE_FACTOR: 1.0
+  ARCH: vitb16
+  CLS_LOSS_RATIO: 1.0
+  CONTEXT_LENGTH: 77
+  DEFAULT_FINETUNE_FACTOR: 1.0
+  DETACH_FINAL_FC: False
+  DISTILLATION_RATIO: 1.0
+  DROPCONNECT_RATE: 0.0
+  DROPOUT_RATE: 0.5
+  ENSEMBLE_PRED: False
+  ENSEMBLE_RAWMODEL_RATIO: 0.0
+  EXPERT_FINETUNE_FACTOR: 1.0
+  EXPERT_INSERT_LAYERS: [10, 11]
+  FC_INIT_STD: 0.01
+  FINETUNE_FACTOR: 1.0
+  FP16_ALLREDUCE: False
+  FROZEN_BN: False
+  HEAD_ACT: softmax
+  KEEP_RAW_MODEL: False
+  LOSS_FREQ_TYPE: mse
+  LOSS_FUNC: cross_entropy
+  MLP_FINETUNE_FACTOR: 1.0
+  MODEL_NAME: TemporalClipVideo
+  MULTI_PATHWAY_ARCH: ['slowfast']
+  NUM_CLASSES: 101
+  NUM_EXPERTS: 0
+  PROMPT_NUM: 1
+  RAW_MODEL_DISTILLATION: False
+  RECORD_ROUTING: False
+  ROUTING_FINETUNE_FACTOR: 1.0
+  ROUTING_FREQUENCE_CONSTRAIN: 0.5
+  ROUTING_FREQ_CONS_FACTOR: 1.0
+  ROUTING_TYPE: patch-level
+  SINGLE_PATHWAY_ARCH: ['2d', 'c2d', 'i3d', 'slow', 'x3d', 'mvit', 'maskmvit', 'vitb32', 'vitb16', 'vitl14']
+  STATIC_GRAPH: False
+  TEMPORAL_MODELING_TYPE: expand_temporal_view
+  TEXT_PROMPT: False
+  USE_CHECKPOINT: False
+MULTIGRID:
+  BN_BASE_SIZE: 8
+  DEFAULT_B: 0
+  DEFAULT_S: 0
+  DEFAULT_T: 0
+  EPOCH_FACTOR: 1.5
+  EVAL_FREQ: 3
+  LONG_CYCLE: False
+  LONG_CYCLE_FACTORS: [(0.25, 0.7071067811865476), (0.5, 0.7071067811865476), (0.5, 1), (1, 1)]
+  LONG_CYCLE_SAMPLING_RATE: 0
+  SHORT_CYCLE: False
+  SHORT_CYCLE_FACTORS: [0.5, 0.7071067811865476]
+MVIT:
+  CLS_EMBED_ON: True
+  DEPTH: 16
+  DIM_MUL: []
+  DIM_MUL_IN_ATT: False
+  DROPOUT_RATE: 0.0
+  DROPPATH_RATE: 0.1
+  EMBED_DIM: 96
+  HEAD_INIT_SCALE: 1.0
+  HEAD_MUL: []
+  LAYER_SCALE_INIT_VALUE: 0.0
+  MLP_RATIO: 4.0
+  MODE: conv
+  NORM: layernorm
+  NORM_STEM: False
+  NUM_HEADS: 1
+  PATCH_2D: False
+  PATCH_KERNEL: [3, 7, 7]
+  PATCH_PADDING: [2, 4, 4]
+  PATCH_STRIDE: [2, 4, 4]
+  POOL_FIRST: False
+  POOL_KVQ_KERNEL: None
+  POOL_KV_STRIDE: []
+  POOL_KV_STRIDE_ADAPTIVE: None
+  POOL_Q_STRIDE: []
+  QKV_BIAS: True
+  REL_POS_SPATIAL: False
+  REL_POS_TEMPORAL: False
+  REL_POS_ZERO_INIT: False
+  RESIDUAL_POOLING: False
+  REV:
+    BUFFER_LAYERS: []
+    ENABLE: False
+    PRE_Q_FUSION: avg
+    RESPATH_FUSE: concat
+    RES_PATH: conv
+  SEPARATE_QKV: False
+  SEP_POS_EMBED: False
+  USE_ABS_POS: True
+  USE_FIXED_SINCOS_POS: False
+  USE_MEAN_POOLING: False
+  ZERO_DECAY_POS_CLS: True
+NONLOCAL:
+  GROUP: [[1], [1], [1], [1]]
+  INSTANTIATION: dot_product
+  LOCATION: [[[]], [[]], [[]], [[]]]
+  POOL: [[[1, 2, 2], [1, 2, 2]], [[1, 2, 2], [1, 2, 2]], [[1, 2, 2], [1, 2, 2]], [[1, 2, 2], [1, 2, 2]]]
+NUM_GPUS: 1
+NUM_SHARDS: 1
+OUTPUT_DIR: /kaggle/working/generalized-category-discovery/action_recognition/runs/native_check/official_ovc
+RESNET:
+  DEPTH: 50
+  INPLACE_RELU: True
+  NUM_BLOCK_TEMP_KERNEL: [[3], [4], [6], [3]]
+  NUM_GROUPS: 1
+  SPATIAL_DILATIONS: [[1], [1], [1], [1]]
+  SPATIAL_STRIDES: [[1], [2], [2], [2]]
+  STRIDE_1X1: False
+  TRANS_FUNC: bottleneck_transform
+  WIDTH_PER_GROUP: 64
+  ZERO_INIT_FINAL_BN: False
+  ZERO_INIT_FINAL_CONV: False
+RNG_SEED: 0
+SHARD_ID: 0
+SLOWFAST:
+  ALPHA: 8
+  BETA_INV: 8
+  FUSION_CONV_CHANNEL_RATIO: 2
+  FUSION_KERNEL_SZ: 5
+SOLVER:
+  BASE_LR: 1e-05
+  BASE_LR_SCALE_NUM_SHARDS: True
+  BETAS: (0.9, 0.999)
+  CLIP_GRAD_L2NORM: 1.0
+  CLIP_GRAD_VAL: None
+  COSINE_AFTER_WARMUP: True
+  COSINE_END_LR: 1e-07
+  COSINE_RESTART_EPOCH: 0
+  DAMPENING: 0.0
+  GAMMA: 0.1
+  LARS_ON: False
+  LAYER_DECAY: 1.0
+  LRS: []
+  LR_POLICY: cosine
+  MAX_EPOCH: 12
+  MOMENTUM: 0.9
+  NESTEROV: True
+  OPTIMIZING_METHOD: adamw
+  STEPS: []
+  STEP_SIZE: 1
+  WARMUP_EPOCHS: 1.0
+  WARMUP_FACTOR: 0.1
+  WARMUP_START_LR: 1e-07
+  WEIGHT_DECAY: 0.01
+  ZERO_WD_1D_PARAM: True
+TASK: 
+TENSORBOARD:
+  CATEGORIES_PATH: 
+  CLASS_NAMES_PATH: 
+  CONFUSION_MATRIX:
+    ENABLE: False
+    FIGSIZE: [8, 8]
+    SUBSET_PATH: 
+  ENABLE: False
+  HISTOGRAM:
+    ENABLE: False
+    FIGSIZE: [8, 8]
+    SUBSET_PATH: 
+    TOPK: 10
+  LOG_DIR: 
+  MODEL_VIS:
+    ACTIVATIONS: False
+    COLORMAP: Pastel2
+    ENABLE: False
+    GRAD_CAM:
+      COLORMAP: viridis
+      ENABLE: True
+      LAYER_LIST: []
+      USE_TRUE_LABEL: False
+    INPUT_VIDEO: False
+    LAYER_LIST: []
+    MODEL_WEIGHTS: False
+    TOPK_PREDS: 1
+  PREDICTIONS_PATH: 
+  WRONG_PRED_VIS:
+    ENABLE: False
+    SUBSET_PATH: 
+    TAG: Incorrectly classified videos.
+TEST:
+  BATCH_SIZE: 8
+  CHECKPOINT_FILE_PATH: 
+  CHECKPOINT_TYPE: pytorch
+  CLIP_ORI_PATH: /root/.cache/clip/ViT-B-16.pt
+  CUSTOM_LOAD: True
+  CUSTOM_LOAD_FILE: /tmp/checkpoints/openvclip-b16/swa_2_22.pth
+  DATASET: kinetics
+  ENABLE: True
+  NUM_ENSEMBLE_VIEWS: 3
+  NUM_SPATIAL_CROPS: 1
+  NUM_TEMPORAL_CLIPS: [3]
+  OPENSET: False
+  PATCHING_MODEL: True
+  PATCHING_RATIO: 0.5
+  SAVE_RESULTS_PATH: preds.pkl
+  UPDATE_STATE: False
+TRAIN:
+  ADAPT_ZS_CONS_RATIO: False
+  AUTO_RESUME: True
+  BATCH_SIZE: 64
+  CHECKPOINT_CLEAR_NAME_PATTERN: ()
+  CHECKPOINT_EPOCH_RESET: False
+  CHECKPOINT_FILE_PATH: 
+  CHECKPOINT_INFLATE: False
+  CHECKPOINT_IN_INIT: False
+  CHECKPOINT_PERIOD: 5
+  CHECKPOINT_TYPE: pytorch
+  CLIP_ORI_PATH: None
+  CUSTOM_LOAD: False
+  CUSTOM_LOAD_FILE: None
+  DATASET: kinetics
+  ENABLE: False
+  EVAL_PERIOD: 5
+  EWC_CONSTRAIN_RATIO: 1.0
+  EWC_IDENTITY_FISHER: False
+  EWC_IGNORE_LOGIT_SCALE: False
+  EWC_LOAD_FILE: None
+  EWC_SET: False
+  KILL_LOSS_EXPLOSION_FACTOR: 0.0
+  LINEAR_CONNECT_CLIMB: False
+  LINEAR_CONNECT_LOSS_RATIO: 1.0
+  LINEAR_CONNECT_SAMPLE: True
+  LINEAR_CONNECT_SAMPLE_L: 0.4
+  LINEAR_CONNECT_SAMPLE_R: 0.6
+  MIXED_PRECISION: False
+  ZS_CONS: False
+  ZS_CONS_RATIO: 0.8
+  ZS_INIT_CONS: False
+  ZS_RESTART_CONS: False
+  ZS_RESTART_EPOCH: -1
+TUNE_HEAD: False
+VAL_MODE: False
+VIS_MASK:
+  ENABLE: False
+X3D:
+  BN_LIN5: False
+  BOTTLENECK_FACTOR: 1.0
+  CHANNELWISE_3x3x3: True
+  DEPTH_FACTOR: 1.0
+  DIM_C1: 12
+  DIM_C5: 2048
+  SCALE_RES2: False
+  WIDTH_FACTOR: 1.0
+[10/26 13:22:03][INFO] test_net.py:  295: Loading custom network weights from /tmp/checkpoints/openvclip-b16/swa_2_22.pth.
+[10/26 13:22:03][INFO] test_net.py:  301: patching model
+[10/26 13:22:03][INFO] test_net.py:  312: model contains 302 keys for patching
+[10/26 13:22:03][INFO] test_net.py:  313: original clip model contains 302 keys
+[10/26 13:22:03][INFO] test_net.py:  332: no extra params added
+[10/26 13:22:04][INFO] misc.py:  185: Model:
+TemporalClipVideo(
+  (model): WCLIP(
+    (visual): TemporalVisionTransformer(
+      (conv1): Conv2d(3, 768, kernel_size=(16, 16), stride=(16, 16), bias=False)
+      (ln_pre): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (transformer): TSTransformer(
+        (resblocks): Sequential(
+          (0): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (1): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (2): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (3): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (4): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (5): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (6): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (7): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (8): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (9): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (10): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (11): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+      )
+      (ln_post): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (transformer): Transformer(
+      (resblocks): Sequential(
+        (0): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (1): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (2): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (3): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (4): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (5): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (6): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (7): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (8): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (9): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (10): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (11): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+    (token_embedding): Embedding(49408, 512)
+    (ln_final): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  )
+)
+[10/26 13:22:04][INFO] misc.py:  187: Params: 149,620,737
+[10/26 13:22:04][INFO] misc.py:  188: Mem: 0.808478832244873 MB
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::mul encountered 62 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::add encountered 26 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::div encountered 24 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::softmax encountered 12 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::sigmoid encountered 12 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::frobenius_norm encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::div_ encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::exp encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::numpy_T encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::mean encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  511: The following submodules of the model were never called during the trace of the graph. They may be unused, or they were accessed by direct calls to .forward() or via other python methods. In the latter case they will have zeros for statistics, though their statistics will still contribute to their parent calling module.
+model.ln_final, model.token_embedding, model.transformer, model.transformer.resblocks, model.transformer.resblocks.0, model.transformer.resblocks.0.attn, model.transformer.resblocks.0.attn.out_proj, model.transformer.resblocks.0.ln_1, model.transformer.resblocks.0.ln_2, model.transformer.resblocks.0.mlp, model.transformer.resblocks.0.mlp.c_fc, model.transformer.resblocks.0.mlp.c_proj, model.transformer.resblocks.0.mlp.gelu, model.transformer.resblocks.1, model.transformer.resblocks.1.attn, model.transformer.resblocks.1.attn.out_proj, model.transformer.resblocks.1.ln_1, model.transformer.resblocks.1.ln_2, model.transformer.resblocks.1.mlp, model.transformer.resblocks.1.mlp.c_fc, model.transformer.resblocks.1.mlp.c_proj, model.transformer.resblocks.1.mlp.gelu, model.transformer.resblocks.10, model.transformer.resblocks.10.attn, model.transformer.resblocks.10.attn.out_proj, model.transformer.resblocks.10.ln_1, model.transformer.resblocks.10.ln_2, model.transformer.resblocks.10.mlp, model.transformer.resblocks.10.mlp.c_fc, model.transformer.resblocks.10.mlp.c_proj, model.transformer.resblocks.10.mlp.gelu, model.transformer.resblocks.11, model.transformer.resblocks.11.attn, model.transformer.resblocks.11.attn.out_proj, model.transformer.resblocks.11.ln_1, model.transformer.resblocks.11.ln_2, model.transformer.resblocks.11.mlp, model.transformer.resblocks.11.mlp.c_fc, model.transformer.resblocks.11.mlp.c_proj, model.transformer.resblocks.11.mlp.gelu, model.transformer.resblocks.2, model.transformer.resblocks.2.attn, model.transformer.resblocks.2.attn.out_proj, model.transformer.resblocks.2.ln_1, model.transformer.resblocks.2.ln_2, model.transformer.resblocks.2.mlp, model.transformer.resblocks.2.mlp.c_fc, model.transformer.resblocks.2.mlp.c_proj, model.transformer.resblocks.2.mlp.gelu, model.transformer.resblocks.3, model.transformer.resblocks.3.attn, model.transformer.resblocks.3.attn.out_proj, model.transformer.resblocks.3.ln_1, model.transformer.resblocks.3.ln_2, model.transformer.resblocks.3.mlp, model.transformer.resblocks.3.mlp.c_fc, model.transformer.resblocks.3.mlp.c_proj, model.transformer.resblocks.3.mlp.gelu, model.transformer.resblocks.4, model.transformer.resblocks.4.attn, model.transformer.resblocks.4.attn.out_proj, model.transformer.resblocks.4.ln_1, model.transformer.resblocks.4.ln_2, model.transformer.resblocks.4.mlp, model.transformer.resblocks.4.mlp.c_fc, model.transformer.resblocks.4.mlp.c_proj, model.transformer.resblocks.4.mlp.gelu, model.transformer.resblocks.5, model.transformer.resblocks.5.attn, model.transformer.resblocks.5.attn.out_proj, model.transformer.resblocks.5.ln_1, model.transformer.resblocks.5.ln_2, model.transformer.resblocks.5.mlp, model.transformer.resblocks.5.mlp.c_fc, model.transformer.resblocks.5.mlp.c_proj, model.transformer.resblocks.5.mlp.gelu, model.transformer.resblocks.6, model.transformer.resblocks.6.attn, model.transformer.resblocks.6.attn.out_proj, model.transformer.resblocks.6.ln_1, model.transformer.resblocks.6.ln_2, model.transformer.resblocks.6.mlp, model.transformer.resblocks.6.mlp.c_fc, model.transformer.resblocks.6.mlp.c_proj, model.transformer.resblocks.6.mlp.gelu, model.transformer.resblocks.7, model.transformer.resblocks.7.attn, model.transformer.resblocks.7.attn.out_proj, model.transformer.resblocks.7.ln_1, model.transformer.resblocks.7.ln_2, model.transformer.resblocks.7.mlp, model.transformer.resblocks.7.mlp.c_fc, model.transformer.resblocks.7.mlp.c_proj, model.transformer.resblocks.7.mlp.gelu, model.transformer.resblocks.8, model.transformer.resblocks.8.attn, model.transformer.resblocks.8.attn.out_proj, model.transformer.resblocks.8.ln_1, model.transformer.resblocks.8.ln_2, model.transformer.resblocks.8.mlp, model.transformer.resblocks.8.mlp.c_fc, model.transformer.resblocks.8.mlp.c_proj, model.transformer.resblocks.8.mlp.gelu, model.transformer.resblocks.9, model.transformer.resblocks.9.attn, model.transformer.resblocks.9.attn.out_proj, model.transformer.resblocks.9.ln_1, model.transformer.resblocks.9.ln_2, model.transformer.resblocks.9.mlp, model.transformer.resblocks.9.mlp.c_fc, model.transformer.resblocks.9.mlp.c_proj, model.transformer.resblocks.9.mlp.gelu, model.visual.transformer.resblocks.0.attn.out_proj, model.visual.transformer.resblocks.1.attn.out_proj, model.visual.transformer.resblocks.10.attn.out_proj, model.visual.transformer.resblocks.11.attn.out_proj, model.visual.transformer.resblocks.2.attn.out_proj, model.visual.transformer.resblocks.3.attn.out_proj, model.visual.transformer.resblocks.4.attn.out_proj, model.visual.transformer.resblocks.5.attn.out_proj, model.visual.transformer.resblocks.6.attn.out_proj, model.visual.transformer.resblocks.7.attn.out_proj, model.visual.transformer.resblocks.8.attn.out_proj, model.visual.transformer.resblocks.9.attn.out_proj
+[10/26 13:22:05][INFO] misc.py:  190: Flops: 152.104607744 G
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::mul encountered 62 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::add encountered 26 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::layer_norm encountered 26 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::div encountered 24 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::softmax encountered 12 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::sigmoid encountered 12 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::frobenius_norm encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::div_ encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::exp encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::numpy_T encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  499: Unsupported operator aten::mean encountered 1 time(s)
+[10/26 13:22:05][WARNING] jit_analysis.py:  511: The following submodules of the model were never called during the trace of the graph. They may be unused, or they were accessed by direct calls to .forward() or via other python methods. In the latter case they will have zeros for statistics, though their statistics will still contribute to their parent calling module.
+model.ln_final, model.token_embedding, model.transformer, model.transformer.resblocks, model.transformer.resblocks.0, model.transformer.resblocks.0.attn, model.transformer.resblocks.0.attn.out_proj, model.transformer.resblocks.0.ln_1, model.transformer.resblocks.0.ln_2, model.transformer.resblocks.0.mlp, model.transformer.resblocks.0.mlp.c_fc, model.transformer.resblocks.0.mlp.c_proj, model.transformer.resblocks.0.mlp.gelu, model.transformer.resblocks.1, model.transformer.resblocks.1.attn, model.transformer.resblocks.1.attn.out_proj, model.transformer.resblocks.1.ln_1, model.transformer.resblocks.1.ln_2, model.transformer.resblocks.1.mlp, model.transformer.resblocks.1.mlp.c_fc, model.transformer.resblocks.1.mlp.c_proj, model.transformer.resblocks.1.mlp.gelu, model.transformer.resblocks.10, model.transformer.resblocks.10.attn, model.transformer.resblocks.10.attn.out_proj, model.transformer.resblocks.10.ln_1, model.transformer.resblocks.10.ln_2, model.transformer.resblocks.10.mlp, model.transformer.resblocks.10.mlp.c_fc, model.transformer.resblocks.10.mlp.c_proj, model.transformer.resblocks.10.mlp.gelu, model.transformer.resblocks.11, model.transformer.resblocks.11.attn, model.transformer.resblocks.11.attn.out_proj, model.transformer.resblocks.11.ln_1, model.transformer.resblocks.11.ln_2, model.transformer.resblocks.11.mlp, model.transformer.resblocks.11.mlp.c_fc, model.transformer.resblocks.11.mlp.c_proj, model.transformer.resblocks.11.mlp.gelu, model.transformer.resblocks.2, model.transformer.resblocks.2.attn, model.transformer.resblocks.2.attn.out_proj, model.transformer.resblocks.2.ln_1, model.transformer.resblocks.2.ln_2, model.transformer.resblocks.2.mlp, model.transformer.resblocks.2.mlp.c_fc, model.transformer.resblocks.2.mlp.c_proj, model.transformer.resblocks.2.mlp.gelu, model.transformer.resblocks.3, model.transformer.resblocks.3.attn, model.transformer.resblocks.3.attn.out_proj, model.transformer.resblocks.3.ln_1, model.transformer.resblocks.3.ln_2, model.transformer.resblocks.3.mlp, model.transformer.resblocks.3.mlp.c_fc, model.transformer.resblocks.3.mlp.c_proj, model.transformer.resblocks.3.mlp.gelu, model.transformer.resblocks.4, model.transformer.resblocks.4.attn, model.transformer.resblocks.4.attn.out_proj, model.transformer.resblocks.4.ln_1, model.transformer.resblocks.4.ln_2, model.transformer.resblocks.4.mlp, model.transformer.resblocks.4.mlp.c_fc, model.transformer.resblocks.4.mlp.c_proj, model.transformer.resblocks.4.mlp.gelu, model.transformer.resblocks.5, model.transformer.resblocks.5.attn, model.transformer.resblocks.5.attn.out_proj, model.transformer.resblocks.5.ln_1, model.transformer.resblocks.5.ln_2, model.transformer.resblocks.5.mlp, model.transformer.resblocks.5.mlp.c_fc, model.transformer.resblocks.5.mlp.c_proj, model.transformer.resblocks.5.mlp.gelu, model.transformer.resblocks.6, model.transformer.resblocks.6.attn, model.transformer.resblocks.6.attn.out_proj, model.transformer.resblocks.6.ln_1, model.transformer.resblocks.6.ln_2, model.transformer.resblocks.6.mlp, model.transformer.resblocks.6.mlp.c_fc, model.transformer.resblocks.6.mlp.c_proj, model.transformer.resblocks.6.mlp.gelu, model.transformer.resblocks.7, model.transformer.resblocks.7.attn, model.transformer.resblocks.7.attn.out_proj, model.transformer.resblocks.7.ln_1, model.transformer.resblocks.7.ln_2, model.transformer.resblocks.7.mlp, model.transformer.resblocks.7.mlp.c_fc, model.transformer.resblocks.7.mlp.c_proj, model.transformer.resblocks.7.mlp.gelu, model.transformer.resblocks.8, model.transformer.resblocks.8.attn, model.transformer.resblocks.8.attn.out_proj, model.transformer.resblocks.8.ln_1, model.transformer.resblocks.8.ln_2, model.transformer.resblocks.8.mlp, model.transformer.resblocks.8.mlp.c_fc, model.transformer.resblocks.8.mlp.c_proj, model.transformer.resblocks.8.mlp.gelu, model.transformer.resblocks.9, model.transformer.resblocks.9.attn, model.transformer.resblocks.9.attn.out_proj, model.transformer.resblocks.9.ln_1, model.transformer.resblocks.9.ln_2, model.transformer.resblocks.9.mlp, model.transformer.resblocks.9.mlp.c_fc, model.transformer.resblocks.9.mlp.c_proj, model.transformer.resblocks.9.mlp.gelu, model.visual.transformer.resblocks.0.attn.out_proj, model.visual.transformer.resblocks.1.attn.out_proj, model.visual.transformer.resblocks.10.attn.out_proj, model.visual.transformer.resblocks.11.attn.out_proj, model.visual.transformer.resblocks.2.attn.out_proj, model.visual.transformer.resblocks.3.attn.out_proj, model.visual.transformer.resblocks.4.attn.out_proj, model.visual.transformer.resblocks.5.attn.out_proj, model.visual.transformer.resblocks.6.attn.out_proj, model.visual.transformer.resblocks.7.attn.out_proj, model.visual.transformer.resblocks.8.attn.out_proj, model.visual.transformer.resblocks.9.attn.out_proj
+[10/26 13:22:05][INFO] misc.py:  191: Activations: 280.577192 M
+[10/26 13:22:05][INFO] misc.py:  196: nvidia-smi
+[10/26 13:22:06][INFO] misc.py:  185: Model:
+TemporalClipVideo(
+  (model): WCLIP(
+    (visual): TemporalVisionTransformer(
+      (conv1): Conv2d(3, 768, kernel_size=(16, 16), stride=(16, 16), bias=False)
+      (ln_pre): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (transformer): TSTransformer(
+        (resblocks): Sequential(
+          (0): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (1): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (2): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (3): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (4): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (5): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (6): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (7): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (8): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (9): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (10): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+          (11): TimesAttentionBlock(
+            (attn): MultiheadAttention(
+              (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+            )
+            (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Sequential(
+              (c_fc): Linear(in_features=768, out_features=3072, bias=True)
+              (gelu): QuickGELU()
+              (c_proj): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+      )
+      (ln_post): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (transformer): Transformer(
+      (resblocks): Sequential(
+        (0): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (1): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (2): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (3): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (4): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (5): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (6): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (7): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (8): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (9): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (10): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+        (11): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=512, out_features=512, bias=True)
+          )
+          (ln_1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=512, out_features=2048, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2048, out_features=512, bias=True)
+          )
+          (ln_2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+    (token_embedding): Embedding(49408, 512)
+    (ln_final): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+  )
+)
+[10/26 13:22:06][INFO] misc.py:  187: Params: 149,620,737
+[10/26 13:22:06][INFO] misc.py:  188: Mem: 4.78452730178833 MB
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::mul encountered 62 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::add encountered 26 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::div encountered 24 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::softmax encountered 12 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::sigmoid encountered 12 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::frobenius_norm encountered 1 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::div_ encountered 1 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::exp encountered 1 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::numpy_T encountered 1 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  499: Unsupported operator aten::mean encountered 1 time(s)
+[10/26 13:22:06][WARNING] jit_analysis.py:  511: The following submodules of the model were never called during the trace of the graph. They may be unused, or they were accessed by direct calls to .forward() or via other python methods. In the latter case they will have zeros for statistics, though their statistics will still contribute to their parent calling module.
+model.ln_final, model.token_embedding, model.transformer, model.transformer.resblocks, model.transformer.resblocks.0, model.transformer.resblocks.0.attn, model.transformer.resblocks.0.attn.out_proj, model.transformer.resblocks.0.ln_1, model.transformer.resblocks.0.ln_2, model.transformer.resblocks.0.mlp, model.transformer.resblocks.0.mlp.c_fc, model.transformer.resblocks.0.mlp.c_proj, model.transformer.resblocks.0.mlp.gelu, model.transformer.resblocks.1, model.transformer.resblocks.1.attn, model.transformer.resblocks.1.attn.out_proj, model.transformer.resblocks.1.ln_1, model.transformer.resblocks.1.ln_2, model.transformer.resblocks.1.mlp, model.transformer.resblocks.1.mlp.c_fc, model.transformer.resblocks.1.mlp.c_proj, model.transformer.resblocks.1.mlp.gelu, model.transformer.resblocks.10, model.transformer.resblocks.10.attn, model.transformer.resblocks.10.attn.out_proj, model.transformer.resblocks.10.ln_1, model.transformer.resblocks.10.ln_2, model.transformer.resblocks.10.mlp, model.transformer.resblocks.10.mlp.c_fc, model.transformer.resblocks.10.mlp.c_proj, model.transformer.resblocks.10.mlp.gelu, model.transformer.resblocks.11, model.transformer.resblocks.11.attn, model.transformer.resblocks.11.attn.out_proj, model.transformer.resblocks.11.ln_1, model.transformer.resblocks.11.ln_2, model.transformer.resblocks.11.mlp, model.transformer.resblocks.11.mlp.c_fc, model.transformer.resblocks.11.mlp.c_proj, model.transformer.resblocks.11.mlp.gelu, model.transformer.resblocks.2, model.transformer.resblocks.2.attn, model.transformer.resblocks.2.attn.out_proj, model.transformer.resblocks.2.ln_1, model.transformer.resblocks.2.ln_2, model.transformer.resblocks.2.mlp, model.transformer.resblocks.2.mlp.c_fc, model.transformer.resblocks.2.mlp.c_proj, model.transformer.resblocks.2.mlp.gelu, model.transformer.resblocks.3, model.transformer.resblocks.3.attn, model.transformer.resblocks.3.attn.out_proj, model.transformer.resblocks.3.ln_1, model.transformer.resblocks.3.ln_2, model.transformer.resblocks.3.mlp, model.transformer.resblocks.3.mlp.c_fc, model.transformer.resblocks.3.mlp.c_proj, model.transformer.resblocks.3.mlp.gelu, model.transformer.resblocks.4, model.transformer.resblocks.4.attn, model.transformer.resblocks.4.attn.out_proj, model.transformer.resblocks.4.ln_1, model.transformer.resblocks.4.ln_2, model.transformer.resblocks.4.mlp, model.transformer.resblocks.4.mlp.c_fc, model.transformer.resblocks.4.mlp.c_proj, model.transformer.resblocks.4.mlp.gelu, model.transformer.resblocks.5, model.transformer.resblocks.5.attn, model.transformer.resblocks.5.attn.out_proj, model.transformer.resblocks.5.ln_1, model.transformer.resblocks.5.ln_2, model.transformer.resblocks.5.mlp, model.transformer.resblocks.5.mlp.c_fc, model.transformer.resblocks.5.mlp.c_proj, model.transformer.resblocks.5.mlp.gelu, model.transformer.resblocks.6, model.transformer.resblocks.6.attn, model.transformer.resblocks.6.attn.out_proj, model.transformer.resblocks.6.ln_1, model.transformer.resblocks.6.ln_2, model.transformer.resblocks.6.mlp, model.transformer.resblocks.6.mlp.c_fc, model.transformer.resblocks.6.mlp.c_proj, model.transformer.resblocks.6.mlp.gelu, model.transformer.resblocks.7, model.transformer.resblocks.7.attn, model.transformer.resblocks.7.attn.out_proj, model.transformer.resblocks.7.ln_1, model.transformer.resblocks.7.ln_2, model.transformer.resblocks.7.mlp, model.transformer.resblocks.7.mlp.c_fc, model.transformer.resblocks.7.mlp.c_proj, model.transformer.resblocks.7.mlp.gelu, model.transformer.resblocks.8, model.transformer.resblocks.8.attn, model.transformer.resblocks.8.attn.out_proj, model.transformer.resblocks.8.ln_1, model.transformer.resblocks.8.ln_2, model.transformer.resblocks.8.mlp, model.transformer.resblocks.8.mlp.c_fc, model.transformer.resblocks.8.mlp.c_proj, model.transformer.resblocks.8.mlp.gelu, model.transformer.resblocks.9, model.transformer.resblocks.9.attn, model.transformer.resblocks.9.attn.out_proj, model.transformer.resblocks.9.ln_1, model.transformer.resblocks.9.ln_2, model.transformer.resblocks.9.mlp, model.transformer.resblocks.9.mlp.c_fc, model.transformer.resblocks.9.mlp.c_proj, model.transformer.resblocks.9.mlp.gelu, model.visual.transformer.resblocks.0.attn.out_proj, model.visual.transformer.resblocks.1.attn.out_proj, model.visual.transformer.resblocks.10.attn.out_proj, model.visual.transformer.resblocks.11.attn.out_proj, model.visual.transformer.resblocks.2.attn.out_proj, model.visual.transformer.resblocks.3.attn.out_proj, model.visual.transformer.resblocks.4.attn.out_proj, model.visual.transformer.resblocks.5.attn.out_proj, model.visual.transformer.resblocks.6.attn.out_proj, model.visual.transformer.resblocks.7.attn.out_proj, model.visual.transformer.resblocks.8.attn.out_proj, model.visual.transformer.resblocks.9.attn.out_proj
+[10/26 13:22:06][INFO] misc.py:  190: Flops: 152.104607744 G
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::mul encountered 62 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::add encountered 26 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::layer_norm encountered 26 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::div encountered 24 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::softmax encountered 12 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::sigmoid encountered 12 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::frobenius_norm encountered 1 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::div_ encountered 1 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::exp encountered 1 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::numpy_T encountered 1 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  499: Unsupported operator aten::mean encountered 1 time(s)
+[10/26 13:22:07][WARNING] jit_analysis.py:  511: The following submodules of the model were never called during the trace of the graph. They may be unused, or they were accessed by direct calls to .forward() or via other python methods. In the latter case they will have zeros for statistics, though their statistics will still contribute to their parent calling module.
+model.ln_final, model.token_embedding, model.transformer, model.transformer.resblocks, model.transformer.resblocks.0, model.transformer.resblocks.0.attn, model.transformer.resblocks.0.attn.out_proj, model.transformer.resblocks.0.ln_1, model.transformer.resblocks.0.ln_2, model.transformer.resblocks.0.mlp, model.transformer.resblocks.0.mlp.c_fc, model.transformer.resblocks.0.mlp.c_proj, model.transformer.resblocks.0.mlp.gelu, model.transformer.resblocks.1, model.transformer.resblocks.1.attn, model.transformer.resblocks.1.attn.out_proj, model.transformer.resblocks.1.ln_1, model.transformer.resblocks.1.ln_2, model.transformer.resblocks.1.mlp, model.transformer.resblocks.1.mlp.c_fc, model.transformer.resblocks.1.mlp.c_proj, model.transformer.resblocks.1.mlp.gelu, model.transformer.resblocks.10, model.transformer.resblocks.10.attn, model.transformer.resblocks.10.attn.out_proj, model.transformer.resblocks.10.ln_1, model.transformer.resblocks.10.ln_2, model.transformer.resblocks.10.mlp, model.transformer.resblocks.10.mlp.c_fc, model.transformer.resblocks.10.mlp.c_proj, model.transformer.resblocks.10.mlp.gelu, model.transformer.resblocks.11, model.transformer.resblocks.11.attn, model.transformer.resblocks.11.attn.out_proj, model.transformer.resblocks.11.ln_1, model.transformer.resblocks.11.ln_2, model.transformer.resblocks.11.mlp, model.transformer.resblocks.11.mlp.c_fc, model.transformer.resblocks.11.mlp.c_proj, model.transformer.resblocks.11.mlp.gelu, model.transformer.resblocks.2, model.transformer.resblocks.2.attn, model.transformer.resblocks.2.attn.out_proj, model.transformer.resblocks.2.ln_1, model.transformer.resblocks.2.ln_2, model.transformer.resblocks.2.mlp, model.transformer.resblocks.2.mlp.c_fc, model.transformer.resblocks.2.mlp.c_proj, model.transformer.resblocks.2.mlp.gelu, model.transformer.resblocks.3, model.transformer.resblocks.3.attn, model.transformer.resblocks.3.attn.out_proj, model.transformer.resblocks.3.ln_1, model.transformer.resblocks.3.ln_2, model.transformer.resblocks.3.mlp, model.transformer.resblocks.3.mlp.c_fc, model.transformer.resblocks.3.mlp.c_proj, model.transformer.resblocks.3.mlp.gelu, model.transformer.resblocks.4, model.transformer.resblocks.4.attn, model.transformer.resblocks.4.attn.out_proj, model.transformer.resblocks.4.ln_1, model.transformer.resblocks.4.ln_2, model.transformer.resblocks.4.mlp, model.transformer.resblocks.4.mlp.c_fc, model.transformer.resblocks.4.mlp.c_proj, model.transformer.resblocks.4.mlp.gelu, model.transformer.resblocks.5, model.transformer.resblocks.5.attn, model.transformer.resblocks.5.attn.out_proj, model.transformer.resblocks.5.ln_1, model.transformer.resblocks.5.ln_2, model.transformer.resblocks.5.mlp, model.transformer.resblocks.5.mlp.c_fc, model.transformer.resblocks.5.mlp.c_proj, model.transformer.resblocks.5.mlp.gelu, model.transformer.resblocks.6, model.transformer.resblocks.6.attn, model.transformer.resblocks.6.attn.out_proj, model.transformer.resblocks.6.ln_1, model.transformer.resblocks.6.ln_2, model.transformer.resblocks.6.mlp, model.transformer.resblocks.6.mlp.c_fc, model.transformer.resblocks.6.mlp.c_proj, model.transformer.resblocks.6.mlp.gelu, model.transformer.resblocks.7, model.transformer.resblocks.7.attn, model.transformer.resblocks.7.attn.out_proj, model.transformer.resblocks.7.ln_1, model.transformer.resblocks.7.ln_2, model.transformer.resblocks.7.mlp, model.transformer.resblocks.7.mlp.c_fc, model.transformer.resblocks.7.mlp.c_proj, model.transformer.resblocks.7.mlp.gelu, model.transformer.resblocks.8, model.transformer.resblocks.8.attn, model.transformer.resblocks.8.attn.out_proj, model.transformer.resblocks.8.ln_1, model.transformer.resblocks.8.ln_2, model.transformer.resblocks.8.mlp, model.transformer.resblocks.8.mlp.c_fc, model.transformer.resblocks.8.mlp.c_proj, model.transformer.resblocks.8.mlp.gelu, model.transformer.resblocks.9, model.transformer.resblocks.9.attn, model.transformer.resblocks.9.attn.out_proj, model.transformer.resblocks.9.ln_1, model.transformer.resblocks.9.ln_2, model.transformer.resblocks.9.mlp, model.transformer.resblocks.9.mlp.c_fc, model.transformer.resblocks.9.mlp.c_proj, model.transformer.resblocks.9.mlp.gelu, model.visual.transformer.resblocks.0.attn.out_proj, model.visual.transformer.resblocks.1.attn.out_proj, model.visual.transformer.resblocks.10.attn.out_proj, model.visual.transformer.resblocks.11.attn.out_proj, model.visual.transformer.resblocks.2.attn.out_proj, model.visual.transformer.resblocks.3.attn.out_proj, model.visual.transformer.resblocks.4.attn.out_proj, model.visual.transformer.resblocks.5.attn.out_proj, model.visual.transformer.resblocks.6.attn.out_proj, model.visual.transformer.resblocks.7.attn.out_proj, model.visual.transformer.resblocks.8.attn.out_proj, model.visual.transformer.resblocks.9.attn.out_proj
+[10/26 13:22:07][INFO] misc.py:  191: Activations: 280.577192 M
+[10/26 13:22:07][INFO] misc.py:  196: nvidia-smi
+[10/26 13:22:07][INFO] kinetics.py:   94: Constructing Kinetics test...
+[10/26 13:22:07][INFO] kinetics.py:  159: Constructing kinetics dataloader (size: 606 skip_rows 0) from /kaggle/working/generalized-category-discovery/action_recognition/runs/native_check/export_ovc/ucf101/test.csv 
+[10/26 13:22:07][INFO] test_net.py:  396: Testing model for 76 iterations
+[10/26 13:22:10][INFO] logging.py:   99: json_stats: {"cur_iter": "1", "eta": "0:02:59", "split": "test_iter", "time_diff": 2.36696757}
+[10/26 13:22:10][INFO] logging.py:   99: json_stats: {"cur_iter": "2", "eta": "0:01:06", "split": "test_iter", "time_diff": 0.88666203}
+[10/26 13:22:11][INFO] logging.py:   99: json_stats: {"cur_iter": "3", "eta": "0:01:02", "split": "test_iter", "time_diff": 0.84810494}
+[10/26 13:22:12][INFO] logging.py:   99: json_stats: {"cur_iter": "4", "eta": "0:01:04", "split": "test_iter", "time_diff": 0.88421649}
+[10/26 13:22:13][INFO] logging.py:   99: json_stats: {"cur_iter": "5", "eta": "0:01:03", "split": "test_iter", "time_diff": 0.87828988}
+[10/26 13:22:14][INFO] logging.py:   99: json_stats: {"cur_iter": "6", "eta": "0:01:00", "split": "test_iter", "time_diff": 0.85525084}
+[10/26 13:22:15][INFO] logging.py:   99: json_stats: {"cur_iter": "7", "eta": "0:00:58", "split": "test_iter", "time_diff": 0.84038577}
+[10/26 13:22:16][INFO] logging.py:   99: json_stats: {"cur_iter": "8", "eta": "0:00:58", "split": "test_iter", "time_diff": 0.85497245}
+[10/26 13:22:16][INFO] logging.py:   99: json_stats: {"cur_iter": "9", "eta": "0:00:58", "split": "test_iter", "time_diff": 0.85802178}
+[10/26 13:22:17][INFO] logging.py:   99: json_stats: {"cur_iter": "10", "eta": "0:00:57", "split": "test_iter", "time_diff": 0.86045740}
+[10/26 13:22:18][INFO] logging.py:   99: json_stats: {"cur_iter": "11", "eta": "0:00:56", "split": "test_iter", "time_diff": 0.86184545}
+[10/26 13:22:19][INFO] logging.py:   99: json_stats: {"cur_iter": "12", "eta": "0:00:55", "split": "test_iter", "time_diff": 0.84770204}
+[10/26 13:22:20][INFO] logging.py:   99: json_stats: {"cur_iter": "13", "eta": "0:00:55", "split": "test_iter", "time_diff": 0.86414593}
+[10/26 13:22:21][INFO] logging.py:   99: json_stats: {"cur_iter": "14", "eta": "0:00:54", "split": "test_iter", "time_diff": 0.87079293}
+[10/26 13:22:22][INFO] logging.py:   99: json_stats: {"cur_iter": "15", "eta": "0:00:53", "split": "test_iter", "time_diff": 0.87020796}
+[10/26 13:22:23][INFO] logging.py:   99: json_stats: {"cur_iter": "16", "eta": "0:00:53", "split": "test_iter", "time_diff": 0.87079071}
+[10/26 13:22:23][INFO] logging.py:   99: json_stats: {"cur_iter": "17", "eta": "0:00:51", "split": "test_iter", "time_diff": 0.85692422}
+[10/26 13:22:24][INFO] logging.py:   99: json_stats: {"cur_iter": "18", "eta": "0:00:50", "split": "test_iter", "time_diff": 0.85314477}
+[10/26 13:22:25][INFO] logging.py:   99: json_stats: {"cur_iter": "19", "eta": "0:00:50", "split": "test_iter", "time_diff": 0.87227586}
+[10/26 13:22:26][INFO] logging.py:   99: json_stats: {"cur_iter": "20", "eta": "0:00:50", "split": "test_iter", "time_diff": 0.87966278}
+[10/26 13:22:27][INFO] logging.py:   99: json_stats: {"cur_iter": "21", "eta": "0:00:49", "split": "test_iter", "time_diff": 0.87626018}
+[10/26 13:22:28][INFO] logging.py:   99: json_stats: {"cur_iter": "22", "eta": "0:00:47", "split": "test_iter", "time_diff": 0.86381071}
+[10/26 13:22:29][INFO] logging.py:   99: json_stats: {"cur_iter": "23", "eta": "0:00:47", "split": "test_iter", "time_diff": 0.88234177}
+[10/26 13:22:29][INFO] logging.py:   99: json_stats: {"cur_iter": "24", "eta": "0:00:46", "split": "test_iter", "time_diff": 0.87227181}
+[10/26 13:22:30][INFO] logging.py:   99: json_stats: {"cur_iter": "25", "eta": "0:00:45", "split": "test_iter", "time_diff": 0.88099030}
+[10/26 13:22:31][INFO] logging.py:   99: json_stats: {"cur_iter": "26", "eta": "0:00:45", "split": "test_iter", "time_diff": 0.89307050}
+[10/26 13:22:32][INFO] logging.py:   99: json_stats: {"cur_iter": "27", "eta": "0:00:43", "split": "test_iter", "time_diff": 0.87961600}
+[10/26 13:22:33][INFO] logging.py:   99: json_stats: {"cur_iter": "28", "eta": "0:00:43", "split": "test_iter", "time_diff": 0.87887862}
+[10/26 13:22:34][INFO] logging.py:   99: json_stats: {"cur_iter": "29", "eta": "0:00:43", "split": "test_iter", "time_diff": 0.89622510}
+[10/26 13:22:35][INFO] logging.py:   99: json_stats: {"cur_iter": "30", "eta": "0:00:42", "split": "test_iter", "time_diff": 0.89735071}
+[10/26 13:22:36][INFO] logging.py:   99: json_stats: {"cur_iter": "31", "eta": "0:00:41", "split": "test_iter", "time_diff": 0.89737057}
+[10/26 13:22:37][INFO] logging.py:   99: json_stats: {"cur_iter": "32", "eta": "0:00:40", "split": "test_iter", "time_diff": 0.90593339}
+[10/26 13:22:38][INFO] logging.py:   99: json_stats: {"cur_iter": "33", "eta": "0:00:39", "split": "test_iter", "time_diff": 0.90439115}
+[10/26 13:22:38][INFO] logging.py:   99: json_stats: {"cur_iter": "34", "eta": "0:00:38", "split": "test_iter", "time_diff": 0.88855304}
+[10/26 13:22:39][INFO] logging.py:   99: json_stats: {"cur_iter": "35", "eta": "0:00:37", "split": "test_iter", "time_diff": 0.89224707}
+[10/26 13:22:40][INFO] logging.py:   99: json_stats: {"cur_iter": "36", "eta": "0:00:36", "split": "test_iter", "time_diff": 0.89303451}
+[10/26 13:22:41][INFO] logging.py:   99: json_stats: {"cur_iter": "37", "eta": "0:00:36", "split": "test_iter", "time_diff": 0.91433360}
+[10/26 13:22:42][INFO] logging.py:   99: json_stats: {"cur_iter": "38", "eta": "0:00:35", "split": "test_iter", "time_diff": 0.90214985}
+[10/26 13:22:43][INFO] logging.py:   99: json_stats: {"cur_iter": "39", "eta": "0:00:34", "split": "test_iter", "time_diff": 0.90273755}
+[10/26 13:22:44][INFO] logging.py:   99: json_stats: {"cur_iter": "40", "eta": "0:00:33", "split": "test_iter", "time_diff": 0.90271804}
+[10/26 13:22:45][INFO] logging.py:   99: json_stats: {"cur_iter": "41", "eta": "0:00:32", "split": "test_iter", "time_diff": 0.90315133}
+[10/26 13:22:46][INFO] logging.py:   99: json_stats: {"cur_iter": "42", "eta": "0:00:31", "split": "test_iter", "time_diff": 0.90798743}
+[10/26 13:22:47][INFO] logging.py:   99: json_stats: {"cur_iter": "43", "eta": "0:00:30", "split": "test_iter", "time_diff": 0.90711907}
+[10/26 13:22:47][INFO] logging.py:   99: json_stats: {"cur_iter": "44", "eta": "0:00:30", "split": "test_iter", "time_diff": 0.91394945}
+[10/26 13:22:48][INFO] logging.py:   99: json_stats: {"cur_iter": "45", "eta": "0:00:29", "split": "test_iter", "time_diff": 0.91663961}
+[10/26 13:22:49][INFO] logging.py:   99: json_stats: {"cur_iter": "46", "eta": "0:00:28", "split": "test_iter", "time_diff": 0.91479916}
+[10/26 13:22:50][INFO] logging.py:   99: json_stats: {"cur_iter": "47", "eta": "0:00:27", "split": "test_iter", "time_diff": 0.91541600}
+[10/26 13:22:51][INFO] logging.py:   99: json_stats: {"cur_iter": "48", "eta": "0:00:26", "split": "test_iter", "time_diff": 0.91826037}
+[10/26 13:22:52][INFO] logging.py:   99: json_stats: {"cur_iter": "49", "eta": "0:00:25", "split": "test_iter", "time_diff": 0.92492202}
+[10/26 13:22:53][INFO] logging.py:   99: json_stats: {"cur_iter": "50", "eta": "0:00:24", "split": "test_iter", "time_diff": 0.92316456}
+[10/26 13:22:54][INFO] logging.py:   99: json_stats: {"cur_iter": "51", "eta": "0:00:24", "split": "test_iter", "time_diff": 0.92436869}
+[10/26 13:22:55][INFO] logging.py:   99: json_stats: {"cur_iter": "52", "eta": "0:00:23", "split": "test_iter", "time_diff": 0.93307922}
+[10/26 13:22:56][INFO] logging.py:   99: json_stats: {"cur_iter": "53", "eta": "0:00:22", "split": "test_iter", "time_diff": 0.93580635}
+[10/26 13:22:57][INFO] logging.py:   99: json_stats: {"cur_iter": "54", "eta": "0:00:20", "split": "test_iter", "time_diff": 0.90655330}
+[10/26 13:22:58][INFO] logging.py:   99: json_stats: {"cur_iter": "55", "eta": "0:00:20", "split": "test_iter", "time_diff": 0.94572920}
+[10/26 13:22:59][INFO] logging.py:   99: json_stats: {"cur_iter": "56", "eta": "0:00:19", "split": "test_iter", "time_diff": 0.94386729}
+[10/26 13:23:00][INFO] logging.py:   99: json_stats: {"cur_iter": "57", "eta": "0:00:18", "split": "test_iter", "time_diff": 0.94599395}
+[10/26 13:23:00][INFO] logging.py:   99: json_stats: {"cur_iter": "58", "eta": "0:00:18", "split": "test_iter", "time_diff": 0.95230587}
+[10/26 13:23:01][INFO] logging.py:   99: json_stats: {"cur_iter": "59", "eta": "0:00:16", "split": "test_iter", "time_diff": 0.93316643}
+[10/26 13:23:02][INFO] logging.py:   99: json_stats: {"cur_iter": "60", "eta": "0:00:15", "split": "test_iter", "time_diff": 0.93766185}
+[10/26 13:23:03][INFO] logging.py:   99: json_stats: {"cur_iter": "61", "eta": "0:00:15", "split": "test_iter", "time_diff": 0.95472578}
+[10/26 13:23:04][INFO] logging.py:   99: json_stats: {"cur_iter": "62", "eta": "0:00:14", "split": "test_iter", "time_diff": 0.96407262}
+[10/26 13:23:05][INFO] logging.py:   99: json_stats: {"cur_iter": "63", "eta": "0:00:13", "split": "test_iter", "time_diff": 0.96503609}
+[10/26 13:23:06][INFO] logging.py:   99: json_stats: {"cur_iter": "64", "eta": "0:00:12", "split": "test_iter", "time_diff": 0.93539887}
+[10/26 13:23:07][INFO] logging.py:   99: json_stats: {"cur_iter": "65", "eta": "0:00:11", "split": "test_iter", "time_diff": 0.95594267}
+[10/26 13:23:08][INFO] logging.py:   99: json_stats: {"cur_iter": "66", "eta": "0:00:10", "split": "test_iter", "time_diff": 0.97840441}
+[10/26 13:23:09][INFO] logging.py:   99: json_stats: {"cur_iter": "67", "eta": "0:00:09", "split": "test_iter", "time_diff": 0.95741424}
+[10/26 13:23:10][INFO] logging.py:   99: json_stats: {"cur_iter": "68", "eta": "0:00:08", "split": "test_iter", "time_diff": 0.97073460}
+[10/26 13:23:11][INFO] logging.py:   99: json_stats: {"cur_iter": "69", "eta": "0:00:07", "split": "test_iter", "time_diff": 0.97146339}
+[10/26 13:23:12][INFO] logging.py:   99: json_stats: {"cur_iter": "70", "eta": "0:00:06", "split": "test_iter", "time_diff": 0.95195568}
+[10/26 13:23:13][INFO] logging.py:   99: json_stats: {"cur_iter": "71", "eta": "0:00:05", "split": "test_iter", "time_diff": 0.97384352}
+[10/26 13:23:14][INFO] logging.py:   99: json_stats: {"cur_iter": "72", "eta": "0:00:04", "split": "test_iter", "time_diff": 0.97304879}
+[10/26 13:23:15][INFO] logging.py:   99: json_stats: {"cur_iter": "73", "eta": "0:00:03", "split": "test_iter", "time_diff": 0.97101233}
+[10/26 13:23:16][INFO] logging.py:   99: json_stats: {"cur_iter": "74", "eta": "0:00:02", "split": "test_iter", "time_diff": 0.97765491}
+[10/26 13:23:17][INFO] logging.py:   99: json_stats: {"cur_iter": "75", "eta": "0:00:01", "split": "test_iter", "time_diff": 0.97674660}
+[10/26 13:23:18][INFO] logging.py:   99: json_stats: {"cur_iter": "76", "eta": "0:00:00", "split": "test_iter", "time_diff": 0.75028565}
+[10/26 13:23:18][INFO] test_net.py:  196: Successfully saved prediction results to /kaggle/working/generalized-category-discovery/action_recognition/runs/native_check/official_ovc/preds.pkl
+[10/26 13:23:18][INFO] logging.py:   99: json_stats: {"split": "test_final", "top1_acc": "85.64", "top5_acc": "96.04"}
+[10/26 13:23:18][INFO] test_net.py:  437: Finalized testing with 3 temporal clips and 1 spatial crops
+[10/26 13:23:18][INFO] test_net.py:  459: _p149.62_f152.10_3a85.64 Top5 Acc: 96.04 MEM: 9.26 f: 152.1046
+[10/26 13:23:18][INFO] test_net.py:  460: _p149.62_f152.10_3a85.64

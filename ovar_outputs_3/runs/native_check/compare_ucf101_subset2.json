@@ -1,0 +1,21 @@
+{
+  "videos": 202,
+  "adapter_failed": 0,
+  "top1_agreement": 0.9900990099009901,
+  "official_accuracy": 0.8564356435643564,
+  "adapter_accuracy_failures_as_errors": 0.8613861386138614,
+  "disagreements": [
+    {
+      "video_id": "Hammering/v_Hammering_g01_c01",
+      "action_id": 34,
+      "official_pred": 77,
+      "adapter_pred": 34
+    },
+    {
+      "video_id": "PommelHorse/v_PommelHorse_g04_c04",
+      "action_id": 68,
+      "official_pred": 17,
+      "adapter_pred": 26
+    }
+  ]
+}
