@@ -51,6 +51,10 @@ crcv.ucf.edu and records its SHA-256 in `runs/DATA_SOURCE.json`.
 2-videos-per-class subset (official test script vs adapter, see envs/openvclip.md), and the
 frozen-CLIP ViT-B/16 side analysis with XOV's raw class names. Download `ovar_outputs_2.zip`.
 
+`kaggle/ovar_ucf101_openvclip_full.ipynb` (fourth session) runs Baseline B on the full UCF101 test
+list: the adapter in the native configuration, the official test script on the same videos with
+`compare-native`, and the adapter in the common protocol. Download `ovar_outputs_4.zip`.
+
 ### 1. Environment
 
 ```bash

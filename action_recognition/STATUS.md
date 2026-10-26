@@ -148,7 +148,10 @@ lists, Baseline C, HMDB51, ARID and NEC-Drone, and actor-crop diagnostics.
 
 ## Next step
 
-Baseline B on the full UCF101 test list (3,783 videos), about 2.5 GPU hours on a T4:
+Baseline B on the full UCF101 test list (3,783 videos) with
+`kaggle/ovar_ucf101_openvclip_full.ipynb`, about 3 hours on a T4:
 1. Adapter, native `openvclip_native_8x3x1`.
 2. Official script on the same list, with `compare-native` for full-list agreement.
 3. Adapter, common protocol `common_16x1x1`, reported in its own section.
+
+Bring back `ovar_outputs_4.zip`.
