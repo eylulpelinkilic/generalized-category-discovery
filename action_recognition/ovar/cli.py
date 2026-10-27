@@ -133,6 +133,18 @@ def cmd_export_native(args):
         print(f"wrote {path}")
 
 
+def cmd_import_tcclip(args):
+    from ovar.metrics import evaluate_run
+    from ovar.native import import_tcclip
+
+    cfg = load_experiment(args.experiment, args.set, args.paths)
+    suffix = f"__{args.variant}" if args.variant else ""
+    run_dir = project_path(cfg["paths"].get("runs_dir", "runs")) / f"{cfg['run_name']}{suffix}"
+    provenance = json.loads(Path(args.provenance).read_text()) if args.provenance else None
+    import_tcclip(cfg, args.scores_dir, run_dir, per_class=args.per_class, provenance=provenance)
+    _print(evaluate_run(run_dir, n_boot=args.n_boot))
+
+
 def cmd_compare_native(args):
     from ovar.native import compare_openvclip
 
@@ -308,6 +320,16 @@ def main(argv=None):
     p.add_argument("--trust-pickle", action="store_true")
     p.add_argument("--out", help="also write the comparison as JSON")
     p.set_defaults(fn=cmd_compare_native)
+
+    p = sub.add_parser("import-tcclip", help="run directory from TC-CLIP per-video scores (envs/tcclip_eval.py)")
+    p.add_argument("experiment")
+    p.add_argument("--scores-dir", required=True, help="<output>/scores written by envs/tcclip_eval.py")
+    p.add_argument("--per-class", type=int, help="the subset the scores were exported with")
+    p.add_argument("--variant", help="suffix for the run directory")
+    p.add_argument("--provenance", help="JSON with checkpoint checksum and environment, stored in run.json")
+    p.add_argument("--set", action="append", default=[])
+    p.add_argument("--n-boot", type=int, default=1000)
+    p.set_defaults(fn=cmd_import_tcclip)
 
     p = sub.add_parser("fetch-clip", help="download OpenAI CLIP weights (explicit, large)")
     p.add_argument("--arch", choices=["ViT-B-32", "ViT-B-16"], required=True)

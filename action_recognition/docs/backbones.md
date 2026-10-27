@@ -61,9 +61,17 @@ Report those results separately from the native ones.
 | Architecture | CLIP ViT-B/16 with temporal contextualisation tokens and video-conditional prompting (text embeddings depend on the video) |
 | Native test configuration | `configs/zero_shot.yaml`: 16 frames, shorter side 256 then centre crop 224, learned prompt context initialised from "a photo of a"; final test uses 2 temporal views built with the training-mode sampler, i.e. randomly jittered offsets |
 
-Because of video-conditional prompting it is not wrapped in-process. Export the manifests with
-`python -m ovar export-native --backbone tcclip --out <dir>` and run the official evaluation on a
-compatible machine (envs/openvclip.md, TC-CLIP section).
+Because of video-conditional prompting it is not wrapped in-process. The official evaluation
+(`main.py`, `eval=test`) prints accuracies but saves no predictions. `envs/tcclip_eval.py` runs it
+unchanged and records each video's scores. `python -m ovar import-tcclip` turns them into a regular
+run, aligned by annotation-file row, with labels checked against the manifest and the official
+Acc@1 recorded next to the recomputed one. On Kaggle: `kaggle/ovar_tcclip_baselines.ipynb`.
+
+| Checkpoint file | Drive id | Bytes |
+|---|---|---|
+| `zero_shot_k400_tc_clip.pth` (the only file in the zero-shot folder) | `1H8kHJGKIBuhHWlJLX5klaXtmb0Mw1tLp` | 531,363,279 |
+
+No checksum is published. The notebook records the SHA-256 in `runs/DOWNLOADS.json`.
 
 ## Comparability
 

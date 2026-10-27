@@ -77,7 +77,11 @@ string, `mkl<2024.1`), and a probe decodes one video before the test runs.
 ## TC-CLIP (optional)
 
 Environment: follow `third_party/tc-clip/docs/INSTALL.md`. Download only the zero-shot
-Kinetics-400 checkpoint (docs/backbones.md).
+Kinetics-400 checkpoint (docs/backbones.md). `kaggle/ovar_tcclip_baselines.ipynb` does all of the
+following on Kaggle, with the deviations listed in its section 5 (pip wheels instead of conda;
+Python-only Apex at `810ffae`; `pathlib` backport skipped). It uses `envs/tcclip_eval.py` instead of
+calling `main.py` directly, so the per-video scores are kept, and it runs one dataset per
+invocation.
 
 ```bash
 python -m ovar export-native --backbone tcclip --out runs/export_tcclip

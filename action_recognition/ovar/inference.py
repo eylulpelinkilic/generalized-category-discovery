@@ -139,6 +139,41 @@ def _environment(device: str) -> dict:
     }
 
 
+def write_dataset_outputs(out: Path, pred: pd.DataFrame, scores: np.ndarray, vocab: pd.DataFrame, *,
+                          model_name: str, protocol_name: str, temporal: str = "ordered",
+                          pixel: dict | None = None, config_id: str = "") -> pd.DataFrame:
+    """predictions.csv, scores.npy, classes.csv, failures.csv for one dataset of a run.
+
+    `pred` has one row per manifest video with the manifest columns plus status/error/cached/
+    decode_s/encode_s; `scores` is [videos, classes] (NaN rows for failed videos).
+    """
+    ok = pred["status"] == "ok"
+    top = np.argsort(-np.nan_to_num(scores, nan=-np.inf), axis=1)
+    names = vocab["official_name"].tolist()
+    pred["pred_id"] = np.where(ok, top[:, 0], -1)
+    pred["pred_name"] = [names[p] if p >= 0 else "" for p in pred["pred_id"]]
+    pred["correct"] = (ok & (pred["pred_id"] == pred["action_id"])).astype(int)
+    gt = np.clip(pred["action_id"].to_numpy(), 0, len(vocab) - 1)
+    pred["gt_score"] = np.where(ok, scores[np.arange(len(pred)), gt], np.nan)
+    pred["pred_score"] = np.where(ok, scores[np.arange(len(pred)), top[:, 0]], np.nan)
+    second = scores[np.arange(len(pred)), top[:, 1]] if len(vocab) > 1 else np.nan
+    pred["top1_minus_top2"] = np.where(ok, pred["pred_score"] - second, np.nan)
+    pred["top5_ids"] = [" ".join(map(str, t[:5])) if o else "" for t, o in zip(top, ok)]
+    pred["model_name"] = model_name
+    pred["protocol_name"] = protocol_name
+    pred["temporal_transform"] = temporal
+    pred["pixel_transform"] = json.dumps(pixel) if pixel else ""
+    pred["config_id"] = config_id
+
+    out.mkdir(parents=True, exist_ok=True)
+    pred.to_csv(out / "predictions.csv", index=False)
+    np.save(out / "scores.npy", scores)
+    vocab[["action_id", "official_name", "text_name", "category_status"]].to_csv(
+        out / "classes.csv", index=False)
+    pred.loc[~ok, ["video_id", "error"]].to_csv(out / "failures.csv", index=False)
+    return pred
+
+
 def run(cfg: dict, *, run_dir=None, per_class: int | None = None, limit: int | None = None,
         temporal: str = "ordered", pixel: dict | None = None, variant_name: str | None = None,
         allow_download: bool = False, backbone=None) -> Path:
@@ -247,32 +282,11 @@ def run(cfg: dict, *, run_dir=None, per_class: int | None = None, limit: int | N
                 record.update(status="failed", error=f"{type(exc).__name__}: {exc}"[:300])
             rows.append(record)
 
-        pred = pd.DataFrame(rows)
+        pred = write_dataset_outputs(
+            run_dir / name, pd.DataFrame(rows), scores, vocab,
+            model_name=model_cfg.get("name", identity["backbone"]), protocol_name=protocol.get("name", ""),
+            temporal=temporal, pixel=pixel, config_id=config_id)
         ok = pred["status"] == "ok"
-        top = np.argsort(-np.nan_to_num(scores, nan=-np.inf), axis=1)
-        names = vocab["official_name"].tolist()
-        pred["pred_id"] = np.where(ok, top[:, 0], -1)
-        pred["pred_name"] = [names[p] if p >= 0 else "" for p in pred["pred_id"]]
-        pred["correct"] = (ok & (pred["pred_id"] == pred["action_id"])).astype(int)
-        gt = np.clip(pred["action_id"].to_numpy(), 0, len(vocab) - 1)
-        pred["gt_score"] = np.where(ok, scores[np.arange(len(pred)), gt], np.nan)
-        pred["pred_score"] = np.where(ok, scores[np.arange(len(pred)), top[:, 0]], np.nan)
-        second = scores[np.arange(len(pred)), top[:, 1]] if len(vocab) > 1 else np.nan
-        pred["top1_minus_top2"] = np.where(ok, pred["pred_score"] - second, np.nan)
-        pred["top5_ids"] = [" ".join(map(str, t[:5])) if o else "" for t, o in zip(top, ok)]
-        pred["model_name"] = model_cfg.get("name", identity["backbone"])
-        pred["protocol_name"] = protocol.get("name", "")
-        pred["temporal_transform"] = temporal
-        pred["pixel_transform"] = json.dumps(pixel) if pixel else ""
-        pred["config_id"] = config_id
-
-        out = run_dir / name
-        out.mkdir(parents=True, exist_ok=True)
-        pred.to_csv(out / "predictions.csv", index=False)
-        np.save(out / "scores.npy", scores)
-        vocab[["action_id", "official_name", "text_name", "category_status"]].to_csv(
-            out / "classes.csv", index=False)
-        pred.loc[~ok, ["video_id", "error"]].to_csv(out / "failures.csv", index=False)
         summary[name] = {
             "manifest": str(entry["manifest"]), "videos": len(pred), "failed": int((~ok).sum()),
             "cached": int(pred["cached"].sum()), "subset": {"per_class": per_class, "limit": limit},

@@ -1,0 +1,14 @@
+# TC-CLIP native zero-shot test configuration (official configs/zero_shot.yaml, main_testing):
+# 16 frames x 2 temporal views drawn with the training-mode sampler (randomly jittered segment
+# offsets; seed 1024 through set_random_seed; the UCF101/HMDB51 loaders run in the main process),
+# shorter side 256 then centre crop 224, learned prompt context with video-conditional
+# prompting, views combined by summing per-view softmax scores, apex O1 mixed precision, no
+# weight-space ensembling. Scored by the official code through envs/tcclip_eval.py, one dataset
+# per invocation so the random views of one dataset do not depend on the others. `official` is
+# passed to the official code as Hydra overrides; `ovar infer` does not use this file.
+comparison: native
+native_for: tcclip
+official: {multi_view_inference: true, num_frames: 16, seed: 1024, wise_ft: 0.0, opt_level: O1}
+sampling: {method: tcclip_train_mode_jitter, num_frames: 16, num_views: 2}
+spatial: {preset: resize256_center224, size: 224}
+prompts: {template_set: tcclip_learned}

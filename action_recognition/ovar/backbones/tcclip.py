@@ -12,7 +12,8 @@ MESSAGE = (
     "TC-CLIP is evaluated with its official code (github.com/naver-ai/tc-clip @ 8728fe4c). "
     "Use the zero-shot Kinetics-400 checkpoint only (not the few-shot or base-to-novel ones, which are "
     "trained on UCF101/HMDB51). Export annotation files with `python -m ovar export-native --backbone "
-    "tcclip` and follow docs/backbones.md#tc-clip."
+    "tcclip`, score them with envs/tcclip_eval.py and import the scores with `python -m ovar import-tcclip` "
+    "(docs/backbones.md#tc-clip; on Kaggle: kaggle/ovar_tcclip_baselines.ipynb)."
 )
 
 

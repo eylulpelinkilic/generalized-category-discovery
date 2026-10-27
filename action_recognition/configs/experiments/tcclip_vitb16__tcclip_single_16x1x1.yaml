@@ -1,0 +1,6 @@
+run_name: tcclip_vitb16__tcclip_single_16x1x1
+model: tcclip_vitb16
+protocol: tcclip_single_16x1x1
+datasets: [ucf101, hmdb51, arid, necdrone]
+device: auto
+seed: 0

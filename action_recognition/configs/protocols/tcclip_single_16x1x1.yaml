@@ -1,0 +1,12 @@
+# TC-CLIP, official code with multi-view inference off (multi_view_inference=false): one view of
+# 16 segment midpoints (mmaction SampleFrames test mode, the same frame positions as the common
+# protocol), deterministic. Spatial transform (shorter side 256, centre crop 224) and prompts
+# (learned, video-conditional) remain TC-CLIP's own, so this is NOT the common protocol: it is a
+# side analysis giving a deterministic, frame-count-matched TC-CLIP number. Fixed in advance; it
+# is not used to choose any setting.
+comparison: side
+native_for: tcclip
+official: {multi_view_inference: false, num_frames: 16, seed: 1024, wise_ft: 0.0, opt_level: O1}
+sampling: {method: tsn_midpoint, num_frames: 16, num_views: 1}
+spatial: {preset: resize256_center224, size: 224}
+prompts: {template_set: tcclip_learned}

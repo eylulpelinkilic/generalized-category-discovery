@@ -11,9 +11,10 @@ import pandas as pd
 from ovar.benchmark import (load_benchmark, nec_action_id, read_labels, source_group,
                             build_dataset, label_matches_path)
 from ovar.config import project_path
-from ovar.inference import class_texts
+from ovar.inference import class_texts, subset_per_class
 from ovar.manifest import load_manifest, load_vocab, validate
-from ovar.native import compare_openvclip, export_openvclip
+from ovar.config import load_experiment
+from ovar.native import compare_openvclip, export_openvclip, import_tcclip
 from ovar.text import TEMPLATE_SETS
 from tests.official_source import THIRD_PARTY, require
 
@@ -140,6 +141,49 @@ class TestExportNative(unittest.TestCase):
                                  paths={"hmdb51_single_class_folder": single})
                 first = (Path(tmp) / "hmdb51" / "test.csv").read_text().splitlines()[0]
                 self.assertTrue(first.startswith(prefix) and not first.startswith(prefix + "brush_hair/"), first)
+
+
+class TestImportTcclip(unittest.TestCase):
+    """Synthetic scores file: software check of the import, not a TC-CLIP result."""
+
+    def _setup(self, tmp):
+        paths = Path(tmp) / "paths.yaml"
+        paths.write_text("checkpoints:\n  tcclip_zero_shot: /x/ckpt.pth\n")
+        cfg = load_experiment("tcclip_vitb16__tcclip_native_16x2x1", ["datasets=[hmdb51]"], paths)
+        manifest = subset_per_class(load_manifest("hmdb51", "test"), 1, 0).reset_index(drop=True)
+        rng = np.random.default_rng(0)
+        scores = rng.random((len(manifest), 51)).astype(np.float32)
+        order = rng.permutation(len(manifest))          # the official sampler shuffles
+        return cfg, manifest, scores, order
+
+    def _save(self, path, file_id, label, scores):
+        path.mkdir(parents=True, exist_ok=True)
+        np.savez(path / "hmdb51.npz", file_id=file_id, label=label, scores=scores, meta=json.dumps(
+            {"num_frames": 16, "num_clip": 2, "num_crop": 1, "seed": 1024, "wise_ft": 0.0, "opt_level": "O1"}))
+
+    def test_rows_return_to_manifest_order(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            cfg, manifest, scores, order = self._setup(tmp)
+            labels = manifest["action_id"].to_numpy()
+            self._save(Path(tmp) / "scores", order, labels[order], scores[order])
+            run = import_tcclip(cfg, Path(tmp) / "scores", Path(tmp) / "run", per_class=1)
+            pred = pd.read_csv(run / "hmdb51" / "predictions.csv", keep_default_na=False)
+            self.assertEqual(pred["video_id"].tolist(), manifest["video_id"].tolist())
+            self.assertEqual(pred["pred_id"].tolist(), scores.argmax(1).tolist())
+            self.assertEqual(json.loads((run / "run.json").read_text())["comparison"], "native")
+
+    def test_rejects_wrong_labels_and_missing_rows(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            cfg, manifest, scores, order = self._setup(tmp)
+            labels = manifest["action_id"].to_numpy()
+            bad = labels[order].copy()
+            bad[0] = (bad[0] + 1) % 51
+            self._save(Path(tmp) / "a", order, bad, scores[order])
+            with self.assertRaisesRegex(ValueError, "labels differ"):
+                import_tcclip(cfg, Path(tmp) / "a", Path(tmp) / "run", per_class=1)
+            self._save(Path(tmp) / "b", order[1:], labels[order][1:], scores[order][1:])
+            with self.assertRaisesRegex(ValueError, "once each"):
+                import_tcclip(cfg, Path(tmp) / "b", Path(tmp) / "run", per_class=1)
 
 
 class TestCompareNative(unittest.TestCase):

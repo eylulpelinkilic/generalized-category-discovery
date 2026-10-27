@@ -166,7 +166,7 @@ resamples, computed ad hoc from the saved predictions, not by `ovar evaluate`.
   - **Analysis:** diagnostics (temporal, actor crop, degradation), error analysis, results report
     (synthetic runs excluded), exports to the official Open-VCLIP and TC-CLIP formats
     (subset-aligned with `infer`), CLI with explicit errors.
-* **Tests:** 39 pass and 2 are skipped (`python -m unittest discover -s tests -t .`). The 2 opt-in heavy tests
+* **Tests:** 41 pass and 2 are skipped (`python -m unittest discover -s tests -t .`). The 2 opt-in heavy tests
   (`OVAR_HEAVY_TESTS=1`) were not run as tests; their checks were run manually once.
 * **Category audit.** Lexical screen run; 50 unfamiliar classes listed for review; 15 tagged
   near-familiar in an unverified review, with a secondary metric.
@@ -177,6 +177,7 @@ resamples, computed ad hoc from the saved predictions, not by `ovar evaluate`.
   with PyAV decoding agrees on 97.5% of the full list (session 4).
 * Actor-crop diagnostics on real videos (code tested on fixtures with synthetic boxes).
 * `audit-categories --method clip`.
+* TC-CLIP scoring through `envs/tcclip_eval.py` (tested against a stand-in repository, not yet on the real code).
 * The MPS device path (every run so far used the CPU).
 
 ## Blocked
@@ -201,12 +202,23 @@ cross-domain average yet), Baseline C, Open-VCLIP diagnostics, and actor-crop di
 
 ## Next step
 
-Second domain: HMDB51, with `kaggle/ovar_hmdb51_baselines.ipynb` (about 2 hours on a T4; add the
-dataset `kodurujagruthaaditya/hmdb51`, because the official archive link is dead):
-1. A gate run of 102 videos (2 per class).
-2. Frozen CLIP, both backbones, 1 and 28 templates, common protocol.
-3. Open-VCLIP adapter, native and common.
-4. The official script with torchvision decoding (INSTALL.md conda environment, because the pip
-   torchvision 0.12 wheel has no video reader), then `compare-native`.
+Two notebooks that can run at the same time on Kaggle (T4, Internet on):
 
-Bring back `ovar_outputs_5.zip`. Request NEC-Drone access now: it is by request and has lead time.
+* `kaggle/ovar_hmdb51_baselines.ipynb` (about 2 hours; dataset `kodurujagruthaaditya/hmdb51`, because
+  the official archive link is dead):
+  1. A gate run of 102 videos.
+  2. Frozen CLIP, both backbones, 1 and 28 templates.
+  3. Open-VCLIP adapter, native and common.
+  4. The official Open-VCLIP script with torchvision decoding (INSTALL.md conda environment,
+     because the pip torchvision 0.12 wheel has no video reader), then `compare-native`.
+
+  Bring back `ovar_outputs_5.zip`.
+* `kaggle/ovar_tcclip_baselines.ipynb` (about 2 hours; datasets `lifailifai/ucf101` and
+  `kodurujagruthaaditya/hmdb51`), Baseline C, TC-CLIP, through its official evaluation code:
+  1. A gate that checks the saved scores reproduce the official accuracy.
+  2. Native 16×2 jittered views on UCF101 and HMDB51.
+  3. A single-view side analysis.
+
+  Bring back `ovar_outputs_6.zip`.
+
+Request NEC-Drone access now: it is by request and has lead time.
