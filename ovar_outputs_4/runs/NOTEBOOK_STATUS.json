@@ -1,0 +1,9 @@
+{
+  "weights": "ok",
+  "official_env": "ok",
+  "adapter_native": "ok",
+  "official_full": "ok",
+  "compare_full": "ok",
+  "adapter_common": "ok",
+  "report": "ok"
+}

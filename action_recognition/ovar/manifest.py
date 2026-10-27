@@ -26,15 +26,20 @@ def load_vocab(dataset: str, path=None) -> pd.DataFrame:
     return df.sort_values("action_id").reset_index(drop=True)
 
 
+def on_disk_path(dataset: str, rel_path: str, paths: dict) -> str:
+    """Manifest path -> path below the dataset root, for the configured folder layout."""
+    parts = rel_path.split("/")
+    if dataset == "hmdb51" and paths.get("hmdb51_single_class_folder") and len(parts) >= 3 \
+            and parts[0] == parts[1]:
+        return "/".join(parts[1:])
+    return rel_path
+
+
 def resolve_video_path(dataset: str, rel_path: str, paths: dict) -> Path:
     root = (paths.get("dataset_roots") or {}).get(dataset)
     if not root:
         raise KeyError(f"no dataset_roots.{dataset} in {paths.get('_source', 'paths config')}")
-    parts = rel_path.split("/")
-    if dataset == "hmdb51" and paths.get("hmdb51_single_class_folder") and len(parts) >= 3 \
-            and parts[0] == parts[1]:
-        rel_path = "/".join(parts[1:])
-    return project_path(root) / rel_path
+    return project_path(root) / on_disk_path(dataset, rel_path, paths)
 
 
 def validate(manifest: pd.DataFrame, vocab: pd.DataFrame, *, expected: dict | None = None,

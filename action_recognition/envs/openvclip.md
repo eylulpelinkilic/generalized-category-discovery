@@ -67,6 +67,13 @@ selective decoding vs ffmpeg full decoding: frame windows can shift by a frame) 
 reported, not hidden. Repeat with `DATA.DECODING_BACKEND torchvision`, which the HMDB script
 and the YAML use.
 
+The torchvision backend needs torchvision's compiled video reader (`torch.ops.video_reader`).
+The pip wheel `torchvision==0.12.0+cu113` does not include it: there is no `video_reader`
+operator in `_C.so`. The conda build `pytorch/linux-64/torchvision-0.12.0-py38_cu113` depends on
+`ffmpeg >=4.2` and does include it. The HMDB51 check therefore uses INSTALL.md's conda
+environment (`kaggle/ovar_hmdb51_baselines.ipynb`, micromamba, CUDA builds pinned by build
+string, `mkl<2024.1`), and a probe decodes one video before the test runs.
+
 ## TC-CLIP (optional)
 
 Environment: follow `third_party/tc-clip/docs/INSTALL.md`. Download only the zero-shot

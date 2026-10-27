@@ -1,0 +1,567 @@
+{
+  "videos": 3783,
+  "adapter_failed": 0,
+  "top1_agreement": 0.9754163362410785,
+  "official_accuracy": 0.8419243986254296,
+  "adapter_accuracy_failures_as_errors": 0.8445678033306899,
+  "disagreements": [
+    {
+      "video_id": "ApplyLipstick/v_ApplyLipstick_g03_c01",
+      "action_id": 1,
+      "official_pred": 19,
+      "adapter_pred": 1
+    },
+    {
+      "video_id": "ApplyLipstick/v_ApplyLipstick_g04_c01",
+      "action_id": 1,
+      "official_pred": 0,
+      "adapter_pred": 1
+    },
+    {
+      "video_id": "BalanceBeam/v_BalanceBeam_g02_c03",
+      "action_id": 4,
+      "official_pred": 4,
+      "adapter_pred": 95
+    },
+    {
+      "video_id": "BalanceBeam/v_BalanceBeam_g03_c03",
+      "action_id": 4,
+      "official_pred": 4,
+      "adapter_pred": 95
+    },
+    {
+      "video_id": "BalanceBeam/v_BalanceBeam_g04_c01",
+      "action_id": 4,
+      "official_pred": 95,
+      "adapter_pred": 29
+    },
+    {
+      "video_id": "BalanceBeam/v_BalanceBeam_g06_c01",
+      "action_id": 4,
+      "official_pred": 95,
+      "adapter_pred": 68
+    },
+    {
+      "video_id": "Basketball/v_Basketball_g01_c06",
+      "action_id": 7,
+      "official_pred": 8,
+      "adapter_pred": 7
+    },
+    {
+      "video_id": "Basketball/v_Basketball_g03_c02",
+      "action_id": 7,
+      "official_pred": 7,
+      "adapter_pred": 8
+    },
+    {
+      "video_id": "BlowDryHair/v_BlowDryHair_g06_c07",
+      "action_id": 12,
+      "official_pred": 33,
+      "adapter_pred": 12
+    },
+    {
+      "video_id": "BodyWeightSquats/v_BodyWeightSquats_g03_c04",
+      "action_id": 14,
+      "official_pred": 42,
+      "adapter_pred": 46
+    },
+    {
+      "video_id": "BodyWeightSquats/v_BodyWeightSquats_g07_c01",
+      "action_id": 14,
+      "official_pred": 51,
+      "adapter_pred": 14
+    },
+    {
+      "video_id": "BoxingSpeedBag/v_BoxingSpeedBag_g03_c02",
+      "action_id": 17,
+      "official_pred": 16,
+      "adapter_pred": 45
+    },
+    {
+      "video_id": "BoxingSpeedBag/v_BoxingSpeedBag_g03_c05",
+      "action_id": 17,
+      "official_pred": 16,
+      "adapter_pred": 45
+    },
+    {
+      "video_id": "BoxingSpeedBag/v_BoxingSpeedBag_g04_c03",
+      "action_id": 17,
+      "official_pred": 57,
+      "adapter_pred": 16
+    },
+    {
+      "video_id": "BoxingSpeedBag/v_BoxingSpeedBag_g04_c04",
+      "action_id": 17,
+      "official_pred": 16,
+      "adapter_pred": 57
+    },
+    {
+      "video_id": "BoxingSpeedBag/v_BoxingSpeedBag_g06_c02",
+      "action_id": 17,
+      "official_pred": 16,
+      "adapter_pred": 70
+    },
+    {
+      "video_id": "BoxingSpeedBag/v_BoxingSpeedBag_g07_c04",
+      "action_id": 17,
+      "official_pred": 16,
+      "adapter_pred": 69
+    },
+    {
+      "video_id": "BreastStroke/v_BreastStroke_g06_c02",
+      "action_id": 18,
+      "official_pred": 31,
+      "adapter_pred": 18
+    },
+    {
+      "video_id": "BreastStroke/v_BreastStroke_g06_c03",
+      "action_id": 18,
+      "official_pred": 18,
+      "adapter_pred": 31
+    },
+    {
+      "video_id": "CleanAndJerk/v_CleanAndJerk_g01_c04",
+      "action_id": 20,
+      "official_pred": 14,
+      "adapter_pred": 20
+    },
+    {
+      "video_id": "CleanAndJerk/v_CleanAndJerk_g04_c02",
+      "action_id": 20,
+      "official_pred": 14,
+      "adapter_pred": 20
+    },
+    {
+      "video_id": "CricketBowling/v_CricketBowling_g04_c02",
+      "action_id": 22,
+      "official_pred": 50,
+      "adapter_pred": 92
+    },
+    {
+      "video_id": "CricketShot/v_CricketShot_g02_c01",
+      "action_id": 23,
+      "official_pred": 22,
+      "adapter_pred": 23
+    },
+    {
+      "video_id": "CricketShot/v_CricketShot_g03_c02",
+      "action_id": 23,
+      "official_pred": 23,
+      "adapter_pred": 22
+    },
+    {
+      "video_id": "Diving/v_Diving_g01_c01",
+      "action_id": 25,
+      "official_pred": 25,
+      "adapter_pred": 81
+    },
+    {
+      "video_id": "FrontCrawl/v_FrontCrawl_g01_c01",
+      "action_id": 31,
+      "official_pred": 18,
+      "adapter_pred": 31
+    },
+    {
+      "video_id": "FrontCrawl/v_FrontCrawl_g01_c02",
+      "action_id": 31,
+      "official_pred": 31,
+      "adapter_pred": 18
+    },
+    {
+      "video_id": "FrontCrawl/v_FrontCrawl_g07_c06",
+      "action_id": 31,
+      "official_pred": 18,
+      "adapter_pred": 31
+    },
+    {
+      "video_id": "GolfSwing/v_GolfSwing_g04_c01",
+      "action_id": 32,
+      "official_pred": 32,
+      "adapter_pred": 35
+    },
+    {
+      "video_id": "Haircut/v_Haircut_g01_c01",
+      "action_id": 33,
+      "official_pred": 33,
+      "adapter_pred": 12
+    },
+    {
+      "video_id": "Haircut/v_Haircut_g01_c04",
+      "action_id": 33,
+      "official_pred": 33,
+      "adapter_pred": 12
+    },
+    {
+      "video_id": "Hammering/v_Hammering_g01_c01",
+      "action_id": 34,
+      "official_pred": 77,
+      "adapter_pred": 34
+    },
+    {
+      "video_id": "Hammering/v_Hammering_g01_c02",
+      "action_id": 34,
+      "official_pred": 33,
+      "adapter_pred": 77
+    },
+    {
+      "video_id": "Hammering/v_Hammering_g06_c01",
+      "action_id": 34,
+      "official_pred": 34,
+      "adapter_pred": 4
+    },
+    {
+      "video_id": "HammerThrow/v_HammerThrow_g01_c04",
+      "action_id": 35,
+      "official_pred": 35,
+      "adapter_pred": 92
+    },
+    {
+      "video_id": "HammerThrow/v_HammerThrow_g05_c03",
+      "action_id": 35,
+      "official_pred": 35,
+      "adapter_pred": 92
+    },
+    {
+      "video_id": "HammerThrow/v_HammerThrow_g07_c05",
+      "action_id": 35,
+      "official_pred": 35,
+      "adapter_pred": 92
+    },
+    {
+      "video_id": "HandstandWalking/v_HandstandWalking_g01_c03",
+      "action_id": 37,
+      "official_pred": 36,
+      "adapter_pred": 37
+    },
+    {
+      "video_id": "HandstandWalking/v_HandstandWalking_g02_c01",
+      "action_id": 37,
+      "official_pred": 69,
+      "adapter_pred": 8
+    },
+    {
+      "video_id": "HandstandWalking/v_HandstandWalking_g03_c03",
+      "action_id": 37,
+      "official_pred": 36,
+      "adapter_pred": 37
+    },
+    {
+      "video_id": "HandstandWalking/v_HandstandWalking_g05_c04",
+      "action_id": 37,
+      "official_pred": 37,
+      "adapter_pred": 36
+    },
+    {
+      "video_id": "HandstandWalking/v_HandstandWalking_g07_c05",
+      "action_id": 37,
+      "official_pred": 16,
+      "adapter_pred": 37
+    },
+    {
+      "video_id": "HighJump/v_HighJump_g03_c01",
+      "action_id": 39,
+      "official_pred": 39,
+      "adapter_pred": 50
+    },
+    {
+      "video_id": "HighJump/v_HighJump_g03_c04",
+      "action_id": 39,
+      "official_pred": 50,
+      "adapter_pred": 39
+    },
+    {
+      "video_id": "HighJump/v_HighJump_g06_c03",
+      "action_id": 39,
+      "official_pred": 50,
+      "adapter_pred": 39
+    },
+    {
+      "video_id": "JumpRope/v_JumpRope_g07_c02",
+      "action_id": 47,
+      "official_pred": 42,
+      "adapter_pred": 47
+    },
+    {
+      "video_id": "Lunges/v_Lunges_g01_c01",
+      "action_id": 51,
+      "official_pred": 14,
+      "adapter_pred": 51
+    },
+    {
+      "video_id": "Lunges/v_Lunges_g05_c04",
+      "action_id": 51,
+      "official_pred": 78,
+      "adapter_pred": 51
+    },
+    {
+      "video_id": "Lunges/v_Lunges_g07_c03",
+      "action_id": 51,
+      "official_pred": 47,
+      "adapter_pred": 51
+    },
+    {
+      "video_id": "Lunges/v_Lunges_g07_c05",
+      "action_id": 51,
+      "official_pred": 51,
+      "adapter_pred": 47
+    },
+    {
+      "video_id": "MilitaryParade/v_MilitaryParade_g01_c03",
+      "action_id": 52,
+      "official_pred": 5,
+      "adapter_pred": 52
+    },
+    {
+      "video_id": "MilitaryParade/v_MilitaryParade_g01_c06",
+      "action_id": 52,
+      "official_pred": 52,
+      "adapter_pred": 5
+    },
+    {
+      "video_id": "Mixing/v_Mixing_g03_c07",
+      "action_id": 53,
+      "official_pred": 24,
+      "adapter_pred": 53
+    },
+    {
+      "video_id": "Mixing/v_Mixing_g05_c01",
+      "action_id": 53,
+      "official_pred": 57,
+      "adapter_pred": 53
+    },
+    {
+      "video_id": "Nunchucks/v_Nunchucks_g01_c01",
+      "action_id": 55,
+      "official_pred": 46,
+      "adapter_pred": 30
+    },
+    {
+      "video_id": "Nunchucks/v_Nunchucks_g01_c02",
+      "action_id": 55,
+      "official_pred": 30,
+      "adapter_pred": 42
+    },
+    {
+      "video_id": "Nunchucks/v_Nunchucks_g02_c02",
+      "action_id": 55,
+      "official_pred": 2,
+      "adapter_pred": 42
+    },
+    {
+      "video_id": "Nunchucks/v_Nunchucks_g02_c04",
+      "action_id": 55,
+      "official_pred": 55,
+      "adapter_pred": 2
+    },
+    {
+      "video_id": "Nunchucks/v_Nunchucks_g02_c06",
+      "action_id": 55,
+      "official_pred": 45,
+      "adapter_pred": 42
+    },
+    {
+      "video_id": "Nunchucks/v_Nunchucks_g03_c01",
+      "action_id": 55,
+      "official_pred": 42,
+      "adapter_pred": 90
+    },
+    {
+      "video_id": "Nunchucks/v_Nunchucks_g06_c02",
+      "action_id": 55,
+      "official_pred": 2,
+      "adapter_pred": 90
+    },
+    {
+      "video_id": "ParallelBars/v_ParallelBars_g05_c03",
+      "action_id": 56,
+      "official_pred": 67,
+      "adapter_pred": 56
+    },
+    {
+      "video_id": "PizzaTossing/v_PizzaTossing_g02_c01",
+      "action_id": 57,
+      "official_pred": 90,
+      "adapter_pred": 45
+    },
+    {
+      "video_id": "PizzaTossing/v_PizzaTossing_g04_c01",
+      "action_id": 57,
+      "official_pred": 57,
+      "adapter_pred": 30
+    },
+    {
+      "video_id": "PizzaTossing/v_PizzaTossing_g04_c03",
+      "action_id": 57,
+      "official_pred": 57,
+      "adapter_pred": 30
+    },
+    {
+      "video_id": "PizzaTossing/v_PizzaTossing_g04_c04",
+      "action_id": 57,
+      "official_pred": 30,
+      "adapter_pred": 57
+    },
+    {
+      "video_id": "PizzaTossing/v_PizzaTossing_g07_c01",
+      "action_id": 57,
+      "official_pred": 90,
+      "adapter_pred": 27
+    },
+    {
+      "video_id": "PlayingDaf/v_PlayingDaf_g03_c03",
+      "action_id": 59,
+      "official_pred": 30,
+      "adapter_pred": 65
+    },
+    {
+      "video_id": "PlayingDaf/v_PlayingDaf_g04_c07",
+      "action_id": 59,
+      "official_pred": 26,
+      "adapter_pred": 30
+    },
+    {
+      "video_id": "PommelHorse/v_PommelHorse_g01_c05",
+      "action_id": 68,
+      "official_pred": 39,
+      "adapter_pred": 68
+    },
+    {
+      "video_id": "PommelHorse/v_PommelHorse_g04_c04",
+      "action_id": 68,
+      "official_pred": 17,
+      "adapter_pred": 26
+    },
+    {
+      "video_id": "Punch/v_Punch_g05_c05",
+      "action_id": 70,
+      "official_pred": 16,
+      "adapter_pred": 70
+    },
+    {
+      "video_id": "Shotput/v_Shotput_g01_c04",
+      "action_id": 78,
+      "official_pred": 78,
+      "adapter_pred": 92
+    },
+    {
+      "video_id": "Shotput/v_Shotput_g05_c01",
+      "action_id": 78,
+      "official_pred": 35,
+      "adapter_pred": 92
+    },
+    {
+      "video_id": "Shotput/v_Shotput_g05_c02",
+      "action_id": 78,
+      "official_pred": 35,
+      "adapter_pred": 92
+    },
+    {
+      "video_id": "Skijet/v_Skijet_g01_c02",
+      "action_id": 81,
+      "official_pred": 48,
+      "adapter_pred": 81
+    },
+    {
+      "video_id": "StillRings/v_StillRings_g01_c04",
+      "action_id": 85,
+      "official_pred": 67,
+      "adapter_pred": 95
+    },
+    {
+      "video_id": "StillRings/v_StillRings_g01_c05",
+      "action_id": 85,
+      "official_pred": 74,
+      "adapter_pred": 67
+    },
+    {
+      "video_id": "StillRings/v_StillRings_g06_c03",
+      "action_id": 85,
+      "official_pred": 67,
+      "adapter_pred": 95
+    },
+    {
+      "video_id": "StillRings/v_StillRings_g07_c01",
+      "action_id": 85,
+      "official_pred": 74,
+      "adapter_pred": 95
+    },
+    {
+      "video_id": "StillRings/v_StillRings_g07_c04",
+      "action_id": 85,
+      "official_pred": 74,
+      "adapter_pred": 95
+    },
+    {
+      "video_id": "Swing/v_Swing_g05_c02",
+      "action_id": 88,
+      "official_pred": 69,
+      "adapter_pred": 88
+    },
+    {
+      "video_id": "Swing/v_Swing_g05_c05",
+      "action_id": 88,
+      "official_pred": 69,
+      "adapter_pred": 39
+    },
+    {
+      "video_id": "TennisSwing/v_TennisSwing_g07_c01",
+      "action_id": 91,
+      "official_pred": 91,
+      "adapter_pred": 93
+    },
+    {
+      "video_id": "ThrowDiscus/v_ThrowDiscus_g03_c01",
+      "action_id": 92,
+      "official_pred": 35,
+      "adapter_pred": 92
+    },
+    {
+      "video_id": "UnevenBars/v_UnevenBars_g02_c02",
+      "action_id": 95,
+      "official_pred": 67,
+      "adapter_pred": 95
+    },
+    {
+      "video_id": "VolleyballSpiking/v_VolleyballSpiking_g01_c03",
+      "action_id": 96,
+      "official_pred": 8,
+      "adapter_pred": 7
+    },
+    {
+      "video_id": "WallPushups/v_WallPushups_g03_c04",
+      "action_id": 98,
+      "official_pred": 37,
+      "adapter_pred": 90
+    },
+    {
+      "video_id": "WallPushups/v_WallPushups_g06_c02",
+      "action_id": 98,
+      "official_pred": 98,
+      "adapter_pred": 14
+    },
+    {
+      "video_id": "YoYo/v_YoYo_g03_c04",
+      "action_id": 100,
+      "official_pred": 100,
+      "adapter_pred": 45
+    },
+    {
+      "video_id": "YoYo/v_YoYo_g03_c06",
+      "action_id": 100,
+      "official_pred": 2,
+      "adapter_pred": 100
+    },
+    {
+      "video_id": "YoYo/v_YoYo_g05_c01",
+      "action_id": 100,
+      "official_pred": 45,
+      "adapter_pred": 100
+    },
+    {
+      "video_id": "YoYo/v_YoYo_g06_c02",
+      "action_id": 100,
+      "official_pred": 45,
+      "adapter_pred": 100
+    }
+  ]
+}

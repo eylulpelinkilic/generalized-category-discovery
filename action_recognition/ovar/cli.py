@@ -128,7 +128,8 @@ def cmd_export_native(args):
     bench = load_benchmark()
     datasets = {n: bench["datasets"][n]["split"] for n in args.datasets}
     fn = export_openvclip if args.backbone == "openvclip" else export_tcclip
-    for path in fn(datasets, args.out, per_class=args.per_class, seed=args.seed):
+    for path in fn(datasets, args.out, per_class=args.per_class, seed=args.seed,
+                   paths=load_paths(args.paths)):
         print(f"wrote {path}")
 
 

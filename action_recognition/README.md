@@ -15,7 +15,7 @@ No novel method is implemented here.
 | Baseline | Status on this machine |
 |---|---|
 | A. Frozen CLIP (OpenAI weights via open_clip, QuickGELU) | full UCF101 test list run on Kaggle (ViT-B/32, ViT-B/16) |
-| B. Open-VCLIP (official checkpoint, official model code) | adapter agrees with the official test script on 200/202 UCF101 videos (Kaggle); full lists not run |
+| B. Open-VCLIP (official checkpoint, official model code) | full UCF101 test list run on Kaggle, native and common protocol; top-1 agreement with the official test script 97.5% |
 | C. TC-CLIP (optional) | official code + exported manifests on a compatible machine |
 
 See **STATUS.md** for what is verified, blocked and not yet run, and
@@ -55,6 +55,10 @@ frozen-CLIP ViT-B/16 side analysis with XOV's raw class names. Download `ovar_ou
 list: the adapter in the native configuration, the official test script on the same videos with
 `compare-native`, and the adapter in the common protocol. Download `ovar_outputs_4.zip`.
 
+`kaggle/ovar_hmdb51_baselines.ipynb` (fifth session) runs frozen CLIP (4 configurations) and
+Open-VCLIP (native and common) on HMDB51, plus the official Open-VCLIP script with torchvision
+decoding. Add the dataset `kodurujagruthaaditya/hmdb51` and download `ovar_outputs_5.zip`.
+
 ### 1. Environment
 
 ```bash
@@ -62,7 +66,7 @@ python3 -m venv .venv && . .venv/bin/activate        # or reuse an existing envi
 pip install -r requirements.txt                      # ffmpeg/ffprobe must also be installed
 python -m ovar fetch-repos                           # official repos at pinned commits -> third_party/
 cp configs/paths.example.yaml configs/paths.yaml     # then edit dataset roots and checkpoint paths
-python -m unittest discover -s tests -t .            # 40 tests; 2 that load CLIP run only with OVAR_HEAVY_TESTS=1
+python -m unittest discover -s tests -t .            # 41 tests; 2 that load CLIP run only with OVAR_HEAVY_TESTS=1
 python -m ovar smoke-test                            # end to end on synthetic fixtures (needs CLIP ViT-B/32)
 python -m ovar smoke-test --fake                     # same, without any model weights
 ```

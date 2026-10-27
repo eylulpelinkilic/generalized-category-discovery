@@ -13,7 +13,7 @@ from ovar.benchmark import (load_benchmark, nec_action_id, read_labels, source_g
 from ovar.config import project_path
 from ovar.inference import class_texts
 from ovar.manifest import load_manifest, load_vocab, validate
-from ovar.native import compare_openvclip
+from ovar.native import compare_openvclip, export_openvclip
 from ovar.text import TEMPLATE_SETS
 from tests.official_source import THIRD_PARTY, require
 
@@ -130,6 +130,16 @@ class TestClassTexts(unittest.TestCase):
         self.assertEqual(raw, [xov[i] for i in sorted(xov)])
         with self.assertRaises(ValueError):
             class_texts(vocab, {"prompts": {"class_names": "label"}})
+
+
+class TestExportNative(unittest.TestCase):
+    def test_hmdb51_paths_follow_the_folder_layout(self):
+        for single, prefix in ((False, "brush_hair/brush_hair/"), (True, "brush_hair/")):
+            with tempfile.TemporaryDirectory() as tmp:
+                export_openvclip({"hmdb51": "test"}, tmp, per_class=1,
+                                 paths={"hmdb51_single_class_folder": single})
+                first = (Path(tmp) / "hmdb51" / "test.csv").read_text().splitlines()[0]
+                self.assertTrue(first.startswith(prefix) and not first.startswith(prefix + "brush_hair/"), first)
 
 
 class TestCompareNative(unittest.TestCase):

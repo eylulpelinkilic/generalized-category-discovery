@@ -1,0 +1,8 @@
+dataset_roots:
+  ucf101: /kaggle/input/datasets/lifailifai/ucf101/UCF-101
+hmdb51_single_class_folder: false
+checkpoints:
+  openvclip_vitb16: /tmp/checkpoints/openvclip-b16/swa_2_22.pth
+  clip_vitb16_openai_pt: /root/.cache/clip/ViT-B-16.pt
+cache_dir: cache
+runs_dir: runs

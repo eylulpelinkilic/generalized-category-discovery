@@ -2,7 +2,8 @@
 
 `export_*` writes our manifests (XOV labels and class texts) in each official
 repository's format, so the official test scripts score exactly the same videos
-and class names. `compare_openvclip` checks the official saved predictions
+and class names. Paths follow the folder layout in the paths config (HMDB51
+single or double class folders), as `ovar infer` resolves them. `compare_openvclip` checks the official saved predictions
 against this repository's Open-VCLIP adapter run, video by video.
 """
 from __future__ import annotations
@@ -14,7 +15,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from ovar.manifest import load_manifest, load_vocab
+from ovar.manifest import load_manifest, load_vocab, on_disk_path
 
 
 def _manifest(name: str, split: str, per_class: int | None, seed: int) -> pd.DataFrame:
@@ -25,14 +26,16 @@ def _manifest(name: str, split: str, per_class: int | None, seed: int) -> pd.Dat
     return subset_per_class(manifest, per_class, seed) if per_class else manifest
 
 
-def export_openvclip(datasets: dict, out_dir, per_class: int | None = None, seed: int = 0) -> list[Path]:
+def export_openvclip(datasets: dict, out_dir, per_class: int | None = None, seed: int = 0,
+                     paths: dict | None = None) -> list[Path]:
     """datasets: name -> split. Writes <out>/<name>/test.csv and <name>-index2cls.json."""
     written = []
     for name, split in datasets.items():
         manifest, vocab = _manifest(name, split, per_class, seed), load_vocab(name)
         target = Path(out_dir) / name
         target.mkdir(parents=True, exist_ok=True)
-        lines = [f"{p},{a}" for p, a in zip(manifest["video_path"], manifest["action_id"])]
+        lines = [f"{on_disk_path(name, p, paths or {})},{a}"
+                 for p, a in zip(manifest["video_path"], manifest["action_id"])]
         (target / "test.csv").write_text("\n".join(lines) + "\n")
         mapping = {str(i): t for i, t in zip(vocab["action_id"], vocab["text_name"])}
         (target / f"{name}-index2cls.json").write_text(json.dumps(mapping, indent=1) + "\n")
@@ -40,14 +43,16 @@ def export_openvclip(datasets: dict, out_dir, per_class: int | None = None, seed
     return written
 
 
-def export_tcclip(datasets: dict, out_dir, per_class: int | None = None, seed: int = 0) -> list[Path]:
+def export_tcclip(datasets: dict, out_dir, per_class: int | None = None, seed: int = 0,
+                  paths: dict | None = None) -> list[Path]:
     """Writes <out>/<name>/test.txt ("<path> <label>") and <name>_labels.csv ("id,name")."""
     written = []
     for name, split in datasets.items():
         manifest, vocab = _manifest(name, split, per_class, seed), load_vocab(name)
         target = Path(out_dir) / name
         target.mkdir(parents=True, exist_ok=True)
-        lines = [f"{p} {a}" for p, a in zip(manifest["video_path"], manifest["action_id"])]
+        lines = [f"{on_disk_path(name, p, paths or {})} {a}"
+                 for p, a in zip(manifest["video_path"], manifest["action_id"])]
         (target / "test.txt").write_text("\n".join(lines) + "\n")
         pd.DataFrame({"id": vocab["action_id"], "name": vocab["text_name"]}).to_csv(
             target / f"{name}_labels.csv", index=False)

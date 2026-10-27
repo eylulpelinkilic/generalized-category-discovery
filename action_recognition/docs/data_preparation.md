@@ -11,7 +11,7 @@ sources read for this setup.
 | Dataset | Source | Download size | Layout expected under the root | Evaluation videos |
 |---|---|---|---|---|
 | UCF101 | crcv.ucf.edu/data/UCF101.php (`UCF101.rar`) or the MMAction2 download script referenced by Open-VCLIP | about 6.5 GB archive (extraction needs roughly twice that temporarily) | `ApplyEyeMakeup/v_ApplyEyeMakeup_g01_c01.avi` | 3,783 |
-| HMDB51 | serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database (`hmdb51_org.rar`, per-class RARs inside; splits in `test_train_splits.rar`) | about 2 GB | `brush_hair/brush_hair/<clip>.avi` (what extracting each class RAR into a folder of its name gives); set `hmdb51_single_class_folder: true` for `brush_hair/<clip>.avi` | 1,530 |
+| HMDB51 | serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database (`hmdb51_org.rar`, per-class RARs inside; splits in `test_train_splits.rar`). As of 2026-10-27 the archive URL redirects to the lab homepage. The Kaggle notebook uses the re-upload `kodurujagruthaaditya/hmdb51` (`hmdb51_org/<class>/<clip>.avi`), checked by `validate --check-files` | about 2 GB | `brush_hair/brush_hair/<clip>.avi` (what extracting each class RAR into a folder of its name gives); set `hmdb51_single_class_folder: true` for `brush_hair/<clip>.avi` | 1,530 |
 | ARID (v1) | xuyu0010.github.io/arid.html | not established | `Drink/Drink_10_1.mp4` | 823 |
 | NEC-Drone | NEC Labs project page (access by request) | not established | `NEC-Phantom-001_A0001_P0014_V0001.mp4` (flat) | 891 |
 
