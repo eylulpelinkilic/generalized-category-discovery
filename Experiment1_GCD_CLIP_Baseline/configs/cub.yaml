@@ -1,0 +1,7 @@
+# Second benchmark: CUB-200-2011 with the SSB split (100 known / 100 novel).
+base: base
+dataset:
+  name: cub
+  root: null          # directory containing CUB_200_2011/ (downloaded by `prepare-data --download`)
+episodes:
+  sizes: [150, 100, 50, 20]  # plus the complete vocabulary of 200 (same proportions as ImageNet-100)

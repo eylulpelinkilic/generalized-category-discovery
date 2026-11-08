@@ -1,0 +1,74 @@
+# Shared settings for the research configurations (PROTOCOL.md). Values marked "upstream" are the
+# GCD repository's (methods/contrastive_training, bash_scripts/*.sh). Paths are set per machine
+# with --set (they are excluded from run-id hashes).
+paths:
+  runs_root: runs
+device: auto
+
+seeds:
+  train: [0, 1, 2]          # model-training seeds; 0 is primary
+  cluster: [0, 1, 2]        # SS-k-means seeds per training seed; 0 is primary
+
+dataset:
+  heldout_seed: 0
+  verify_images: all
+  workers: 4
+
+gcd_train:
+  arch: vit_base            # upstream ViT-B/16
+  dino_checkpoint: null     # path to dino_vitbase16_pretrain.pth (343,242,485 bytes)
+  grad_from_block: 11       # upstream
+  mlp_out_dim: 65536        # upstream
+  num_mlp_layers: 3         # upstream
+  transform: imagenet       # upstream
+  image_size: 224
+  interpolation: 3          # bicubic, upstream
+  crop_pct: 0.875           # upstream
+  n_views: 2                # upstream
+  batch_size: 128           # upstream (256 views per step)
+  epochs: 200               # upstream (bash_scripts/contrastive_train.sh)
+  lr: 0.1                   # upstream
+  momentum: 0.9             # upstream
+  weight_decay: 5.0e-5      # upstream bash script
+  sup_con_weight: 0.35      # upstream bash script
+  unsup_temperature: 1.0    # upstream --temperature default
+  amp: false                # upstream trains in fp32
+  num_workers: 4
+  feature_batch_size: 256
+
+clustering:
+  n_init: 100               # upstream bash_scripts/k_means.sh
+  max_iter: 200             # upstream bash_scripts/k_means.sh
+  tol: 1.0e-4               # upstream
+  estimate_k:
+    max_k: 1000             # upstream --max_classes default
+    n_init: 10              # sklearn default at the time of the upstream code
+    max_iter: 300           # sklearn default
+    seed: 0                 # upstream random_state=0
+
+clip:
+  batch_size: 256
+  num_workers: 4
+  primary: vitb32
+  models:
+    vitb32: {open_clip_name: ViT-B-32-quickgelu, pretrained: openai}
+    vitb16: {open_clip_name: ViT-B-16-quickgelu, pretrained: openai}
+
+vocabulary:
+  canonical_name: first WordNet lemma (ImageNet) / classes.txt name (CUB)
+  prompt_strategies: [single, ensemble80, mcm]
+
+episodes:
+  n_vocab_seeds: 5
+  paired: true
+  paired_distractors: 9
+  paired_seed: 0
+
+grounding:
+  representations: [all, centre1, centre3, centre5, random3]   # first = primary
+  prompt_candidates: [single, ensemble80]
+  temperature_grid: [0.005, 0.01, 0.02, 0.05, 0.1, 0.5, 1.0]
+  random_seed: 0
+  n_bootstrap: 1000
+  bootstrap_seed: 0
+  reference_method: max_mean_sim

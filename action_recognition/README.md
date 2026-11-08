@@ -60,9 +60,12 @@ Open-VCLIP (native and common) on HMDB51, plus the official Open-VCLIP script wi
 decoding. Add the dataset `kodurujagruthaaditya/hmdb51` and download `ovar_outputs_5.zip`.
 
 `kaggle/ovar_tcclip_baselines.ipynb` (sixth session, can run in parallel with the fifth) runs
-Baseline C, TC-CLIP, on UCF101 and HMDB51 with its official evaluation code. Native runs use 16 × 2
-jittered views. A single-view side analysis is included. Add both datasets and download
-`ovar_outputs_6.zip`.
+Baseline C, TC-CLIP, on UCF101, HMDB51 and ARID with its official evaluation code. Native runs use
+16 × 2 jittered views. A single-view side analysis is included. Add the UCF101 and HMDB51 datasets
+(ARID is downloaded) and download `ovar_outputs_6.zip`.
+
+`kaggle/ovar_arid_baselines.ipynb` (seventh session) runs frozen CLIP and Open-VCLIP on ARID v1,
+downloading the authors' release. No input is needed. Download `ovar_outputs_7.zip`.
 
 ### 1. Environment
 

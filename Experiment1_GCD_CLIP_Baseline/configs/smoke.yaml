@@ -1,0 +1,36 @@
+# SOFTWARE CHECK ONLY: synthetic images, randomly initialised small backbone and randomly
+# initialised CLIP. Nothing produced with this configuration is a research result.
+base: base
+paths:
+  runs_root: runs_smoke
+device: cpu
+seeds: {train: [0], cluster: [0]}
+dataset:
+  name: smoke
+  root: null
+  workers: 1
+gcd_train:
+  arch: vit_tiny
+  smoke: true
+  mlp_out_dim: 256
+  batch_size: 8
+  epochs: 2
+  num_workers: 0
+  feature_batch_size: 16
+clustering:
+  n_init: 3
+  max_iter: 20
+  estimate_k: {max_k: 10, n_init: 2, max_iter: 50, seed: 0}
+clip:
+  batch_size: 16
+  num_workers: 0
+  models:
+    vitb32: {open_clip_name: ViT-B-32-quickgelu, pretrained: null}
+episodes:
+  sizes: [4, 2]
+  n_vocab_seeds: 2
+  paired_distractors: 2
+grounding:
+  representations: [all, centre1, random3]
+  temperature_grid: [0.01, 1.0]
+  n_bootstrap: 50

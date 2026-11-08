@@ -1,0 +1,7 @@
+# Primary benchmark: full ImageNet-100 (upstream GCD class selection, 50 known / 50 novel).
+base: base
+dataset:
+  name: imagenet100
+  root: null          # directory containing ILSVRC/Data/CLS-LOC (Kaggle: imagenet-object-localization-challenge)
+episodes:
+  sizes: [75, 50, 25, 10]   # plus the complete vocabulary of 100

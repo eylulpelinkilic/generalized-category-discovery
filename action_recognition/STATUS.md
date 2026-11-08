@@ -186,7 +186,7 @@ resamples, computed ad hoc from the saved predictions, not by `ovar evaluate`.
 |---|---|---|
 | Local disk: about 2 GB free of 460 GB | no local dataset or checkpoint downloads | runs happen on Kaggle (kaggle/*.ipynb) |
 | No NVIDIA GPU locally | the official Open-VCLIP/TC-CLIP test scripts need CUDA | Kaggle GPU (envs/openvclip.md, "On Kaggle") |
-| NEC-Drone access is by request; ARID v1 must be confirmed | two of the four domains cannot be prepared from public links alone | request access; validate file names |
+| NEC-Drone access is by request | one of the four domains cannot be prepared from public links | request access |
 | No person detector | spatial diagnostics skip with "not run: no actor boxes" | docs/diagnostics.md |
 
 ## Not run
@@ -202,23 +202,14 @@ cross-domain average yet), Baseline C, Open-VCLIP diagnostics, and actor-crop di
 
 ## Next step
 
-Two notebooks that can run at the same time on Kaggle (T4, Internet on):
+Three notebooks that can run at the same time on Kaggle (T4, Internet on), if the GPU session limit
+allows:
 
-* `kaggle/ovar_hmdb51_baselines.ipynb` (about 2 hours; dataset `kodurujagruthaaditya/hmdb51`, because
-  the official archive link is dead):
-  1. A gate run of 102 videos.
-  2. Frozen CLIP, both backbones, 1 and 28 templates.
-  3. Open-VCLIP adapter, native and common.
-  4. The official Open-VCLIP script with torchvision decoding (INSTALL.md conda environment,
-     because the pip torchvision 0.12 wheel has no video reader), then `compare-native`.
+| Notebook | Runs | Inputs | Bring back |
+|---|---|---|---|
+| `kaggle/ovar_hmdb51_baselines.ipynb` | HMDB51: gate, frozen CLIP ×4, Open-VCLIP native and common, official Open-VCLIP with torchvision decoding + `compare-native` | `kodurujagruthaaditya/hmdb51` | `ovar_outputs_5.zip` |
+| `kaggle/ovar_tcclip_baselines.ipynb` | TC-CLIP (Baseline C) on UCF101, HMDB51 and ARID: alignment gate, native 16×2, single-view side analysis | `lifailifai/ucf101`, `kodurujagruthaaditya/hmdb51` | `ovar_outputs_6.zip` |
+| `kaggle/ovar_arid_baselines.ipynb` | ARID v1: gate, frozen CLIP ×4, Open-VCLIP native and common | none (official zip downloaded) | `ovar_outputs_7.zip` |
 
-  Bring back `ovar_outputs_5.zip`.
-* `kaggle/ovar_tcclip_baselines.ipynb` (about 2 hours; datasets `lifailifai/ucf101` and
-  `kodurujagruthaaditya/hmdb51`), Baseline C, TC-CLIP, through its official evaluation code:
-  1. A gate that checks the saved scores reproduce the official accuracy.
-  2. Native 16×2 jittered views on UCF101 and HMDB51.
-  3. A single-view side analysis.
-
-  Bring back `ovar_outputs_6.zip`.
-
-Request NEC-Drone access now: it is by request and has lead time.
+After these, only NEC-Drone is missing for the four-domain average. Request access now: it is by
+request and has lead time.
