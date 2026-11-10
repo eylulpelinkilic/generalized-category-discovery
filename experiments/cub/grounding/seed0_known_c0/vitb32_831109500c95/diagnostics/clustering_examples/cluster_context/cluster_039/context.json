@@ -1,0 +1,43 @@
+{
+  "cluster_id": 39,
+  "n_members": {
+    "discovery": 25,
+    "anchor": 16,
+    "dev": 5,
+    "calib": 9
+  },
+  "mapped_class_id_dev": 39,
+  "discovery_mean_norm": 0.8816097974777222,
+  "semantic_prediction_discovery": {
+    "class_id": 39,
+    "name": "Boat tailed Grackle",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 39,
+    "name": "Boat tailed Grackle"
+  },
+  "dominant_class_discovery_evaluation_only": 39,
+  "purity_discovery_evaluation_only": 0.36,
+  "dominant_class_dev": 39,
+  "purity_dev": 0.6,
+  "heatmap_displayed_columns": [
+    39,
+    158,
+    107,
+    10,
+    103,
+    102,
+    92,
+    43,
+    100,
+    75,
+    34,
+    61
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

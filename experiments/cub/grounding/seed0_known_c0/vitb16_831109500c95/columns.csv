@@ -1,0 +1,201 @@
+class_id,canonical_name,aliases,gcd_status
+0,Black capped Vireo,,known
+1,Long tailed Jaeger,,known
+2,Purple Finch,,known
+3,Tennessee Warbler,,known
+4,Common Yellowthroat,,known
+5,White crowned Sparrow,,known
+6,Tree Sparrow,,known
+7,Green tailed Towhee,,known
+8,Bank Swallow,,known
+9,Yellow headed Blackbird,,known
+10,Shiny Cowbird,,known
+11,White breasted Nuthatch,,known
+12,Hooded Oriole,,known
+13,Harris Sparrow,,known
+14,Le Conte Sparrow,,known
+15,Brown Pelican,,known
+16,Sage Thrasher,,known
+17,Kentucky Warbler,,known
+18,Gray Catbird,,known
+19,Mangrove Cuckoo,,known
+20,Green Violetear,,known
+21,Winter Wren,,known
+22,Clay colored Sparrow,,known
+23,Black and white Warbler,,known
+24,Savannah Sparrow,,known
+25,Spotted Catbird,,known
+26,Least Auklet,,known
+27,Wilson Warbler,,known
+28,Great Grey Shrike,,known
+29,Cerulean Warbler,,known
+30,Bohemian Waxwing,,known
+31,Ringed Kingfisher,,known
+32,Pine Warbler,,known
+33,Yellow bellied Flycatcher,,known
+34,Blue Grosbeak,,known
+35,Red breasted Merganser,,known
+36,Gray Kingbird,,known
+37,Pine Grosbeak,,known
+38,Red faced Cormorant,,known
+39,Boat tailed Grackle,,known
+40,Frigatebird,,known
+41,Northern Fulmar,,known
+42,Rose breasted Grosbeak,,known
+43,American Crow,,known
+44,Cactus Wren,,known
+45,Common Tern,,known
+46,Black footed Albatross,,known
+47,Prothonotary Warbler,,known
+48,Horned Lark,,known
+49,Painted Bunting,,known
+50,Least Flycatcher,,known
+51,Warbling Vireo,,known
+52,Black Tern,,known
+53,Red headed Woodpecker,,known
+54,Orange crowned Warbler,,known
+55,Lincoln Sparrow,,known
+56,Red cockaded Woodpecker,,known
+57,Yellow breasted Chat,,known
+58,Pied Kingfisher,,known
+59,Bay breasted Warbler,,known
+60,Bobolink,,known
+61,Red winged Blackbird,,known
+62,Green Kingfisher,,known
+63,Black billed Cuckoo,,known
+64,Baltimore Oriole,,known
+65,Ruby throated Hummingbird,,known
+66,Rock Wren,,known
+67,Scott Oriole,,known
+68,Magnolia Warbler,,known
+69,Tree Swallow,,known
+70,Fox Sparrow,,known
+71,Tropical Kingbird,,known
+72,Ovenbird,,known
+73,Hooded Merganser,,known
+74,Scissor tailed Flycatcher,,known
+75,Common Raven,,known
+76,Nashville Warbler,,known
+77,Western Meadowlark,,known
+78,Hooded Warbler,,known
+79,American Three toed Woodpecker,,known
+80,Brown Creeper,,known
+81,Pied billed Grebe,,known
+82,Elegant Tern,,known
+83,Barn Swallow,,known
+84,Canada Warbler,,known
+85,Slaty backed Gull,,known
+86,Swainson Warbler,,known
+87,Rhinoceros Auklet,,known
+88,Least Tern,,known
+89,Herring Gull,,known
+90,Horned Grebe,,known
+91,Cape May Warbler,,known
+92,Cape Glossy Starling,,known
+93,White breasted Kingfisher,,known
+94,Olive sided Flycatcher,,known
+95,Green Jay,,known
+96,Blue Jay,,known
+97,Nighthawk,,known
+98,Marsh Wren,,known
+99,Cliff Swallow,,known
+100,Fish Crow,,novel
+101,Loggerhead Shrike,,novel
+102,Groove billed Ani,,novel
+103,Brewer Blackbird,,novel
+104,Indigo Bunting,,novel
+105,California Gull,,novel
+106,Caspian Tern,,novel
+107,Bronzed Cowbird,,novel
+108,Forsters Tern,,novel
+109,Ring billed Gull,,novel
+110,Glaucous winged Gull,,novel
+111,Western Gull,,novel
+112,Pelagic Cormorant,,novel
+113,Artic Tern,,novel
+114,Grasshopper Sparrow,,novel
+115,Yellow billed Cuckoo,,novel
+116,Brewer Sparrow,,novel
+117,White necked Raven,,novel
+118,Blue winged Warbler,,novel
+119,Vesper Sparrow,,novel
+120,Field Sparrow,,novel
+121,Western Wood Pewee,,novel
+122,Chipping Sparrow,,novel
+123,Song Sparrow,,novel
+124,House Sparrow,,novel
+125,Pomarine Jaeger,,novel
+126,Yellow throated Vireo,,novel
+127,Baird Sparrow,,novel
+128,Acadian Flycatcher,,novel
+129,Henslow Sparrow,,novel
+130,Whip poor Will,,novel
+131,Sayornis,,novel
+132,Mockingbird,,novel
+133,Nelson Sharp tailed Sparrow,,novel
+134,Philadelphia Vireo,,novel
+135,House Wren,,novel
+136,White throated Sparrow,,novel
+137,Red legged Kittiwake,,novel
+138,Brandt Cormorant,,novel
+139,Bewick Wren,,novel
+140,Red eyed Vireo,,novel
+141,Prairie Warbler,,novel
+142,Downy Woodpecker,,novel
+143,White eyed Vireo,,novel
+144,Eared Grebe,,novel
+145,Carolina Wren,,novel
+146,Florida Jay,,novel
+147,Anna Hummingbird,,novel
+148,Myrtle Warbler,,novel
+149,Blue headed Vireo,,novel
+150,Mourning Warbler,,novel
+151,Orchard Oriole,,novel
+152,American Pipit,,novel
+153,Great Crested Flycatcher,,novel
+154,Yellow Warbler,,novel
+155,Seaside Sparrow,,novel
+156,Belted Kingfisher,,novel
+157,Chuck will Widow,,novel
+158,Rusty Blackbird,,novel
+159,Chestnut sided Warbler,,novel
+160,Ivory Gull,,novel
+161,Sooty Albatross,,novel
+162,Louisiana Waterthrush,,novel
+163,Pacific Loon,,novel
+164,Gadwall,,novel
+165,Heermann Gull,,novel
+166,Clark Nutcracker,,novel
+167,Cedar Waxwing,,novel
+168,Eastern Towhee,,novel
+169,Black throated Blue Warbler,,novel
+170,Palm Warbler,,novel
+171,Brown Thrasher,,novel
+172,Laysan Albatross,,novel
+173,Pigeon Guillemot,,novel
+174,Black throated Sparrow,,novel
+175,Golden winged Warbler,,novel
+176,Western Grebe,,novel
+177,Geococcyx,,novel
+178,Lazuli Bunting,,novel
+179,Crested Auklet,,novel
+180,Worm eating Warbler,,novel
+181,Parakeet Auklet,,novel
+182,Northern Waterthrush,,novel
+183,Rufous Hummingbird,,novel
+184,Gray crowned Rosy Finch,,novel
+185,American Redstart,,novel
+186,American Goldfinch,,novel
+187,Northern Flicker,,novel
+188,Dark eyed Junco,,novel
+189,Red bellied Woodpecker,,novel
+190,Pileated Woodpecker,,novel
+191,White Pelican,,novel
+192,European Goldfinch,,novel
+193,Horned Puffin,,novel
+194,Vermilion Flycatcher,,novel
+195,Mallard,,novel
+196,Cardinal,,novel
+197,Evening Grosbeak,,novel
+198,Summer Tanager,,novel
+199,Scarlet Tanager,,novel

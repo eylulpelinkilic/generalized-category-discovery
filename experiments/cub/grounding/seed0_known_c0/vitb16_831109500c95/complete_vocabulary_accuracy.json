@@ -1,0 +1,82 @@
+{
+  "forced_top1": {
+    "image_weighted": 0.40458185053380785,
+    "class_macro": 0.4308404289298119,
+    "old": 0.4943295530353569,
+    "new": 0.359693026359693,
+    "n_images": 4496,
+    "n_classes_present": 200
+  },
+  "margin": {
+    "image_weighted": 0.40458185053380785,
+    "class_macro": 0.4308404289298119,
+    "old": 0.4943295530353569,
+    "new": 0.359693026359693,
+    "n_images": 4496,
+    "n_classes_present": 200
+  },
+  "max_mean_sim": {
+    "image_weighted": 0.40458185053380785,
+    "class_macro": 0.4308404289298119,
+    "old": 0.4943295530353569,
+    "new": 0.359693026359693,
+    "n_images": 4496,
+    "n_classes_present": 200
+  },
+  "mcm_aggregate": {
+    "image_weighted": 0.38923487544483987,
+    "class_macro": 0.41678238171461063,
+    "old": 0.4836557705136758,
+    "new": 0.3420086753420087,
+    "n_images": 4496,
+    "n_classes_present": 200
+  },
+  "mcm_image_mean": {
+    "image_weighted": 0.38923487544483987,
+    "class_macro": 0.41678238171461063,
+    "old": 0.4836557705136758,
+    "new": 0.3420086753420087,
+    "n_images": 4496,
+    "n_classes_present": 200
+  },
+  "msp_dev": {
+    "image_weighted": 0.40458185053380785,
+    "class_macro": 0.4308404289298119,
+    "old": 0.4943295530353569,
+    "new": 0.359693026359693,
+    "n_images": 4496,
+    "n_classes_present": 200
+  },
+  "msp_pilot": {
+    "image_weighted": 0.40458185053380785,
+    "class_macro": 0.4308404289298119,
+    "old": 0.4943295530353569,
+    "new": 0.359693026359693,
+    "n_images": 4496,
+    "n_classes_present": 200
+  },
+  "neg_softmax_entropy": {
+    "image_weighted": 0.40458185053380785,
+    "class_macro": 0.4308404289298119,
+    "old": 0.4943295530353569,
+    "new": 0.359693026359693,
+    "n_images": 4496,
+    "n_classes_present": 200
+  },
+  "neg_vote_entropy": {
+    "image_weighted": 0.40458185053380785,
+    "class_macro": 0.4308404289298119,
+    "old": 0.4943295530353569,
+    "new": 0.359693026359693,
+    "n_images": 4496,
+    "n_classes_present": 200
+  },
+  "vote_fraction": {
+    "image_weighted": 0.40458185053380785,
+    "class_macro": 0.4308404289298119,
+    "old": 0.4943295530353569,
+    "new": 0.359693026359693,
+    "n_images": 4496,
+    "n_classes_present": 200
+  }
+}

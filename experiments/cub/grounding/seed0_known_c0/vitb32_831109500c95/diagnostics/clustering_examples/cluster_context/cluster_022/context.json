@@ -1,0 +1,44 @@
+{
+  "cluster_id": 22,
+  "n_members": {
+    "discovery": 66,
+    "anchor": 13,
+    "dev": 8,
+    "calib": 11
+  },
+  "mapped_class_id_dev": 22,
+  "discovery_mean_norm": 0.9067452549934387,
+  "semantic_prediction_discovery": {
+    "class_id": 127,
+    "name": "Baird Sparrow",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 127,
+    "name": "Baird Sparrow"
+  },
+  "dominant_class_discovery_evaluation_only": 114,
+  "purity_discovery_evaluation_only": 0.24242424242424243,
+  "dominant_class_dev": 22,
+  "purity_dev": 0.875,
+  "heatmap_displayed_columns": [
+    127,
+    129,
+    24,
+    14,
+    119,
+    114,
+    120,
+    133,
+    123,
+    13,
+    155,
+    152,
+    22
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

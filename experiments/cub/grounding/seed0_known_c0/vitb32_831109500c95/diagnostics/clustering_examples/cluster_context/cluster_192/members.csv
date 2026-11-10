@@ -1,0 +1,17 @@
+sample_id,population,is_anchor,sq_dist_to_centre,class_id,class_name,label_permission,selected_group
+cub:104,discovery,False,0.23429918,172,Laysan Albatross,evaluation_only,
+cub:116,discovery,False,0.26415658,172,Laysan Albatross,evaluation_only,
+cub:120,discovery,False,0.27705204,172,Laysan Albatross,evaluation_only,
+cub:2544,discovery,False,0.3628695,41,Northern Fulmar,evaluation_only,
+cub:4897,discovery,False,0.42807627,137,Red legged Kittiwake,evaluation_only,
+cub:62,discovery,False,0.19161034,172,Laysan Albatross,evaluation_only,
+cub:72,discovery,False,0.16384101,172,Laysan Albatross,evaluation_only,
+cub:78,discovery,False,0.28366423,172,Laysan Albatross,evaluation_only,
+cub:81,discovery,False,0.41529572,172,Laysan Albatross,evaluation_only,
+cub:96,discovery,False,0.124323726,172,Laysan Albatross,evaluation_only,
+cub:97,discovery,False,0.16037345,172,Laysan Albatross,evaluation_only,
+cub:2538,dev,False,0.6167891,41,Northern Fulmar,heldout_dev_calib,
+cub:2540,dev,False,0.35778952,41,Northern Fulmar,heldout_dev_calib,incorrect
+cub:2581,dev,False,0.37808752,41,Northern Fulmar,heldout_dev_calib,
+cub:2531,calib,False,0.3780048,41,Northern Fulmar,heldout_dev_calib,
+cub:2569,calib,False,0.40700686,41,Northern Fulmar,heldout_dev_calib,

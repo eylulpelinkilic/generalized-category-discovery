@@ -1,0 +1,43 @@
+{
+  "cluster_id": 64,
+  "n_members": {
+    "discovery": 12,
+    "anchor": 16,
+    "dev": 12,
+    "calib": 13
+  },
+  "mapped_class_id_dev": 64,
+  "discovery_mean_norm": 0.9313130974769592,
+  "semantic_prediction_discovery": {
+    "class_id": 151,
+    "name": "Orchard Oriole",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 151,
+    "name": "Orchard Oriole"
+  },
+  "dominant_class_discovery_evaluation_only": 64,
+  "purity_discovery_evaluation_only": 1.0,
+  "dominant_class_dev": 64,
+  "purity_dev": 1.0,
+  "heatmap_displayed_columns": [
+    151,
+    64,
+    67,
+    12,
+    185,
+    57,
+    197,
+    17,
+    199,
+    33,
+    9,
+    78
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

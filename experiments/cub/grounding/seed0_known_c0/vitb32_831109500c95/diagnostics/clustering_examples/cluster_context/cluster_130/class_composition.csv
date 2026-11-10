@@ -1,0 +1,7 @@
+population,class_id,class_name,count,label_permission
+discovery,100,Fish Crow,2,evaluation_only
+discovery,60,Bobolink,1,evaluation_only
+discovery,107,Bronzed Cowbird,1,evaluation_only
+dev,60,Bobolink,1,heldout_dev_calib
+calib,43,American Crow,1,heldout_dev_calib
+calib,75,Common Raven,1,heldout_dev_calib

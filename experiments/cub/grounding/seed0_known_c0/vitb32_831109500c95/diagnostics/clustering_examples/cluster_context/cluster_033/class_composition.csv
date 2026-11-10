@@ -1,0 +1,18 @@
+population,class_id,class_name,count,label_permission
+discovery,128,Acadian Flycatcher,12,evaluation_only
+discovery,33,Yellow bellied Flycatcher,12,evaluation_only
+discovery,143,White eyed Vireo,6,evaluation_only
+discovery,153,Great Crested Flycatcher,4,evaluation_only
+discovery,149,Blue headed Vireo,4,evaluation_only
+discovery,148,Myrtle Warbler,2,evaluation_only
+discovery,170,Palm Warbler,2,evaluation_only
+discovery,50,Least Flycatcher,1,evaluation_only
+discovery,132,Mockingbird,1,evaluation_only
+discovery,174,Black throated Sparrow,1,evaluation_only
+anchor,33,Yellow bellied Flycatcher,13,labelled_anchor
+dev,33,Yellow bellied Flycatcher,10,heldout_dev_calib
+dev,50,Least Flycatcher,4,heldout_dev_calib
+dev,3,Tennessee Warbler,1,heldout_dev_calib
+calib,33,Yellow bellied Flycatcher,11,heldout_dev_calib
+calib,50,Least Flycatcher,3,heldout_dev_calib
+calib,76,Nashville Warbler,1,heldout_dev_calib

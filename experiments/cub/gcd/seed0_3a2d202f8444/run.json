@@ -1,0 +1,78 @@
+{
+  "stage": "gcd_train",
+  "config_hash": "3a2d202f8444",
+  "gcd_train": {
+    "arch": "vit_base",
+    "dino_checkpoint": "/tmp/weights/dino_vitbase16_pretrain.pth",
+    "grad_from_block": 11,
+    "mlp_out_dim": 65536,
+    "num_mlp_layers": 3,
+    "transform": "imagenet",
+    "image_size": 224,
+    "interpolation": 3,
+    "crop_pct": 0.875,
+    "n_views": 2,
+    "batch_size": 128,
+    "epochs": 200,
+    "lr": 0.1,
+    "momentum": 0.9,
+    "weight_decay": 5e-05,
+    "sup_con_weight": 0.35,
+    "unsup_temperature": 1.0,
+    "amp": false,
+    "num_workers": 4,
+    "feature_batch_size": 256
+  },
+  "summary": {
+    "train_seed": 0,
+    "epochs_completed": 200,
+    "epochs_target": 200,
+    "finished": true,
+    "resumed_from_checkpoint": false,
+    "epochs_this_call": 200,
+    "final_checkpoint_sha256": "716c3768651944c167231fdb9f670288969deece38ab4af993926f5d37468217",
+    "final_backbone_sha256": "7d4b9f700278c2e2c38b2c5a5e5238ca360ef48fcbe00aeaaf575f8107083ce8"
+  },
+  "manifest_sha256": "0c7be4f50dee1407d3bc2e6997bd1d35693ed012529e2bc35095e688fbfeeb50",
+  "n_labelled": 1498,
+  "n_unlabelled": 4496,
+  "batch": {
+    "images_per_step": 128,
+    "views_per_step": 256,
+    "contrastive_negatives": "all other views in the same step (no gradient accumulation)",
+    "sampler": "WeightedRandomSampler with replacement; labelled weight 1, unlabelled n_l/n_u"
+  },
+  "checkpoint_rule": "final epoch (prespecified); no label-based checkpoint selection",
+  "deviations_from_upstream": [
+    "unlabelled labels never loaded (upstream loads them and masks them out)",
+    "no per-epoch k-means on labelled test data; no _best checkpoint",
+    "sampler/loader generators seeded per (training seed, epoch) for exact resumption",
+    "num_workers=4 (upstream 16; no effect on the objective)",
+    "mixed precision=off (upstream: off)"
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "cuda_available": true,
+    "torchvision": "0.26.0+cu130",
+    "open_clip": "3.3.0",
+    "sklearn": "1.6.1",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "PIL": "13.0.0",
+    "gpu": "Tesla T4",
+    "cuda": "13.0",
+    "gpu_memory_gb": 15.64
+  },
+  "git": {
+    "commit": "811ebfb1e37340bc7d9f3d211dfa71e689327763",
+    "dirty_experiment_files": true,
+    "dirty_paths": [
+      "?? data/__pycache__/",
+      "?? data/augmentations/__pycache__/",
+      "?? models/__pycache__/"
+    ]
+  }
+}

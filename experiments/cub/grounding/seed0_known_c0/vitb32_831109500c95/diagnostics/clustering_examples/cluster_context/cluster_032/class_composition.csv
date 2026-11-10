@@ -1,0 +1,23 @@
+population,class_id,class_name,count,label_permission
+discovery,126,Yellow throated Vireo,18,evaluation_only
+discovery,32,Pine Warbler,15,evaluation_only
+discovery,143,White eyed Vireo,3,evaluation_only
+discovery,154,Yellow Warbler,3,evaluation_only
+discovery,186,American Goldfinch,2,evaluation_only
+discovery,151,Orchard Oriole,2,evaluation_only
+discovery,59,Bay breasted Warbler,1,evaluation_only
+discovery,118,Blue winged Warbler,1,evaluation_only
+discovery,91,Cape May Warbler,1,evaluation_only
+discovery,68,Magnolia Warbler,1,evaluation_only
+discovery,170,Palm Warbler,1,evaluation_only
+anchor,32,Pine Warbler,12,labelled_anchor
+dev,32,Pine Warbler,11,heldout_dev_calib
+dev,64,Baltimore Oriole,1,heldout_dev_calib
+dev,12,Hooded Oriole,1,heldout_dev_calib
+dev,17,Kentucky Warbler,1,heldout_dev_calib
+dev,3,Tennessee Warbler,1,heldout_dev_calib
+calib,32,Pine Warbler,14,heldout_dev_calib
+calib,64,Baltimore Oriole,2,heldout_dev_calib
+calib,12,Hooded Oriole,1,heldout_dev_calib
+calib,67,Scott Oriole,1,heldout_dev_calib
+calib,91,Cape May Warbler,1,heldout_dev_calib

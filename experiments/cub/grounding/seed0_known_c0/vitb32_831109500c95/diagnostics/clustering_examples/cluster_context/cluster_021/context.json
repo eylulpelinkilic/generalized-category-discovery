@@ -1,0 +1,43 @@
+{
+  "cluster_id": 21,
+  "n_members": {
+    "discovery": 44,
+    "anchor": 16,
+    "dev": 14,
+    "calib": 22
+  },
+  "mapped_class_id_dev": 21,
+  "discovery_mean_norm": 0.8937615752220154,
+  "semantic_prediction_discovery": {
+    "class_id": 21,
+    "name": "Winter Wren",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 21,
+    "name": "Winter Wren"
+  },
+  "dominant_class_discovery_evaluation_only": 21,
+  "purity_discovery_evaluation_only": 0.3181818181818182,
+  "dominant_class_dev": 21,
+  "purity_dev": 0.9285714285714286,
+  "heatmap_displayed_columns": [
+    21,
+    135,
+    139,
+    145,
+    66,
+    98,
+    13,
+    171,
+    180,
+    16,
+    127,
+    25
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

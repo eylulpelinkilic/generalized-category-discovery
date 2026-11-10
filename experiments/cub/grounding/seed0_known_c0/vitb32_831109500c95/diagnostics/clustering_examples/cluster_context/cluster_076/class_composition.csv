@@ -1,0 +1,30 @@
+population,class_id,class_name,count,label_permission
+discovery,76,Nashville Warbler,10,evaluation_only
+discovery,57,Yellow breasted Chat,3,evaluation_only
+discovery,126,Yellow throated Vireo,2,evaluation_only
+discovery,150,Mourning Warbler,2,evaluation_only
+discovery,54,Orange crowned Warbler,2,evaluation_only
+discovery,49,Painted Bunting,1,evaluation_only
+discovery,67,Scott Oriole,1,evaluation_only
+discovery,185,American Redstart,1,evaluation_only
+discovery,134,Philadelphia Vireo,1,evaluation_only
+discovery,143,White eyed Vireo,1,evaluation_only
+discovery,78,Hooded Warbler,1,evaluation_only
+discovery,68,Magnolia Warbler,1,evaluation_only
+discovery,141,Prairie Warbler,1,evaluation_only
+discovery,4,Common Yellowthroat,1,evaluation_only
+anchor,76,Nashville Warbler,13,labelled_anchor
+dev,76,Nashville Warbler,10,heldout_dev_calib
+dev,32,Pine Warbler,3,heldout_dev_calib
+dev,54,Orange crowned Warbler,2,heldout_dev_calib
+dev,49,Painted Bunting,1,heldout_dev_calib
+dev,57,Yellow breasted Chat,1,heldout_dev_calib
+dev,33,Yellow bellied Flycatcher,1,heldout_dev_calib
+dev,71,Tropical Kingbird,1,heldout_dev_calib
+dev,78,Hooded Warbler,1,heldout_dev_calib
+calib,76,Nashville Warbler,11,heldout_dev_calib
+calib,57,Yellow breasted Chat,2,heldout_dev_calib
+calib,78,Hooded Warbler,2,heldout_dev_calib
+calib,84,Canada Warbler,1,heldout_dev_calib
+calib,68,Magnolia Warbler,1,heldout_dev_calib
+calib,54,Orange crowned Warbler,1,heldout_dev_calib

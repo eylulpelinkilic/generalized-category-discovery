@@ -1,0 +1,15 @@
+{
+  "population": "dev",
+  "labels": "labels_heldout.csv (heldout_dev rows)",
+  "n_selected": [
+    50,
+    50
+  ],
+  "n_all_in_exported_clusters": [
+    202,
+    449
+  ],
+  "n_same_cluster_pairs": 30,
+  "softmax_T_for_entropy": 0.02,
+  "note": "exploratory; known classes only (dev pool); the selection is spread by design, not random"
+}

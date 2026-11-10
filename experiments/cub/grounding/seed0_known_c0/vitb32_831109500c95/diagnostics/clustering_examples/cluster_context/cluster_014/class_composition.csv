@@ -1,0 +1,20 @@
+population,class_id,class_name,count,label_permission
+discovery,129,Henslow Sparrow,24,evaluation_only
+discovery,133,Nelson Sharp tailed Sparrow,19,evaluation_only
+discovery,14,Le Conte Sparrow,10,evaluation_only
+discovery,127,Baird Sparrow,6,evaluation_only
+discovery,114,Grasshopper Sparrow,3,evaluation_only
+discovery,152,American Pipit,1,evaluation_only
+discovery,24,Savannah Sparrow,1,evaluation_only
+discovery,123,Song Sparrow,1,evaluation_only
+discovery,119,Vesper Sparrow,1,evaluation_only
+discovery,171,Brown Thrasher,1,evaluation_only
+discovery,91,Cape May Warbler,1,evaluation_only
+discovery,159,Chestnut sided Warbler,1,evaluation_only
+discovery,170,Palm Warbler,1,evaluation_only
+anchor,14,Le Conte Sparrow,18,labelled_anchor
+dev,14,Le Conte Sparrow,12,heldout_dev_calib
+dev,24,Savannah Sparrow,1,heldout_dev_calib
+calib,14,Le Conte Sparrow,15,heldout_dev_calib
+calib,55,Lincoln Sparrow,1,heldout_dev_calib
+calib,24,Savannah Sparrow,1,heldout_dev_calib

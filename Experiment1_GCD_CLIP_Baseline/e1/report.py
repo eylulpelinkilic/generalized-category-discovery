@@ -72,7 +72,7 @@ def write_report(cfg: dict, layout: Layout) -> Path:
         feats = (rd / "features" / "status.json").exists()
         L.append(f"| GCD features | seed {s} | {'completed' if feats else 'pending'} |")
         for k_mode in ("known", "estimated"):
-            for c in cseeds:
+            for c in (cseeds if k_mode == "known" else cseeds[:1]):     # estimated K: primary clustering seed
                 cd = layout.clustering(s, k_mode, c)
                 ev = _read(cd / "gcd_eval.json")
                 L.append(f"| SS-k-means ({k_mode} K) | seed {s}, clustering seed {c} | {'completed' if ev else 'pending'} |")
@@ -89,7 +89,7 @@ def write_report(cfg: dict, layout: Layout) -> Path:
         if not idx:
             pending.append(f"CLIP extraction {name}")
         for s in seeds:
-            for c in cseeds:
+            for c in cseeds[:1]:                                         # grounding: primary clustering seed
                 gd = layout.grounding(s, "known", c, name)
                 done = _read(gd / "status.json")
                 ok = done and done.get("status") == "completed"

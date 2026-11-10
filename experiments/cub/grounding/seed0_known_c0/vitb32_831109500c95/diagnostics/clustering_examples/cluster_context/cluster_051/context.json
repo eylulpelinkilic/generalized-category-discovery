@@ -1,0 +1,43 @@
+{
+  "cluster_id": 51,
+  "n_members": {
+    "discovery": 74,
+    "anchor": 19,
+    "dev": 17,
+    "calib": 22
+  },
+  "mapped_class_id_dev": 51,
+  "discovery_mean_norm": 0.9249107241630554,
+  "semantic_prediction_discovery": {
+    "class_id": 134,
+    "name": "Philadelphia Vireo",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 134,
+    "name": "Philadelphia Vireo"
+  },
+  "dominant_class_discovery_evaluation_only": 140,
+  "purity_discovery_evaluation_only": 0.28378378378378377,
+  "dominant_class_dev": 51,
+  "purity_dev": 0.6470588235294118,
+  "heatmap_displayed_columns": [
+    134,
+    143,
+    140,
+    51,
+    3,
+    0,
+    126,
+    149,
+    128,
+    150,
+    76,
+    33
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

@@ -1,0 +1,5 @@
+population,class_id,class_name,count,label_permission
+discovery,188,Dark eyed Junco,15,evaluation_only
+discovery,131,Sayornis,1,evaluation_only
+discovery,119,Vesper Sparrow,1,evaluation_only
+dev,66,Rock Wren,1,heldout_dev_calib

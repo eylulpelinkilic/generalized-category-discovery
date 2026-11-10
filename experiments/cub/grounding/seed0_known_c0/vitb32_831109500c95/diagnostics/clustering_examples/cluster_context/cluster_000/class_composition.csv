@@ -1,0 +1,15 @@
+population,class_id,class_name,count,label_permission
+discovery,174,Black throated Sparrow,13,evaluation_only
+discovery,0,Black capped Vireo,10,evaluation_only
+discovery,149,Blue headed Vireo,10,evaluation_only
+discovery,143,White eyed Vireo,3,evaluation_only
+discovery,185,American Redstart,1,evaluation_only
+discovery,159,Chestnut sided Warbler,1,evaluation_only
+discovery,175,Golden winged Warbler,1,evaluation_only
+anchor,0,Black capped Vireo,14,labelled_anchor
+dev,0,Black capped Vireo,6,heldout_dev_calib
+dev,5,White crowned Sparrow,1,heldout_dev_calib
+dev,69,Tree Swallow,1,heldout_dev_calib
+calib,0,Black capped Vireo,10,heldout_dev_calib
+calib,6,Tree Sparrow,1,heldout_dev_calib
+calib,3,Tennessee Warbler,1,heldout_dev_calib

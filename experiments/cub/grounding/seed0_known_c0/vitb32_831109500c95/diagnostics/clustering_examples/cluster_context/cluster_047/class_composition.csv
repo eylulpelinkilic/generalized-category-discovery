@@ -1,0 +1,10 @@
+population,class_id,class_name,count,label_permission
+discovery,118,Blue winged Warbler,18,evaluation_only
+discovery,47,Prothonotary Warbler,13,evaluation_only
+discovery,126,Yellow throated Vireo,3,evaluation_only
+discovery,154,Yellow Warbler,2,evaluation_only
+discovery,186,American Goldfinch,1,evaluation_only
+anchor,47,Prothonotary Warbler,17,labelled_anchor
+dev,47,Prothonotary Warbler,13,heldout_dev_calib
+calib,47,Prothonotary Warbler,15,heldout_dev_calib
+calib,57,Yellow breasted Chat,1,heldout_dev_calib

@@ -1,0 +1,22 @@
+population,class_id,class_name,count,label_permission
+discovery,154,Yellow Warbler,16,evaluation_only
+discovery,27,Wilson Warbler,13,evaluation_only
+discovery,118,Blue winged Warbler,6,evaluation_only
+discovery,126,Yellow throated Vireo,1,evaluation_only
+discovery,78,Hooded Warbler,1,evaluation_only
+discovery,17,Kentucky Warbler,1,evaluation_only
+discovery,170,Palm Warbler,1,evaluation_only
+discovery,32,Pine Warbler,1,evaluation_only
+discovery,141,Prairie Warbler,1,evaluation_only
+anchor,27,Wilson Warbler,16,labelled_anchor
+dev,27,Wilson Warbler,14,heldout_dev_calib
+dev,78,Hooded Warbler,2,heldout_dev_calib
+dev,49,Painted Bunting,1,heldout_dev_calib
+dev,54,Orange crowned Warbler,1,heldout_dev_calib
+dev,32,Pine Warbler,1,heldout_dev_calib
+dev,47,Prothonotary Warbler,1,heldout_dev_calib
+calib,27,Wilson Warbler,15,heldout_dev_calib
+calib,33,Yellow bellied Flycatcher,2,heldout_dev_calib
+calib,78,Hooded Warbler,2,heldout_dev_calib
+calib,84,Canada Warbler,1,heldout_dev_calib
+calib,17,Kentucky Warbler,1,heldout_dev_calib

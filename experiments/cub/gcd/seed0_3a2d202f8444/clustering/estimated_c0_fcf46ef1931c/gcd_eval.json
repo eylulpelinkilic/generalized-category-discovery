@@ -1,0 +1,22 @@
+{
+  "population": "unlabelled training images (GCD discovery population)",
+  "n_images": 4496,
+  "v2_all": 0.4915480427046263,
+  "v2_old": 0.5110073382254836,
+  "v2_new": 0.48181514848181517,
+  "nmi": 0.7839293301973391,
+  "ari": 0.38349713428767523,
+  "cluster_size_unlabelled": {
+    "count": 199.0,
+    "mean": 22.59,
+    "std": 20.83,
+    "min": 1.0,
+    "25%": 3.0,
+    "50%": 19.0,
+    "75%": 34.0,
+    "max": 108.0
+  },
+  "empty_clusters": 0,
+  "singleton_clusters": 40,
+  "note": "The Hungarian map of v2 is used only here, never for semantic names."
+}

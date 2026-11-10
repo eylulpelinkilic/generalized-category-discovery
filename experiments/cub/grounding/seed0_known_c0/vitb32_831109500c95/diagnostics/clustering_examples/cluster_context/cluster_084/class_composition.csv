@@ -1,0 +1,12 @@
+population,class_id,class_name,count,label_permission
+discovery,84,Canada Warbler,15,evaluation_only
+discovery,141,Prairie Warbler,3,evaluation_only
+discovery,170,Palm Warbler,2,evaluation_only
+discovery,76,Nashville Warbler,1,evaluation_only
+anchor,84,Canada Warbler,14,labelled_anchor
+dev,84,Canada Warbler,13,heldout_dev_calib
+dev,91,Cape May Warbler,1,heldout_dev_calib
+dev,68,Magnolia Warbler,1,heldout_dev_calib
+dev,76,Nashville Warbler,1,heldout_dev_calib
+calib,84,Canada Warbler,12,heldout_dev_calib
+calib,68,Magnolia Warbler,1,heldout_dev_calib

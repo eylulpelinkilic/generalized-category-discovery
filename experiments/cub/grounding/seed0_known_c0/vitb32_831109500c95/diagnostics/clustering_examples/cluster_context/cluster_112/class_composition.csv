@@ -1,0 +1,15 @@
+population,class_id,class_name,count,label_permission
+discovery,120,Field Sparrow,9,evaluation_only
+discovery,116,Brewer Sparrow,8,evaluation_only
+discovery,122,Chipping Sparrow,7,evaluation_only
+discovery,22,Clay colored Sparrow,5,evaluation_only
+discovery,136,White throated Sparrow,4,evaluation_only
+discovery,124,House Sparrow,2,evaluation_only
+discovery,114,Grasshopper Sparrow,2,evaluation_only
+discovery,6,Tree Sparrow,2,evaluation_only
+discovery,5,White crowned Sparrow,1,evaluation_only
+discovery,7,Green tailed Towhee,1,evaluation_only
+dev,22,Clay colored Sparrow,5,heldout_dev_calib
+calib,22,Clay colored Sparrow,3,heldout_dev_calib
+calib,6,Tree Sparrow,1,heldout_dev_calib
+calib,5,White crowned Sparrow,1,heldout_dev_calib

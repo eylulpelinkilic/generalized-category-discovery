@@ -1,0 +1,16 @@
+population,class_id,class_name,count,label_permission
+discovery,164,Gadwall,3,evaluation_only
+discovery,173,Pigeon Guillemot,2,evaluation_only
+discovery,163,Pacific Loon,2,evaluation_only
+discovery,195,Mallard,2,evaluation_only
+discovery,73,Hooded Merganser,2,evaluation_only
+discovery,35,Red breasted Merganser,2,evaluation_only
+discovery,112,Pelagic Cormorant,1,evaluation_only
+discovery,1,Long tailed Jaeger,1,evaluation_only
+discovery,125,Pomarine Jaeger,1,evaluation_only
+discovery,191,White Pelican,1,evaluation_only
+dev,90,Horned Grebe,1,heldout_dev_calib
+dev,15,Brown Pelican,1,heldout_dev_calib
+dev,8,Bank Swallow,1,heldout_dev_calib
+calib,73,Hooded Merganser,1,heldout_dev_calib
+calib,35,Red breasted Merganser,1,heldout_dev_calib

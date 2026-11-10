@@ -1,0 +1,17 @@
+population,class_id,class_name,count,label_permission
+discovery,88,Least Tern,14,evaluation_only
+discovery,106,Caspian Tern,10,evaluation_only
+discovery,108,Forsters Tern,6,evaluation_only
+discovery,82,Elegant Tern,5,evaluation_only
+discovery,52,Black Tern,2,evaluation_only
+discovery,45,Common Tern,2,evaluation_only
+discovery,113,Artic Tern,1,evaluation_only
+anchor,88,Least Tern,9,labelled_anchor
+dev,88,Least Tern,12,heldout_dev_calib
+dev,82,Elegant Tern,5,heldout_dev_calib
+dev,52,Black Tern,3,heldout_dev_calib
+dev,45,Common Tern,1,heldout_dev_calib
+calib,88,Least Tern,12,heldout_dev_calib
+calib,82,Elegant Tern,7,heldout_dev_calib
+calib,52,Black Tern,5,heldout_dev_calib
+calib,45,Common Tern,1,heldout_dev_calib

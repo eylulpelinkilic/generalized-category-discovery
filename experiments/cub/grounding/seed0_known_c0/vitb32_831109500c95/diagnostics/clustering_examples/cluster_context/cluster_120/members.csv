@@ -1,0 +1,17 @@
+sample_id,population,is_anchor,sq_dist_to_centre,class_id,class_name,label_permission,selected_group
+cub:10040,discovery,False,0.52869225,148,Myrtle Warbler,evaluation_only,
+cub:6167,discovery,False,0.9481757,193,Horned Puffin,evaluation_only,
+cub:668,discovery,False,0.6072736,60,Bobolink,evaluation_only,
+cub:836,discovery,False,0.384542,178,Lazuli Bunting,evaluation_only,
+cub:9367,discovery,False,0.32092333,169,Black throated Blue Warbler,evaluation_only,
+cub:9372,discovery,False,0.37947464,169,Black throated Blue Warbler,evaluation_only,
+cub:9374,discovery,False,0.29904985,169,Black throated Blue Warbler,evaluation_only,
+cub:9592,discovery,False,0.32492566,29,Cerulean Warbler,evaluation_only,
+cub:9605,discovery,False,0.37607026,29,Cerulean Warbler,evaluation_only,
+cub:9646,discovery,False,0.33653784,29,Cerulean Warbler,evaluation_only,
+cub:9651,discovery,False,0.3879882,159,Chestnut sided Warbler,evaluation_only,
+cub:8872,dev,False,0.75592256,0,Black capped Vireo,heldout_dev_calib,
+cub:9623,dev,False,0.26968205,29,Cerulean Warbler,heldout_dev_calib,incorrect
+cub:9325,calib,False,0.42290688,23,Black and white Warbler,heldout_dev_calib,
+cub:9598,calib,False,0.4768889,29,Cerulean Warbler,heldout_dev_calib,
+cub:9628,calib,False,0.43399167,29,Cerulean Warbler,heldout_dev_calib,

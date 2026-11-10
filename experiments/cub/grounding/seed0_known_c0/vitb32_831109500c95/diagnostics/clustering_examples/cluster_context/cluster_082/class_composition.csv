@@ -1,0 +1,27 @@
+population,class_id,class_name,count,label_permission
+discovery,106,Caspian Tern,13,evaluation_only
+discovery,82,Elegant Tern,10,evaluation_only
+discovery,108,Forsters Tern,8,evaluation_only
+discovery,113,Artic Tern,5,evaluation_only
+discovery,45,Common Tern,4,evaluation_only
+discovery,105,California Gull,3,evaluation_only
+discovery,89,Herring Gull,3,evaluation_only
+discovery,88,Least Tern,3,evaluation_only
+discovery,160,Ivory Gull,2,evaluation_only
+discovery,109,Ring billed Gull,2,evaluation_only
+discovery,191,White Pelican,2,evaluation_only
+discovery,165,Heermann Gull,1,evaluation_only
+discovery,111,Western Gull,1,evaluation_only
+discovery,137,Red legged Kittiwake,1,evaluation_only
+anchor,82,Elegant Tern,13,labelled_anchor
+dev,82,Elegant Tern,7,heldout_dev_calib
+dev,45,Common Tern,4,heldout_dev_calib
+dev,88,Least Tern,2,heldout_dev_calib
+dev,89,Herring Gull,1,heldout_dev_calib
+dev,52,Black Tern,1,heldout_dev_calib
+calib,82,Elegant Tern,6,heldout_dev_calib
+calib,52,Black Tern,3,heldout_dev_calib
+calib,45,Common Tern,2,heldout_dev_calib
+calib,89,Herring Gull,1,heldout_dev_calib
+calib,85,Slaty backed Gull,1,heldout_dev_calib
+calib,88,Least Tern,1,heldout_dev_calib

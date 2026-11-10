@@ -1,0 +1,23 @@
+population,class_id,class_name,count,label_permission
+discovery,86,Swainson Warbler,16,evaluation_only
+discovery,139,Bewick Wren,15,evaluation_only
+discovery,145,Carolina Wren,11,evaluation_only
+discovery,135,House Wren,9,evaluation_only
+discovery,80,Brown Creeper,1,evaluation_only
+discovery,63,Black billed Cuckoo,1,evaluation_only
+discovery,128,Acadian Flycatcher,1,evaluation_only
+discovery,192,European Goldfinch,1,evaluation_only
+discovery,7,Green tailed Towhee,1,evaluation_only
+discovery,140,Red eyed Vireo,1,evaluation_only
+discovery,169,Black throated Blue Warbler,1,evaluation_only
+discovery,150,Mourning Warbler,1,evaluation_only
+discovery,54,Orange crowned Warbler,1,evaluation_only
+discovery,3,Tennessee Warbler,1,evaluation_only
+discovery,162,Louisiana Waterthrush,1,evaluation_only
+anchor,86,Swainson Warbler,11,labelled_anchor
+dev,86,Swainson Warbler,9,heldout_dev_calib
+dev,72,Ovenbird,1,heldout_dev_calib
+dev,21,Winter Wren,1,heldout_dev_calib
+calib,86,Swainson Warbler,7,heldout_dev_calib
+calib,3,Tennessee Warbler,1,heldout_dev_calib
+calib,66,Rock Wren,1,heldout_dev_calib

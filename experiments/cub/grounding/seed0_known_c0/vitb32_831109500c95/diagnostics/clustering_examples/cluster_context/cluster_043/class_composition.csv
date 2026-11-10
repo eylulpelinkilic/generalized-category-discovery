@@ -1,0 +1,20 @@
+population,class_id,class_name,count,label_permission
+discovery,100,Fish Crow,13,evaluation_only
+discovery,43,American Crow,9,evaluation_only
+discovery,107,Bronzed Cowbird,7,evaluation_only
+discovery,102,Groove billed Ani,5,evaluation_only
+discovery,117,White necked Raven,3,evaluation_only
+discovery,103,Brewer Blackbird,2,evaluation_only
+discovery,75,Common Raven,2,evaluation_only
+discovery,158,Rusty Blackbird,1,evaluation_only
+discovery,10,Shiny Cowbird,1,evaluation_only
+anchor,43,American Crow,15,labelled_anchor
+dev,43,American Crow,10,heldout_dev_calib
+dev,75,Common Raven,6,heldout_dev_calib
+dev,61,Red winged Blackbird,1,heldout_dev_calib
+dev,10,Shiny Cowbird,1,heldout_dev_calib
+dev,39,Boat tailed Grackle,1,heldout_dev_calib
+calib,43,American Crow,11,heldout_dev_calib
+calib,75,Common Raven,5,heldout_dev_calib
+calib,10,Shiny Cowbird,1,heldout_dev_calib
+calib,52,Black Tern,1,heldout_dev_calib

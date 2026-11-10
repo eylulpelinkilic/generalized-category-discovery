@@ -1,0 +1,43 @@
+{
+  "cluster_id": 35,
+  "n_members": {
+    "discovery": 14,
+    "anchor": 17,
+    "dev": 16,
+    "calib": 13
+  },
+  "mapped_class_id_dev": 35,
+  "discovery_mean_norm": 0.9165562987327576,
+  "semantic_prediction_discovery": {
+    "class_id": 35,
+    "name": "Red breasted Merganser",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 35,
+    "name": "Red breasted Merganser"
+  },
+  "dominant_class_discovery_evaluation_only": 35,
+  "purity_discovery_evaluation_only": 0.7142857142857143,
+  "dominant_class_dev": 35,
+  "purity_dev": 0.875,
+  "heatmap_displayed_columns": [
+    35,
+    163,
+    173,
+    144,
+    176,
+    73,
+    90,
+    112,
+    138,
+    38,
+    87,
+    26
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

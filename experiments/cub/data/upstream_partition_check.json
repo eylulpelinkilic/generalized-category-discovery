@@ -1,0 +1,10 @@
+{
+  "upstream_labelled": 1498,
+  "upstream_unlabelled": 4496,
+  "paths_unknown_to_manifest": 0,
+  "labelled_set_equal": true,
+  "unlabelled_set_equal": true,
+  "labelled_labels_equal": true,
+  "unlabelled_labels_equal": true,
+  "passed": true
+}

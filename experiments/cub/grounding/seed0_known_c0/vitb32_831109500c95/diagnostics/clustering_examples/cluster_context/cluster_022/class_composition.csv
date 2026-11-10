@@ -1,0 +1,17 @@
+population,class_id,class_name,count,label_permission
+discovery,114,Grasshopper Sparrow,16,evaluation_only
+discovery,116,Brewer Sparrow,12,evaluation_only
+discovery,22,Clay colored Sparrow,9,evaluation_only
+discovery,120,Field Sparrow,9,evaluation_only
+discovery,122,Chipping Sparrow,8,evaluation_only
+discovery,136,White throated Sparrow,4,evaluation_only
+discovery,127,Baird Sparrow,3,evaluation_only
+discovery,129,Henslow Sparrow,2,evaluation_only
+discovery,14,Le Conte Sparrow,1,evaluation_only
+discovery,5,White crowned Sparrow,1,evaluation_only
+discovery,16,Sage Thrasher,1,evaluation_only
+anchor,22,Clay colored Sparrow,13,labelled_anchor
+dev,22,Clay colored Sparrow,7,heldout_dev_calib
+dev,6,Tree Sparrow,1,heldout_dev_calib
+calib,22,Clay colored Sparrow,10,heldout_dev_calib
+calib,80,Brown Creeper,1,heldout_dev_calib

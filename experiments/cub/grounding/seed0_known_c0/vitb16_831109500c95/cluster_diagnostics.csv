@@ -1,0 +1,201 @@
+cluster_id,n_unlabelled,purity,dominant_class_id,dominant_name,strict_majority,mixed,known_fraction,composition_top3
+0,39,0.3333333333333333,174,Black throated Sparrow,False,True,0.2564102564102564,Black throated Sparrow:13; Black capped Vireo:10; Blue headed Vireo:10
+1,12,0.25,161,Sooty Albatross,False,True,0.25,Sooty Albatross:3; Pomarine Jaeger:3; Gadwall:2
+2,44,0.6136363636363636,184,Gray crowned Rosy Finch,True,False,0.2727272727272727,Gray crowned Rosy Finch:27; Purple Finch:12; Rusty Blackbird:2
+3,49,0.20408163265306123,3,Tennessee Warbler,False,True,0.2857142857142857,Tennessee Warbler:10; White eyed Vireo:8; Philadelphia Vireo:4
+4,12,0.9166666666666666,4,Common Yellowthroat,True,False,0.9166666666666666,Common Yellowthroat:11; Cardinal:1
+5,23,0.6086956521739131,5,White crowned Sparrow,True,False,0.6086956521739131,White crowned Sparrow:14; White throated Sparrow:4; Chipping Sparrow:2
+6,56,0.39285714285714285,124,House Sparrow,False,True,0.16071428571428573,House Sparrow:22; White throated Sparrow:10; Tree Sparrow:8
+7,38,0.34210526315789475,7,Green tailed Towhee,False,True,0.42105263157894735,Green tailed Towhee:13; White throated Sparrow:4; Black throated Sparrow:3
+8,20,0.65,8,Bank Swallow,True,False,0.85,Bank Swallow:13; Barn Swallow:2; Cliff Swallow:2
+9,13,0.9230769230769231,9,Yellow headed Blackbird,True,False,0.9230769230769231,Yellow headed Blackbird:12; Pileated Woodpecker:1
+10,56,0.2857142857142857,107,Bronzed Cowbird,False,True,0.30357142857142855,Bronzed Cowbird:16; Brewer Blackbird:12; Shiny Cowbird:12
+11,14,0.9285714285714286,11,White breasted Nuthatch,True,False,0.9285714285714286,White breasted Nuthatch:13; Clark Nutcracker:1
+12,47,0.574468085106383,197,Evening Grosbeak,True,False,0.3829787234042553,Evening Grosbeak:27; Hooded Oriole:15; Orchard Oriole:2
+13,22,0.6818181818181818,13,Harris Sparrow,True,False,0.7272727272727273,Harris Sparrow:15; White throated Sparrow:4; Clay colored Sparrow:1
+14,70,0.34285714285714286,129,Henslow Sparrow,False,True,0.17142857142857143,Henslow Sparrow:24; Nelson Sharp tailed Sparrow:19; Le Conte Sparrow:10
+15,15,0.9333333333333333,15,Brown Pelican,True,False,0.9333333333333333,Brown Pelican:14; White Pelican:1
+16,16,0.875,16,Sage Thrasher,True,False,0.875,Sage Thrasher:14; Mockingbird:1; Brown Thrasher:1
+17,15,0.7333333333333333,17,Kentucky Warbler,True,False,0.8,Kentucky Warbler:11; Blue winged Warbler:1; Cape May Warbler:1
+18,18,0.6111111111111112,18,Gray Catbird,True,False,0.6666666666666666,Gray Catbird:11; Florida Jay:2; Dark eyed Junco:1
+19,29,0.4482758620689655,19,Mangrove Cuckoo,False,True,0.5517241379310345,Mangrove Cuckoo:13; Yellow billed Cuckoo:11; Rusty Blackbird:1
+20,11,0.9090909090909091,20,Green Violetear,True,False,0.9090909090909091,Green Violetear:10; Anna Hummingbird:1
+21,44,0.3181818181818182,21,Winter Wren,False,True,0.36363636363636365,Winter Wren:14; Carolina Wren:12; House Wren:10
+22,66,0.24242424242424243,114,Grasshopper Sparrow,False,True,0.18181818181818182,Grasshopper Sparrow:16; Brewer Sparrow:12; Clay colored Sparrow:9
+23,14,0.7142857142857143,23,Black and white Warbler,True,False,0.7142857142857143,Black and white Warbler:10; Louisiana Waterthrush:3; Chestnut sided Warbler:1
+24,100,0.24,119,Vesper Sparrow,False,True,0.18,Vesper Sparrow:24; Song Sparrow:19; Baird Sparrow:19
+25,18,0.9444444444444444,25,Spotted Catbird,True,False,0.9444444444444444,Spotted Catbird:17; Worm eating Warbler:1
+26,17,0.47058823529411764,26,Least Auklet,False,True,0.47058823529411764,Least Auklet:8; Parakeet Auklet:7; Pigeon Guillemot:2
+27,41,0.3902439024390244,154,Yellow Warbler,False,True,0.3902439024390244,Yellow Warbler:16; Wilson Warbler:13; Blue winged Warbler:6
+28,58,0.4827586206896552,101,Loggerhead Shrike,False,True,0.3103448275862069,Loggerhead Shrike:28; Great Grey Shrike:16; Florida Jay:5
+29,26,0.5,169,Black throated Blue Warbler,False,True,0.46153846153846156,Black throated Blue Warbler:13; Cerulean Warbler:12; Blue headed Vireo:1
+30,32,0.53125,30,Bohemian Waxwing,True,False,0.53125,Bohemian Waxwing:17; Cedar Waxwing:14; American Goldfinch:1
+31,28,0.5714285714285714,31,Ringed Kingfisher,True,False,0.6428571428571429,Ringed Kingfisher:16; Belted Kingfisher:10; Green Kingfisher:2
+32,48,0.375,126,Yellow throated Vireo,False,True,0.375,Yellow throated Vireo:18; Pine Warbler:15; White eyed Vireo:3
+33,45,0.26666666666666666,128,Acadian Flycatcher,False,True,0.28888888888888886,Acadian Flycatcher:12; Yellow bellied Flycatcher:12; White eyed Vireo:6
+34,45,0.5333333333333333,104,Indigo Bunting,True,False,0.3333333333333333,Indigo Bunting:24; Blue Grosbeak:15; Lazuli Bunting:3
+35,14,0.7142857142857143,35,Red breasted Merganser,True,False,0.8571428571428571,Red breasted Merganser:10; Pigeon Guillemot:2; Horned Grebe:1
+36,26,0.5,36,Gray Kingbird,False,True,0.6153846153846154,Gray Kingbird:13; Mockingbird:6; Scissor tailed Flycatcher:2
+37,13,1.0,37,Pine Grosbeak,True,False,1.0,Pine Grosbeak:13
+38,52,0.28846153846153844,112,Pelagic Cormorant,False,True,0.36538461538461536,Pelagic Cormorant:15; Brandt Cormorant:14; Red faced Cormorant:13
+39,25,0.36,39,Boat tailed Grackle,False,True,0.4,Boat tailed Grackle:9; Rusty Blackbird:8; Brewer Blackbird:3
+40,32,0.28125,40,Frigatebird,False,True,0.4375,Frigatebird:9; Pomarine Jaeger:4; Fish Crow:4
+41,21,0.3333333333333333,41,Northern Fulmar,False,True,0.38095238095238093,Northern Fulmar:7; Red legged Kittiwake:6; Laysan Albatross:3
+42,24,0.7083333333333334,42,Rose breasted Grosbeak,True,False,0.7083333333333334,Rose breasted Grosbeak:17; Eastern Towhee:3; Black throated Blue Warbler:2
+43,43,0.3023255813953488,100,Fish Crow,False,True,0.27906976744186046,Fish Crow:13; American Crow:9; Bronzed Cowbird:7
+44,65,0.4461538461538462,177,Geococcyx,False,True,0.2,Geococcyx:29; Northern Flicker:21; Cactus Wren:12
+45,63,0.3492063492063492,113,Artic Tern,False,True,0.2222222222222222,Artic Tern:22; Forsters Tern:16; Common Tern:7
+46,38,0.3157894736842105,46,Black footed Albatross,False,True,0.4473684210526316,Black footed Albatross:12; Sooty Albatross:12; Pomarine Jaeger:4
+47,37,0.4864864864864865,118,Blue winged Warbler,False,True,0.35135135135135137,Blue winged Warbler:18; Prothonotary Warbler:13; Yellow throated Vireo:3
+48,15,0.4666666666666667,48,Horned Lark,False,True,0.4666666666666667,Horned Lark:7; Black throated Sparrow:7; Mockingbird:1
+49,29,0.4827586206896552,198,Summer Tanager,False,True,0.41379310344827586,Summer Tanager:14; Painted Bunting:12; Cardinal:2
+50,64,0.1875,128,Acadian Flycatcher,False,True,0.1875,Acadian Flycatcher:12; Great Crested Flycatcher:10; Western Wood Pewee:9
+51,74,0.28378378378378377,140,Red eyed Vireo,False,True,0.20270270270270271,Red eyed Vireo:21; Philadelphia Vireo:18; Warbling Vireo:8
+52,18,0.5,52,Black Tern,False,True,0.7222222222222222,Black Tern:9; Slaty backed Gull:3; Pelagic Cormorant:1
+53,13,1.0,53,Red headed Woodpecker,True,False,1.0,Red headed Woodpecker:13
+54,30,0.43333333333333335,54,Orange crowned Warbler,False,True,0.6666666666666666,Orange crowned Warbler:13; Nashville Warbler:6; Cardinal:3
+55,35,0.45714285714285713,55,Lincoln Sparrow,False,True,0.4857142857142857,Lincoln Sparrow:16; Vesper Sparrow:3; Baird Sparrow:2
+56,44,0.6818181818181818,189,Red bellied Woodpecker,True,False,0.22727272727272727,Red bellied Woodpecker:30; Red cockaded Woodpecker:8; Downy Woodpecker:2
+57,17,0.7058823529411765,57,Yellow breasted Chat,True,False,0.7058823529411765,Yellow breasted Chat:12; Great Crested Flycatcher:1; Blue headed Vireo:1
+58,15,0.8,58,Pied Kingfisher,True,False,0.8,Pied Kingfisher:12; Belted Kingfisher:2; Black throated Sparrow:1
+59,41,0.4634146341463415,159,Chestnut sided Warbler,False,True,0.36585365853658536,Chestnut sided Warbler:19; Bay breasted Warbler:14; Eastern Towhee:2
+60,18,0.9444444444444444,60,Bobolink,True,False,0.9444444444444444,Bobolink:17; Seaside Sparrow:1
+61,21,0.7619047619047619,61,Red winged Blackbird,True,False,0.8095238095238095,Red winged Blackbird:16; Bronzed Cowbird:2; American Crow:1
+62,26,0.6153846153846154,62,Green Kingfisher,True,False,0.6538461538461539,Green Kingfisher:16; Belted Kingfisher:9; Ringed Kingfisher:1
+63,37,0.4864864864864865,115,Yellow billed Cuckoo,False,True,0.43243243243243246,Yellow billed Cuckoo:18; Black billed Cuckoo:15; Red eyed Vireo:1
+64,12,1.0,64,Baltimore Oriole,True,False,1.0,Baltimore Oriole:12
+65,56,0.42857142857142855,183,Rufous Hummingbird,False,True,0.30357142857142855,Rufous Hummingbird:24; Anna Hummingbird:15; Ruby throated Hummingbird:15
+66,19,0.47368421052631576,66,Rock Wren,False,True,0.47368421052631576,Rock Wren:9; Bewick Wren:4; Mockingbird:2
+67,17,0.7647058823529411,67,Scott Oriole,True,False,0.7647058823529411,Scott Oriole:13; Eastern Towhee:3; Evening Grosbeak:1
+68,13,0.7692307692307693,68,Magnolia Warbler,True,False,0.9230769230769231,Magnolia Warbler:10; Ovenbird:1; Canada Warbler:1
+69,24,0.5833333333333334,69,Tree Swallow,True,False,0.625,Tree Swallow:14; Black throated Blue Warbler:6; Belted Kingfisher:1
+70,23,0.6956521739130435,70,Fox Sparrow,True,False,0.6956521739130435,Fox Sparrow:16; Song Sparrow:5; Brown Thrasher:2
+71,27,0.4074074074074074,153,Great Crested Flycatcher,False,True,0.37037037037037035,Great Crested Flycatcher:11; Tropical Kingbird:9; Sayornis:2
+72,44,0.38636363636363635,171,Brown Thrasher,False,True,0.3409090909090909,Brown Thrasher:17; Ovenbird:14; Northern Waterthrush:7
+73,42,0.5714285714285714,195,Mallard,True,False,0.2619047619047619,Mallard:24; Hooded Merganser:11; Horned Puffin:3
+74,14,0.8571428571428571,74,Scissor tailed Flycatcher,True,False,0.9285714285714286,Scissor tailed Flycatcher:12; Gray Kingbird:1; Loggerhead Shrike:1
+75,43,0.5348837209302325,117,White necked Raven,True,False,0.32558139534883723,White necked Raven:23; Common Raven:12; Fish Crow:4
+76,28,0.35714285714285715,76,Nashville Warbler,False,True,0.7142857142857143,Nashville Warbler:10; Yellow breasted Chat:3; Mourning Warbler:2
+77,19,1.0,77,Western Meadowlark,True,False,1.0,Western Meadowlark:19
+78,14,0.6428571428571429,78,Hooded Warbler,True,False,0.8571428571428571,Hooded Warbler:9; Kentucky Warbler:2; Cardinal:1
+79,14,0.9285714285714286,79,American Three toed Woodpecker,True,False,0.9285714285714286,American Three toed Woodpecker:13; Brewer Blackbird:1
+80,18,1.0,80,Brown Creeper,True,False,1.0,Brown Creeper:18
+81,24,0.7083333333333334,81,Pied billed Grebe,True,False,0.75,Pied billed Grebe:17; Eared Grebe:5; Brandt Cormorant:1
+82,58,0.22413793103448276,106,Caspian Tern,False,True,0.3448275862068966,Caspian Tern:13; Elegant Tern:10; Forsters Tern:8
+83,11,0.6363636363636364,83,Barn Swallow,True,False,1.0,Barn Swallow:7; Cliff Swallow:4
+84,21,0.7142857142857143,84,Canada Warbler,True,False,0.7619047619047619,Canada Warbler:15; Prairie Warbler:3; Palm Warbler:2
+85,53,0.3018867924528302,111,Western Gull,False,True,0.2641509433962264,Western Gull:16; Red legged Kittiwake:9; Slaty backed Gull:8
+86,62,0.25806451612903225,86,Swainson Warbler,False,True,0.3387096774193548,Swainson Warbler:16; Bewick Wren:15; Carolina Wren:11
+87,29,0.41379310344827586,87,Rhinoceros Auklet,False,True,0.41379310344827586,Rhinoceros Auklet:12; Brandt Cormorant:7; Pelagic Cormorant:6
+88,40,0.35,88,Least Tern,False,True,0.575,Least Tern:14; Caspian Tern:10; Forsters Tern:6
+89,122,0.21311475409836064,165,Heermann Gull,False,True,0.03278688524590164,Heermann Gull:26; Glaucous winged Gull:25; Ring billed Gull:24
+90,71,0.323943661971831,144,Eared Grebe,False,True,0.23943661971830985,Eared Grebe:23; Pacific Loon:21; Horned Grebe:14
+91,46,0.5,141,Prairie Warbler,False,True,0.30434782608695654,Prairie Warbler:23; Cape May Warbler:12; Yellow Warbler:7
+92,26,0.6153846153846154,92,Cape Glossy Starling,True,False,0.6923076923076923,Cape Glossy Starling:16; Brewer Blackbird:5; Bronzed Cowbird:3
+93,14,0.9285714285714286,93,White breasted Kingfisher,True,False,0.9285714285714286,White breasted Kingfisher:13; Florida Jay:1
+94,37,0.43243243243243246,121,Western Wood Pewee,False,True,0.2972972972972973,Western Wood Pewee:16; Olive sided Flycatcher:11; Sayornis:8
+95,11,1.0,95,Green Jay,True,False,1.0,Green Jay:11
+96,14,0.7857142857142857,96,Blue Jay,True,False,0.7857142857142857,Blue Jay:11; Florida Jay:2; Lazuli Bunting:1
+97,35,0.5142857142857142,97,Nighthawk,True,False,0.5142857142857142,Nighthawk:18; Whip poor Will:9; Chuck will Widow:6
+98,49,0.30612244897959184,98,Marsh Wren,False,True,0.3877551020408163,Marsh Wren:15; Bewick Wren:8; House Wren:8
+99,14,0.5,99,Cliff Swallow,False,True,0.8571428571428571,Cliff Swallow:7; Barn Swallow:4; Sayornis:1
+100,29,0.9310344827586207,176,Western Grebe,True,False,0.0,Western Grebe:27; Pacific Loon:2
+101,2,0.5,120,Field Sparrow,False,True,0.0,Field Sparrow:1; Carolina Wren:1
+102,3,0.3333333333333333,37,Pine Grosbeak,False,True,0.3333333333333333,Pine Grosbeak:1; Dark eyed Junco:1; Chipping Sparrow:1
+103,6,1.0,187,Northern Flicker,True,False,0.0,Northern Flicker:6
+104,4,0.75,142,Downy Woodpecker,True,False,0.25,Downy Woodpecker:3; White breasted Nuthatch:1
+105,9,0.4444444444444444,0,Black capped Vireo,False,True,0.4444444444444444,Black capped Vireo:4; Golden winged Warbler:3; Black throated Sparrow:2
+106,1,1.0,145,Carolina Wren,True,False,0.0,Carolina Wren:1
+107,6,1.0,102,Groove billed Ani,True,False,0.0,Groove billed Ani:6
+108,24,0.7083333333333334,102,Groove billed Ani,True,False,0.08333333333333333,Groove billed Ani:17; Fish Crow:2; Brewer Blackbird:1
+109,28,0.6071428571428571,155,Seaside Sparrow,True,False,0.07142857142857142,Seaside Sparrow:17; Nelson Sharp tailed Sparrow:8; Le Conte Sparrow:1
+110,1,1.0,172,Laysan Albatross,True,False,0.0,Laysan Albatross:1
+111,1,1.0,51,Warbling Vireo,True,False,1.0,Warbling Vireo:1
+112,41,0.21951219512195122,120,Field Sparrow,False,True,0.21951219512195122,Field Sparrow:9; Brewer Sparrow:8; Chipping Sparrow:7
+113,1,1.0,69,Tree Swallow,True,False,1.0,Tree Swallow:1
+114,13,0.23076923076923078,128,Acadian Flycatcher,False,True,0.38461538461538464,Acadian Flycatcher:3; Yellow bellied Flycatcher:3; Seaside Sparrow:2
+115,3,0.3333333333333333,168,Eastern Towhee,False,True,0.0,Eastern Towhee:1; Dark eyed Junco:1; House Sparrow:1
+116,1,1.0,168,Eastern Towhee,True,False,0.0,Eastern Towhee:1
+117,27,0.9629629629629629,186,American Goldfinch,True,False,0.037037037037037035,American Goldfinch:26; Baltimore Oriole:1
+118,22,1.0,191,White Pelican,True,False,0.0,White Pelican:22
+119,38,0.42105263157894735,125,Pomarine Jaeger,False,True,0.15789473684210525,Pomarine Jaeger:16; Laysan Albatross:9; Sooty Albatross:6
+120,11,0.2727272727272727,169,Black throated Blue Warbler,False,True,0.36363636363636365,Black throated Blue Warbler:3; Cerulean Warbler:3; Bobolink:1
+121,33,0.8787878787878788,199,Scarlet Tanager,True,False,0.0,Scarlet Tanager:29; Vermilion Flycatcher:3; Cardinal:1
+122,1,1.0,109,Ring billed Gull,True,False,0.0,Ring billed Gull:1
+123,26,0.9615384615384616,142,Downy Woodpecker,True,False,0.038461538461538464,Downy Woodpecker:25; American Three toed Woodpecker:1
+124,1,1.0,119,Vesper Sparrow,True,False,0.0,Vesper Sparrow:1
+125,11,0.9090909090909091,148,Myrtle Warbler,True,False,0.0,Myrtle Warbler:10; Palm Warbler:1
+126,1,1.0,154,Yellow Warbler,True,False,0.0,Yellow Warbler:1
+127,1,1.0,50,Least Flycatcher,True,False,1.0,Least Flycatcher:1
+128,2,1.0,163,Pacific Loon,True,False,0.0,Pacific Loon:2
+129,1,1.0,60,Bobolink,True,False,1.0,Bobolink:1
+130,4,0.5,100,Fish Crow,False,True,0.25,Fish Crow:2; Bobolink:1; Bronzed Cowbird:1
+131,1,1.0,70,Fox Sparrow,True,False,1.0,Fox Sparrow:1
+132,30,0.9,185,American Redstart,True,False,0.0,American Redstart:27; Eastern Towhee:2; Black throated Blue Warbler:1
+133,1,1.0,166,Clark Nutcracker,True,False,0.0,Clark Nutcracker:1
+134,2,1.0,7,Green tailed Towhee,True,False,1.0,Green tailed Towhee:2
+135,9,0.4444444444444444,104,Indigo Bunting,False,True,0.4444444444444444,Indigo Bunting:4; Blue Grosbeak:3; Lazuli Bunting:1
+136,1,1.0,132,Mockingbird,True,False,0.0,Mockingbird:1
+137,18,0.9444444444444444,190,Pileated Woodpecker,True,False,0.0,Pileated Woodpecker:17; Black throated Blue Warbler:1
+138,2,1.0,122,Chipping Sparrow,True,False,0.0,Chipping Sparrow:2
+139,36,0.5555555555555556,196,Cardinal,True,False,0.0,Cardinal:20; Summer Tanager:16
+140,12,0.3333333333333333,150,Mourning Warbler,False,True,0.3333333333333333,Mourning Warbler:4; Philadelphia Vireo:3; Swainson Warbler:2
+141,41,0.5853658536585366,151,Orchard Oriole,True,False,0.0,Orchard Oriole:24; Eastern Towhee:15; Indigo Bunting:1
+142,29,0.8275862068965517,166,Clark Nutcracker,True,False,0.0,Clark Nutcracker:24; Mockingbird:4; Florida Jay:1
+143,1,1.0,121,Western Wood Pewee,True,False,0.0,Western Wood Pewee:1
+144,1,1.0,170,Palm Warbler,True,False,0.0,Palm Warbler:1
+145,1,1.0,188,Dark eyed Junco,True,False,0.0,Dark eyed Junco:1
+146,1,1.0,3,Tennessee Warbler,True,False,1.0,Tennessee Warbler:1
+147,4,1.0,103,Brewer Blackbird,True,False,0.0,Brewer Blackbird:4
+148,1,1.0,144,Eared Grebe,True,False,0.0,Eared Grebe:1
+149,23,1.0,180,Worm eating Warbler,True,False,0.0,Worm eating Warbler:23
+150,13,1.0,167,Cedar Waxwing,True,False,0.0,Cedar Waxwing:13
+151,27,0.9629629629629629,194,Vermilion Flycatcher,True,False,0.0,Vermilion Flycatcher:26; Scarlet Tanager:1
+152,1,1.0,33,Yellow bellied Flycatcher,True,False,1.0,Yellow bellied Flycatcher:1
+153,1,1.0,140,Red eyed Vireo,True,False,0.0,Red eyed Vireo:1
+154,17,0.8823529411764706,188,Dark eyed Junco,True,False,0.0,Dark eyed Junco:15; Sayornis:1; Vesper Sparrow:1
+155,1,1.0,74,Scissor tailed Flycatcher,True,False,1.0,Scissor tailed Flycatcher:1
+156,29,0.8275862068965517,164,Gadwall,True,False,0.034482758620689655,Gadwall:24; Mallard:2; Crested Auklet:1
+157,26,1.0,160,Ivory Gull,True,False,0.0,Ivory Gull:26
+158,20,0.95,150,Mourning Warbler,True,False,0.0,Mourning Warbler:19; Evening Grosbeak:1
+159,42,0.5476190476190477,182,Northern Waterthrush,True,False,0.0,Northern Waterthrush:23; Louisiana Waterthrush:19
+160,12,0.08333333333333333,112,Pelagic Cormorant,False,True,0.5,Pelagic Cormorant:1; American Crow:1; Long tailed Jaeger:1
+161,4,0.75,156,Belted Kingfisher,True,False,0.25,Belted Kingfisher:3; Ringed Kingfisher:1
+162,22,0.6363636363636364,147,Anna Hummingbird,True,False,0.09090909090909091,Anna Hummingbird:14; Rufous Hummingbird:6; Ruby throated Hummingbird:2
+163,23,0.9565217391304348,178,Lazuli Bunting,True,False,0.0,Lazuli Bunting:22; Dark eyed Junco:1
+164,46,0.5652173913043478,192,European Goldfinch,True,False,0.0,European Goldfinch:26; Golden winged Warbler:20
+165,8,0.625,138,Brandt Cormorant,True,False,0.25,Brandt Cormorant:5; Rhinoceros Auklet:1; Pacific Loon:1
+166,3,1.0,166,Clark Nutcracker,True,False,0.0,Clark Nutcracker:3
+167,1,1.0,45,Common Tern,True,False,1.0,Common Tern:1
+168,1,1.0,125,Pomarine Jaeger,True,False,0.0,Pomarine Jaeger:1
+169,3,1.0,190,Pileated Woodpecker,True,False,0.0,Pileated Woodpecker:3
+170,26,0.8461538461538461,193,Horned Puffin,True,False,0.07692307692307693,Horned Puffin:22; Frigatebird:1; Red legged Kittiwake:1
+171,44,0.5227272727272727,157,Chuck will Widow,True,False,0.0,Chuck will Widow:23; Whip poor Will:21
+172,17,0.47058823529411764,131,Sayornis,False,True,0.058823529411764705,Sayornis:8; Mockingbird:4; Boat tailed Grackle:1
+173,1,1.0,188,Dark eyed Junco,True,False,0.0,Dark eyed Junco:1
+174,25,0.88,181,Parakeet Auklet,True,False,0.0,Parakeet Auklet:22; Pigeon Guillemot:2; Crested Auklet:1
+175,19,0.8947368421052632,146,Florida Jay,True,False,0.10526315789473684,Florida Jay:17; Blue Jay:2
+176,1,1.0,145,Carolina Wren,True,False,0.0,Carolina Wren:1
+177,1,1.0,176,Western Grebe,True,False,0.0,Western Grebe:1
+178,1,1.0,171,Brown Thrasher,True,False,0.0,Brown Thrasher:1
+179,1,1.0,63,Black billed Cuckoo,True,False,1.0,Black billed Cuckoo:1
+180,1,1.0,184,Gray crowned Rosy Finch,True,False,0.0,Gray crowned Rosy Finch:1
+181,1,1.0,165,Heermann Gull,True,False,0.0,Heermann Gull:1
+182,12,0.4166666666666667,172,Laysan Albatross,False,True,0.08333333333333333,Laysan Albatross:5; Sooty Albatross:5; Black footed Albatross:1
+183,37,0.7567567567567568,152,American Pipit,True,False,0.0,American Pipit:28; Palm Warbler:5; Grasshopper Sparrow:1
+184,1,1.0,44,Cactus Wren,True,False,1.0,Cactus Wren:1
+185,19,0.7368421052631579,173,Pigeon Guillemot,True,False,0.15789473684210525,Pigeon Guillemot:14; Rhinoceros Auklet:3; Sooty Albatross:1
+186,1,1.0,69,Tree Swallow,True,False,1.0,Tree Swallow:1
+187,5,1.0,148,Myrtle Warbler,True,False,0.0,Myrtle Warbler:5
+188,8,0.875,190,Pileated Woodpecker,True,False,0.125,Pileated Woodpecker:7; Red headed Woodpecker:1
+189,32,0.84375,179,Crested Auklet,True,False,0.0625,Crested Auklet:27; Rhinoceros Auklet:2; Parakeet Auklet:1
+190,27,0.07407407407407407,158,Rusty Blackbird,False,True,0.14814814814814814,Rusty Blackbird:2; Great Crested Flycatcher:2; Chipping Sparrow:2
+191,1,1.0,49,Painted Bunting,True,False,1.0,Painted Bunting:1
+192,11,0.8181818181818182,172,Laysan Albatross,True,False,0.09090909090909091,Laysan Albatross:9; Northern Fulmar:1; Red legged Kittiwake:1
+193,1,1.0,134,Philadelphia Vireo,True,False,0.0,Philadelphia Vireo:1
+194,1,1.0,156,Belted Kingfisher,True,False,0.0,Belted Kingfisher:1
+195,1,1.0,158,Rusty Blackbird,True,False,0.0,Rusty Blackbird:1
+196,1,1.0,134,Philadelphia Vireo,True,False,0.0,Philadelphia Vireo:1
+197,1,1.0,116,Brewer Sparrow,True,False,0.0,Brewer Sparrow:1
+198,1,1.0,121,Western Wood Pewee,True,False,0.0,Western Wood Pewee:1
+199,17,0.17647058823529413,164,Gadwall,False,True,0.29411764705882354,Gadwall:3; Pigeon Guillemot:2; Red breasted Merganser:2

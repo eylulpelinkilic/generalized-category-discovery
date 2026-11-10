@@ -1,0 +1,8 @@
+population,class_id,class_name,count,label_permission
+discovery,147,Anna Hummingbird,14,evaluation_only
+discovery,183,Rufous Hummingbird,6,evaluation_only
+discovery,65,Ruby throated Hummingbird,2,evaluation_only
+dev,65,Ruby throated Hummingbird,2,heldout_dev_calib
+dev,20,Green Violetear,1,heldout_dev_calib
+calib,65,Ruby throated Hummingbird,3,heldout_dev_calib
+calib,20,Green Violetear,2,heldout_dev_calib

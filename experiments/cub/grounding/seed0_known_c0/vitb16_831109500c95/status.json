@@ -1,0 +1,64 @@
+{
+  "stage": "grounding",
+  "config_hash": "831109500c95",
+  "status": "completed",
+  "started_utc": "2026-11-09T05:53:30Z",
+  "inputs": {
+    "train_seed": 0,
+    "k_mode": "known",
+    "cluster_seed": 0,
+    "clip": "vitb16"
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "cuda_available": true,
+    "torchvision": "0.26.0+cu130",
+    "open_clip": "3.3.0",
+    "sklearn": "1.6.1",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "PIL": "13.0.0",
+    "gpu": "Tesla T4",
+    "cuda": "13.0",
+    "gpu_memory_gb": 15.64
+  },
+  "git": {
+    "commit": "811ebfb1e37340bc7d9f3d211dfa71e689327763",
+    "dirty_experiment_files": true,
+    "dirty_paths": [
+      "?? data/__pycache__/",
+      "?? data/augmentations/__pycache__/",
+      "?? models/__pycache__/"
+    ]
+  },
+  "outputs": {
+    "selection": {
+      "criterion": "dev AURC (mean over vocabulary sizes of mean over shared episodes)",
+      "prompt_strategy": "ensemble80",
+      "prompt_criterion": {
+        "single": 0.42933200956565376,
+        "ensemble80": 0.4249750763312635
+      },
+      "method_for_prompt_choice": "max_mean_sim",
+      "T_dev": 0.02,
+      "temperature_criterion": {
+        "0.005": 0.4507333093797614,
+        "0.01": 0.43986490500487124,
+        "0.02": 0.4316971891870448,
+        "0.05": 0.4366355745290276,
+        "0.1": 0.44086342170223763,
+        "0.5": 0.4457726291196292,
+        "1.0": 0.4464311216709409
+      },
+      "pilot_T": 0.01,
+      "mcm_T": 1.0,
+      "labels_used": "labels_heldout.csv, heldout_dev rows only"
+    },
+    "n_rows": 8878,
+    "K": 200
+  },
+  "completed_utc": "2026-11-09T05:56:09Z"
+}

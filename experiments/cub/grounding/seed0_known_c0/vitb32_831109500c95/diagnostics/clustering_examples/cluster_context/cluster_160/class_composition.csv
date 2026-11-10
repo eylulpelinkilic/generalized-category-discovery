@@ -1,0 +1,28 @@
+population,class_id,class_name,count,label_permission
+discovery,112,Pelagic Cormorant,1,evaluation_only
+discovery,43,American Crow,1,evaluation_only
+discovery,1,Long tailed Jaeger,1,evaluation_only
+discovery,125,Pomarine Jaeger,1,evaluation_only
+discovery,156,Belted Kingfisher,1,evaluation_only
+discovery,31,Ringed Kingfisher,1,evaluation_only
+discovery,131,Sayornis,1,evaluation_only
+discovery,117,White necked Raven,1,evaluation_only
+discovery,83,Barn Swallow,1,evaluation_only
+discovery,99,Cliff Swallow,1,evaluation_only
+discovery,52,Black Tern,1,evaluation_only
+discovery,106,Caspian Tern,1,evaluation_only
+dev,74,Scissor tailed Flycatcher,1,heldout_dev_calib
+dev,40,Frigatebird,1,heldout_dev_calib
+dev,1,Long tailed Jaeger,1,heldout_dev_calib
+dev,62,Green Kingfisher,1,heldout_dev_calib
+dev,58,Pied Kingfisher,1,heldout_dev_calib
+dev,35,Red breasted Merganser,1,heldout_dev_calib
+dev,97,Nighthawk,1,heldout_dev_calib
+calib,74,Scissor tailed Flycatcher,1,heldout_dev_calib
+calib,40,Frigatebird,1,heldout_dev_calib
+calib,1,Long tailed Jaeger,1,heldout_dev_calib
+calib,58,Pied Kingfisher,1,heldout_dev_calib
+calib,97,Nighthawk,1,heldout_dev_calib
+calib,15,Brown Pelican,1,heldout_dev_calib
+calib,99,Cliff Swallow,1,heldout_dev_calib
+calib,52,Black Tern,1,heldout_dev_calib

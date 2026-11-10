@@ -1,0 +1,201 @@
+class_id,class_key,source_index,canonical_name,aliases,gcd_status,name_source
+0,151,150,Black capped Vireo,,known,classes.txt
+1,071,70,Long tailed Jaeger,,known,classes.txt
+2,035,34,Purple Finch,,known,classes.txt
+3,179,178,Tennessee Warbler,,known,classes.txt
+4,200,199,Common Yellowthroat,,known,classes.txt
+5,132,131,White crowned Sparrow,,known,classes.txt
+6,130,129,Tree Sparrow,,known,classes.txt
+7,148,147,Green tailed Towhee,,known,classes.txt
+8,135,134,Bank Swallow,,known,classes.txt
+9,012,11,Yellow headed Blackbird,,known,classes.txt
+10,027,26,Shiny Cowbird,,known,classes.txt
+11,094,93,White breasted Nuthatch,,known,classes.txt
+12,096,95,Hooded Oriole,,known,classes.txt
+13,122,121,Harris Sparrow,,known,classes.txt
+14,124,123,Le Conte Sparrow,,known,classes.txt
+15,100,99,Brown Pelican,,known,classes.txt
+16,150,149,Sage Thrasher,,known,classes.txt
+17,168,167,Kentucky Warbler,,known,classes.txt
+18,019,18,Gray Catbird,,known,classes.txt
+19,032,31,Mangrove Cuckoo,,known,classes.txt
+20,070,69,Green Violetear,,known,classes.txt
+21,199,198,Winter Wren,,known,classes.txt
+22,117,116,Clay colored Sparrow,,known,classes.txt
+23,159,158,Black and white Warbler,,known,classes.txt
+24,127,126,Savannah Sparrow,,known,classes.txt
+25,018,17,Spotted Catbird,,known,classes.txt
+26,006,5,Least Auklet,,known,classes.txt
+27,180,179,Wilson Warbler,,known,classes.txt
+28,112,111,Great Grey Shrike,,known,classes.txt
+29,164,163,Cerulean Warbler,,known,classes.txt
+30,185,184,Bohemian Waxwing,,known,classes.txt
+31,082,81,Ringed Kingfisher,,known,classes.txt
+32,175,174,Pine Warbler,,known,classes.txt
+33,043,42,Yellow bellied Flycatcher,,known,classes.txt
+34,054,53,Blue Grosbeak,,known,classes.txt
+35,090,89,Red breasted Merganser,,known,classes.txt
+36,078,77,Gray Kingbird,,known,classes.txt
+37,056,55,Pine Grosbeak,,known,classes.txt
+38,024,23,Red faced Cormorant,,known,classes.txt
+39,049,48,Boat tailed Grackle,,known,classes.txt
+40,044,43,Frigatebird,,known,classes.txt
+41,045,44,Northern Fulmar,,known,classes.txt
+42,057,56,Rose breasted Grosbeak,,known,classes.txt
+43,029,28,American Crow,,known,classes.txt
+44,194,193,Cactus Wren,,known,classes.txt
+45,144,143,Common Tern,,known,classes.txt
+46,001,0,Black footed Albatross,,known,classes.txt
+47,177,176,Prothonotary Warbler,,known,classes.txt
+48,085,84,Horned Lark,,known,classes.txt
+49,016,15,Painted Bunting,,known,classes.txt
+50,039,38,Least Flycatcher,,known,classes.txt
+51,155,154,Warbling Vireo,,known,classes.txt
+52,142,141,Black Tern,,known,classes.txt
+53,191,190,Red headed Woodpecker,,known,classes.txt
+54,173,172,Orange crowned Warbler,,known,classes.txt
+55,125,124,Lincoln Sparrow,,known,classes.txt
+56,190,189,Red cockaded Woodpecker,,known,classes.txt
+57,020,19,Yellow breasted Chat,,known,classes.txt
+58,081,80,Pied Kingfisher,,known,classes.txt
+59,158,157,Bay breasted Warbler,,known,classes.txt
+60,013,12,Bobolink,,known,classes.txt
+61,010,9,Red winged Blackbird,,known,classes.txt
+62,080,79,Green Kingfisher,,known,classes.txt
+63,031,30,Black billed Cuckoo,,known,classes.txt
+64,095,94,Baltimore Oriole,,known,classes.txt
+65,068,67,Ruby throated Hummingbird,,known,classes.txt
+66,198,197,Rock Wren,,known,classes.txt
+67,098,97,Scott Oriole,,known,classes.txt
+68,169,168,Magnolia Warbler,,known,classes.txt
+69,138,137,Tree Swallow,,known,classes.txt
+70,120,119,Fox Sparrow,,known,classes.txt
+71,077,76,Tropical Kingbird,,known,classes.txt
+72,099,98,Ovenbird,,known,classes.txt
+73,089,88,Hooded Merganser,,known,classes.txt
+74,041,40,Scissor tailed Flycatcher,,known,classes.txt
+75,107,106,Common Raven,,known,classes.txt
+76,172,171,Nashville Warbler,,known,classes.txt
+77,088,87,Western Meadowlark,,known,classes.txt
+78,167,166,Hooded Warbler,,known,classes.txt
+79,187,186,American Three toed Woodpecker,,known,classes.txt
+80,028,27,Brown Creeper,,known,classes.txt
+81,052,51,Pied billed Grebe,,known,classes.txt
+82,145,144,Elegant Tern,,known,classes.txt
+83,136,135,Barn Swallow,,known,classes.txt
+84,162,161,Canada Warbler,,known,classes.txt
+85,065,64,Slaty backed Gull,,known,classes.txt
+86,178,177,Swainson Warbler,,known,classes.txt
+87,008,7,Rhinoceros Auklet,,known,classes.txt
+88,147,146,Least Tern,,known,classes.txt
+89,062,61,Herring Gull,,known,classes.txt
+90,051,50,Horned Grebe,,known,classes.txt
+91,163,162,Cape May Warbler,,known,classes.txt
+92,134,133,Cape Glossy Starling,,known,classes.txt
+93,083,82,White breasted Kingfisher,,known,classes.txt
+94,040,39,Olive sided Flycatcher,,known,classes.txt
+95,075,74,Green Jay,,known,classes.txt
+96,073,72,Blue Jay,,known,classes.txt
+97,092,91,Nighthawk,,known,classes.txt
+98,197,196,Marsh Wren,,known,classes.txt
+99,137,136,Cliff Swallow,,known,classes.txt
+100,030,29,Fish Crow,,novel,classes.txt
+101,111,110,Loggerhead Shrike,,novel,classes.txt
+102,004,3,Groove billed Ani,,novel,classes.txt
+103,009,8,Brewer Blackbird,,novel,classes.txt
+104,014,13,Indigo Bunting,,novel,classes.txt
+105,059,58,California Gull,,novel,classes.txt
+106,143,142,Caspian Tern,,novel,classes.txt
+107,026,25,Bronzed Cowbird,,novel,classes.txt
+108,146,145,Forsters Tern,,novel,classes.txt
+109,064,63,Ring billed Gull,,novel,classes.txt
+110,060,59,Glaucous winged Gull,,novel,classes.txt
+111,066,65,Western Gull,,novel,classes.txt
+112,025,24,Pelagic Cormorant,,novel,classes.txt
+113,141,140,Artic Tern,,novel,classes.txt
+114,121,120,Grasshopper Sparrow,,novel,classes.txt
+115,033,32,Yellow billed Cuckoo,,novel,classes.txt
+116,115,114,Brewer Sparrow,,novel,classes.txt
+117,108,107,White necked Raven,,novel,classes.txt
+118,161,160,Blue winged Warbler,,novel,classes.txt
+119,131,130,Vesper Sparrow,,novel,classes.txt
+120,119,118,Field Sparrow,,novel,classes.txt
+121,102,101,Western Wood Pewee,,novel,classes.txt
+122,116,115,Chipping Sparrow,,novel,classes.txt
+123,129,128,Song Sparrow,,novel,classes.txt
+124,118,117,House Sparrow,,novel,classes.txt
+125,072,71,Pomarine Jaeger,,novel,classes.txt
+126,157,156,Yellow throated Vireo,,novel,classes.txt
+127,113,112,Baird Sparrow,,novel,classes.txt
+128,037,36,Acadian Flycatcher,,novel,classes.txt
+129,123,122,Henslow Sparrow,,novel,classes.txt
+130,105,104,Whip poor Will,,novel,classes.txt
+131,103,102,Sayornis,,novel,classes.txt
+132,091,90,Mockingbird,,novel,classes.txt
+133,126,125,Nelson Sharp tailed Sparrow,,novel,classes.txt
+134,153,152,Philadelphia Vireo,,novel,classes.txt
+135,196,195,House Wren,,novel,classes.txt
+136,133,132,White throated Sparrow,,novel,classes.txt
+137,084,83,Red legged Kittiwake,,novel,classes.txt
+138,023,22,Brandt Cormorant,,novel,classes.txt
+139,193,192,Bewick Wren,,novel,classes.txt
+140,154,153,Red eyed Vireo,,novel,classes.txt
+141,176,175,Prairie Warbler,,novel,classes.txt
+142,192,191,Downy Woodpecker,,novel,classes.txt
+143,156,155,White eyed Vireo,,novel,classes.txt
+144,050,49,Eared Grebe,,novel,classes.txt
+145,195,194,Carolina Wren,,novel,classes.txt
+146,074,73,Florida Jay,,novel,classes.txt
+147,067,66,Anna Hummingbird,,novel,classes.txt
+148,171,170,Myrtle Warbler,,novel,classes.txt
+149,152,151,Blue headed Vireo,,novel,classes.txt
+150,170,169,Mourning Warbler,,novel,classes.txt
+151,097,96,Orchard Oriole,,novel,classes.txt
+152,104,103,American Pipit,,novel,classes.txt
+153,038,37,Great Crested Flycatcher,,novel,classes.txt
+154,182,181,Yellow Warbler,,novel,classes.txt
+155,128,127,Seaside Sparrow,,novel,classes.txt
+156,079,78,Belted Kingfisher,,novel,classes.txt
+157,022,21,Chuck will Widow,,novel,classes.txt
+158,011,10,Rusty Blackbird,,novel,classes.txt
+159,165,164,Chestnut sided Warbler,,novel,classes.txt
+160,063,62,Ivory Gull,,novel,classes.txt
+161,003,2,Sooty Albatross,,novel,classes.txt
+162,184,183,Louisiana Waterthrush,,novel,classes.txt
+163,086,85,Pacific Loon,,novel,classes.txt
+164,046,45,Gadwall,,novel,classes.txt
+165,061,60,Heermann Gull,,novel,classes.txt
+166,093,92,Clark Nutcracker,,novel,classes.txt
+167,186,185,Cedar Waxwing,,novel,classes.txt
+168,021,20,Eastern Towhee,,novel,classes.txt
+169,160,159,Black throated Blue Warbler,,novel,classes.txt
+170,174,173,Palm Warbler,,novel,classes.txt
+171,149,148,Brown Thrasher,,novel,classes.txt
+172,002,1,Laysan Albatross,,novel,classes.txt
+173,058,57,Pigeon Guillemot,,novel,classes.txt
+174,114,113,Black throated Sparrow,,novel,classes.txt
+175,166,165,Golden winged Warbler,,novel,classes.txt
+176,053,52,Western Grebe,,novel,classes.txt
+177,110,109,Geococcyx,,novel,classes.txt
+178,015,14,Lazuli Bunting,,novel,classes.txt
+179,005,4,Crested Auklet,,novel,classes.txt
+180,181,180,Worm eating Warbler,,novel,classes.txt
+181,007,6,Parakeet Auklet,,novel,classes.txt
+182,183,182,Northern Waterthrush,,novel,classes.txt
+183,069,68,Rufous Hummingbird,,novel,classes.txt
+184,034,33,Gray crowned Rosy Finch,,novel,classes.txt
+185,109,108,American Redstart,,novel,classes.txt
+186,047,46,American Goldfinch,,novel,classes.txt
+187,036,35,Northern Flicker,,novel,classes.txt
+188,076,75,Dark eyed Junco,,novel,classes.txt
+189,189,188,Red bellied Woodpecker,,novel,classes.txt
+190,188,187,Pileated Woodpecker,,novel,classes.txt
+191,101,100,White Pelican,,novel,classes.txt
+192,048,47,European Goldfinch,,novel,classes.txt
+193,106,105,Horned Puffin,,novel,classes.txt
+194,042,41,Vermilion Flycatcher,,novel,classes.txt
+195,087,86,Mallard,,novel,classes.txt
+196,017,16,Cardinal,,novel,classes.txt
+197,055,54,Evening Grosbeak,,novel,classes.txt
+198,140,139,Summer Tanager,,novel,classes.txt
+199,139,138,Scarlet Tanager,,novel,classes.txt

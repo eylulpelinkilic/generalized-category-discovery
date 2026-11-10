@@ -1,0 +1,4 @@
+population,class_id,class_name,count,label_permission
+discovery,150,Mourning Warbler,19,evaluation_only
+discovery,197,Evening Grosbeak,1,evaluation_only
+dev,12,Hooded Oriole,1,heldout_dev_calib

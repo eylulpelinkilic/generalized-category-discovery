@@ -1,0 +1,43 @@
+{
+  "cluster_id": 41,
+  "n_members": {
+    "discovery": 21,
+    "anchor": 18,
+    "dev": 8,
+    "calib": 10
+  },
+  "mapped_class_id_dev": 41,
+  "discovery_mean_norm": 0.9081065058708191,
+  "semantic_prediction_discovery": {
+    "class_id": 41,
+    "name": "Northern Fulmar",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 41,
+    "name": "Northern Fulmar"
+  },
+  "dominant_class_discovery_evaluation_only": 41,
+  "purity_discovery_evaluation_only": 0.3333333333333333,
+  "dominant_class_dev": 41,
+  "purity_dev": 0.75,
+  "heatmap_displayed_columns": [
+    41,
+    110,
+    111,
+    137,
+    105,
+    85,
+    161,
+    89,
+    172,
+    109,
+    165,
+    160
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "run": {
+    "dataset": "cub",
+    "run_id": "seed0_3a2d202f8444/known_c0_fcf46ef1931c/vitb32_831109500c95",
+    "train_seed": 0,
+    "k_mode": "known",
+    "cluster_seed": 0,
+    "clip": "vitb32",
+    "prompt_strategy": "ensemble80",
+    "discovery_method": "GCD (upstream contrastive training, final epoch) + SS-k-means",
+    "checkpoint_sha256": "716c3768651944c167231fdb9f670288969deece38ab4af993926f5d37468217",
+    "manifest_sha256": "0c7be4f50dee1407d3bc2e6997bd1d35693ed012529e2bc35095e688fbfeeb50",
+    "real_data": true
+  },
+  "population": "dev",
+  "label_permission": "labels_heldout.csv (heldout_dev rows)",
+  "hungarian": {
+    "population_size": 1433,
+    "accuracy": 0.8053035589672016,
+    "n_clusters": 200,
+    "rule": "upstream v2 construction, one assignment over the full population"
+  },
+  "eligible": {
+    "incorrect": 279,
+    "correct": 1154
+  },
+  "selected": {
+    "incorrect": 50,
+    "correct": 50,
+    "requested_each": 50,
+    "shortfall": {
+      "incorrect": 0,
+      "correct": 0
+    }
+  },
+  "control_reasons": {
+    "same_cluster": 30,
+    "same_true_class": 20
+  },
+  "seed": 42,
+  "clusters_with_context": 63,
+  "images": {
+    "source": "existing extraction",
+    "files": 3929
+  },
+  "similarities": {
+    "source": "recomputed: R_ensemble80.npy is not in the downloaded results",
+    "model": {
+      "open_clip_name": "ViT-B-32-quickgelu",
+      "pretrained": "openai"
+    },
+    "device": "cpu",
+    "text_embeddings": "saved text_embeddings_ensemble80.npz (sha256 87a6759b08a396e2\u2026)",
+    "validation": {
+      "clusters_checked": 63,
+      "max_abs_diff_discovery_aggregate_A": 2.086162567138672e-07,
+      "max_abs_diff_dev_calib_max_mean_sim": 2.980232239324643e-07,
+      "dev_calib_group_label_mismatches": 0,
+      "passed": true
+    }
+  },
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ],
+  "validation": {
+    "unique_samples": true,
+    "groups_disjoint": true,
+    "files_match_source_bytes": true,
+    "correctness_matches_mapping": true,
+    "group_matches_correctness": true,
+    "similarity_rows_match": true,
+    "every_example_in_its_cluster_context": true,
+    "matrices_have_row_and_column_ids": true,
+    "labels_agree_with_image_folders": true,
+    "passed": true
+  },
+  "archive": "/Users/eylul/generalized-category-discovery/experiments/cub/grounding/seed0_known_c0/vitb32_831109500c95/diagnostics/clustering_examples.zip"
+}

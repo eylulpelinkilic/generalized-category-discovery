@@ -1,0 +1,16 @@
+population,class_id,class_name,count,label_permission
+discovery,57,Yellow breasted Chat,12,evaluation_only
+discovery,153,Great Crested Flycatcher,1,evaluation_only
+discovery,149,Blue headed Vireo,1,evaluation_only
+discovery,126,Yellow throated Vireo,1,evaluation_only
+discovery,118,Blue winged Warbler,1,evaluation_only
+discovery,148,Myrtle Warbler,1,evaluation_only
+anchor,57,Yellow breasted Chat,15,labelled_anchor
+dev,57,Yellow breasted Chat,12,heldout_dev_calib
+dev,71,Tropical Kingbird,1,heldout_dev_calib
+dev,84,Canada Warbler,1,heldout_dev_calib
+dev,54,Orange crowned Warbler,1,heldout_dev_calib
+calib,57,Yellow breasted Chat,11,heldout_dev_calib
+calib,67,Scott Oriole,2,heldout_dev_calib
+calib,71,Tropical Kingbird,1,heldout_dev_calib
+calib,12,Hooded Oriole,1,heldout_dev_calib

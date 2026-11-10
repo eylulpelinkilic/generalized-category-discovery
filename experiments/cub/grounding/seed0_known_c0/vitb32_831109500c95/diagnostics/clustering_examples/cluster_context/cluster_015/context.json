@@ -1,0 +1,43 @@
+{
+  "cluster_id": 15,
+  "n_members": {
+    "discovery": 15,
+    "anchor": 15,
+    "dev": 13,
+    "calib": 12
+  },
+  "mapped_class_id_dev": 15,
+  "discovery_mean_norm": 0.9226308465003967,
+  "semantic_prediction_discovery": {
+    "class_id": 15,
+    "name": "Brown Pelican",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 15,
+    "name": "Brown Pelican"
+  },
+  "dominant_class_discovery_evaluation_only": 15,
+  "purity_discovery_evaluation_only": 0.9333333333333333,
+  "dominant_class_dev": 15,
+  "purity_dev": 1.0,
+  "heatmap_displayed_columns": [
+    15,
+    191,
+    138,
+    112,
+    38,
+    172,
+    163,
+    176,
+    111,
+    105,
+    40,
+    165
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

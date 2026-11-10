@@ -1,0 +1,8 @@
+population,class_id,class_name,count,label_permission
+discovery,172,Laysan Albatross,5,evaluation_only
+discovery,161,Sooty Albatross,5,evaluation_only
+discovery,46,Black footed Albatross,1,evaluation_only
+discovery,137,Red legged Kittiwake,1,evaluation_only
+dev,46,Black footed Albatross,2,heldout_dev_calib
+dev,41,Northern Fulmar,1,heldout_dev_calib
+calib,41,Northern Fulmar,1,heldout_dev_calib

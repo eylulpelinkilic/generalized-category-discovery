@@ -1,0 +1,6 @@
+population,class_id,class_name,count,label_permission
+discovery,181,Parakeet Auklet,22,evaluation_only
+discovery,173,Pigeon Guillemot,2,evaluation_only
+discovery,179,Crested Auklet,1,evaluation_only
+dev,87,Rhinoceros Auklet,1,heldout_dev_calib
+calib,26,Least Auklet,1,heldout_dev_calib

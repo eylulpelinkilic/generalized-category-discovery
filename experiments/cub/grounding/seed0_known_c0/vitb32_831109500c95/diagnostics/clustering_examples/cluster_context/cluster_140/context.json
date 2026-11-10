@@ -1,0 +1,45 @@
+{
+  "cluster_id": 140,
+  "n_members": {
+    "discovery": 12,
+    "anchor": 0,
+    "dev": 4,
+    "calib": 4
+  },
+  "mapped_class_id_dev": 140,
+  "discovery_mean_norm": 0.9157118201255798,
+  "semantic_prediction_discovery": {
+    "class_id": 128,
+    "name": "Acadian Flycatcher",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 86,
+    "name": "Swainson Warbler"
+  },
+  "dominant_class_discovery_evaluation_only": 150,
+  "purity_discovery_evaluation_only": 0.3333333333333333,
+  "dominant_class_dev": 86,
+  "purity_dev": 0.5,
+  "heatmap_displayed_columns": [
+    128,
+    3,
+    150,
+    170,
+    33,
+    54,
+    4,
+    126,
+    175,
+    76,
+    143,
+    86,
+    19,
+    140
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

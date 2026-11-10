@@ -1,0 +1,22 @@
+{
+  "criterion": "dev AURC (mean over vocabulary sizes of mean over shared episodes)",
+  "prompt_strategy": "ensemble80",
+  "prompt_criterion": {
+    "single": 0.43939959950687923,
+    "ensemble80": 0.4334002362801791
+  },
+  "method_for_prompt_choice": "max_mean_sim",
+  "T_dev": 0.02,
+  "temperature_criterion": {
+    "0.005": 0.4448624313175234,
+    "0.01": 0.431796743492486,
+    "0.02": 0.4233902353963753,
+    "0.05": 0.43157818357330074,
+    "0.1": 0.4405919168643112,
+    "0.5": 0.45140852079941035,
+    "1.0": 0.4524716204970267
+  },
+  "pilot_T": 0.01,
+  "mcm_T": 1.0,
+  "labels_used": "labels_heldout.csv, heldout_dev rows only"
+}

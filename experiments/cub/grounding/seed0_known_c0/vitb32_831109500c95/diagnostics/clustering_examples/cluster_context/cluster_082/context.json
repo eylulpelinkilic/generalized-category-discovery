@@ -1,0 +1,44 @@
+{
+  "cluster_id": 82,
+  "n_members": {
+    "discovery": 58,
+    "anchor": 13,
+    "dev": 15,
+    "calib": 14
+  },
+  "mapped_class_id_dev": 82,
+  "discovery_mean_norm": 0.9243654012680054,
+  "semantic_prediction_discovery": {
+    "class_id": 106,
+    "name": "Caspian Tern",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 82,
+    "name": "Elegant Tern"
+  },
+  "dominant_class_discovery_evaluation_only": 106,
+  "purity_discovery_evaluation_only": 0.22413793103448276,
+  "dominant_class_dev": 82,
+  "purity_dev": 0.4666666666666667,
+  "heatmap_displayed_columns": [
+    106,
+    45,
+    113,
+    82,
+    108,
+    88,
+    1,
+    52,
+    137,
+    111,
+    110,
+    105,
+    89
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

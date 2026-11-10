@@ -1,0 +1,10 @@
+population,class_id,class_name,count,label_permission
+discovery,35,Red breasted Merganser,10,evaluation_only
+discovery,173,Pigeon Guillemot,2,evaluation_only
+discovery,90,Horned Grebe,1,evaluation_only
+discovery,73,Hooded Merganser,1,evaluation_only
+anchor,35,Red breasted Merganser,17,labelled_anchor
+dev,35,Red breasted Merganser,14,heldout_dev_calib
+dev,90,Horned Grebe,1,heldout_dev_calib
+dev,73,Hooded Merganser,1,heldout_dev_calib
+calib,35,Red breasted Merganser,13,heldout_dev_calib

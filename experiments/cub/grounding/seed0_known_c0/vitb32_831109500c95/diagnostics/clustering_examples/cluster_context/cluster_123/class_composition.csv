@@ -1,0 +1,5 @@
+population,class_id,class_name,count,label_permission
+discovery,142,Downy Woodpecker,25,evaluation_only
+discovery,79,American Three toed Woodpecker,1,evaluation_only
+dev,56,Red cockaded Woodpecker,2,heldout_dev_calib
+dev,11,White breasted Nuthatch,1,heldout_dev_calib

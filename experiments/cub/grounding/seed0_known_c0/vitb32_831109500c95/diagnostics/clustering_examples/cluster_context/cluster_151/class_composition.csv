@@ -1,0 +1,5 @@
+population,class_id,class_name,count,label_permission
+discovery,194,Vermilion Flycatcher,26,evaluation_only
+discovery,199,Scarlet Tanager,1,evaluation_only
+dev,64,Baltimore Oriole,1,heldout_dev_calib
+dev,47,Prothonotary Warbler,1,heldout_dev_calib

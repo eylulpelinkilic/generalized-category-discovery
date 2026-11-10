@@ -1,0 +1,8 @@
+population,class_id,class_name,count,label_permission
+discovery,83,Barn Swallow,7,evaluation_only
+discovery,99,Cliff Swallow,4,evaluation_only
+anchor,83,Barn Swallow,16,labelled_anchor
+dev,83,Barn Swallow,10,heldout_dev_calib
+dev,99,Cliff Swallow,3,heldout_dev_calib
+calib,83,Barn Swallow,8,heldout_dev_calib
+calib,99,Cliff Swallow,1,heldout_dev_calib

@@ -1,0 +1,28 @@
+population,class_id,class_name,count,label_permission
+discovery,140,Red eyed Vireo,21,evaluation_only
+discovery,134,Philadelphia Vireo,18,evaluation_only
+discovery,51,Warbling Vireo,8,evaluation_only
+discovery,149,Blue headed Vireo,7,evaluation_only
+discovery,143,White eyed Vireo,4,evaluation_only
+discovery,3,Tennessee Warbler,4,evaluation_only
+discovery,159,Chestnut sided Warbler,3,evaluation_only
+discovery,115,Yellow billed Cuckoo,1,evaluation_only
+discovery,128,Acadian Flycatcher,1,evaluation_only
+discovery,33,Yellow bellied Flycatcher,1,evaluation_only
+discovery,132,Mockingbird,1,evaluation_only
+discovery,6,Tree Sparrow,1,evaluation_only
+discovery,29,Cerulean Warbler,1,evaluation_only
+discovery,175,Golden winged Warbler,1,evaluation_only
+discovery,170,Palm Warbler,1,evaluation_only
+discovery,135,House Wren,1,evaluation_only
+anchor,51,Warbling Vireo,19,labelled_anchor
+dev,51,Warbling Vireo,11,heldout_dev_calib
+dev,3,Tennessee Warbler,2,heldout_dev_calib
+dev,50,Least Flycatcher,1,heldout_dev_calib
+dev,33,Yellow bellied Flycatcher,1,heldout_dev_calib
+dev,84,Canada Warbler,1,heldout_dev_calib
+dev,86,Swainson Warbler,1,heldout_dev_calib
+calib,51,Warbling Vireo,15,heldout_dev_calib
+calib,3,Tennessee Warbler,3,heldout_dev_calib
+calib,54,Orange crowned Warbler,2,heldout_dev_calib
+calib,86,Swainson Warbler,2,heldout_dev_calib

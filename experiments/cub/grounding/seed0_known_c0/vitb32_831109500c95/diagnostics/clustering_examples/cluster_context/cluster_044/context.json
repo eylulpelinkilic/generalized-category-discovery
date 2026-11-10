@@ -1,0 +1,45 @@
+{
+  "cluster_id": 44,
+  "n_members": {
+    "discovery": 65,
+    "anchor": 17,
+    "dev": 15,
+    "calib": 18
+  },
+  "mapped_class_id_dev": 44,
+  "discovery_mean_norm": 0.8869213461875916,
+  "semantic_prediction_discovery": {
+    "class_id": 16,
+    "name": "Sage Thrasher",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 44,
+    "name": "Cactus Wren"
+  },
+  "dominant_class_discovery_evaluation_only": 177,
+  "purity_discovery_evaluation_only": 0.4461538461538462,
+  "dominant_class_dev": 44,
+  "purity_dev": 0.9333333333333333,
+  "heatmap_displayed_columns": [
+    16,
+    44,
+    187,
+    25,
+    66,
+    77,
+    13,
+    171,
+    152,
+    139,
+    127,
+    80,
+    40,
+    177
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

@@ -1,0 +1,13 @@
+population,class_id,class_name,count,label_permission
+discovery,52,Black Tern,9,evaluation_only
+discovery,85,Slaty backed Gull,3,evaluation_only
+discovery,112,Pelagic Cormorant,1,evaluation_only
+discovery,107,Bronzed Cowbird,1,evaluation_only
+discovery,192,European Goldfinch,1,evaluation_only
+discovery,173,Pigeon Guillemot,1,evaluation_only
+discovery,89,Herring Gull,1,evaluation_only
+discovery,109,Ring billed Gull,1,evaluation_only
+anchor,52,Black Tern,15,labelled_anchor
+dev,52,Black Tern,7,heldout_dev_calib
+dev,85,Slaty backed Gull,1,heldout_dev_calib
+calib,52,Black Tern,4,heldout_dev_calib

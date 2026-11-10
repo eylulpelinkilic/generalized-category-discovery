@@ -1,0 +1,12 @@
+population,class_id,class_name,count,label_permission
+discovery,39,Boat tailed Grackle,9,evaluation_only
+discovery,158,Rusty Blackbird,8,evaluation_only
+discovery,103,Brewer Blackbird,3,evaluation_only
+discovery,100,Fish Crow,3,evaluation_only
+discovery,10,Shiny Cowbird,1,evaluation_only
+discovery,195,Mallard,1,evaluation_only
+anchor,39,Boat tailed Grackle,16,labelled_anchor
+dev,39,Boat tailed Grackle,3,heldout_dev_calib
+dev,10,Shiny Cowbird,2,heldout_dev_calib
+calib,39,Boat tailed Grackle,8,heldout_dev_calib
+calib,10,Shiny Cowbird,1,heldout_dev_calib

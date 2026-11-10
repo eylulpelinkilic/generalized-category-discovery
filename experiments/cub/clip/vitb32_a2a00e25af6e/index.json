@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "model": {
+      "open_clip_name": "ViT-B-32-quickgelu",
+      "pretrained": "openai"
+    },
+    "activations": [
+      "QuickGELU"
+    ],
+    "preprocess": {
+      "resize": 224,
+      "interpolation": "InterpolationMode.BICUBIC",
+      "mean": [
+        0.48145466,
+        0.4578275,
+        0.40821073
+      ],
+      "std": [
+        0.26862954,
+        0.26130258,
+        0.27577711
+      ],
+      "transforms": [
+        "Resize",
+        "CenterCrop",
+        "MaybeConvertMode",
+        "MaybeToTensor",
+        "Normalize"
+      ]
+    },
+    "open_clip_version": "3.3.0",
+    "dtype": "float32",
+    "normalised": true,
+    "checkpoint": {
+      "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+      "hf_hub": "timm/vit_base_patch32_clip_224.openai/"
+    }
+  },
+  "identity_hash": "612879b237b9",
+  "model_description": {
+    "open_clip_version": "3.3.0",
+    "open_clip_name": "ViT-B-32-quickgelu",
+    "pretrained": "openai",
+    "activations": [
+      "QuickGELU"
+    ],
+    "embed_dim": 512,
+    "image_size": [
+      224,
+      224
+    ],
+    "context_length": 77,
+    "vocab_size": 49408,
+    "preprocess": {
+      "resize": 224,
+      "interpolation": "InterpolationMode.BICUBIC",
+      "mean": [
+        0.48145466,
+        0.4578275,
+        0.40821073
+      ],
+      "std": [
+        0.26862954,
+        0.26130258,
+        0.27577711
+      ],
+      "transforms": [
+        "Resize",
+        "CenterCrop",
+        "MaybeConvertMode",
+        "MaybeToTensor",
+        "Normalize"
+      ]
+    },
+    "training_mode": false,
+    "dtype": "torch.float32",
+    "pretrained_source": {
+      "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+      "hf_hub": "timm/vit_base_patch32_clip_224.openai/"
+    },
+    "checks": {
+      "quick_gelu": true,
+      "openai_normalisation": true,
+      "eval_mode": true,
+      "context_length_77": true
+    }
+  },
+  "n_images": 8878,
+  "shard_size": 4096,
+  "n_shards": 3,
+  "manifest_sha256": "0c7be4f50dee1407d3bc2e6997bd1d35693ed012529e2bc35095e688fbfeeb50"
+}

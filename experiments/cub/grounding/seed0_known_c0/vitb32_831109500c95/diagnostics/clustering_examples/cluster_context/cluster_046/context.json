@@ -1,0 +1,43 @@
+{
+  "cluster_id": 46,
+  "n_members": {
+    "discovery": 38,
+    "anchor": 16,
+    "dev": 14,
+    "calib": 16
+  },
+  "mapped_class_id_dev": 46,
+  "discovery_mean_norm": 0.9114857316017151,
+  "semantic_prediction_discovery": {
+    "class_id": 46,
+    "name": "Black footed Albatross",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 46,
+    "name": "Black footed Albatross"
+  },
+  "dominant_class_discovery_evaluation_only": 46,
+  "purity_discovery_evaluation_only": 0.3157894736842105,
+  "dominant_class_dev": 46,
+  "purity_dev": 0.7142857142857143,
+  "heatmap_displayed_columns": [
+    46,
+    161,
+    172,
+    41,
+    125,
+    173,
+    181,
+    1,
+    112,
+    111,
+    26,
+    87
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

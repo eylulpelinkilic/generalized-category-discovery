@@ -1,0 +1,8 @@
+population,class_id,class_name,count,label_permission
+discovery,169,Black throated Blue Warbler,13,evaluation_only
+discovery,29,Cerulean Warbler,12,evaluation_only
+discovery,149,Blue headed Vireo,1,evaluation_only
+anchor,29,Cerulean Warbler,14,labelled_anchor
+dev,29,Cerulean Warbler,14,heldout_dev_calib
+calib,29,Cerulean Warbler,13,heldout_dev_calib
+calib,11,White breasted Nuthatch,1,heldout_dev_calib

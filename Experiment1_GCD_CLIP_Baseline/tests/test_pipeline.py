@@ -109,6 +109,35 @@ class TestPipeline(unittest.TestCase):
                 np.testing.assert_allclose(agg["A"][k], R[disc].mean(0), atol=1e-6)
                 self.assertEqual(agg["n_members"][k], len(disc))
 
+    def test_diagnostic_export_saved_and_recomputed_similarities(self):
+        import json
+
+        from e1.diagnostics_export import export
+
+        kw = dict(population="dev", n=3, seed=42, image_root=str(self.layout.base / "images"), allow_synthetic=True)
+        out = export(self.cfg, 0, "known", 0, "vitb32", **kw)
+        s = json.loads((out / "export_summary.json").read_text())
+        self.assertTrue(s["validation"]["passed"], s["validation"])
+        self.assertTrue(s["similarities"]["source"].startswith("saved"))
+        ex = pd.read_csv(out / "examples.csv")
+        self.assertEqual(len(ex), s["selected"]["incorrect"] + s["selected"]["correct"])
+        self.assertEqual(s["selected"]["shortfall"]["incorrect"], max(0, 3 - s["eligible"]["incorrect"]))
+        for d in ex["cluster_context_dir"]:
+            self.assertTrue((out / d / "similarity_matrix.npz").exists() and (out / d / "heatmap.png").exists())
+        strategy = json.loads((self.gdir / "selection.json").read_text())["prompt_strategy"]
+        saved = self.gdir / f"R_{strategy}.npy"
+        moved = saved.with_suffix(".bak")
+        saved.rename(moved)
+        try:
+            out2 = export(self.cfg, 0, "known", 0, "vitb32", **kw)
+            s2 = json.loads((out2 / "export_summary.json").read_text())
+            self.assertTrue(s2["similarities"]["source"].startswith("recomputed"))
+            self.assertTrue(s2["similarities"]["validation"]["passed"], s2["similarities"]["validation"])
+            pd.testing.assert_frame_equal(ex.drop(columns=["clip_image_pred_score"]),
+                                          pd.read_csv(out2 / "examples.csv").drop(columns=["clip_image_pred_score"]))
+        finally:
+            moved.rename(saved)
+
     def test_permuting_evaluation_labels_leaves_predictions_unchanged(self):
         before = pd.read_csv(self.gdir / "cluster_predictions.csv.gz")
         path = self.layout.data / "labels_eval.csv"

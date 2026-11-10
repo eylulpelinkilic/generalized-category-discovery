@@ -1,0 +1,6 @@
+population,class_id,class_name,count,label_permission
+discovery,64,Baltimore Oriole,12,evaluation_only
+anchor,64,Baltimore Oriole,16,labelled_anchor
+dev,64,Baltimore Oriole,12,heldout_dev_calib
+calib,64,Baltimore Oriole,11,heldout_dev_calib
+calib,12,Hooded Oriole,2,heldout_dev_calib

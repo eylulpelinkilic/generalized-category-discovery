@@ -1,0 +1,14 @@
+population,class_id,class_name,count,label_permission
+discovery,41,Northern Fulmar,7,evaluation_only
+discovery,137,Red legged Kittiwake,6,evaluation_only
+discovery,172,Laysan Albatross,3,evaluation_only
+discovery,161,Sooty Albatross,1,evaluation_only
+discovery,110,Glaucous winged Gull,1,evaluation_only
+discovery,165,Heermann Gull,1,evaluation_only
+discovery,109,Ring billed Gull,1,evaluation_only
+discovery,52,Black Tern,1,evaluation_only
+anchor,41,Northern Fulmar,18,labelled_anchor
+dev,41,Northern Fulmar,6,heldout_dev_calib
+dev,85,Slaty backed Gull,2,heldout_dev_calib
+calib,41,Northern Fulmar,9,heldout_dev_calib
+calib,89,Herring Gull,1,heldout_dev_calib

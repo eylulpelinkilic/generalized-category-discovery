@@ -1,0 +1,17 @@
+sample_id,population,is_anchor,sq_dist_to_centre,class_id,class_name,label_permission,selected_group
+cub:109,discovery,False,0.27662718,172,Laysan Albatross,evaluation_only,
+cub:113,discovery,False,0.33773565,172,Laysan Albatross,evaluation_only,
+cub:123,discovery,False,0.349998,161,Sooty Albatross,evaluation_only,
+cub:125,discovery,False,0.46504462,161,Sooty Albatross,evaluation_only,
+cub:140,discovery,False,0.36060822,161,Sooty Albatross,evaluation_only,
+cub:141,discovery,False,0.65245235,161,Sooty Albatross,evaluation_only,
+cub:164,discovery,False,0.3437872,161,Sooty Albatross,evaluation_only,
+cub:4887,discovery,False,0.6439645,137,Red legged Kittiwake,evaluation_only,
+cub:7,discovery,False,0.3146088,46,Black footed Albatross,evaluation_only,
+cub:75,discovery,False,0.2827264,172,Laysan Albatross,evaluation_only,
+cub:77,discovery,False,0.5798837,172,Laysan Albatross,evaluation_only,
+cub:89,discovery,False,0.23791564,172,Laysan Albatross,evaluation_only,
+cub:1,dev,False,0.3049512,46,Black footed Albatross,heldout_dev_calib,incorrect
+cub:13,dev,False,0.8781426,46,Black footed Albatross,heldout_dev_calib,
+cub:2570,dev,False,0.5138345,41,Northern Fulmar,heldout_dev_calib,
+cub:2547,calib,False,0.38457882,41,Northern Fulmar,heldout_dev_calib,

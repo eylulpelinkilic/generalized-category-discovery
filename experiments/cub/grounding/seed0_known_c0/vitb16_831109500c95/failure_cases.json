@@ -1,0 +1,210 @@
+{
+  "method": "max_mean_sim",
+  "threshold": "tau_e2e",
+  "impure_clusters": [
+    {
+      "cluster_id": 190,
+      "score": 0.31246551871299744,
+      "predicted": "Acadian Flycatcher",
+      "composition_top3": "Rusty Blackbird:2; Great Crested Flycatcher:2; Chipping Sparrow:2",
+      "purity": 0.07407407407407407,
+      "n": 27
+    },
+    {
+      "cluster_id": 160,
+      "score": 0.29819798469543457,
+      "predicted": "Pomarine Jaeger",
+      "composition_top3": "Pelagic Cormorant:1; American Crow:1; Long tailed Jaeger:1",
+      "purity": 0.08333333333333333,
+      "n": 12
+    },
+    {
+      "cluster_id": 199,
+      "score": 0.2871769070625305,
+      "predicted": "Red breasted Merganser",
+      "composition_top3": "Gadwall:3; Pigeon Guillemot:2; Red breasted Merganser:2",
+      "purity": 0.17647058823529413,
+      "n": 17
+    },
+    {
+      "cluster_id": 50,
+      "score": 0.34547337889671326,
+      "predicted": "Acadian Flycatcher",
+      "composition_top3": "Acadian Flycatcher:12; Great Crested Flycatcher:10; Western Wood Pewee:9",
+      "purity": 0.1875,
+      "n": 64
+    },
+    {
+      "cluster_id": 3,
+      "score": 0.34360456466674805,
+      "predicted": "Yellow throated Vireo",
+      "composition_top3": "Tennessee Warbler:10; White eyed Vireo:8; Philadelphia Vireo:4",
+      "purity": 0.20408163265306123,
+      "n": 49
+    },
+    {
+      "cluster_id": 89,
+      "score": 0.3535970449447632,
+      "predicted": "California Gull",
+      "composition_top3": "Heermann Gull:26; Glaucous winged Gull:25; Ring billed Gull:24",
+      "purity": 0.21311475409836064,
+      "n": 122
+    },
+    {
+      "cluster_id": 112,
+      "score": 0.33925577998161316,
+      "predicted": "Clay colored Sparrow",
+      "composition_top3": "Field Sparrow:9; Brewer Sparrow:8; Chipping Sparrow:7",
+      "purity": 0.21951219512195122,
+      "n": 41
+    },
+    {
+      "cluster_id": 82,
+      "score": 0.3381502628326416,
+      "predicted": "Artic Tern",
+      "composition_top3": "Caspian Tern:13; Elegant Tern:10; Forsters Tern:8",
+      "purity": 0.22413793103448276,
+      "n": 58
+    }
+  ],
+  "confident_wrong_labels": [
+    {
+      "cluster_id": 148,
+      "score": 0.382647305727005,
+      "predicted": "Horned Grebe",
+      "composition_top3": "Eared Grebe:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 181,
+      "score": 0.3765909671783447,
+      "predicted": "California Gull",
+      "composition_top3": "Heermann Gull:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 153,
+      "score": 0.3756777048110962,
+      "predicted": "Bay breasted Warbler",
+      "composition_top3": "Red eyed Vireo:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 101,
+      "score": 0.37181276082992554,
+      "predicted": "Carolina Wren",
+      "composition_top3": "Field Sparrow:1; Carolina Wren:1",
+      "purity": 0.5,
+      "n": 2
+    },
+    {
+      "cluster_id": 193,
+      "score": 0.36664795875549316,
+      "predicted": "White eyed Vireo",
+      "composition_top3": "Philadelphia Vireo:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 179,
+      "score": 0.3602842092514038,
+      "predicted": "Yellow billed Cuckoo",
+      "composition_top3": "Black billed Cuckoo:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 81,
+      "score": 0.35795554518699646,
+      "predicted": "Eared Grebe",
+      "composition_top3": "Pied billed Grebe:17; Eared Grebe:5; Brandt Cormorant:1",
+      "purity": 0.7083333333333334,
+      "n": 24
+    },
+    {
+      "cluster_id": 127,
+      "score": 0.356995552778244,
+      "predicted": "Olive sided Flycatcher",
+      "composition_top3": "Least Flycatcher:1",
+      "purity": 1.0,
+      "n": 1
+    }
+  ],
+  "absent_label_replaced_and_accepted": [
+    {
+      "episode_id": "shared_150_s1",
+      "cluster_id": 148,
+      "score": 0.382647305727005,
+      "true_dominant": "Eared Grebe",
+      "predicted": "Horned Grebe",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_100_s4",
+      "cluster_id": 148,
+      "score": 0.382647305727005,
+      "true_dominant": "Eared Grebe",
+      "predicted": "Horned Grebe",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_50_s0",
+      "cluster_id": 148,
+      "score": 0.382647305727005,
+      "true_dominant": "Eared Grebe",
+      "predicted": "Horned Grebe",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_20_s1",
+      "cluster_id": 148,
+      "score": 0.382647305727005,
+      "true_dominant": "Eared Grebe",
+      "predicted": "Horned Grebe",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_50_s1",
+      "cluster_id": 181,
+      "score": 0.3765909671783447,
+      "true_dominant": "Heermann Gull",
+      "predicted": "California Gull",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_20_s3",
+      "cluster_id": 181,
+      "score": 0.3765909671783447,
+      "true_dominant": "Heermann Gull",
+      "predicted": "California Gull",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_150_s1",
+      "cluster_id": 153,
+      "score": 0.3756777048110962,
+      "true_dominant": "Red eyed Vireo",
+      "predicted": "Bay breasted Warbler",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_150_s2",
+      "cluster_id": 153,
+      "score": 0.3756777048110962,
+      "true_dominant": "Red eyed Vireo",
+      "predicted": "Bay breasted Warbler",
+      "purity": 1.0,
+      "n": 1
+    }
+  ]
+}

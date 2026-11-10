@@ -1,0 +1,44 @@
+{
+  "cluster_id": 66,
+  "n_members": {
+    "discovery": 19,
+    "anchor": 20,
+    "dev": 14,
+    "calib": 14
+  },
+  "mapped_class_id_dev": 66,
+  "discovery_mean_norm": 0.8904787302017212,
+  "semantic_prediction_discovery": {
+    "class_id": 66,
+    "name": "Rock Wren",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 66,
+    "name": "Rock Wren"
+  },
+  "dominant_class_discovery_evaluation_only": 66,
+  "purity_discovery_evaluation_only": 0.47368421052631576,
+  "dominant_class_dev": 66,
+  "purity_dev": 0.9285714285714286,
+  "heatmap_displayed_columns": [
+    66,
+    16,
+    139,
+    127,
+    44,
+    152,
+    132,
+    21,
+    50,
+    116,
+    135,
+    128,
+    70
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

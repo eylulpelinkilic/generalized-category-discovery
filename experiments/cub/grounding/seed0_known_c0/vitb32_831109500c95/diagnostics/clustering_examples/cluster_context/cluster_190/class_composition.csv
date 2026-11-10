@@ -1,0 +1,39 @@
+population,class_id,class_name,count,label_permission
+discovery,158,Rusty Blackbird,2,evaluation_only
+discovery,153,Great Crested Flycatcher,2,evaluation_only
+discovery,122,Chipping Sparrow,2,evaluation_only
+discovery,7,Green tailed Towhee,2,evaluation_only
+discovery,149,Blue headed Vireo,2,evaluation_only
+discovery,140,Red eyed Vireo,2,evaluation_only
+discovery,143,White eyed Vireo,2,evaluation_only
+discovery,148,Myrtle Warbler,2,evaluation_only
+discovery,178,Lazuli Bunting,1,evaluation_only
+discovery,116,Brewer Sparrow,1,evaluation_only
+discovery,124,House Sparrow,1,evaluation_only
+discovery,0,Black capped Vireo,1,evaluation_only
+discovery,134,Philadelphia Vireo,1,evaluation_only
+discovery,126,Yellow throated Vireo,1,evaluation_only
+discovery,118,Blue winged Warbler,1,evaluation_only
+discovery,159,Chestnut sided Warbler,1,evaluation_only
+discovery,54,Orange crowned Warbler,1,evaluation_only
+discovery,167,Cedar Waxwing,1,evaluation_only
+discovery,139,Bewick Wren,1,evaluation_only
+dev,0,Black capped Vireo,2,heldout_dev_calib
+dev,94,Olive sided Flycatcher,1,heldout_dev_calib
+dev,36,Gray Kingbird,1,heldout_dev_calib
+dev,22,Clay colored Sparrow,1,heldout_dev_calib
+dev,13,Harris Sparrow,1,heldout_dev_calib
+dev,5,White crowned Sparrow,1,heldout_dev_calib
+dev,69,Tree Swallow,1,heldout_dev_calib
+dev,7,Green tailed Towhee,1,heldout_dev_calib
+dev,51,Warbling Vireo,1,heldout_dev_calib
+dev,3,Tennessee Warbler,1,heldout_dev_calib
+calib,94,Olive sided Flycatcher,2,heldout_dev_calib
+calib,74,Scissor tailed Flycatcher,2,heldout_dev_calib
+calib,34,Blue Grosbeak,1,heldout_dev_calib
+calib,37,Pine Grosbeak,1,heldout_dev_calib
+calib,13,Harris Sparrow,1,heldout_dev_calib
+calib,5,White crowned Sparrow,1,heldout_dev_calib
+calib,8,Bank Swallow,1,heldout_dev_calib
+calib,76,Nashville Warbler,1,heldout_dev_calib
+calib,3,Tennessee Warbler,1,heldout_dev_calib

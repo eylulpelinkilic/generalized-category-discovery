@@ -1,0 +1,13 @@
+population,class_id,class_name,count,label_permission
+discovery,150,Mourning Warbler,4,evaluation_only
+discovery,134,Philadelphia Vireo,3,evaluation_only
+discovery,86,Swainson Warbler,2,evaluation_only
+discovery,94,Olive sided Flycatcher,1,evaluation_only
+discovery,17,Kentucky Warbler,1,evaluation_only
+discovery,180,Worm eating Warbler,1,evaluation_only
+dev,86,Swainson Warbler,2,heldout_dev_calib
+dev,19,Mangrove Cuckoo,1,heldout_dev_calib
+dev,3,Tennessee Warbler,1,heldout_dev_calib
+calib,86,Swainson Warbler,2,heldout_dev_calib
+calib,83,Barn Swallow,1,heldout_dev_calib
+calib,84,Canada Warbler,1,heldout_dev_calib

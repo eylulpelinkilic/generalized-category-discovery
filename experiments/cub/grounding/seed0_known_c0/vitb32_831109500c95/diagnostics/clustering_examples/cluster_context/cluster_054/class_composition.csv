@@ -1,0 +1,21 @@
+population,class_id,class_name,count,label_permission
+discovery,54,Orange crowned Warbler,13,evaluation_only
+discovery,76,Nashville Warbler,6,evaluation_only
+discovery,196,Cardinal,3,evaluation_only
+discovery,170,Palm Warbler,3,evaluation_only
+discovery,171,Brown Thrasher,1,evaluation_only
+discovery,134,Philadelphia Vireo,1,evaluation_only
+discovery,150,Mourning Warbler,1,evaluation_only
+discovery,180,Worm eating Warbler,1,evaluation_only
+discovery,4,Common Yellowthroat,1,evaluation_only
+anchor,54,Orange crowned Warbler,13,labelled_anchor
+dev,54,Orange crowned Warbler,9,heldout_dev_calib
+dev,76,Nashville Warbler,3,heldout_dev_calib
+dev,7,Green tailed Towhee,1,heldout_dev_calib
+dev,51,Warbling Vireo,1,heldout_dev_calib
+dev,4,Common Yellowthroat,1,heldout_dev_calib
+calib,54,Orange crowned Warbler,12,heldout_dev_calib
+calib,7,Green tailed Towhee,2,heldout_dev_calib
+calib,49,Painted Bunting,1,heldout_dev_calib
+calib,67,Scott Oriole,1,heldout_dev_calib
+calib,76,Nashville Warbler,1,heldout_dev_calib

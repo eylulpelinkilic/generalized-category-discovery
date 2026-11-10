@@ -1,0 +1,44 @@
+{
+  "cluster_id": 94,
+  "n_members": {
+    "discovery": 37,
+    "anchor": 16,
+    "dev": 14,
+    "calib": 10
+  },
+  "mapped_class_id_dev": 94,
+  "discovery_mean_norm": 0.9151986837387085,
+  "semantic_prediction_discovery": {
+    "class_id": 121,
+    "name": "Western Wood Pewee",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 121,
+    "name": "Western Wood Pewee"
+  },
+  "dominant_class_discovery_evaluation_only": 121,
+  "purity_discovery_evaluation_only": 0.43243243243243246,
+  "dominant_class_dev": 94,
+  "purity_dev": 0.8571428571428571,
+  "heatmap_displayed_columns": [
+    121,
+    94,
+    128,
+    50,
+    36,
+    153,
+    71,
+    16,
+    33,
+    194,
+    132,
+    18,
+    69
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

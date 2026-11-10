@@ -1,0 +1,54 @@
+{
+  "dataset": "cub",
+  "image_root": "/tmp/cub/CUB_200_2011",
+  "counts": {
+    "total_rows": 8878,
+    "labelled": 1498,
+    "unlabelled": 4496,
+    "heldout_dev": 1433,
+    "heldout_calib": 1451,
+    "unlabelled_known": 1499,
+    "unlabelled_novel": 2997,
+    "per_class_train": {
+      "count": 200.0,
+      "mean": 29.97,
+      "std": 0.17,
+      "min": 29.0,
+      "25%": 30.0,
+      "50%": 30.0,
+      "75%": 30.0,
+      "max": 30.0
+    }
+  },
+  "checks": {
+    "duplicate_sample_ids": 0,
+    "duplicate_paths": 0,
+    "membership_values": [
+      "heldout_calib",
+      "heldout_dev",
+      "labelled",
+      "unlabelled"
+    ],
+    "unassigned_heldout": 0,
+    "labelled_rows_in_novel_classes": 0,
+    "heldout_rows_from_train_split": 0,
+    "classes": 200,
+    "class_ids_contiguous": true,
+    "files": {
+      "missing": 0,
+      "missing_examples": [],
+      "image_check": "8878 images decoded",
+      "corrupt": 0,
+      "corrupt_examples": []
+    }
+  },
+  "manifest_sha256": "0c7be4f50dee1407d3bc2e6997bd1d35693ed012529e2bc35095e688fbfeeb50",
+  "label_permissions": {
+    "labels_labelled.csv": "GCD training, SS-k-means anchors, K estimation",
+    "labels_heldout.csv": "grounding development (dev) and calibration (calib)",
+    "labels_eval.csv": "evaluation only"
+  },
+  "source": "/tmp/cub/CUB_200_2011",
+  "heldout_seed": 0,
+  "novel_heldout_images_excluded": 2910
+}

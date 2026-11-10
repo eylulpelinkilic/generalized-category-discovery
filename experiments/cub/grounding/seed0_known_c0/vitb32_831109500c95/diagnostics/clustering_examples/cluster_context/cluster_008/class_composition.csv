@@ -1,0 +1,19 @@
+population,class_id,class_name,count,label_permission
+discovery,8,Bank Swallow,13,evaluation_only
+discovery,83,Barn Swallow,2,evaluation_only
+discovery,99,Cliff Swallow,2,evaluation_only
+discovery,192,European Goldfinch,1,evaluation_only
+discovery,131,Sayornis,1,evaluation_only
+discovery,122,Chipping Sparrow,1,evaluation_only
+anchor,8,Bank Swallow,12,labelled_anchor
+dev,8,Bank Swallow,11,heldout_dev_calib
+dev,99,Cliff Swallow,2,heldout_dev_calib
+dev,94,Olive sided Flycatcher,1,heldout_dev_calib
+dev,83,Barn Swallow,1,heldout_dev_calib
+dev,69,Tree Swallow,1,heldout_dev_calib
+calib,8,Bank Swallow,9,heldout_dev_calib
+calib,36,Gray Kingbird,4,heldout_dev_calib
+calib,94,Olive sided Flycatcher,2,heldout_dev_calib
+calib,19,Mangrove Cuckoo,1,heldout_dev_calib
+calib,83,Barn Swallow,1,heldout_dev_calib
+calib,99,Cliff Swallow,1,heldout_dev_calib

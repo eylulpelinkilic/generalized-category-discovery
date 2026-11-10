@@ -1,0 +1,19 @@
+population,class_id,class_name,count,label_permission
+discovery,125,Pomarine Jaeger,16,evaluation_only
+discovery,172,Laysan Albatross,9,evaluation_only
+discovery,161,Sooty Albatross,6,evaluation_only
+discovery,1,Long tailed Jaeger,5,evaluation_only
+discovery,156,Belted Kingfisher,1,evaluation_only
+discovery,15,Brown Pelican,1,evaluation_only
+dev,1,Long tailed Jaeger,4,heldout_dev_calib
+dev,52,Black Tern,3,heldout_dev_calib
+dev,46,Black footed Albatross,2,heldout_dev_calib
+dev,40,Frigatebird,1,heldout_dev_calib
+dev,41,Northern Fulmar,1,heldout_dev_calib
+dev,15,Brown Pelican,1,heldout_dev_calib
+calib,1,Long tailed Jaeger,6,heldout_dev_calib
+calib,46,Black footed Albatross,2,heldout_dev_calib
+calib,15,Brown Pelican,2,heldout_dev_calib
+calib,41,Northern Fulmar,1,heldout_dev_calib
+calib,89,Herring Gull,1,heldout_dev_calib
+calib,8,Bank Swallow,1,heldout_dev_calib

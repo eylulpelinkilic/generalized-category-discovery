@@ -1,0 +1,44 @@
+{
+  "cluster_id": 151,
+  "n_members": {
+    "discovery": 27,
+    "anchor": 0,
+    "dev": 2,
+    "calib": 0
+  },
+  "mapped_class_id_dev": 151,
+  "discovery_mean_norm": 0.9293869137763977,
+  "semantic_prediction_discovery": {
+    "class_id": 194,
+    "name": "Vermilion Flycatcher",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 47,
+    "name": "Prothonotary Warbler"
+  },
+  "dominant_class_discovery_evaluation_only": 194,
+  "purity_discovery_evaluation_only": 0.9629629629629629,
+  "dominant_class_dev": 64,
+  "purity_dev": 0.5,
+  "heatmap_displayed_columns": [
+    194,
+    199,
+    198,
+    196,
+    37,
+    67,
+    151,
+    64,
+    56,
+    50,
+    183,
+    61,
+    47
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

@@ -33,6 +33,8 @@ def git_state() -> dict:
 
     status = run("status", "--porcelain", "--", "Experiment1_GCD_CLIP_Baseline", "models", "methods",
                  "project_utils", "data")
+    if status:   # bytecode caches are not code changes
+        status = "\n".join(l for l in status.splitlines() if "__pycache__" not in l and not l.endswith(".pyc"))
     return {"commit": run("rev-parse", "HEAD"), "dirty_experiment_files": bool(status),
             "dirty_paths": status.splitlines()[:50] if status else []}
 

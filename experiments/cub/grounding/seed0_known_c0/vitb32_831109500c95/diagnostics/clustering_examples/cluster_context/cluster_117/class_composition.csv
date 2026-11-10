@@ -1,0 +1,5 @@
+population,class_id,class_name,count,label_permission
+discovery,186,American Goldfinch,26,evaluation_only
+discovery,64,Baltimore Oriole,1,evaluation_only
+dev,64,Baltimore Oriole,1,heldout_dev_calib
+dev,27,Wilson Warbler,1,heldout_dev_calib

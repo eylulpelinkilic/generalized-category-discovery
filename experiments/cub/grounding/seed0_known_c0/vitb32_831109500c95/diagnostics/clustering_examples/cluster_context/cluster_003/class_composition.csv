@@ -1,0 +1,25 @@
+population,class_id,class_name,count,label_permission
+discovery,3,Tennessee Warbler,10,evaluation_only
+discovery,143,White eyed Vireo,8,evaluation_only
+discovery,134,Philadelphia Vireo,4,evaluation_only
+discovery,140,Red eyed Vireo,4,evaluation_only
+discovery,149,Blue headed Vireo,3,evaluation_only
+discovery,126,Yellow throated Vireo,3,evaluation_only
+discovery,59,Bay breasted Warbler,3,evaluation_only
+discovery,175,Golden winged Warbler,3,evaluation_only
+discovery,180,Worm eating Warbler,3,evaluation_only
+discovery,159,Chestnut sided Warbler,2,evaluation_only
+discovery,151,Orchard Oriole,1,evaluation_only
+discovery,169,Black throated Blue Warbler,1,evaluation_only
+discovery,118,Blue winged Warbler,1,evaluation_only
+discovery,78,Hooded Warbler,1,evaluation_only
+discovery,150,Mourning Warbler,1,evaluation_only
+discovery,154,Yellow Warbler,1,evaluation_only
+anchor,3,Tennessee Warbler,13,labelled_anchor
+dev,3,Tennessee Warbler,7,heldout_dev_calib
+dev,54,Orange crowned Warbler,2,heldout_dev_calib
+dev,14,Le Conte Sparrow,1,heldout_dev_calib
+dev,51,Warbling Vireo,1,heldout_dev_calib
+calib,3,Tennessee Warbler,8,heldout_dev_calib
+calib,59,Bay breasted Warbler,2,heldout_dev_calib
+calib,7,Green tailed Towhee,1,heldout_dev_calib

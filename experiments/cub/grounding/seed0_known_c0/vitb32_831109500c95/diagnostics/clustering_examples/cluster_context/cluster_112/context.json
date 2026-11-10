@@ -1,0 +1,44 @@
+{
+  "cluster_id": 112,
+  "n_members": {
+    "discovery": 41,
+    "anchor": 0,
+    "dev": 5,
+    "calib": 5
+  },
+  "mapped_class_id_dev": 112,
+  "discovery_mean_norm": 0.9042575359344482,
+  "semantic_prediction_discovery": {
+    "class_id": 120,
+    "name": "Field Sparrow",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 122,
+    "name": "Chipping Sparrow"
+  },
+  "dominant_class_discovery_evaluation_only": 120,
+  "purity_discovery_evaluation_only": 0.21951219512195122,
+  "dominant_class_dev": 22,
+  "purity_dev": 1.0,
+  "heatmap_displayed_columns": [
+    120,
+    127,
+    133,
+    122,
+    116,
+    22,
+    13,
+    14,
+    5,
+    123,
+    114,
+    155,
+    112
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

@@ -1,0 +1,13 @@
+sample_id,population,is_anchor,sq_dist_to_centre,class_id,class_name,label_permission,selected_group
+cub:4554,discovery,False,0.26745927,156,Belted Kingfisher,evaluation_only,
+cub:4567,discovery,False,0.19170117,156,Belted Kingfisher,evaluation_only,
+cub:4569,discovery,False,0.21849334,156,Belted Kingfisher,evaluation_only,
+cub:4792,discovery,False,0.3477217,31,Ringed Kingfisher,evaluation_only,
+cub:4622,dev,False,0.70314646,62,Green Kingfisher,heldout_dev_calib,
+cub:4735,dev,False,0.298131,31,Ringed Kingfisher,heldout_dev_calib,
+cub:4739,dev,False,0.5055381,31,Ringed Kingfisher,heldout_dev_calib,
+cub:4755,dev,False,0.37209225,31,Ringed Kingfisher,heldout_dev_calib,
+cub:4758,dev,False,0.4668709,31,Ringed Kingfisher,heldout_dev_calib,
+cub:4791,dev,False,0.48622096,31,Ringed Kingfisher,heldout_dev_calib,incorrect
+cub:4752,calib,False,0.6533152,31,Ringed Kingfisher,heldout_dev_calib,
+cub:4781,calib,False,0.44247258,31,Ringed Kingfisher,heldout_dev_calib,

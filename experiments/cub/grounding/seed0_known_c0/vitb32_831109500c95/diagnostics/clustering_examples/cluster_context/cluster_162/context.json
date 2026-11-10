@@ -1,0 +1,44 @@
+{
+  "cluster_id": 162,
+  "n_members": {
+    "discovery": 22,
+    "anchor": 0,
+    "dev": 3,
+    "calib": 5
+  },
+  "mapped_class_id_dev": 162,
+  "discovery_mean_norm": 0.9070058465003967,
+  "semantic_prediction_discovery": {
+    "class_id": 65,
+    "name": "Ruby throated Hummingbird",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 65,
+    "name": "Ruby throated Hummingbird"
+  },
+  "dominant_class_discovery_evaluation_only": 147,
+  "purity_discovery_evaluation_only": 0.6363636363636364,
+  "dominant_class_dev": 65,
+  "purity_dev": 0.6666666666666666,
+  "heatmap_displayed_columns": [
+    65,
+    147,
+    183,
+    20,
+    50,
+    121,
+    16,
+    94,
+    128,
+    59,
+    25,
+    57,
+    162
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

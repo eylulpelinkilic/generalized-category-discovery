@@ -1,0 +1,13 @@
+population,class_id,class_name,count,label_permission
+discovery,19,Mangrove Cuckoo,13,evaluation_only
+discovery,115,Yellow billed Cuckoo,11,evaluation_only
+discovery,158,Rusty Blackbird,1,evaluation_only
+discovery,38,Red faced Cormorant,1,evaluation_only
+discovery,63,Black billed Cuckoo,1,evaluation_only
+discovery,146,Florida Jay,1,evaluation_only
+discovery,28,Great Grey Shrike,1,evaluation_only
+anchor,19,Mangrove Cuckoo,17,labelled_anchor
+dev,19,Mangrove Cuckoo,7,heldout_dev_calib
+dev,63,Black billed Cuckoo,2,heldout_dev_calib
+calib,19,Mangrove Cuckoo,10,heldout_dev_calib
+calib,63,Black billed Cuckoo,1,heldout_dev_calib

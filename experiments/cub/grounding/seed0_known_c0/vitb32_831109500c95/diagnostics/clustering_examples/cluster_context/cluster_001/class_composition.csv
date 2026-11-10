@@ -1,0 +1,12 @@
+population,class_id,class_name,count,label_permission
+discovery,161,Sooty Albatross,3,evaluation_only
+discovery,125,Pomarine Jaeger,3,evaluation_only
+discovery,164,Gadwall,2,evaluation_only
+discovery,1,Long tailed Jaeger,2,evaluation_only
+discovery,35,Red breasted Merganser,1,evaluation_only
+discovery,117,White necked Raven,1,evaluation_only
+anchor,1,Long tailed Jaeger,18,labelled_anchor
+dev,1,Long tailed Jaeger,4,heldout_dev_calib
+dev,46,Black footed Albatross,1,heldout_dev_calib
+calib,1,Long tailed Jaeger,4,heldout_dev_calib
+calib,74,Scissor tailed Flycatcher,1,heldout_dev_calib

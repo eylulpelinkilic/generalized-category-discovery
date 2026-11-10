@@ -1,0 +1,43 @@
+{
+  "cluster_id": 12,
+  "n_members": {
+    "discovery": 47,
+    "anchor": 15,
+    "dev": 14,
+    "calib": 9
+  },
+  "mapped_class_id_dev": 12,
+  "discovery_mean_norm": 0.9213817119598389,
+  "semantic_prediction_discovery": {
+    "class_id": 197,
+    "name": "Evening Grosbeak",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 12,
+    "name": "Hooded Oriole"
+  },
+  "dominant_class_discovery_evaluation_only": 197,
+  "purity_discovery_evaluation_only": 0.574468085106383,
+  "dominant_class_dev": 12,
+  "purity_dev": 0.9285714285714286,
+  "heatmap_displayed_columns": [
+    197,
+    12,
+    67,
+    57,
+    151,
+    64,
+    17,
+    186,
+    78,
+    9,
+    175,
+    192
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

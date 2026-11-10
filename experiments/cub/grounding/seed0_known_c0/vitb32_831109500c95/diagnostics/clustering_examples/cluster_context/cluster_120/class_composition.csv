@@ -1,0 +1,12 @@
+population,class_id,class_name,count,label_permission
+discovery,169,Black throated Blue Warbler,3,evaluation_only
+discovery,29,Cerulean Warbler,3,evaluation_only
+discovery,60,Bobolink,1,evaluation_only
+discovery,178,Lazuli Bunting,1,evaluation_only
+discovery,193,Horned Puffin,1,evaluation_only
+discovery,159,Chestnut sided Warbler,1,evaluation_only
+discovery,148,Myrtle Warbler,1,evaluation_only
+dev,0,Black capped Vireo,1,heldout_dev_calib
+dev,29,Cerulean Warbler,1,heldout_dev_calib
+calib,29,Cerulean Warbler,2,heldout_dev_calib
+calib,23,Black and white Warbler,1,heldout_dev_calib

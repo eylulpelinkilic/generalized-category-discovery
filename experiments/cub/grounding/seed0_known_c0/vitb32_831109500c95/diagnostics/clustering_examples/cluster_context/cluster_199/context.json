@@ -1,0 +1,45 @@
+{
+  "cluster_id": 199,
+  "n_members": {
+    "discovery": 17,
+    "anchor": 0,
+    "dev": 3,
+    "calib": 2
+  },
+  "mapped_class_id_dev": 199,
+  "discovery_mean_norm": 0.883301317691803,
+  "semantic_prediction_discovery": {
+    "class_id": 35,
+    "name": "Red breasted Merganser",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 1,
+    "name": "Long tailed Jaeger"
+  },
+  "dominant_class_discovery_evaluation_only": 164,
+  "purity_discovery_evaluation_only": 0.17647058823529413,
+  "dominant_class_dev": 90,
+  "purity_dev": 0.3333333333333333,
+  "heatmap_displayed_columns": [
+    35,
+    163,
+    138,
+    164,
+    112,
+    195,
+    165,
+    176,
+    144,
+    111,
+    125,
+    90,
+    15,
+    199
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

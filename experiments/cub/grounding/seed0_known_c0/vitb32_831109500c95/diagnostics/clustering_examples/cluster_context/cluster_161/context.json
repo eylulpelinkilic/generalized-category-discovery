@@ -1,0 +1,44 @@
+{
+  "cluster_id": 161,
+  "n_members": {
+    "discovery": 4,
+    "anchor": 0,
+    "dev": 6,
+    "calib": 2
+  },
+  "mapped_class_id_dev": 161,
+  "discovery_mean_norm": 0.9561092257499695,
+  "semantic_prediction_discovery": {
+    "class_id": 156,
+    "name": "Belted Kingfisher",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 156,
+    "name": "Belted Kingfisher"
+  },
+  "dominant_class_discovery_evaluation_only": 156,
+  "purity_discovery_evaluation_only": 0.75,
+  "dominant_class_dev": 31,
+  "purity_dev": 0.8333333333333334,
+  "heatmap_displayed_columns": [
+    156,
+    31,
+    93,
+    166,
+    36,
+    8,
+    69,
+    101,
+    52,
+    74,
+    1,
+    11,
+    161
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

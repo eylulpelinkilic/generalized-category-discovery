@@ -1,0 +1,43 @@
+{
+  "cluster_id": 14,
+  "n_members": {
+    "discovery": 70,
+    "anchor": 18,
+    "dev": 13,
+    "calib": 17
+  },
+  "mapped_class_id_dev": 14,
+  "discovery_mean_norm": 0.9103143811225891,
+  "semantic_prediction_discovery": {
+    "class_id": 129,
+    "name": "Henslow Sparrow",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 129,
+    "name": "Henslow Sparrow"
+  },
+  "dominant_class_discovery_evaluation_only": 129,
+  "purity_discovery_evaluation_only": 0.34285714285714286,
+  "dominant_class_dev": 14,
+  "purity_dev": 0.9230769230769231,
+  "heatmap_displayed_columns": [
+    129,
+    14,
+    24,
+    114,
+    127,
+    119,
+    152,
+    133,
+    155,
+    123,
+    60,
+    13
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

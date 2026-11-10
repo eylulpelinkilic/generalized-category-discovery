@@ -1,0 +1,44 @@
+{
+  "cluster_id": 174,
+  "n_members": {
+    "discovery": 25,
+    "anchor": 0,
+    "dev": 1,
+    "calib": 1
+  },
+  "mapped_class_id_dev": 174,
+  "discovery_mean_norm": 0.9114163517951965,
+  "semantic_prediction_discovery": {
+    "class_id": 87,
+    "name": "Rhinoceros Auklet",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 87,
+    "name": "Rhinoceros Auklet"
+  },
+  "dominant_class_discovery_evaluation_only": 181,
+  "purity_discovery_evaluation_only": 0.88,
+  "dominant_class_dev": 87,
+  "purity_dev": 1.0,
+  "heatmap_displayed_columns": [
+    87,
+    26,
+    181,
+    179,
+    173,
+    193,
+    125,
+    38,
+    137,
+    108,
+    161,
+    1,
+    174
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

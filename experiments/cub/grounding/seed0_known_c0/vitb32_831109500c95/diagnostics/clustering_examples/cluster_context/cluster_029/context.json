@@ -1,0 +1,43 @@
+{
+  "cluster_id": 29,
+  "n_members": {
+    "discovery": 26,
+    "anchor": 14,
+    "dev": 14,
+    "calib": 14
+  },
+  "mapped_class_id_dev": 29,
+  "discovery_mean_norm": 0.9153653383255005,
+  "semantic_prediction_discovery": {
+    "class_id": 169,
+    "name": "Black throated Blue Warbler",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 29,
+    "name": "Cerulean Warbler"
+  },
+  "dominant_class_discovery_evaluation_only": 169,
+  "purity_discovery_evaluation_only": 0.5,
+  "dominant_class_dev": 29,
+  "purity_dev": 1.0,
+  "heatmap_displayed_columns": [
+    169,
+    29,
+    149,
+    118,
+    148,
+    23,
+    50,
+    3,
+    180,
+    59,
+    121,
+    0
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

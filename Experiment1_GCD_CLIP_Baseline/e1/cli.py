@@ -118,6 +118,22 @@ def cmd_ground(cfg, args):
     _print({"dir": str(ground.run(cfg, Layout(cfg), args.train_seed, args.k_mode, args.cluster_seed, args.clip))})
 
 
+def cmd_export_diagnostics(cfg, args):
+    from e1.diagnostics_export import export
+
+    out = export(cfg, args.train_seed, args.k_mode, args.cluster_seed, args.clip, population=args.population,
+                 n=args.n, seed=args.seed, image_root=args.image_root, image_cache=args.image_cache)
+    _print(json.loads((out / "export_summary.json").read_text()))
+
+
+def cmd_compare_diagnostics(cfg, args):
+    from e1.diagnostics_compare import compare
+
+    layout = Layout(cfg)
+    d = layout.grounding(args.train_seed, args.k_mode, args.cluster_seed, args.clip) / "diagnostics" / "clustering_examples"
+    _print({"comparison": str(compare(d))})
+
+
 def cmd_report(cfg, args):
     from e1.report import write_report
 
@@ -188,6 +204,24 @@ def main(argv=None):
         q.add_argument("--clip", default=None)
         q.add_argument("--n-images", type=int, default=32)
         q.set_defaults(fn=fn)
+    q = sub.add_parser("export-diagnostics", help="correctly/incorrectly clustered examples with similarity context")
+    seed(q)
+    q.add_argument("--k-mode", choices=["known", "estimated"], default="known")
+    q.add_argument("--cluster-seed", type=int, default=0)
+    q.add_argument("--clip", default=None)
+    q.add_argument("--population", choices=["dev", "calib", "discovery"], default="dev",
+                   help="dev (default) keeps exploratory inspection off the evaluation population")
+    q.add_argument("--n", type=int, default=50, help="images per group")
+    q.add_argument("--seed", type=int, default=42)
+    q.add_argument("--image-root", help="dataset image root; CUB images are fetched from the official archive if omitted")
+    q.add_argument("--image-cache", help="where fetched CUB images are kept (default ~/.cache/e1_cub_images)")
+    q.set_defaults(fn=cmd_export_diagnostics)
+    q = sub.add_parser("compare-diagnostics", help="compare similarity rows of incorrectly vs correctly clustered examples")
+    seed(q)
+    q.add_argument("--k-mode", choices=["known", "estimated"], default="known")
+    q.add_argument("--cluster-seed", type=int, default=0)
+    q.add_argument("--clip", default=None)
+    q.set_defaults(fn=cmd_compare_diagnostics)
     sub.add_parser("report").set_defaults(fn=cmd_report)
     q = sub.add_parser("smoke")
     q.add_argument("--download", default=None)

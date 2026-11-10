@@ -1,0 +1,6 @@
+population,class_id,class_name,count,label_permission
+discovery,60,Bobolink,17,evaluation_only
+discovery,155,Seaside Sparrow,1,evaluation_only
+anchor,60,Bobolink,10,labelled_anchor
+dev,60,Bobolink,13,heldout_dev_calib
+calib,60,Bobolink,13,heldout_dev_calib

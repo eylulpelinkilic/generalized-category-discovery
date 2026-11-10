@@ -1,0 +1,18 @@
+population,class_id,class_name,count,label_permission
+discovery,46,Black footed Albatross,12,evaluation_only
+discovery,161,Sooty Albatross,12,evaluation_only
+discovery,125,Pomarine Jaeger,4,evaluation_only
+discovery,172,Laysan Albatross,3,evaluation_only
+discovery,41,Northern Fulmar,2,evaluation_only
+discovery,179,Crested Auklet,1,evaluation_only
+discovery,40,Frigatebird,1,evaluation_only
+discovery,1,Long tailed Jaeger,1,evaluation_only
+discovery,193,Horned Puffin,1,evaluation_only
+discovery,8,Bank Swallow,1,evaluation_only
+anchor,46,Black footed Albatross,16,labelled_anchor
+dev,46,Black footed Albatross,10,heldout_dev_calib
+dev,41,Northern Fulmar,3,heldout_dev_calib
+dev,1,Long tailed Jaeger,1,heldout_dev_calib
+calib,46,Black footed Albatross,12,heldout_dev_calib
+calib,1,Long tailed Jaeger,3,heldout_dev_calib
+calib,41,Northern Fulmar,1,heldout_dev_calib

@@ -1,0 +1,201 @@
+cluster_id,mapped_class_id,mapped_class_name,support_in_population
+0,0,Black capped Vireo,6
+1,1,Long tailed Jaeger,4
+2,2,Purple Finch,15
+3,3,Tennessee Warbler,7
+4,4,Common Yellowthroat,14
+5,5,White crowned Sparrow,13
+6,6,Tree Sparrow,11
+7,7,Green tailed Towhee,13
+8,8,Bank Swallow,11
+9,9,Yellow headed Blackbird,12
+10,10,Shiny Cowbird,10
+11,11,White breasted Nuthatch,13
+12,12,Hooded Oriole,13
+13,13,Harris Sparrow,14
+14,14,Le Conte Sparrow,12
+15,15,Brown Pelican,13
+16,16,Sage Thrasher,13
+17,17,Kentucky Warbler,13
+18,18,Gray Catbird,14
+19,19,Mangrove Cuckoo,7
+20,20,Green Violetear,14
+21,21,Winter Wren,13
+22,22,Clay colored Sparrow,7
+23,23,Black and white Warbler,15
+24,24,Savannah Sparrow,11
+25,25,Spotted Catbird,7
+26,26,Least Auklet,5
+27,27,Wilson Warbler,14
+28,28,Great Grey Shrike,15
+29,29,Cerulean Warbler,14
+30,30,Bohemian Waxwing,15
+31,31,Ringed Kingfisher,10
+32,32,Pine Warbler,11
+33,33,Yellow bellied Flycatcher,10
+34,34,Blue Grosbeak,15
+35,35,Red breasted Merganser,14
+36,36,Gray Kingbird,13
+37,37,Pine Grosbeak,11
+38,38,Red faced Cormorant,9
+39,39,Boat tailed Grackle,3
+40,40,Frigatebird,11
+41,41,Northern Fulmar,6
+42,42,Rose breasted Grosbeak,15
+43,43,American Crow,10
+44,44,Cactus Wren,14
+45,45,Common Tern,10
+46,46,Black footed Albatross,10
+47,47,Prothonotary Warbler,13
+48,48,Horned Lark,15
+49,49,Painted Bunting,12
+50,50,Least Flycatcher,9
+51,51,Warbling Vireo,11
+52,52,Black Tern,7
+53,53,Red headed Woodpecker,14
+54,54,Orange crowned Warbler,9
+55,55,Lincoln Sparrow,13
+56,56,Red cockaded Woodpecker,10
+57,57,Yellow breasted Chat,12
+58,58,Pied Kingfisher,14
+59,59,Bay breasted Warbler,15
+60,60,Bobolink,13
+61,61,Red winged Blackbird,14
+62,62,Green Kingfisher,10
+63,63,Black billed Cuckoo,13
+64,64,Baltimore Oriole,12
+65,65,Ruby throated Hummingbird,13
+66,66,Rock Wren,13
+67,67,Scott Oriole,14
+68,68,Magnolia Warbler,13
+69,69,Tree Swallow,11
+70,70,Fox Sparrow,12
+71,71,Tropical Kingbird,13
+72,72,Ovenbird,12
+73,73,Hooded Merganser,11
+74,74,Scissor tailed Flycatcher,13
+75,75,Common Raven,8
+76,76,Nashville Warbler,10
+77,77,Western Meadowlark,14
+78,78,Hooded Warbler,12
+79,79,American Three toed Woodpecker,10
+80,80,Brown Creeper,14
+81,81,Pied billed Grebe,15
+82,82,Elegant Tern,7
+83,83,Barn Swallow,10
+84,84,Canada Warbler,13
+85,85,Slaty backed Gull,5
+86,86,Swainson Warbler,9
+87,87,Rhinoceros Auklet,4
+88,88,Least Tern,12
+89,89,Herring Gull,10
+90,90,Horned Grebe,13
+91,91,Cape May Warbler,14
+92,92,Cape Glossy Starling,14
+93,93,White breasted Kingfisher,15
+94,94,Olive sided Flycatcher,12
+95,95,Green Jay,13
+96,96,Blue Jay,15
+97,97,Nighthawk,13
+98,98,Marsh Wren,12
+99,99,Cliff Swallow,9
+100,100,Fish Crow,0
+101,101,Loggerhead Shrike,0
+102,102,Groove billed Ani,0
+103,103,Brewer Blackbird,0
+104,104,Indigo Bunting,0
+105,105,California Gull,0
+106,106,Caspian Tern,0
+107,107,Bronzed Cowbird,0
+108,108,Forsters Tern,0
+109,109,Ring billed Gull,0
+110,110,Glaucous winged Gull,0
+111,111,Western Gull,0
+112,112,Pelagic Cormorant,0
+113,113,Artic Tern,0
+114,114,Grasshopper Sparrow,0
+115,115,Yellow billed Cuckoo,0
+116,116,Brewer Sparrow,0
+117,117,White necked Raven,0
+118,118,Blue winged Warbler,0
+119,119,Vesper Sparrow,0
+120,120,Field Sparrow,0
+121,121,Western Wood Pewee,0
+122,122,Chipping Sparrow,0
+123,123,Song Sparrow,0
+124,124,House Sparrow,0
+125,125,Pomarine Jaeger,0
+126,126,Yellow throated Vireo,0
+127,127,Baird Sparrow,0
+128,128,Acadian Flycatcher,0
+129,129,Henslow Sparrow,0
+130,130,Whip poor Will,0
+131,131,Sayornis,0
+132,132,Mockingbird,0
+133,133,Nelson Sharp tailed Sparrow,0
+134,134,Philadelphia Vireo,0
+135,135,House Wren,0
+136,136,White throated Sparrow,0
+137,137,Red legged Kittiwake,0
+138,138,Brandt Cormorant,0
+139,139,Bewick Wren,0
+140,140,Red eyed Vireo,0
+141,141,Prairie Warbler,0
+142,142,Downy Woodpecker,0
+143,143,White eyed Vireo,0
+144,144,Eared Grebe,0
+145,145,Carolina Wren,0
+146,146,Florida Jay,0
+147,147,Anna Hummingbird,0
+148,148,Myrtle Warbler,0
+149,149,Blue headed Vireo,0
+150,150,Mourning Warbler,0
+151,151,Orchard Oriole,0
+152,152,American Pipit,0
+153,153,Great Crested Flycatcher,0
+154,154,Yellow Warbler,0
+155,155,Seaside Sparrow,0
+156,156,Belted Kingfisher,0
+157,157,Chuck will Widow,0
+158,158,Rusty Blackbird,0
+159,159,Chestnut sided Warbler,0
+160,160,Ivory Gull,0
+161,161,Sooty Albatross,0
+162,162,Louisiana Waterthrush,0
+163,163,Pacific Loon,0
+164,164,Gadwall,0
+165,165,Heermann Gull,0
+166,166,Clark Nutcracker,0
+167,167,Cedar Waxwing,0
+168,168,Eastern Towhee,0
+169,169,Black throated Blue Warbler,0
+170,170,Palm Warbler,0
+171,171,Brown Thrasher,0
+172,172,Laysan Albatross,0
+173,173,Pigeon Guillemot,0
+174,174,Black throated Sparrow,0
+175,175,Golden winged Warbler,0
+176,176,Western Grebe,0
+177,177,Geococcyx,0
+178,178,Lazuli Bunting,0
+179,179,Crested Auklet,0
+180,180,Worm eating Warbler,0
+181,181,Parakeet Auklet,0
+182,182,Northern Waterthrush,0
+183,183,Rufous Hummingbird,0
+184,184,Gray crowned Rosy Finch,0
+185,185,American Redstart,0
+186,186,American Goldfinch,0
+187,187,Northern Flicker,0
+188,188,Dark eyed Junco,0
+189,189,Red bellied Woodpecker,0
+190,190,Pileated Woodpecker,0
+191,191,White Pelican,0
+192,192,European Goldfinch,0
+193,193,Horned Puffin,0
+194,194,Vermilion Flycatcher,0
+195,195,Mallard,0
+196,196,Cardinal,0
+197,197,Evening Grosbeak,0
+198,198,Summer Tanager,0
+199,199,Scarlet Tanager,0

@@ -1,0 +1,44 @@
+{
+  "cluster_id": 120,
+  "n_members": {
+    "discovery": 11,
+    "anchor": 0,
+    "dev": 2,
+    "calib": 3
+  },
+  "mapped_class_id_dev": 120,
+  "discovery_mean_norm": 0.9138765931129456,
+  "semantic_prediction_discovery": {
+    "class_id": 169,
+    "name": "Black throated Blue Warbler",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 169,
+    "name": "Black throated Blue Warbler"
+  },
+  "dominant_class_discovery_evaluation_only": 169,
+  "purity_discovery_evaluation_only": 0.2727272727272727,
+  "dominant_class_dev": 0,
+  "purity_dev": 0.5,
+  "heatmap_displayed_columns": [
+    169,
+    29,
+    121,
+    148,
+    50,
+    8,
+    128,
+    59,
+    60,
+    23,
+    94,
+    127,
+    120
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "cluster_id": 54,
+  "n_members": {
+    "discovery": 30,
+    "anchor": 13,
+    "dev": 15,
+    "calib": 17
+  },
+  "mapped_class_id_dev": 54,
+  "discovery_mean_norm": 0.9151571989059448,
+  "semantic_prediction_discovery": {
+    "class_id": 76,
+    "name": "Nashville Warbler",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 76,
+    "name": "Nashville Warbler"
+  },
+  "dominant_class_discovery_evaluation_only": 54,
+  "purity_discovery_evaluation_only": 0.43333333333333335,
+  "dominant_class_dev": 54,
+  "purity_dev": 0.6,
+  "heatmap_displayed_columns": [
+    76,
+    3,
+    150,
+    17,
+    128,
+    27,
+    32,
+    170,
+    54,
+    4,
+    180,
+    126,
+    7
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

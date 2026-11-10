@@ -1,0 +1,6 @@
+population,class_id,class_name,count,label_permission
+discovery,156,Belted Kingfisher,3,evaluation_only
+discovery,31,Ringed Kingfisher,1,evaluation_only
+dev,31,Ringed Kingfisher,5,heldout_dev_calib
+dev,62,Green Kingfisher,1,heldout_dev_calib
+calib,31,Ringed Kingfisher,2,heldout_dev_calib

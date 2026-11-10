@@ -1,0 +1,44 @@
+{
+  "cluster_id": 119,
+  "n_members": {
+    "discovery": 38,
+    "anchor": 0,
+    "dev": 12,
+    "calib": 13
+  },
+  "mapped_class_id_dev": 119,
+  "discovery_mean_norm": 0.9228414297103882,
+  "semantic_prediction_discovery": {
+    "class_id": 1,
+    "name": "Long tailed Jaeger",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 1,
+    "name": "Long tailed Jaeger"
+  },
+  "dominant_class_discovery_evaluation_only": 125,
+  "purity_discovery_evaluation_only": 0.42105263157894735,
+  "dominant_class_dev": 1,
+  "purity_dev": 0.3333333333333333,
+  "heatmap_displayed_columns": [
+    1,
+    125,
+    172,
+    161,
+    40,
+    52,
+    108,
+    41,
+    46,
+    111,
+    165,
+    82,
+    119
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

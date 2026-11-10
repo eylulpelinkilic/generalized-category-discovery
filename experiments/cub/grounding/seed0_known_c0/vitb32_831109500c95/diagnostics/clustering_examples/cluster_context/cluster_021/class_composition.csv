@@ -1,0 +1,21 @@
+population,class_id,class_name,count,label_permission
+discovery,21,Winter Wren,14,evaluation_only
+discovery,145,Carolina Wren,12,evaluation_only
+discovery,135,House Wren,10,evaluation_only
+discovery,158,Rusty Blackbird,2,evaluation_only
+discovery,103,Brewer Blackbird,1,evaluation_only
+discovery,155,Seaside Sparrow,1,evaluation_only
+discovery,171,Brown Thrasher,1,evaluation_only
+discovery,139,Bewick Wren,1,evaluation_only
+discovery,98,Marsh Wren,1,evaluation_only
+discovery,66,Rock Wren,1,evaluation_only
+anchor,21,Winter Wren,16,labelled_anchor
+dev,21,Winter Wren,13,heldout_dev_calib
+dev,98,Marsh Wren,1,heldout_dev_calib
+calib,21,Winter Wren,15,heldout_dev_calib
+calib,10,Shiny Cowbird,2,heldout_dev_calib
+calib,39,Boat tailed Grackle,1,heldout_dev_calib
+calib,73,Hooded Merganser,1,heldout_dev_calib
+calib,70,Fox Sparrow,1,heldout_dev_calib
+calib,86,Swainson Warbler,1,heldout_dev_calib
+calib,98,Marsh Wren,1,heldout_dev_calib

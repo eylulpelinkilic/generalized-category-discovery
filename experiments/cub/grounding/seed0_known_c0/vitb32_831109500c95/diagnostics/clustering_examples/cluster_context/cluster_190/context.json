@@ -1,0 +1,45 @@
+{
+  "cluster_id": 190,
+  "n_members": {
+    "discovery": 27,
+    "anchor": 0,
+    "dev": 11,
+    "calib": 11
+  },
+  "mapped_class_id_dev": 190,
+  "discovery_mean_norm": 0.9016122817993164,
+  "semantic_prediction_discovery": {
+    "class_id": 128,
+    "name": "Acadian Flycatcher",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 128,
+    "name": "Acadian Flycatcher"
+  },
+  "dominant_class_discovery_evaluation_only": 158,
+  "purity_discovery_evaluation_only": 0.07407407407407407,
+  "dominant_class_dev": 0,
+  "purity_dev": 0.18181818181818182,
+  "heatmap_displayed_columns": [
+    128,
+    3,
+    134,
+    51,
+    50,
+    76,
+    121,
+    150,
+    0,
+    149,
+    126,
+    33,
+    190,
+    158
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

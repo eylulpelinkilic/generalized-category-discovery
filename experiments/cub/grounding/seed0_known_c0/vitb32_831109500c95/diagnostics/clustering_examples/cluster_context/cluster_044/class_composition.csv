@@ -1,0 +1,14 @@
+population,class_id,class_name,count,label_permission
+discovery,177,Geococcyx,29,evaluation_only
+discovery,187,Northern Flicker,21,evaluation_only
+discovery,44,Cactus Wren,12,evaluation_only
+discovery,157,Chuck will Widow,1,evaluation_only
+discovery,97,Nighthawk,1,evaluation_only
+discovery,124,House Sparrow,1,evaluation_only
+anchor,44,Cactus Wren,17,labelled_anchor
+dev,44,Cactus Wren,14,heldout_dev_calib
+dev,40,Frigatebird,1,heldout_dev_calib
+calib,44,Cactus Wren,15,heldout_dev_calib
+calib,77,Western Meadowlark,1,heldout_dev_calib
+calib,97,Nighthawk,1,heldout_dev_calib
+calib,98,Marsh Wren,1,heldout_dev_calib

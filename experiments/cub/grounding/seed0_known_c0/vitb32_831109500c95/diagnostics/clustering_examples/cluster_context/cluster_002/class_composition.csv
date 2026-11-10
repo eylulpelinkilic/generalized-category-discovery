@@ -1,0 +1,12 @@
+population,class_id,class_name,count,label_permission
+discovery,184,Gray crowned Rosy Finch,27,evaluation_only
+discovery,2,Purple Finch,12,evaluation_only
+discovery,158,Rusty Blackbird,2,evaluation_only
+discovery,196,Cardinal,1,evaluation_only
+discovery,123,Song Sparrow,1,evaluation_only
+discovery,171,Brown Thrasher,1,evaluation_only
+anchor,2,Purple Finch,18,labelled_anchor
+dev,2,Purple Finch,15,heldout_dev_calib
+dev,37,Pine Grosbeak,4,heldout_dev_calib
+calib,2,Purple Finch,15,heldout_dev_calib
+calib,37,Pine Grosbeak,2,heldout_dev_calib

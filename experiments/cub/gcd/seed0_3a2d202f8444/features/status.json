@@ -1,0 +1,45 @@
+{
+  "stage": "gcd_features",
+  "config_hash": "e10776f073ff",
+  "status": "completed",
+  "started_utc": "2026-11-09T05:41:55Z",
+  "inputs": {
+    "checkpoint": "/kaggle/working/e1_runs/cub/gcd/seed0_3a2d202f8444/checkpoints/final_backbone.pt",
+    "checkpoint_sha256": "7d4b9f700278c2e2c38b2c5a5e5238ca360ef48fcbe00aeaaf575f8107083ce8",
+    "manifest_sha256": "0c7be4f50dee1407d3bc2e6997bd1d35693ed012529e2bc35095e688fbfeeb50"
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "cuda_available": true,
+    "torchvision": "0.26.0+cu130",
+    "open_clip": "3.3.0",
+    "sklearn": "1.6.1",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "PIL": "13.0.0",
+    "gpu": "Tesla T4",
+    "cuda": "13.0",
+    "gpu_memory_gb": 15.64
+  },
+  "git": {
+    "commit": "811ebfb1e37340bc7d9f3d211dfa71e689327763",
+    "dirty_experiment_files": true,
+    "dirty_paths": [
+      "?? data/__pycache__/",
+      "?? data/augmentations/__pycache__/",
+      "?? models/__pycache__/"
+    ]
+  },
+  "outputs": {
+    "counts": {
+      "labelled": 1498,
+      "unlabelled": 4496,
+      "heldout_dev": 1433,
+      "heldout_calib": 1451
+    }
+  },
+  "completed_utc": "2026-11-09T05:44:06Z"
+}

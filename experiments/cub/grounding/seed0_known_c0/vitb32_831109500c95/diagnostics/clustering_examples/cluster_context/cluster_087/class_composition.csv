@@ -1,0 +1,10 @@
+population,class_id,class_name,count,label_permission
+discovery,87,Rhinoceros Auklet,12,evaluation_only
+discovery,138,Brandt Cormorant,7,evaluation_only
+discovery,112,Pelagic Cormorant,6,evaluation_only
+discovery,173,Pigeon Guillemot,4,evaluation_only
+anchor,87,Rhinoceros Auklet,12,labelled_anchor
+dev,87,Rhinoceros Auklet,4,heldout_dev_calib
+dev,1,Long tailed Jaeger,2,heldout_dev_calib
+calib,87,Rhinoceros Auklet,7,heldout_dev_calib
+calib,26,Least Auklet,1,heldout_dev_calib

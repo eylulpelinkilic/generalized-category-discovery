@@ -1,0 +1,16 @@
+{
+  "reference": "official openai/CLIP package, clip.load(jit=False), fp32",
+  "n_images": 32,
+  "n_texts": 200,
+  "preprocess_max_abs_diff": 0.0,
+  "tokens_identical": true,
+  "image_min_cosine_quickgelu_vs_reference": 0.9999998807907104,
+  "image_max_abs_diff_quickgelu_vs_reference": 0.0,
+  "text_min_cosine_quickgelu_vs_reference": 0.9999998211860657,
+  "text_max_abs_diff_quickgelu_vs_reference": 0.0,
+  "image_min_cosine_gelu_vs_reference": 0.8965972065925598,
+  "text_min_cosine_gelu_vs_reference": 0.8719199895858765,
+  "zero_shot_agreement_quickgelu_vs_reference": 1.0,
+  "zero_shot_agreement_gelu_vs_reference": 0.625,
+  "passed": true
+}

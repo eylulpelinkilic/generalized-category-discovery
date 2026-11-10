@@ -1,0 +1,8 @@
+sample_id,population,is_anchor,sq_dist_to_centre,class_id,class_name,label_permission,selected_group
+cub:1439,discovery,False,0.31069362,107,Bronzed Cowbird,evaluation_only,
+cub:1653,discovery,False,0.274006,100,Fish Crow,evaluation_only,
+cub:1654,discovery,False,0.26498008,100,Fish Crow,evaluation_only,
+cub:677,discovery,False,0.28621888,60,Bobolink,evaluation_only,
+cub:681,dev,False,0.7493594,60,Bobolink,heldout_dev_calib,incorrect
+cub:1600,calib,False,0.5572753,43,American Crow,heldout_dev_calib,
+cub:6212,calib,False,0.4559846,75,Common Raven,heldout_dev_calib,

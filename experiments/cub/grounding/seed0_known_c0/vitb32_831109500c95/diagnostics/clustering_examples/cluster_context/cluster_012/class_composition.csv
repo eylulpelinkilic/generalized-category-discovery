@@ -1,0 +1,11 @@
+population,class_id,class_name,count,label_permission
+discovery,197,Evening Grosbeak,27,evaluation_only
+discovery,12,Hooded Oriole,15,evaluation_only
+discovery,151,Orchard Oriole,2,evaluation_only
+discovery,64,Baltimore Oriole,1,evaluation_only
+discovery,67,Scott Oriole,1,evaluation_only
+discovery,78,Hooded Warbler,1,evaluation_only
+anchor,12,Hooded Oriole,15,labelled_anchor
+dev,12,Hooded Oriole,13,heldout_dev_calib
+dev,67,Scott Oriole,1,heldout_dev_calib
+calib,12,Hooded Oriole,9,heldout_dev_calib

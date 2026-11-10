@@ -1,0 +1,45 @@
+{
+  "stage": "clustering",
+  "config_hash": "fcf46ef1931c",
+  "status": "completed",
+  "started_utc": "2026-11-09T05:46:29Z",
+  "inputs": {
+    "train_seed": 0,
+    "k_mode": "estimated",
+    "K": 199,
+    "cluster_seed": 0
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "cuda_available": true,
+    "torchvision": "0.26.0+cu130",
+    "open_clip": "3.3.0",
+    "sklearn": "1.6.1",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "PIL": "13.0.0",
+    "gpu": "Tesla T4",
+    "cuda": "13.0",
+    "gpu_memory_gb": 15.64
+  },
+  "git": {
+    "commit": "811ebfb1e37340bc7d9f3d211dfa71e689327763",
+    "dirty_experiment_files": true,
+    "dirty_paths": [
+      "?? data/__pycache__/",
+      "?? data/augmentations/__pycache__/",
+      "?? models/__pycache__/"
+    ]
+  },
+  "outputs": {
+    "K": 199,
+    "inertia": 2134.382568359375,
+    "n_iter": 19,
+    "converged": true,
+    "empty_clusters": 0
+  },
+  "completed_utc": "2026-11-09T05:46:45Z"
+}

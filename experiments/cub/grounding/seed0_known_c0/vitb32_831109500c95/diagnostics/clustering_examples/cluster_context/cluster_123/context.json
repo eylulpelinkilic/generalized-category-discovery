@@ -1,0 +1,44 @@
+{
+  "cluster_id": 123,
+  "n_members": {
+    "discovery": 26,
+    "anchor": 0,
+    "dev": 3,
+    "calib": 0
+  },
+  "mapped_class_id_dev": 123,
+  "discovery_mean_norm": 0.9262606501579285,
+  "semantic_prediction_discovery": {
+    "class_id": 142,
+    "name": "Downy Woodpecker",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 79,
+    "name": "American Three toed Woodpecker"
+  },
+  "dominant_class_discovery_evaluation_only": 142,
+  "purity_discovery_evaluation_only": 0.9615384615384616,
+  "dominant_class_dev": 56,
+  "purity_dev": 0.6666666666666666,
+  "heatmap_displayed_columns": [
+    142,
+    79,
+    58,
+    56,
+    42,
+    23,
+    190,
+    80,
+    53,
+    59,
+    60,
+    11,
+    123
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

@@ -1,0 +1,15 @@
+population,class_id,class_name,count,label_permission
+discovery,128,Acadian Flycatcher,3,evaluation_only
+discovery,33,Yellow bellied Flycatcher,3,evaluation_only
+discovery,155,Seaside Sparrow,2,evaluation_only
+discovery,50,Least Flycatcher,1,evaluation_only
+discovery,114,Grasshopper Sparrow,1,evaluation_only
+discovery,99,Cliff Swallow,1,evaluation_only
+discovery,149,Blue headed Vireo,1,evaluation_only
+discovery,162,Louisiana Waterthrush,1,evaluation_only
+dev,94,Olive sided Flycatcher,1,heldout_dev_calib
+dev,33,Yellow bellied Flycatcher,1,heldout_dev_calib
+calib,50,Least Flycatcher,1,heldout_dev_calib
+calib,94,Olive sided Flycatcher,1,heldout_dev_calib
+calib,0,Black capped Vireo,1,heldout_dev_calib
+calib,59,Bay breasted Warbler,1,heldout_dev_calib

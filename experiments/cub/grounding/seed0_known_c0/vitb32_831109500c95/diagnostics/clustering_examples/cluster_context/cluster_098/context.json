@@ -1,0 +1,44 @@
+{
+  "cluster_id": 98,
+  "n_members": {
+    "discovery": 49,
+    "anchor": 12,
+    "dev": 17,
+    "calib": 17
+  },
+  "mapped_class_id_dev": 98,
+  "discovery_mean_norm": 0.8947961330413818,
+  "semantic_prediction_discovery": {
+    "class_id": 98,
+    "name": "Marsh Wren",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 98,
+    "name": "Marsh Wren"
+  },
+  "dominant_class_discovery_evaluation_only": 98,
+  "purity_discovery_evaluation_only": 0.30612244897959184,
+  "dominant_class_dev": 98,
+  "purity_dev": 0.7058823529411765,
+  "heatmap_displayed_columns": [
+    98,
+    21,
+    139,
+    66,
+    127,
+    135,
+    145,
+    116,
+    120,
+    13,
+    128,
+    180,
+    39
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

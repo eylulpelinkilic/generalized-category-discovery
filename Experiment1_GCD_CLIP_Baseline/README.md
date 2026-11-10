@@ -40,6 +40,9 @@ $E1 verify-clip --clip vitb32                               # open_clip QuickGEL
 $E1 extract-clip --clip vitb32
 $E1 ground --train-seed 0 --k-mode known --cluster-seed 0 --clip vitb32
 $E1 report                                                  # runs/<dataset>/report/BASELINE_REPORT.md
+$E1 export-diagnostics --train-seed 0 --k-mode known --cluster-seed 0 --clip vitb32 --population dev --n 50 --seed 42
+                       # 50 incorrectly + 50 correctly clustered images with similarity context, under
+                       # <grounding run>/diagnostics/clustering_examples/ (+ .zip); see that folder's README.md
 ```
 
 For ImageNet-100 use `configs/imagenet100.yaml` with `dataset.root` pointing at a directory that

@@ -1,0 +1,13 @@
+population,class_id,class_name,count,label_permission
+discovery,189,Red bellied Woodpecker,30,evaluation_only
+discovery,56,Red cockaded Woodpecker,8,evaluation_only
+discovery,187,Northern Flicker,2,evaluation_only
+discovery,142,Downy Woodpecker,2,evaluation_only
+discovery,79,American Three toed Woodpecker,1,evaluation_only
+discovery,53,Red headed Woodpecker,1,evaluation_only
+anchor,56,Red cockaded Woodpecker,21,labelled_anchor
+dev,56,Red cockaded Woodpecker,10,heldout_dev_calib
+dev,53,Red headed Woodpecker,1,heldout_dev_calib
+calib,56,Red cockaded Woodpecker,15,heldout_dev_calib
+calib,53,Red headed Woodpecker,2,heldout_dev_calib
+calib,79,American Three toed Woodpecker,1,heldout_dev_calib

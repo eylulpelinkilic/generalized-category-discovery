@@ -1,0 +1,210 @@
+{
+  "method": "max_mean_sim",
+  "threshold": "tau_e2e",
+  "impure_clusters": [
+    {
+      "cluster_id": 190,
+      "score": 0.31316834688186646,
+      "predicted": "Acadian Flycatcher",
+      "composition_top3": "Rusty Blackbird:2; Great Crested Flycatcher:2; Chipping Sparrow:2",
+      "purity": 0.07407407407407407,
+      "n": 27
+    },
+    {
+      "cluster_id": 160,
+      "score": 0.2986316680908203,
+      "predicted": "Long tailed Jaeger",
+      "composition_top3": "Pelagic Cormorant:1; American Crow:1; Long tailed Jaeger:1",
+      "purity": 0.08333333333333333,
+      "n": 12
+    },
+    {
+      "cluster_id": 199,
+      "score": 0.28553879261016846,
+      "predicted": "Red breasted Merganser",
+      "composition_top3": "Gadwall:3; Pigeon Guillemot:2; Red breasted Merganser:2",
+      "purity": 0.17647058823529413,
+      "n": 17
+    },
+    {
+      "cluster_id": 50,
+      "score": 0.3412061929702759,
+      "predicted": "Acadian Flycatcher",
+      "composition_top3": "Acadian Flycatcher:12; Great Crested Flycatcher:10; Western Wood Pewee:9",
+      "purity": 0.1875,
+      "n": 64
+    },
+    {
+      "cluster_id": 3,
+      "score": 0.33928999304771423,
+      "predicted": "Tennessee Warbler",
+      "composition_top3": "Tennessee Warbler:10; White eyed Vireo:8; Philadelphia Vireo:4",
+      "purity": 0.20408163265306123,
+      "n": 49
+    },
+    {
+      "cluster_id": 89,
+      "score": 0.3370310068130493,
+      "predicted": "California Gull",
+      "composition_top3": "Heermann Gull:26; Glaucous winged Gull:25; Ring billed Gull:24",
+      "purity": 0.21311475409836064,
+      "n": 122
+    },
+    {
+      "cluster_id": 112,
+      "score": 0.32773691415786743,
+      "predicted": "Field Sparrow",
+      "composition_top3": "Field Sparrow:9; Brewer Sparrow:8; Chipping Sparrow:7",
+      "purity": 0.21951219512195122,
+      "n": 41
+    },
+    {
+      "cluster_id": 82,
+      "score": 0.33497247099876404,
+      "predicted": "Caspian Tern",
+      "composition_top3": "Caspian Tern:13; Elegant Tern:10; Forsters Tern:8",
+      "purity": 0.22413793103448276,
+      "n": 58
+    }
+  ],
+  "confident_wrong_labels": [
+    {
+      "cluster_id": 101,
+      "score": 0.3746691942214966,
+      "predicted": "Carolina Wren",
+      "composition_top3": "Field Sparrow:1; Carolina Wren:1",
+      "purity": 0.5,
+      "n": 2
+    },
+    {
+      "cluster_id": 153,
+      "score": 0.36702221632003784,
+      "predicted": "Swainson Warbler",
+      "composition_top3": "Red eyed Vireo:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 179,
+      "score": 0.3635653257369995,
+      "predicted": "Tropical Kingbird",
+      "composition_top3": "Black billed Cuckoo:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 176,
+      "score": 0.35829898715019226,
+      "predicted": "Marsh Wren",
+      "composition_top3": "Carolina Wren:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 64,
+      "score": 0.35314688086509705,
+      "predicted": "Orchard Oriole",
+      "composition_top3": "Baltimore Oriole:12",
+      "purity": 1.0,
+      "n": 12
+    },
+    {
+      "cluster_id": 106,
+      "score": 0.35235655307769775,
+      "predicted": "Winter Wren",
+      "composition_top3": "Carolina Wren:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 181,
+      "score": 0.3518860340118408,
+      "predicted": "California Gull",
+      "composition_top3": "Heermann Gull:1",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "cluster_id": 27,
+      "score": 0.35157325863838196,
+      "predicted": "Kentucky Warbler",
+      "composition_top3": "Yellow Warbler:16; Wilson Warbler:13; Blue winged Warbler:6",
+      "purity": 0.3902439024390244,
+      "n": 41
+    }
+  ],
+  "absent_label_replaced_and_accepted": [
+    {
+      "episode_id": "shared_150_s3",
+      "cluster_id": 101,
+      "score": 0.3746691942214966,
+      "true_dominant": "Field Sparrow",
+      "predicted": "Carolina Wren",
+      "purity": 0.5,
+      "n": 2
+    },
+    {
+      "episode_id": "shared_100_s1",
+      "cluster_id": 101,
+      "score": 0.3746691942214966,
+      "true_dominant": "Field Sparrow",
+      "predicted": "Carolina Wren",
+      "purity": 0.5,
+      "n": 2
+    },
+    {
+      "episode_id": "shared_100_s4",
+      "cluster_id": 101,
+      "score": 0.3746691942214966,
+      "true_dominant": "Field Sparrow",
+      "predicted": "Carolina Wren",
+      "purity": 0.5,
+      "n": 2
+    },
+    {
+      "episode_id": "shared_50_s0",
+      "cluster_id": 194,
+      "score": 0.37162283062934875,
+      "true_dominant": "Belted Kingfisher",
+      "predicted": "Ringed Kingfisher",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_50_s1",
+      "cluster_id": 194,
+      "score": 0.37162283062934875,
+      "true_dominant": "Belted Kingfisher",
+      "predicted": "Ringed Kingfisher",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_50_s2",
+      "cluster_id": 194,
+      "score": 0.37162283062934875,
+      "true_dominant": "Belted Kingfisher",
+      "predicted": "Ringed Kingfisher",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_50_s3",
+      "cluster_id": 194,
+      "score": 0.37162283062934875,
+      "true_dominant": "Belted Kingfisher",
+      "predicted": "Ringed Kingfisher",
+      "purity": 1.0,
+      "n": 1
+    },
+    {
+      "episode_id": "shared_20_s3",
+      "cluster_id": 194,
+      "score": 0.37162283062934875,
+      "true_dominant": "Belted Kingfisher",
+      "predicted": "Ringed Kingfisher",
+      "purity": 1.0,
+      "n": 1
+    }
+  ]
+}

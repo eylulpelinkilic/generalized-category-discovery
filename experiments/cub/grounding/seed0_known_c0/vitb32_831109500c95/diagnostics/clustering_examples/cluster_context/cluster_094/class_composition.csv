@@ -1,0 +1,13 @@
+population,class_id,class_name,count,label_permission
+discovery,121,Western Wood Pewee,16,evaluation_only
+discovery,94,Olive sided Flycatcher,11,evaluation_only
+discovery,131,Sayornis,8,evaluation_only
+discovery,128,Acadian Flycatcher,1,evaluation_only
+discovery,153,Great Crested Flycatcher,1,evaluation_only
+anchor,94,Olive sided Flycatcher,16,labelled_anchor
+dev,94,Olive sided Flycatcher,12,heldout_dev_calib
+dev,8,Bank Swallow,1,heldout_dev_calib
+dev,69,Tree Swallow,1,heldout_dev_calib
+calib,94,Olive sided Flycatcher,7,heldout_dev_calib
+calib,50,Least Flycatcher,2,heldout_dev_calib
+calib,8,Bank Swallow,1,heldout_dev_calib

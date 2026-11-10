@@ -1,0 +1,44 @@
+{
+  "cluster_id": 52,
+  "n_members": {
+    "discovery": 18,
+    "anchor": 15,
+    "dev": 8,
+    "calib": 4
+  },
+  "mapped_class_id_dev": 52,
+  "discovery_mean_norm": 0.8867337107658386,
+  "semantic_prediction_discovery": {
+    "class_id": 52,
+    "name": "Black Tern",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 52,
+    "name": "Black Tern"
+  },
+  "dominant_class_discovery_evaluation_only": 52,
+  "purity_discovery_evaluation_only": 0.5,
+  "dominant_class_dev": 52,
+  "purity_dev": 0.875,
+  "heatmap_displayed_columns": [
+    52,
+    108,
+    113,
+    1,
+    82,
+    181,
+    8,
+    166,
+    45,
+    111,
+    165,
+    125,
+    85
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

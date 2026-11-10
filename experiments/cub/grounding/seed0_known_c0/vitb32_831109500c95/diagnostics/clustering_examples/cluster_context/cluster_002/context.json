@@ -1,0 +1,43 @@
+{
+  "cluster_id": 2,
+  "n_members": {
+    "discovery": 44,
+    "anchor": 18,
+    "dev": 19,
+    "calib": 17
+  },
+  "mapped_class_id_dev": 2,
+  "discovery_mean_norm": 0.8790043592453003,
+  "semantic_prediction_discovery": {
+    "class_id": 184,
+    "name": "Gray crowned Rosy Finch",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 2,
+    "name": "Purple Finch"
+  },
+  "dominant_class_discovery_evaluation_only": 184,
+  "purity_discovery_evaluation_only": 0.6136363636363636,
+  "dominant_class_dev": 2,
+  "purity_dev": 0.7894736842105263,
+  "heatmap_displayed_columns": [
+    184,
+    13,
+    37,
+    127,
+    2,
+    124,
+    70,
+    107,
+    16,
+    133,
+    120,
+    155
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

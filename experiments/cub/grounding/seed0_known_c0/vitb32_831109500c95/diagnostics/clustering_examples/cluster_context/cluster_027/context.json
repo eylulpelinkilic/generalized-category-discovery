@@ -1,0 +1,44 @@
+{
+  "cluster_id": 27,
+  "n_members": {
+    "discovery": 41,
+    "anchor": 16,
+    "dev": 20,
+    "calib": 21
+  },
+  "mapped_class_id_dev": 27,
+  "discovery_mean_norm": 0.9328938126564026,
+  "semantic_prediction_discovery": {
+    "class_id": 17,
+    "name": "Kentucky Warbler",
+    "rule": "forced_top1 = argmax of saved A (complete vocabulary)"
+  },
+  "semantic_prediction_dev_group": {
+    "class_id": 17,
+    "name": "Kentucky Warbler"
+  },
+  "dominant_class_discovery_evaluation_only": 154,
+  "purity_discovery_evaluation_only": 0.3902439024390244,
+  "dominant_class_dev": 27,
+  "purity_dev": 0.7,
+  "heatmap_displayed_columns": [
+    17,
+    154,
+    27,
+    141,
+    76,
+    175,
+    3,
+    150,
+    47,
+    91,
+    32,
+    84,
+    78
+  ],
+  "heatmap_displayed_rows": "all members",
+  "heatmap_colour_scale": [
+    0.11318485453724861,
+    0.33934073060750963
+  ]
+}

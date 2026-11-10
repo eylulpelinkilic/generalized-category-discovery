@@ -1,0 +1,6 @@
+population,class_id,class_name,count,label_permission
+discovery,15,Brown Pelican,14,evaluation_only
+discovery,191,White Pelican,1,evaluation_only
+anchor,15,Brown Pelican,15,labelled_anchor
+dev,15,Brown Pelican,13,heldout_dev_calib
+calib,15,Brown Pelican,12,heldout_dev_calib
