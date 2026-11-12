@@ -1,0 +1,4 @@
+# Large or machine-specific files stay out of Git; reports/ and docs/ are committed.
+outputs/
+__pycache__/
+*.pyc

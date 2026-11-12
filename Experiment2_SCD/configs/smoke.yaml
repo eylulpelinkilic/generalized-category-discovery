@@ -1,0 +1,25 @@
+# SOFTWARE CHECK ONLY: protocols B and R through their normal entry points on Experiment 1's synthetic smoke run
+# (synthetic images, random-weight CLIP). Nothing produced with this configuration is a research result.
+#   python -m e1 --config configs/smoke.yaml --set paths.runs_root=<this folder>/outputs/e1_smoke smoke   (in Experiment1)
+base: cub
+dataset:
+  name: smoke
+  image_source: manifest        # images are local (Experiment 1's synthetic smoke images)
+e1:
+  config: smoke
+  runs_root: outputs/e1_smoke
+device: cpu
+clip:
+  batch_size: 16
+  num_workers: 0
+  models:
+    vitb32: {open_clip_name: ViT-B-32-quickgelu, pretrained: null}
+naming: {num_common_vote: 3, num_common_linear: 2}
+fixed:
+  vote_topk_grid: [1, 3]
+  official_topk: 3
+  distinct: {num_common_vote: 3, num_common_linear: 2}
+  n_bootstrap: 50
+refine_on_gcd:
+  cluster_seeds: [0]
+  n_bootstrap: 50

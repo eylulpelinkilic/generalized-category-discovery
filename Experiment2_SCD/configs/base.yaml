@@ -1,0 +1,42 @@
+# Experiment 2 shared settings. "official" = the SCD code at commit 2ce64f7 (see docs/INSPECTION.md).
+# Paths are relative to Experiment2_SCD/ unless absolute; they are excluded from run-id hashes.
+paths:
+  outputs: outputs
+device: auto
+
+e1:                         # Experiment 1 artifacts, used by reference
+  config: cub               # Experiment 1 config whose hashes locate its runs
+  runs_root: ../experiments # local copy of the Experiment 1 outputs (experiments/<dataset>/...)
+  train_seed: 0
+  k_mode: known
+  cluster_seed: 0
+  clip: vitb32
+
+vocabulary:
+  wordnet_version: "3.0"
+  nltk_dir: outputs/cache/nltk_data
+  official_zip: outputs/assets/scd_official/zeroshot_weights.zip
+  official_zip_url: "https://drive.usercontent.google.com/download?export=download&confirm=t&id=1ZpMNSJdKakYi5RIQwtpoxesAwagv5wci"
+  official_zip_sha256: 99ba7c3819a37f56e2dc3e19fb46b3b1de84446dfaec131e8bceb6d50376f5f4
+  official_member: zeroshot_weights/zeroshot_weights_all_nouns_vit_b_16.pt
+  alignment_sample: 300
+  alignment_seed: 0
+  alignment_clip: {open_clip_name: ViT-B-16-quickgelu, pretrained: openai}
+
+naming:                     # official script values (scripts/*.sh): --topk 3 --num_common_vote 10 -num_common_linear 2
+  topk_store: 5             # official main_ptsup.py stores the top 5 and slices the first topk_vote
+  topk_vote: 3
+  num_common_vote: 10
+  num_common_linear: 2
+  max_iter: 50              # official: no limit
+  pool_order: official_set
+  solver: munkres
+  insufficient_pool: extend # official: KeyError
+  logit_dtype: float32      # official: fp16 on GPU (sensitivity run: float16 emulation)
+
+clip:
+  batch_size: 128
+  num_workers: 2
+  models:                   # identical to Experiment 1 (QuickGELU enforced by e1.clip_model)
+    vitb32: {open_clip_name: ViT-B-32-quickgelu, pretrained: openai}
+    vitb16: {open_clip_name: ViT-B-16-quickgelu, pretrained: openai}

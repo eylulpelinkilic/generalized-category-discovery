@@ -1,0 +1,26 @@
+# CUB-200-2011: the controlled comparison on Experiment 1's GCD clusters (protocol B) and the membership-changing
+# refinement check on the same clusters (protocol R). Experiment 1 run: seed 0, known K, clustering seed 0, ViT-B/32.
+base: base
+dataset:
+  name: cub
+  archive_cache: outputs/cache/cub_images     # images extracted from the official archive (MD5-checked stream)
+
+fixed:
+  clip: vitb32                 # same backbone as Experiment 1's primary grounding
+  representation: all          # every unlabelled member, Experiment 1's primary representation
+  vote_topk_grid: [1, 3, 5]    # SCD-style top-k vote: k chosen on the development pool
+  official_topk: 3             # the official script value, always reported
+  distinct:                    # official help text for CUB: --num_common_vote 10 --num_common_linear 2
+    num_common_vote: 10
+    num_common_linear: 2
+  n_bootstrap: 1000
+  bootstrap_seed: 0
+  reference_method: max_mean_sim
+
+refine_on_gcd:
+  clip: vitb32
+  modes: [unsupervised, partially_supervised]
+  cluster_seeds: [0, 1, 2]     # Experiment 1 clustering seeds (all completed for training seed 0)
+  known_filter: fixed          # the defect only matters with the large vocabulary; both are run on ImageNet-100
+  n_bootstrap: 1000
+  bootstrap_seed: 0

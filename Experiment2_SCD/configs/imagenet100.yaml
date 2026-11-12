@@ -1,0 +1,36 @@
+# ImageNet-100 (GCD split): reproduction of the SCD core (protocol A), no textual enhancement.
+base: base
+dataset:
+  name: imagenet100
+
+e1:
+  config: imagenet100
+  runs_root: /kaggle/working/e1_runs      # Experiment 1 prepared data (manifest + label tables); set per machine
+
+repro:
+  n_cluster: 100
+  feature_batch_size: 128
+  num_workers: 4
+  # Official: one CLIP ViT-B/16 (`clip.load`, fp16 on CUDA) and `test_transform = preprocess` (CLIP's transform)
+  # for every feature model, including DINO and GCD.
+  clip: {package: openai_clip, arch: ViT-B/16}
+  dino:
+    url: https://dl.fbaipublicfiles.com/dino/dino_vitbase16_pretrain/dino_vitbase16_pretrain.pth
+    bytes: 343242485
+  gcd:                       # the authors' ImageNet-100 GCD backbone, extracted from their zip by range requests
+    zip_url: "https://drive.usercontent.google.com/download?export=download&confirm=t&id=1BU9eqfriF0tRKfeYfn88yOoW9P-GUqR7"
+    zip_bytes: 1916396688
+    member: GCD_pretrained_weights_VIT16/imagenet100_model_best.pt
+    member_bytes: 343247509
+    member_crc32: 696b229e
+  kmeans: {n_init: 10, seeds: [0, 1, 2]}                  # official: KMeans(random_state=0) (sklearn 1.0.2: n_init 10)
+  css_kmeans: {size_min: 50, size_max: 1000, n_init: 10, max_iter: 10, tol: 1.0e-4, seeds: [0, 1, 2]}
+  # Variants run for every initial clustering. "official" = the official loop; the others are ablations or repairs.
+  variants:
+    official: {}
+    voting_once: {assignment: plurality, iterate: false}          # paper Table 5, "+ voting"
+    voting_iterated: {assignment: plurality, iterate: true}       # paper Table 5, "+ iteration"
+    help_defaults: {topk_vote: 5, num_common_vote: 20, num_common_linear: 4}   # argparse help text for ImageNet
+    fp16_logits: {logit_dtype: float16}
+    merged_duplicates: {merge_duplicate_names: true}
+    known_filter_fixed: {known_filter: fixed}                     # partially supervised only
