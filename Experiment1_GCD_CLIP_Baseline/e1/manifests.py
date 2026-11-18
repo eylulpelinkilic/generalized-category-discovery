@@ -66,6 +66,18 @@ def _imagefolder_files(class_dir: Path) -> list[str]:
     return files
 
 
+def _has_images(train_dir: Path, n_classes: int = 3) -> bool:
+    """True if the first class folders contain image files (torchvision's extension rule)."""
+    from torchvision.datasets.folder import IMG_EXTENSIONS
+
+    classes = sorted(e.path for e in os.scandir(train_dir) if e.is_dir())[:n_classes]
+    for c in classes:
+        for e in os.scandir(c):
+            if e.is_file() and e.name.lower().endswith(IMG_EXTENSIONS):
+                return True
+    return False
+
+
 def locate_imagenet(root) -> dict:
     """Kaggle competition layout (ILSVRC/Data/CLS-LOC + LOC_*.txt/csv) or an ImageFolder root."""
     root = Path(root)
@@ -75,11 +87,13 @@ def locate_imagenet(root) -> dict:
         return [p for d in range(max_depth + 1) for p in sorted(root.glob("*/" * d + pattern))]
 
     for cand in [root, *shallow("CLS-LOC")]:
-        if (cand / "train").is_dir():
+        # ILSVRC/Annotations/CLS-LOC/train also has 1,000 class folders (XML files) and sorts before
+        # ILSVRC/Data/CLS-LOC: accept a candidate only if its class folders hold images.
+        if (cand / "train").is_dir() and _has_images(cand / "train"):
             found["train_dir"], found["data_root"] = cand / "train", cand
             break
     if not found:
-        raise FileNotFoundError(f"no train/ directory with ImageNet class folders under {root}")
+        raise FileNotFoundError(f"no train/ directory with ImageNet class folders of images under {root}")
     for name in ("LOC_synset_mapping.txt", "LOC_val_solution.csv"):
         hits = shallow(name, 4)
         found[name] = hits[0] if hits else None

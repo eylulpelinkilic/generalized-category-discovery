@@ -127,11 +127,12 @@ SETS = f"--set paths.runs_root={RUNS} --set dataset.root={IMAGE_ROOT.parent} --s
 ''',
     "imagenet100": r'''
 def locate_imagenet():
-    for depth in range(6):
-        for cand in Path("/kaggle/input").glob("*/" * depth + "CLS-LOC"):
-            if (cand / "train").is_dir():
-                return cand
-    raise RuntimeError("ImageNet CLS-LOC not found: attach the competition imagenet-object-localization-challenge")
+    """ILSVRC/Data/CLS-LOC (not Annotations/CLS-LOC, which also has train/ class folders): Experiment 1's locator."""
+    sys.path.insert(0, str(EXP))
+    from e1.manifests import locate_imagenet as e1_locate
+    root = e1_locate("/kaggle/input")["data_root"]
+    print("ImageNet images:", root)
+    return root
 
 
 IMAGE_ROOT = locate_imagenet()      # .../ILSVRC/Data/CLS-LOC; the builder finds LOC_*.txt/csv from /kaggle/input

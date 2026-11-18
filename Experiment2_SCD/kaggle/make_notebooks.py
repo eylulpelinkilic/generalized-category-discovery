@@ -103,11 +103,12 @@ print("previous Experiment 1 outputs:", PREV_E1, "| previous Experiment 2 output
 DATA = {
     "imagenet100": r'''
 def locate_imagenet():
-    for depth in range(6):
-        for cand in Path("/kaggle/input").glob("*/" * depth + "CLS-LOC"):
-            if (cand / "train").is_dir():
-                return cand
-    raise RuntimeError("attach the competition imagenet-object-localization-challenge")
+    """ILSVRC/Data/CLS-LOC (not Annotations/CLS-LOC, which also has train/ class folders): Experiment 1's locator."""
+    sys.path.insert(0, str(EXP1))
+    from e1.manifests import locate_imagenet as e1_locate
+    root = e1_locate("/kaggle/input")["data_root"]
+    print("ImageNet images:", root)
+    return root
 
 
 IMAGE_ROOT = locate_imagenet()

@@ -140,6 +140,28 @@ def blobs(seed=0, k=6, per=30, dim=8):
     return x, y
 
 
+class TestLocateImageNet(unittest.TestCase):
+    def test_kaggle_layout_skips_annotation_folders(self):
+        """Kaggle: ILSVRC/Annotations/CLS-LOC/train (XML) sorts before ILSVRC/Data/CLS-LOC/train (JPEG)."""
+        from e1.manifests import locate_imagenet
+
+        with tempfile.TemporaryDirectory() as tmp:
+            comp = Path(tmp) / "competitions" / "imagenet-object-localization-challenge"
+            for kind, ext in (("Annotations", "xml"), ("Data", "JPEG")):
+                for wnid in ("n01440764", "n01443537"):
+                    d = comp / "ILSVRC" / kind / "CLS-LOC" / "train" / wnid
+                    d.mkdir(parents=True)
+                    (d / f"{wnid}_1.{ext}").write_bytes(b"x")
+            (comp / "LOC_synset_mapping.txt").write_text("n01440764 tench\n")
+            loc = locate_imagenet(tmp)
+            self.assertEqual(loc["data_root"], comp / "ILSVRC" / "Data" / "CLS-LOC")
+            self.assertEqual(loc["LOC_synset_mapping.txt"], comp / "LOC_synset_mapping.txt")
+            for f in (comp / "ILSVRC" / "Data").rglob("*.JPEG"):
+                f.unlink()
+            with self.assertRaises(FileNotFoundError):
+                locate_imagenet(tmp)
+
+
 class TestSSKMeans(unittest.TestCase):
     def test_matches_upstream_on_well_separated_data(self):
         x, y = blobs()
