@@ -51,6 +51,12 @@ def run(cfg: dict) -> Path:
     layout = Layout(cfg)
     vc = cfg["vocabulary"]
     out = layout.vocabulary()
+    from e1.provenance import stage_completed
+
+    a = out / "alignment.json"
+    if stage_completed(out, chash(vc)) and a.exists() and json.loads(a.read_text())["passed"] \
+            and Path(json.loads(a.read_text())["weights_file"]["path"]).exists():
+        return out                                 # already verified with this configuration (resumed session)
     rec = StageRecord(out, "vocabulary", chash(vc))
     wn = ensure_wordnet(resolve(vc["nltk_dir"]))
     vocab = official_wordnet_vocabulary(wn)

@@ -72,8 +72,10 @@ def name_iou(pred_names, gt_names) -> float:
 
 def cluster_acc_v2(y_true, y_pred, old_mask, solver: str = "munkres") -> dict:
     """GCD `split_cluster_acc_v2`: one Hungarian assignment on all images; All, Old, New from it."""
-    y_true = np.asarray(y_true).astype(int)
-    y_pred = np.asarray(y_pred).astype(int)
+    # Labels are compacted first (sorted, so labels already 0..K-1 give the identical matrix): predictions can be
+    # sparse ids such as vocabulary indices (zero-shot rows), and a 67,893 x 67,893 matrix would not fit in memory.
+    _, y_true = np.unique(np.asarray(y_true).astype(int), return_inverse=True)
+    _, y_pred = np.unique(np.asarray(y_pred).astype(int), return_inverse=True)
     old_mask = np.asarray(old_mask, dtype=bool)
     D = max(y_pred.max(), y_true.max()) + 1
     w = np.zeros((D, D), dtype=np.int64)

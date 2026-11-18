@@ -204,6 +204,8 @@ class TestMetrics(unittest.TestCase):
         self.assertAlmostEqual(r["all"], 5 / 6)
         self.assertAlmostEqual(r["old"], 1.0)
         self.assertAlmostEqual(r["new"], 0.5)
+        sparse = cluster_acc_v2(y, p * 30000 + 7, np.array([True, True, True, True, False, False]))
+        self.assertEqual(r, sparse)                         # sparse ids (e.g. vocabulary indices) give the same result
 
     @unittest.skipUnless((NLTK_DIR / "corpora").exists(), "WordNet not downloaded")
     def test_soft_sacc_scale(self):

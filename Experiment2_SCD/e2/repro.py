@@ -97,8 +97,14 @@ def cluster(cfg, args):
 
 
 def variant_config(cfg: dict, name: str) -> tuple[NamingConfig, dict]:
+    """Naming config of one variant. Options handled before naming (top-k precision, merged duplicate columns)
+    go to `extra`; anything else must be a NamingConfig field, so a misspelt option fails loudly."""
     v = dict(cfg["repro"]["variants"][name])
-    extra = {"merge_duplicate_names": v.pop("merge_duplicate_names", False)}
+    extra = {"merge_duplicate_names": v.pop("merge_duplicate_names", False),
+             "logit_dtype": v.pop("logit_dtype", cfg["naming"]["logit_dtype"])}
+    unknown = set(v) - set(NamingConfig.__dataclass_fields__)
+    if unknown:
+        raise ValueError(f"variant {name!r}: unknown options {sorted(unknown)}")
     base = {k: val for k, val in cfg["naming"].items() if k in NamingConfig.__dataclass_fields__}
     base.update(v)
     return NamingConfig(**base), extra
@@ -173,15 +179,11 @@ def name(cfg, args):
                 if (d / "trace.json").exists():
                     done[str(d)] = "exists"
                     continue
-                topk = topk_cache(cfg, vocab, W, X, unl_ids, ncfg_dtype(ncfg, cfg, v), extra["merge_duplicate_names"])
+                topk = topk_cache(cfg, vocab, W, X, unl_ids, extra["logit_dtype"], extra["merge_duplicate_names"])
                 res = run_naming(vocab, W, X, init, ncfg, setting, rc["n_cluster"], topk, **kw)
                 save_run(d, res, unl_ids)
                 done[str(d)] = res["stop_reason"]
     return done
-
-
-def ncfg_dtype(ncfg, cfg, variant) -> str:
-    return cfg["repro"]["variants"][variant].get("logit_dtype", cfg["naming"]["logit_dtype"])
 
 
 def class_targets(wn, manifest) -> dict:
